@@ -80,6 +80,27 @@ def _short_name(name: str, n: int = 16) -> str:
     return name[: n - 1] + "…"
 
 
+def _code_link_column(label: str = "代號") -> st.column_config.LinkColumn:
+    """Clickable ticker → WantGoo historical premium/discount page."""
+    return st.column_config.LinkColumn(
+        label,
+        help="點擊代號開啟玩股網「淨值及折溢價」歷史頁",
+        display_text=(
+            r"https://www\.wantgoo\.com/stock/etf/([^/]+)/discount-premium"
+        ),
+        width="small",
+    )
+
+
+def _wantgoo_link_column(label: str = "玩股網") -> st.column_config.LinkColumn:
+    return st.column_config.LinkColumn(
+        label,
+        help="玩股網歷史折溢價",
+        display_text="歷史折溢價",
+        width="small",
+    )
+
+
 @st.cache_data(ttl=60, show_spinner="正在向證交所取得 ETF 資料…")
 def _live_fetch(premium: float, discount: float, max_age: int) -> dict:
     settings = Settings(
@@ -181,7 +202,8 @@ def _build_display_df(
             tag = ""
 
         rec = {
-            "代號": code,
+            # URL value + LinkColumn display_text shows the ticker code
+            "代號": wantgoo_page_url(code) if code else "",
             "名稱": _short_name(name, 18 if simple else 36),
             "市價": r.get("market_price"),
             "預估淨值": r.get("estimated_nav"),
@@ -190,6 +212,7 @@ def _build_display_df(
             "標籤": tag,
             "資料時間": _fmt_time(r.get("data_time_iso")),
             "_sort_pd": pd_pct if isinstance(pd_pct, (int, float)) else None,
+            "_code": code,
         }
         if not simple:
             rec["官方%"] = r.get("official_premium_discount_pct")
@@ -205,7 +228,7 @@ def _build_display_df(
 
 def _column_config(df: pd.DataFrame) -> dict:
     cfg = {
-        "代號": st.column_config.TextColumn("代號", width="small"),
+        "代號": _code_link_column("代號"),
         "名稱": st.column_config.TextColumn("名稱", width="medium"),
         "市價": st.column_config.NumberColumn("市價", format="%.2f", width="small"),
         "預估淨值": st.column_config.NumberColumn(
@@ -220,6 +243,7 @@ def _column_config(df: pd.DataFrame) -> dict:
         "官方%": st.column_config.NumberColumn("官方%", format="%+.2f%%", width="small"),
         "誤差pp": st.column_config.NumberColumn("誤差", format="%.3f", width="small"),
         "備註": st.column_config.TextColumn("備註", width="large"),
+        "玩股網": _wantgoo_link_column("玩股網"),
     }
     return {k: v for k, v in cfg.items() if k in df.columns}
 
@@ -244,10 +268,11 @@ def _rank_dataframe(items: list[dict]) -> pd.DataFrame:
     rows = []
     for i, r in enumerate(items, 1):
         pct = float(r["premium_discount_pct"])
+        code = str(r.get("code") or "")
         rows.append(
             {
                 "#": i,
-                "代號": r.get("code"),
+                "代號": wantgoo_page_url(code) if code else "",
                 "名稱": _short_name(str(r.get("name") or ""), 14),
                 "折溢價%": pct,
                 "市價": r.get("market_price"),
@@ -255,6 +280,21 @@ def _rank_dataframe(items: list[dict]) -> pd.DataFrame:
             }
         )
     return pd.DataFrame(rows)
+
+
+def _rank_column_config() -> dict:
+    return {
+        "#": st.column_config.NumberColumn("#", width="small"),
+        "代號": _code_link_column("代號"),
+        "名稱": st.column_config.TextColumn("名稱", width="medium"),
+        "折溢價%": st.column_config.NumberColumn(
+            "折溢價%", format="%+.2f%%", width="small"
+        ),
+        "市價": st.column_config.NumberColumn("市價", format="%.2f", width="small"),
+        "預估淨值": st.column_config.NumberColumn(
+            "淨值", format="%.2f", width="small"
+        ),
+    }
 
 
 def _top_ranks(
@@ -279,46 +319,25 @@ def _top_ranks(
     with left:
         st.subheader("🔴 溢價排行（市價偏高）")
         st.caption(f"超過 +{premium:.2f}% 者請特別留意")
+        st.caption("點擊「代號」→ 玩股網歷史折溢價")
         df = _rank_dataframe(by_prem)
         st.dataframe(
             df,
             use_container_width=True,
             hide_index=True,
             height=48 + 35 * max(len(df), 1),
-            column_config={
-                "#": st.column_config.NumberColumn("#", width="small"),
-                "代號": st.column_config.TextColumn("代號", width="small"),
-                "名稱": st.column_config.TextColumn("名稱", width="medium"),
-                "折溢價%": st.column_config.NumberColumn(
-                    "折溢價%", format="%+.2f%%", width="small"
-                ),
-                "市價": st.column_config.NumberColumn("市價", format="%.2f", width="small"),
-                "預估淨值": st.column_config.NumberColumn(
-                    "淨值", format="%.2f", width="small"
-                ),
-            },
+            column_config=_rank_column_config(),
         )
     with right:
         st.subheader("🔵 折價排行（市價偏低）")
-        st.caption(f"低於 {discount:.2f}% 者請特別留意")
+        st.caption(f"低於 {discount:.2f}% 者請特別留意 · 點擊代號開玩股網")
         df = _rank_dataframe(by_disc)
         st.dataframe(
             df,
             use_container_width=True,
             hide_index=True,
             height=48 + 35 * max(len(df), 1),
-            column_config={
-                "#": st.column_config.NumberColumn("#", width="small"),
-                "代號": st.column_config.TextColumn("代號", width="small"),
-                "名稱": st.column_config.TextColumn("名稱", width="medium"),
-                "折溢價%": st.column_config.NumberColumn(
-                    "折溢價%", format="%+.2f%%", width="small"
-                ),
-                "市價": st.column_config.NumberColumn("市價", format="%.2f", width="small"),
-                "預估淨值": st.column_config.NumberColumn(
-                    "淨值", format="%.2f", width="small"
-                ),
-            },
+            column_config=_rank_column_config(),
         )
 
 
@@ -374,7 +393,7 @@ def _render_convergence_panel(
         st_stats = analysis.get("stats") or {}
         out_rows.append(
             {
-                "代號": code,
+                "代號": wantgoo_page_url(code),
                 "名稱": _short_name(str(r.get("name") or code), 14),
                 "目前折溢價%": r.get("premium_discount_pct"),
                 "收斂標籤": st_stats.get("label"),
@@ -388,15 +407,17 @@ def _render_convergence_panel(
         )
 
     df = pd.DataFrame(out_rows)
+    st.caption("點擊「代號」或「玩股網」→ 開啟該檔歷史折溢價頁")
     st.dataframe(
         df,
         use_container_width=True,
         hide_index=True,
         column_config={
+            "代號": _code_link_column("代號"),
             "目前折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
             "隔日收斂率": st.column_config.NumberColumn(format="%.0%"),
             "惡化率": st.column_config.NumberColumn(format="%.0%"),
-            "玩股網": st.column_config.LinkColumn("玩股網"),
+            "玩股網": _wantgoo_link_column("玩股網"),
         },
         height=min(420, 48 + 38 * max(len(df), 1)),
     )
@@ -468,8 +489,9 @@ def main() -> None:
             "**使用提示**\n\n"
             "1. 先看溢價／折價排行\n"
             "2. 紅＝溢價、藍＝折價\n"
-            "3. 休市／盤前資料可能非即時\n"
-            "4. 僅供輔助，不可當自動下單"
+            "3. **點代號** → 玩股網歷史折溢價\n"
+            "4. 休市／盤前可能非即時\n"
+            "5. 僅供輔助，不可當自動下單"
         )
 
     snapshot = None
@@ -570,12 +592,17 @@ def main() -> None:
                     show["名稱"] = show["名稱"].map(
                         lambda x: _short_name(str(x), 18)
                     )
+                if "代號" in show.columns:
+                    show["代號"] = show["代號"].map(
+                        lambda x: wantgoo_page_url(str(x)) if x else ""
+                    )
                 st.dataframe(
                     show,
                     use_container_width=True,
                     hide_index=True,
                     height=min(220, 48 + 36 * max(len(show), 1)),
                     column_config={
+                        "代號": _code_link_column("代號"),
                         "折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
                     },
                 )
@@ -627,7 +654,10 @@ def main() -> None:
             full_df["_sort_pd"].fillna(0).abs().sort_values(ascending=False).index
         )
 
-    st.caption(f"顯示 **{len(full_df)}** / {total} 檔 · 點欄位標題可排序")
+    st.caption(
+        f"顯示 **{len(full_df)}** / {total} 檔 · 點欄位可排序 · "
+        "**點「代號」開啟玩股網歷史折溢價**"
+    )
     _render_table(full_df, height=520)
 
     with st.expander("資料來源與規則說明"):

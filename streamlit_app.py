@@ -20,6 +20,7 @@ if str(ROOT) not in sys.path:
 from src.config import Settings
 from src.convergence import analyze_code, format_convergence_brief
 from src.history_store import get_twse_series, is_fresh, load_wantgoo_history, save_wantgoo_history
+from src.hot_etfs import HOT_CHASE_PREMIUM_PCT, build_hot_watch_rows
 from src.market_hours import now_taipei, session_status
 from src.monitor import evaluate_record, summarize
 from src.state import active_alerts, load_alert_state
@@ -434,6 +435,68 @@ def _top_ranks(
         )
 
 
+def _render_hot_etf_panel(
+    rows: list[dict], *, chase_pct: float = HOT_CHASE_PREMIUM_PCT
+) -> None:
+    """Popular ETFs with 1% premium chase warning."""
+    st.markdown("### 🔥 熱門 ETF · 溢價超過 1% 勿追價")
+    st.caption(
+        "名單綜合：受益人／定期定額討論度、成交量前段、高股息與主動式熱門檔"
+        f"（靜態清單，門檻 **溢價 ≥ +{chase_pct:.0f}%** 顯示勿追價）。"
+        "點代號 → 玩股網歷史折溢價。"
+    )
+
+    hot = build_hot_watch_rows(rows, chase_premium_pct=chase_pct)
+    n_chase = sum(1 for h in hot if h.get("chase_warning"))
+    if n_chase:
+        st.error(
+            f"⚠ 目前有 **{n_chase}** 檔熱門 ETF 溢價 ≥ +{chase_pct:.0f}%："
+            "市價已高於預估淨值，**不建議追價買進**（僅供提醒，非投資建議）。"
+        )
+    else:
+        st.info(
+            f"熱門清單中暫無溢價 ≥ +{chase_pct:.0f}% 的標的（或資料暫缺）。"
+        )
+
+    records = []
+    for h in hot:
+        code = h["code"]
+        pct = h.get("premium_discount_pct")
+        records.append(
+            {
+                "代號": wantgoo_page_url(code),
+                "名稱": h.get("name") or code,
+                "類型": h.get("group"),
+                "折溢價%": pct,
+                "提醒": h.get("advice"),
+                "市價": h.get("market_price"),
+                "預估淨值": h.get("estimated_nav"),
+                "入選原因": h.get("why"),
+            }
+        )
+    df = pd.DataFrame(records)
+    st.dataframe(
+        df,
+        use_container_width=True,
+        hide_index=True,
+        height=min(560, 56 + 34 * max(len(df), 1)),
+        column_config={
+            "代號": _code_link_column("代號"),
+            "名稱": st.column_config.TextColumn("名稱", width="medium"),
+            "類型": st.column_config.TextColumn("類型", width="small"),
+            "折溢價%": st.column_config.NumberColumn(
+                "折溢價%", format="%+.2f%%", width="small"
+            ),
+            "提醒": st.column_config.TextColumn("提醒", width="medium"),
+            "市價": st.column_config.NumberColumn("市價", format="%.2f", width="small"),
+            "預估淨值": st.column_config.NumberColumn(
+                "淨值", format="%.2f", width="small"
+            ),
+            "入選原因": st.column_config.TextColumn("入選原因", width="medium"),
+        },
+    )
+
+
 def _attention_df(over: list[dict], thr_abs: float) -> pd.DataFrame:
     """Compact table for stocks over threshold, with WantGoo links."""
     records = []
@@ -616,6 +679,9 @@ def main() -> None:
                 "隔日收斂": st.column_config.TextColumn("隔日收斂", width="small"),
             },
         )
+
+    st.divider()
+    _render_hot_etf_panel(rows, chase_pct=HOT_CHASE_PREMIUM_PCT)
 
     # Optional extras collapsed
     with st.expander("更多（排行 / 搜尋 / 說明）", expanded=False):

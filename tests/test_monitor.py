@@ -100,6 +100,34 @@ def test_parse_all_etf_minimal():
     assert rows[0]["market_price"] == 100.0
 
 
+def test_hot_etf_chase_flag():
+    from src.hot_etfs import build_hot_watch_rows
+
+    rows = [
+        {
+            "code": "0050",
+            "name": "元大台灣50",
+            "market_price": 101,
+            "estimated_nav": 100,
+            "premium_discount_pct": 1.5,
+            "status": "ok",
+        },
+        {
+            "code": "00878",
+            "name": "國泰永續高股息",
+            "market_price": 20,
+            "estimated_nav": 20.2,
+            "premium_discount_pct": -1.0,
+            "status": "ok",
+        },
+    ]
+    hot = build_hot_watch_rows(rows, chase_premium_pct=1.0)
+    by = {h["code"]: h for h in hot}
+    assert by["0050"]["chase_warning"] is True
+    assert "勿追" in by["0050"]["advice"] or "不建議" in by["0050"]["advice"]
+    assert by["00878"]["chase_warning"] is False
+
+
 def test_convergence_next_day():
     from src.convergence import compute_next_day_convergence
 
@@ -123,5 +151,6 @@ if __name__ == "__main__":
     test_evaluate_cross_check_anomaly()
     test_evaluate_premium_alert()
     test_parse_all_etf_minimal()
+    test_hot_etf_chase_flag()
     test_convergence_next_day()
     print("all tests passed")

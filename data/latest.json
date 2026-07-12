@@ -1,14 +1,16 @@
 {
-  "fetched_at": "2026-07-12T21:08:13.533349+08:00",
+  "fetched_at": "2026-07-12T21:29:45.682515+08:00",
   "timezone": "Asia/Taipei",
   "session": {
-    "now": "2026-07-12T21:08:13.533349+08:00",
+    "now": "2026-07-12T21:29:45.682515+08:00",
     "timezone": "Asia/Taipei",
     "is_trading_day": false,
     "in_session": false,
+    "is_premarket_watch": false,
     "state": "closed_day",
     "reason": "休市日（週末或國定假日）",
-    "session": "09:00–13:30"
+    "session": "08:50–13:30",
+    "official_open": "09:00"
   },
   "thresholds": {
     "premium": 3.0,
@@ -9113,5 +9115,10 @@
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     }
   ],
-  "disclaimer": "本系統僅為輔助監控與告警，不可視為即時交易或自動下單系統。資料來源為臺灣證券交易所基本市況報導，預估淨值由投信提供僅供參考。"
+  "convergence_notes": {
+    "wantgoo_fetches_this_run": 0,
+    "candidates": 0,
+    "reference": "隔日收斂統計以玩股網歷史折溢價為優先參考；玩股網 API 失敗時改用本系統累積之 TWSE 日結。"
+  },
+  "disclaimer": "本系統僅為輔助監控與告警，不可視為即時交易或自動下單系統。即時折溢價以臺灣證券交易所基本市況報導為準；歷史收斂參考可使用玩股網，僅供參考、非投資建議。"
 }

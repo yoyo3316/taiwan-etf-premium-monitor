@@ -18,11 +18,14 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src.config import Settings
+from src.convergence import analyze_code, format_convergence_brief
+from src.history_store import get_twse_series, is_fresh, load_wantgoo_history, save_wantgoo_history
 from src.market_hours import now_taipei, session_status
 from src.monitor import evaluate_record, summarize
 from src.state import active_alerts, load_alert_state
 from src.storage import load_settings_file, load_snapshot, save_settings_file
 from src.twse_client import fetch_etf_records
+from src.wantgoo_client import try_fetch_history, wantgoo_page_url
 
 st.set_page_config(
     page_title="台灣 ETF 折溢價監控",
@@ -319,13 +322,98 @@ def _top_ranks(
         )
 
 
+def _render_convergence_panel(
+    rows: list[dict], premium: float, discount: float
+) -> None:
+    """WantGoo-based next-day convergence reference for over-threshold ETFs."""
+    st.subheader("📈 隔日收斂參考（玩股網歷史）")
+    st.caption(
+        "統計：當 |折溢價| 超過門檻時，隔日是否往 0 靠近。"
+        "優先使用[玩股網淨值及折溢價](https://www.wantgoo.com/stock/etf/net-value)歷史；"
+        "若 API 不可用則改用本系統累積的 TWSE 日結。**僅供參考，非投資建議。**"
+    )
+
+    thr = max(abs(premium), abs(discount))
+    q_code = st.text_input(
+        "查詢單檔代號（可留空＝只看目前超標）",
+        placeholder="例如 00685L 或 0050",
+        key="conv_code",
+    ).strip().upper()
+
+    targets: list[dict] = []
+    if q_code:
+        targets = [
+            next((r for r in rows if str(r.get("code", "")).upper() == q_code), None)
+            or {"code": q_code, "name": q_code, "alert_direction": None}
+        ]
+    else:
+        targets = [r for r in rows if r.get("over_threshold")][:15]
+
+    if not targets:
+        st.info("目前沒有超過門檻的 ETF。可在上方輸入代號查詢歷史收斂。")
+        return
+
+    fetch_live = st.checkbox("即時向玩股網抓歷史（可能失敗或較慢）", value=False)
+    out_rows = []
+    for r in targets:
+        code = str(r.get("code") or "").upper()
+        direction = r.get("alert_direction")
+        wg = load_wantgoo_history(code)
+        if fetch_live and not is_fresh(wg, max_age_hours=12):
+            with st.spinner(f"抓取玩股網 {code} …"):
+                wg = try_fetch_history(code)
+                if wg.get("rows"):
+                    save_wantgoo_history(wg)
+        analysis = analyze_code(
+            code,
+            wantgoo_payload=wg,
+            twse_series=get_twse_series(code),
+            abs_threshold=thr,
+            direction=direction if direction in ("premium", "discount") else None,
+        )
+        st_stats = analysis.get("stats") or {}
+        out_rows.append(
+            {
+                "代號": code,
+                "名稱": _short_name(str(r.get("name") or code), 14),
+                "目前折溢價%": r.get("premium_discount_pct"),
+                "收斂標籤": st_stats.get("label"),
+                "隔日收斂率": st_stats.get("converge_rate"),
+                "惡化率": st_stats.get("worsen_rate"),
+                "樣本n": st_stats.get("sample_size"),
+                "歷史來源": analysis.get("history_source"),
+                "玩股網": wantgoo_page_url(code),
+                "說明": format_convergence_brief(analysis),
+            }
+        )
+
+    df = pd.DataFrame(out_rows)
+    st.dataframe(
+        df,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "目前折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
+            "隔日收斂率": st.column_config.NumberColumn(format="%.0%"),
+            "惡化率": st.column_config.NumberColumn(format="%.0%"),
+            "玩股網": st.column_config.LinkColumn("玩股網"),
+        },
+        height=min(420, 48 + 38 * max(len(df), 1)),
+    )
+    if any(x.get("歷史來源") == "none" or (x.get("樣本n") or 0) == 0 for x in out_rows):
+        st.warning(
+            "部分標的尚無歷史樣本：玩股網 API 目前常回 400（站方限制），"
+            "系統會持續用 TWSE 日結自行累積；樣本變多後收斂率會較有意義。"
+        )
+
+
 def main() -> None:
     st.title("📊 台灣 ETF 折溢價監控")
     st.write(
-        "資料來源：[TWSE 指標價值揭露]("
+        "即時來源：[TWSE 指標價值揭露]("
         "https://mis.twse.com.tw/stock/various-areas/etf-price/"
         "indicator-disclosure-etf?lang=zhHant) · "
-        "官方端點 `all_etf.txt` · 每 5 分鐘輔助監控"
+        "歷史收斂參考：玩股網（可選）"
     )
 
     file_settings = load_settings_file()
@@ -504,6 +592,9 @@ def main() -> None:
     st.subheader("排行榜")
     top_n = st.slider("排行顯示筆數", 5, 20, 10, 1)
     _top_ranks(rows, float(premium), float(discount), n=top_n)
+
+    st.divider()
+    _render_convergence_panel(rows, float(premium), float(discount))
 
     st.divider()
     st.subheader("全部清單")

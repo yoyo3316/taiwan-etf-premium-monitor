@@ -24,5 +24,7 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Temporary probe scripts
+# Temporary probe scripts / scrapes
 tmp_*.py
+data/_wantgoo*
+data/history/wantgoo/

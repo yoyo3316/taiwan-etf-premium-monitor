@@ -6,6 +6,14 @@ import logging
 from typing import Any
 
 from .config import PREMARKET_DATA_MAX_AGE_MINUTES, Settings, TWSE_INDICATOR_PAGE
+from .convergence import analyze_code, format_convergence_brief
+from .history_store import (
+    append_twse_eod_snapshot,
+    get_twse_series,
+    is_fresh,
+    load_wantgoo_history,
+    save_wantgoo_history,
+)
 from .market_hours import (
     is_premarket_watch,
     is_stale,
@@ -25,6 +33,7 @@ from .state import (
 from .storage import save_snapshot
 from .telegram_notify import notify_alert
 from .twse_client import fetch_etf_records
+from .wantgoo_client import try_fetch_history, wantgoo_page_url
 
 logger = logging.getLogger(__name__)
 
@@ -213,6 +222,39 @@ def run_monitor(
             if removed:
                 locks_cleared.append(code)
 
+    # Attach convergence reference for over-threshold names (WantGoo history)
+    thr_abs = max(
+        abs(settings.premium_threshold), abs(settings.discount_threshold)
+    )
+    candidates = [
+        r
+        for r in evaluated
+        if r.get("alert_direction") in ("premium", "discount")
+        and r.get("status") in ("ok", "stale")
+    ]
+    # Limit external WantGoo calls per cycle
+    max_wantgoo_fetches = 12
+    fetched = 0
+    for row in candidates:
+        code = row["code"]
+        direction = row.get("alert_direction")
+        wg = load_wantgoo_history(code)
+        if not is_fresh(wg, max_age_hours=20) and fetched < max_wantgoo_fetches:
+            wg = try_fetch_history(code)
+            if wg.get("rows"):
+                save_wantgoo_history(wg)
+            fetched += 1
+        analysis = analyze_code(
+            code,
+            wantgoo_payload=wg,
+            twse_series=get_twse_series(code),
+            abs_threshold=thr_abs,
+            direction=direction,
+        )
+        row["convergence"] = analysis
+        row["convergence_brief"] = format_convergence_brief(analysis)
+        row["wantgoo_page"] = wantgoo_page_url(code)
+
     # Fire alerts with one-shot lock per direction
     if can_notify:
         for row in evaluated:
@@ -285,20 +327,37 @@ def run_monitor(
         "locks_cleared": locks_cleared,
         "active_alerts": alerts,
         "etfs": evaluated,
+        "convergence_notes": {
+            "wantgoo_fetches_this_run": fetched,
+            "candidates": len(candidates),
+            "reference": (
+                "隔日收斂統計以玩股網歷史折溢價為優先參考；"
+                "玩股網 API 失敗時改用本系統累積之 TWSE 日結。"
+            ),
+        },
         "disclaimer": (
             "本系統僅為輔助監控與告警，不可視為即時交易或自動下單系統。"
-            "資料來源為臺灣證券交易所基本市況報導，預估淨值由投信提供僅供參考。"
+            "即時折溢價以臺灣證券交易所基本市況報導為準；"
+            "歷史收斂參考可使用玩股網，僅供參考、非投資建議。"
         ),
     }
 
     if persist:
+        # Self-history for convergence fallback (one point per calendar day)
+        try:
+            append_twse_eod_snapshot(
+                evaluated, as_of_date=now.strftime("%Y-%m-%d")
+            )
+        except Exception as exc:
+            logger.warning("append TWSE EOD history failed: %s", exc)
         save_snapshot(snapshot)
         save_alert_state(state)
         logger.info(
-            "Snapshot saved: total=%s valid=%s notified=%s",
+            "Snapshot saved: total=%s valid=%s notified=%s wantgoo_fetches=%s",
             summary["total"],
             summary["valid"],
             len(notifications_sent),
+            fetched,
         )
 
     return snapshot

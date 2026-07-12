@@ -1,0 +1,4478 @@
+{
+  "source": "twse",
+  "by_code": {
+    "00400A": {
+      "code": "00400A",
+      "name": "主動國泰動能高息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.25,
+          "nav": 14.2,
+          "premium_discount_pct": 0.3521,
+          "source": "twse"
+        }
+      ]
+    },
+    "00401A": {
+      "code": "00401A",
+      "name": "主動摩根台灣鑫收",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.38,
+          "nav": 13.5,
+          "premium_discount_pct": -0.8889,
+          "source": "twse"
+        }
+      ]
+    },
+    "00402A": {
+      "code": "00402A",
+      "name": "主動安聯美國科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.75,
+          "nav": 9.78,
+          "premium_discount_pct": -0.3067,
+          "source": "twse"
+        }
+      ]
+    },
+    "00403A": {
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.48,
+          "nav": 10.47,
+          "premium_discount_pct": 0.0955,
+          "source": "twse"
+        }
+      ]
+    },
+    "00404A": {
+      "code": "00404A",
+      "name": "主動聯博動能50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.89,
+          "nav": 9.8979,
+          "premium_discount_pct": -0.0798,
+          "source": "twse"
+        }
+      ]
+    },
+    "00405A": {
+      "code": "00405A",
+      "name": "主動富邦台灣龍耀",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 8.77,
+          "nav": 8.75,
+          "premium_discount_pct": 0.2286,
+          "source": "twse"
+        }
+      ]
+    },
+    "00406A": {
+      "code": "00406A",
+      "name": "主動中信台灣收益",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 9.81,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00407A": {
+      "code": "00407A",
+      "name": "主動凱基台灣",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.42,
+          "nav": 9.41,
+          "premium_discount_pct": 0.1063,
+          "source": "twse"
+        }
+      ]
+    },
+    "0050": {
+      "code": "0050",
+      "name": "元大台灣50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 105.8,
+          "nav": 105.24,
+          "premium_discount_pct": 0.5321,
+          "source": "twse"
+        }
+      ]
+    },
+    "0051": {
+      "code": "0051",
+      "name": "元大中型100",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 144.25,
+          "nav": 144.14,
+          "premium_discount_pct": 0.0763,
+          "source": "twse"
+        }
+      ]
+    },
+    "0052": {
+      "code": "0052",
+      "name": "富邦科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 62.0,
+          "nav": 61.72,
+          "premium_discount_pct": 0.4537,
+          "source": "twse"
+        }
+      ]
+    },
+    "0053": {
+      "code": "0053",
+      "name": "元大電子",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 237.0,
+          "nav": 238.29,
+          "premium_discount_pct": -0.5414,
+          "source": "twse"
+        }
+      ]
+    },
+    "0055": {
+      "code": "0055",
+      "name": "元大MSCI金融",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 42.66,
+          "nav": 42.72,
+          "premium_discount_pct": -0.1404,
+          "source": "twse"
+        }
+      ]
+    },
+    "0056": {
+      "code": "0056",
+      "name": "元大高股息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 52.65,
+          "nav": 52.46,
+          "premium_discount_pct": 0.3622,
+          "source": "twse"
+        }
+      ]
+    },
+    "0057": {
+      "code": "0057",
+      "name": "富邦摩台",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 314.15,
+          "nav": 313.19,
+          "premium_discount_pct": 0.3065,
+          "source": "twse"
+        }
+      ]
+    },
+    "0061": {
+      "code": "0061",
+      "name": "元大寶滬深",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 24.99,
+          "nav": 25.87,
+          "premium_discount_pct": -3.4016,
+          "source": "twse"
+        }
+      ]
+    },
+    "006201": {
+      "code": "006201",
+      "name": "元大富櫃50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 46.85,
+          "nav": 46.64,
+          "premium_discount_pct": 0.4503,
+          "source": "twse"
+        }
+      ]
+    },
+    "006203": {
+      "code": "006203",
+      "name": "元大MSCI台灣",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 193.2,
+          "nav": 192.11,
+          "premium_discount_pct": 0.5674,
+          "source": "twse"
+        }
+      ]
+    },
+    "006204": {
+      "code": "006204",
+      "name": "永豐臺灣加權",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 229.0,
+          "nav": 228.35,
+          "premium_discount_pct": 0.2847,
+          "source": "twse"
+        }
+      ]
+    },
+    "006205": {
+      "code": "006205",
+      "name": "富邦上証",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 41.08,
+          "nav": 42.05,
+          "premium_discount_pct": -2.3068,
+          "source": "twse"
+        }
+      ]
+    },
+    "006206": {
+      "code": "006206",
+      "name": "元大上證50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 37.74,
+          "nav": 38.64,
+          "premium_discount_pct": -2.3292,
+          "source": "twse"
+        }
+      ]
+    },
+    "006207": {
+      "code": "006207",
+      "name": "復華滬深",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.37,
+          "nav": 34.24,
+          "premium_discount_pct": -2.5409,
+          "source": "twse"
+        }
+      ]
+    },
+    "006208": {
+      "code": "006208",
+      "name": "富邦台50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 245.7,
+          "nav": 244.43,
+          "premium_discount_pct": 0.5196,
+          "source": "twse"
+        }
+      ]
+    },
+    "00625K": {
+      "code": "00625K",
+      "name": "富邦上証+R",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 8.6,
+          "nav": 8.88,
+          "premium_discount_pct": -3.1532,
+          "source": "twse"
+        }
+      ]
+    },
+    "00631L": {
+      "code": "00631L",
+      "name": "元大台灣50正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 36.78,
+          "nav": 36.6,
+          "premium_discount_pct": 0.4918,
+          "source": "twse"
+        }
+      ]
+    },
+    "00632R": {
+      "code": "00632R",
+      "name": "元大台灣50反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.21,
+          "nav": 10.22,
+          "premium_discount_pct": -0.0978,
+          "source": "twse"
+        }
+      ]
+    },
+    "00633L": {
+      "code": "00633L",
+      "name": "富邦上証正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 50.35,
+          "nav": 51.8,
+          "premium_discount_pct": -2.7992,
+          "source": "twse"
+        }
+      ]
+    },
+    "00634R": {
+      "code": "00634R",
+      "name": "富邦上証反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 3.1,
+          "nav": 3.09,
+          "premium_discount_pct": 0.3236,
+          "source": "twse"
+        }
+      ]
+    },
+    "00635U": {
+      "code": "00635U",
+      "name": "期元大S&P黃金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 42.42,
+          "nav": 42.81,
+          "premium_discount_pct": -0.911,
+          "source": "twse"
+        }
+      ]
+    },
+    "00636": {
+      "code": "00636",
+      "name": "國泰中國A50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.49,
+          "nav": 28.63,
+          "premium_discount_pct": -0.489,
+          "source": "twse"
+        }
+      ]
+    },
+    "00636K": {
+      "code": "00636K",
+      "name": "國泰中國A50+U",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 8.84,
+          "nav": 8.9,
+          "premium_discount_pct": -0.6742,
+          "source": "twse"
+        }
+      ]
+    },
+    "00637L": {
+      "code": "00637L",
+      "name": "元大滬深300正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 20.85,
+          "nav": 21.6,
+          "premium_discount_pct": -3.4722,
+          "source": "twse"
+        }
+      ]
+    },
+    "00638R": {
+      "code": "00638R",
+      "name": "元大滬深300反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 6.66,
+          "nav": 6.58,
+          "premium_discount_pct": 1.2158,
+          "source": "twse"
+        }
+      ]
+    },
+    "00639": {
+      "code": "00639",
+      "name": "富邦深100",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.81,
+          "nav": 18.36,
+          "premium_discount_pct": -2.9956,
+          "source": "twse"
+        }
+      ]
+    },
+    "00640L": {
+      "code": "00640L",
+      "name": "富邦日本正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 104.3,
+          "nav": 105.05,
+          "premium_discount_pct": -0.7139,
+          "source": "twse"
+        }
+      ]
+    },
+    "00641R": {
+      "code": "00641R",
+      "name": "富邦日本反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 3.79,
+          "nav": 3.77,
+          "premium_discount_pct": 0.5305,
+          "source": "twse"
+        }
+      ]
+    },
+    "00642U": {
+      "code": "00642U",
+      "name": "期元大S&P石油",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 24.28,
+          "nav": 23.85,
+          "premium_discount_pct": 1.8029,
+          "source": "twse"
+        }
+      ]
+    },
+    "00643": {
+      "code": "00643",
+      "name": "群益深証中小",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.87,
+          "nav": 20.51,
+          "premium_discount_pct": -3.1204,
+          "source": "twse"
+        }
+      ]
+    },
+    "00643K": {
+      "code": "00643K",
+      "name": "群益深証中小+R",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 4.21,
+          "nav": 4.33,
+          "premium_discount_pct": -2.7714,
+          "source": "twse"
+        }
+      ]
+    },
+    "00645": {
+      "code": "00645",
+      "name": "富邦日本",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 56.75,
+          "nav": 56.89,
+          "premium_discount_pct": -0.2461,
+          "source": "twse"
+        }
+      ]
+    },
+    "00646": {
+      "code": "00646",
+      "name": "元大S&P500",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 75.75,
+          "nav": 75.67,
+          "premium_discount_pct": 0.1057,
+          "source": "twse"
+        }
+      ]
+    },
+    "00647L": {
+      "code": "00647L",
+      "name": "元大S&P500正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 134.7,
+          "nav": 135.15,
+          "premium_discount_pct": -0.333,
+          "source": "twse"
+        }
+      ]
+    },
+    "00648R": {
+      "code": "00648R",
+      "name": "元大S&P500反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 4.03,
+          "nav": 4.02,
+          "premium_discount_pct": 0.2488,
+          "source": "twse"
+        }
+      ]
+    },
+    "00650L": {
+      "code": "00650L",
+      "name": "復華香港正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.35,
+          "nav": 15.4,
+          "premium_discount_pct": -0.3247,
+          "source": "twse"
+        }
+      ]
+    },
+    "00651R": {
+      "code": "00651R",
+      "name": "復華香港反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 5.51,
+          "nav": 5.56,
+          "premium_discount_pct": -0.8993,
+          "source": "twse"
+        }
+      ]
+    },
+    "00652": {
+      "code": "00652",
+      "name": "富邦印度",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.2,
+          "nav": 33.7,
+          "premium_discount_pct": -1.4837,
+          "source": "twse"
+        }
+      ]
+    },
+    "00653L": {
+      "code": "00653L",
+      "name": "富邦印度正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 46.48,
+          "nav": 46.81,
+          "premium_discount_pct": -0.705,
+          "source": "twse"
+        }
+      ]
+    },
+    "00654R": {
+      "code": "00654R",
+      "name": "富邦印度反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 6.81,
+          "nav": 6.82,
+          "premium_discount_pct": -0.1466,
+          "source": "twse"
+        }
+      ]
+    },
+    "00655L": {
+      "code": "00655L",
+      "name": "國泰中國A50正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 35.05,
+          "nav": 34.7,
+          "premium_discount_pct": 1.0086,
+          "source": "twse"
+        }
+      ]
+    },
+    "00656R": {
+      "code": "00656R",
+      "name": "國泰中國A50反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 5.93,
+          "nav": 5.94,
+          "premium_discount_pct": -0.1684,
+          "source": "twse"
+        }
+      ]
+    },
+    "00657": {
+      "code": "00657",
+      "name": "國泰日經225",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 79.25,
+          "nav": 80.41,
+          "premium_discount_pct": -1.4426,
+          "source": "twse"
+        }
+      ]
+    },
+    "00657K": {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 24.82,
+          "nav": 24.99,
+          "premium_discount_pct": -0.6803,
+          "source": "twse"
+        }
+      ]
+    },
+    "00660": {
+      "code": "00660",
+      "name": "元大歐洲50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 45.79,
+          "nav": 46.05,
+          "premium_discount_pct": -0.5646,
+          "source": "twse"
+        }
+      ]
+    },
+    "00661": {
+      "code": "00661",
+      "name": "元大日經225",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 87.2,
+          "nav": 87.65,
+          "premium_discount_pct": -0.5134,
+          "source": "twse"
+        }
+      ]
+    },
+    "00662": {
+      "code": "00662",
+      "name": "富邦NASDAQ",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 120.9,
+          "nav": 120.77,
+          "premium_discount_pct": 0.1076,
+          "source": "twse"
+        }
+      ]
+    },
+    "00663L": {
+      "code": "00663L",
+      "name": "國泰臺灣加權正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 105.9,
+          "nav": 109.42,
+          "premium_discount_pct": -3.217,
+          "source": "twse"
+        }
+      ]
+    },
+    "00664R": {
+      "code": "00664R",
+      "name": "國泰臺灣加權反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 1.65,
+          "nav": 1.62,
+          "premium_discount_pct": 1.8519,
+          "source": "twse"
+        }
+      ]
+    },
+    "00665L": {
+      "code": "00665L",
+      "name": "富邦恒生國企正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 8.5,
+          "nav": 8.52,
+          "premium_discount_pct": -0.2347,
+          "source": "twse"
+        }
+      ]
+    },
+    "00666R": {
+      "code": "00666R",
+      "name": "富邦恒生國企反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.65,
+          "nav": 9.73,
+          "premium_discount_pct": -0.8222,
+          "source": "twse"
+        }
+      ]
+    },
+    "00668": {
+      "code": "00668",
+      "name": "國泰美國道瓊",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 61.45,
+          "nav": 61.71,
+          "premium_discount_pct": -0.4213,
+          "source": "twse"
+        }
+      ]
+    },
+    "00668K": {
+      "code": "00668K",
+      "name": "國泰美國道瓊 +U",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.14,
+          "nav": 19.18,
+          "premium_discount_pct": -0.2086,
+          "source": "twse"
+        }
+      ]
+    },
+    "00669R": {
+      "code": "00669R",
+      "name": "國泰美國道瓊反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 5.29,
+          "nav": 5.31,
+          "premium_discount_pct": -0.3766,
+          "source": "twse"
+        }
+      ]
+    },
+    "00670L": {
+      "code": "00670L",
+      "name": "富邦NASDAQ正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 202.0,
+          "nav": 203.5,
+          "premium_discount_pct": -0.7371,
+          "source": "twse"
+        }
+      ]
+    },
+    "00671R": {
+      "code": "00671R",
+      "name": "富邦NASDAQ反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 2.46,
+          "nav": 2.45,
+          "premium_discount_pct": 0.4082,
+          "source": "twse"
+        }
+      ]
+    },
+    "00673R": {
+      "code": "00673R",
+      "name": "期元大S&P原油反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.87,
+          "nav": 15.18,
+          "premium_discount_pct": -2.0422,
+          "source": "twse"
+        }
+      ]
+    },
+    "00674R": {
+      "code": "00674R",
+      "name": "期元大S&P黃金反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.21,
+          "nav": 29.96,
+          "premium_discount_pct": 0.8344,
+          "source": "twse"
+        }
+      ]
+    },
+    "00675L": {
+      "code": "00675L",
+      "name": "富邦臺灣加權正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 321.0,
+          "nav": 322.57,
+          "premium_discount_pct": -0.4867,
+          "source": "twse"
+        }
+      ]
+    },
+    "00676R": {
+      "code": "00676R",
+      "name": "富邦臺灣加權反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 5.64,
+          "nav": 5.61,
+          "premium_discount_pct": 0.5348,
+          "source": "twse"
+        }
+      ]
+    },
+    "00678": {
+      "code": "00678",
+      "name": "群益那斯達克生技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 41.98,
+          "nav": 41.9,
+          "premium_discount_pct": 0.1909,
+          "source": "twse"
+        }
+      ]
+    },
+    "00679B": {
+      "code": "00679B",
+      "name": "元大美債20年",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 26.8,
+          "nav": 26.8658,
+          "premium_discount_pct": -0.2449,
+          "source": "twse"
+        }
+      ]
+    },
+    "00680L": {
+      "code": "00680L",
+      "name": "元大美債20正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 6.79,
+          "nav": 6.7566,
+          "premium_discount_pct": 0.4943,
+          "source": "twse"
+        }
+      ]
+    },
+    "00681R": {
+      "code": "00681R",
+      "name": "元大美債20反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 21.33,
+          "nav": 21.4361,
+          "premium_discount_pct": -0.495,
+          "source": "twse"
+        }
+      ]
+    },
+    "00682U": {
+      "code": "00682U",
+      "name": "期元大美元指數",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 20.72,
+          "nav": 20.91,
+          "premium_discount_pct": -0.9087,
+          "source": "twse"
+        }
+      ]
+    },
+    "00683L": {
+      "code": "00683L",
+      "name": "期元大美元指正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 22.02,
+          "nav": 22.15,
+          "premium_discount_pct": -0.5869,
+          "source": "twse"
+        }
+      ]
+    },
+    "00684R": {
+      "code": "00684R",
+      "name": "期元大美元指反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.92,
+          "nav": 15.08,
+          "premium_discount_pct": -1.061,
+          "source": "twse"
+        }
+      ]
+    },
+    "00685L": {
+      "code": "00685L",
+      "name": "群益臺灣加權正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 12.09,
+          "nav": 12.13,
+          "premium_discount_pct": -0.3298,
+          "source": "twse"
+        }
+      ]
+    },
+    "00686R": {
+      "code": "00686R",
+      "name": "群益臺灣加權反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 1.0,
+          "nav": 1.0,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00687B": {
+      "code": "00687B",
+      "name": "國泰20年美債(基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 27.89,
+          "nav": 28.0776,
+          "premium_discount_pct": -0.6681,
+          "source": "twse"
+        }
+      ]
+    },
+    "00687C": {
+      "code": "00687C",
+      "name": "國泰20年美債+櫃U(基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.25,
+          "nav": 9.2925,
+          "premium_discount_pct": -0.4574,
+          "source": "twse"
+        }
+      ]
+    },
+    "00688L": {
+      "code": "00688L",
+      "name": "國泰20年美債正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 6.75,
+          "nav": 6.7673,
+          "premium_discount_pct": -0.2556,
+          "source": "twse"
+        }
+      ]
+    },
+    "00689R": {
+      "code": "00689R",
+      "name": "國泰20年美債反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 22.38,
+          "nav": 22.4433,
+          "premium_discount_pct": -0.282,
+          "source": "twse"
+        }
+      ]
+    },
+    "00690": {
+      "code": "00690",
+      "name": "兆豐藍籌３０",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 78.3,
+          "nav": 77.94,
+          "premium_discount_pct": 0.4619,
+          "source": "twse"
+        }
+      ]
+    },
+    "00692": {
+      "code": "00692",
+      "name": "富邦公司治理",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 91.65,
+          "nav": 91.37,
+          "premium_discount_pct": 0.3064,
+          "source": "twse"
+        }
+      ]
+    },
+    "00693U": {
+      "code": "00693U",
+      "name": "街口標普高盛黃豆ER指數股票型期貨信託基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 21.76,
+          "nav": 21.75,
+          "premium_discount_pct": 0.046,
+          "source": "twse"
+        }
+      ]
+    },
+    "00694B": {
+      "code": "00694B",
+      "name": "富邦美債1-3",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 42.33,
+          "nav": 42.4629,
+          "premium_discount_pct": -0.313,
+          "source": "twse"
+        }
+      ]
+    },
+    "00695B": {
+      "code": "00695B",
+      "name": "富邦美債7-10",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 35.55,
+          "nav": 35.6447,
+          "premium_discount_pct": -0.2657,
+          "source": "twse"
+        }
+      ]
+    },
+    "00696B": {
+      "code": "00696B",
+      "name": "富邦美債20年",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 29.18,
+          "nav": 29.2453,
+          "premium_discount_pct": -0.2233,
+          "source": "twse"
+        }
+      ]
+    },
+    "00697B": {
+      "code": "00697B",
+      "name": "元大美債7-10",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 35.77,
+          "nav": 35.8728,
+          "premium_discount_pct": -0.2866,
+          "source": "twse"
+        }
+      ]
+    },
+    "00700": {
+      "code": "00700",
+      "name": "富邦恒生國企",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.45,
+          "nav": 16.58,
+          "premium_discount_pct": -0.7841,
+          "source": "twse"
+        }
+      ]
+    },
+    "00701": {
+      "code": "00701",
+      "name": "國泰股利精選30(本基金並無保證收益及配息)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 39.05,
+          "nav": 39.34,
+          "premium_discount_pct": -0.7372,
+          "source": "twse"
+        }
+      ]
+    },
+    "00702": {
+      "code": "00702",
+      "name": "國泰標普低波高息(本基金並無保證收益及配息)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 25.26,
+          "nav": 25.4,
+          "premium_discount_pct": -0.5512,
+          "source": "twse"
+        }
+      ]
+    },
+    "00703": {
+      "code": "00703",
+      "name": "台新MSCI中國基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.16,
+          "nav": 19.06,
+          "premium_discount_pct": 0.5247,
+          "source": "twse"
+        }
+      ]
+    },
+    "00706L": {
+      "code": "00706L",
+      "name": "期元大S&P日圓正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 18.39,
+          "nav": 18.42,
+          "premium_discount_pct": -0.1629,
+          "source": "twse"
+        }
+      ]
+    },
+    "00707R": {
+      "code": "00707R",
+      "name": "期元大S&P日圓反1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.7,
+          "nav": 33.07,
+          "premium_discount_pct": -1.1188,
+          "source": "twse"
+        }
+      ]
+    },
+    "00708L": {
+      "code": "00708L",
+      "name": "期元大S&P黃金正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 71.25,
+          "nav": 72.64,
+          "premium_discount_pct": -1.9135,
+          "source": "twse"
+        }
+      ]
+    },
+    "00709": {
+      "code": "00709",
+      "name": "富邦歐洲",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 40.01,
+          "nav": 40.22,
+          "premium_discount_pct": -0.5221,
+          "source": "twse"
+        }
+      ]
+    },
+    "00710B": {
+      "code": "00710B",
+      "name": "復華彭博非投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.09,
+          "nav": 19.16,
+          "premium_discount_pct": -0.3653,
+          "source": "twse"
+        }
+      ]
+    },
+    "00711B": {
+      "code": "00711B",
+      "name": "復華彭博新興債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.1,
+          "nav": 16.13,
+          "premium_discount_pct": -0.186,
+          "source": "twse"
+        }
+      ]
+    },
+    "00712": {
+      "code": "00712",
+      "name": "復華富時不動產",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 8.79,
+          "nav": 8.85,
+          "premium_discount_pct": -0.678,
+          "source": "twse"
+        }
+      ]
+    },
+    "00713": {
+      "code": "00713",
+      "name": "元大台灣高息低波",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 60.55,
+          "nav": 60.69,
+          "premium_discount_pct": -0.2307,
+          "source": "twse"
+        }
+      ]
+    },
+    "00714": {
+      "code": "00714",
+      "name": "群益道瓊美國地產",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 22.04,
+          "nav": 22.15,
+          "premium_discount_pct": -0.4966,
+          "source": "twse"
+        }
+      ]
+    },
+    "00715L": {
+      "code": "00715L",
+      "name": "街口標普高盛布蘭特原油ER單日正向2倍指數股票型期貨信託基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 38.78,
+          "nav": 37.6,
+          "premium_discount_pct": 3.1383,
+          "source": "twse"
+        }
+      ]
+    },
+    "00717": {
+      "code": "00717",
+      "name": "富邦美國特別股",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.9,
+          "nav": 15.01,
+          "premium_discount_pct": -0.7328,
+          "source": "twse"
+        }
+      ]
+    },
+    "00719B": {
+      "code": "00719B",
+      "name": "元大美債1-3",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.44,
+          "nav": 31.5582,
+          "premium_discount_pct": -0.3745,
+          "source": "twse"
+        }
+      ]
+    },
+    "00720B": {
+      "code": "00720B",
+      "name": "元大投資級公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.33,
+          "nav": 33.487,
+          "premium_discount_pct": -0.4688,
+          "source": "twse"
+        }
+      ]
+    },
+    "00722B": {
+      "code": "00722B",
+      "name": "群益投資級電信債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 36.01,
+          "nav": 36.0633,
+          "premium_discount_pct": -0.1478,
+          "source": "twse"
+        }
+      ]
+    },
+    "00723B": {
+      "code": "00723B",
+      "name": "群益投資級科技債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.82,
+          "nav": 30.9425,
+          "premium_discount_pct": -0.3959,
+          "source": "twse"
+        }
+      ]
+    },
+    "00724B": {
+      "code": "00724B",
+      "name": "群益投資級金融債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 34.1,
+          "nav": 34.2215,
+          "premium_discount_pct": -0.355,
+          "source": "twse"
+        }
+      ]
+    },
+    "00725B": {
+      "code": "00725B",
+      "name": "國泰投資級公司債(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 35.45,
+          "nav": 35.622,
+          "premium_discount_pct": -0.4828,
+          "source": "twse"
+        }
+      ]
+    },
+    "00726B": {
+      "code": "00726B",
+      "name": "國泰新興投等債(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.35,
+          "nav": 33.5048,
+          "premium_discount_pct": -0.462,
+          "source": "twse"
+        }
+      ]
+    },
+    "00727B": {
+      "code": "00727B",
+      "name": "國泰優選非投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 40.32,
+          "nav": 40.3972,
+          "premium_discount_pct": -0.1911,
+          "source": "twse"
+        }
+      ]
+    },
+    "00728": {
+      "code": "00728",
+      "name": "第一金工業30",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 63.0,
+          "nav": 63.01,
+          "premium_discount_pct": -0.0159,
+          "source": "twse"
+        }
+      ]
+    },
+    "00730": {
+      "code": "00730",
+      "name": "富邦臺灣優質高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.68,
+          "nav": 28.79,
+          "premium_discount_pct": -0.3821,
+          "source": "twse"
+        }
+      ]
+    },
+    "00731": {
+      "code": "00731",
+      "name": "復華富時高息低波",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 88.9,
+          "nav": 89.23,
+          "premium_discount_pct": -0.3698,
+          "source": "twse"
+        }
+      ]
+    },
+    "00733": {
+      "code": "00733",
+      "name": "富邦臺灣中小",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 73.2,
+          "nav": 73.5,
+          "premium_discount_pct": -0.4082,
+          "source": "twse"
+        }
+      ]
+    },
+    "00734B": {
+      "code": "00734B",
+      "name": "台新摩根大通新興市場投資等級美元債券ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.02,
+          "nav": 16.07,
+          "premium_discount_pct": -0.3111,
+          "source": "twse"
+        }
+      ]
+    },
+    "00735": {
+      "code": "00735",
+      "name": "國泰臺韓科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 106.55,
+          "nav": 107.72,
+          "premium_discount_pct": -1.0861,
+          "source": "twse"
+        }
+      ]
+    },
+    "00736": {
+      "code": "00736",
+      "name": "國泰新興市場",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.43,
+          "nav": 31.71,
+          "premium_discount_pct": -0.883,
+          "source": "twse"
+        }
+      ]
+    },
+    "00737": {
+      "code": "00737",
+      "name": "國泰AI機器人",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 38.72,
+          "nav": 39.33,
+          "premium_discount_pct": -1.551,
+          "source": "twse"
+        }
+      ]
+    },
+    "00738U": {
+      "code": "00738U",
+      "name": "期元大道瓊白銀",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 46.76,
+          "nav": 47.65,
+          "premium_discount_pct": -1.8678,
+          "source": "twse"
+        }
+      ]
+    },
+    "00739": {
+      "code": "00739",
+      "name": "元大MSCI A股",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.87,
+          "nav": 29.67,
+          "premium_discount_pct": -2.6963,
+          "source": "twse"
+        }
+      ]
+    },
+    "00740B": {
+      "code": "00740B",
+      "name": "富邦全球投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 38.75,
+          "nav": 38.8957,
+          "premium_discount_pct": -0.3746,
+          "source": "twse"
+        }
+      ]
+    },
+    "00741B": {
+      "code": "00741B",
+      "name": "富邦全球非投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 37.71,
+          "nav": 37.8845,
+          "premium_discount_pct": -0.4606,
+          "source": "twse"
+        }
+      ]
+    },
+    "00746B": {
+      "code": "00746B",
+      "name": "富邦A級公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 35.78,
+          "nav": 35.9287,
+          "premium_discount_pct": -0.4139,
+          "source": "twse"
+        }
+      ]
+    },
+    "00749B": {
+      "code": "00749B",
+      "name": "凱基新興債10+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.1,
+          "nav": 32.18,
+          "premium_discount_pct": -0.2486,
+          "source": "twse"
+        }
+      ]
+    },
+    "00750B": {
+      "code": "00750B",
+      "name": "凱基科技債10+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.22,
+          "nav": 33.31,
+          "premium_discount_pct": -0.2702,
+          "source": "twse"
+        }
+      ]
+    },
+    "00751B": {
+      "code": "00751B",
+      "name": "元大AAA至A公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.45,
+          "nav": 31.5945,
+          "premium_discount_pct": -0.4574,
+          "source": "twse"
+        }
+      ]
+    },
+    "00752": {
+      "code": "00752",
+      "name": "中信中國50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 22.9,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00753L": {
+      "code": "00753L",
+      "name": "中信中國50正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 9.31,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00754B": {
+      "code": "00754B",
+      "name": "群益AAA-AA公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.17,
+          "nav": 33.3139,
+          "premium_discount_pct": -0.432,
+          "source": "twse"
+        }
+      ]
+    },
+    "00755B": {
+      "code": "00755B",
+      "name": "群益投資級公用債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.95,
+          "nav": 33.119,
+          "premium_discount_pct": -0.5103,
+          "source": "twse"
+        }
+      ]
+    },
+    "00756B": {
+      "code": "00756B",
+      "name": "群益投等新興公債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.85,
+          "nav": 31.9186,
+          "premium_discount_pct": -0.2149,
+          "source": "twse"
+        }
+      ]
+    },
+    "00757": {
+      "code": "00757",
+      "name": "統一FANG+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 130.85,
+          "nav": 131.37,
+          "premium_discount_pct": -0.3958,
+          "source": "twse"
+        }
+      ]
+    },
+    "00758B": {
+      "code": "00758B",
+      "name": "復華能源債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 51.85,
+          "nav": 51.83,
+          "premium_discount_pct": 0.0386,
+          "source": "twse"
+        }
+      ]
+    },
+    "00759B": {
+      "code": "00759B",
+      "name": "復華製藥債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 55.0,
+          "nav": 55.04,
+          "premium_discount_pct": -0.0727,
+          "source": "twse"
+        }
+      ]
+    },
+    "00760B": {
+      "code": "00760B",
+      "name": "復華新興企業債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 54.35,
+          "nav": 54.33,
+          "premium_discount_pct": 0.0368,
+          "source": "twse"
+        }
+      ]
+    },
+    "00761B": {
+      "code": "00761B",
+      "name": "國泰A級公司債(基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 34.53,
+          "nav": 34.7024,
+          "premium_discount_pct": -0.4968,
+          "source": "twse"
+        }
+      ]
+    },
+    "00762": {
+      "code": "00762",
+      "name": "元大全球AI",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 113.1,
+          "nav": 113.64,
+          "premium_discount_pct": -0.4752,
+          "source": "twse"
+        }
+      ]
+    },
+    "00763U": {
+      "code": "00763U",
+      "name": "街口道瓊銅ER指數股票型期貨信託基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.59,
+          "nav": 33.15,
+          "premium_discount_pct": -1.6893,
+          "source": "twse"
+        }
+      ]
+    },
+    "00764B": {
+      "code": "00764B",
+      "name": "群益25年美債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 27.8,
+          "nav": 27.898,
+          "premium_discount_pct": -0.3513,
+          "source": "twse"
+        }
+      ]
+    },
+    "00768B": {
+      "code": "00768B",
+      "name": "復華20年美債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 50.25,
+          "nav": 50.3511,
+          "premium_discount_pct": -0.2008,
+          "source": "twse"
+        }
+      ]
+    },
+    "00770": {
+      "code": "00770",
+      "name": "國泰北美科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 67.6,
+          "nav": 69.16,
+          "premium_discount_pct": -2.2556,
+          "source": "twse"
+        }
+      ]
+    },
+    "00771": {
+      "code": "00771",
+      "name": "元大US高息特別股",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.82,
+          "nav": 16.0,
+          "premium_discount_pct": -1.125,
+          "source": "twse"
+        }
+      ]
+    },
+    "00772B": {
+      "code": "00772B",
+      "name": "中信高評級公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 33.7471,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00773B": {
+      "code": "00773B",
+      "name": "中信優先金融債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 36.0846,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00775B": {
+      "code": "00775B",
+      "name": "新光富時15年以上特選產業美元投資等級債券ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.3,
+          "nav": 32.45,
+          "premium_discount_pct": -0.4622,
+          "source": "twse"
+        }
+      ]
+    },
+    "00777B": {
+      "code": "00777B",
+      "name": "凱基AAA至A公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.6,
+          "nav": 32.7,
+          "premium_discount_pct": -0.3058,
+          "source": "twse"
+        }
+      ]
+    },
+    "00778B": {
+      "code": "00778B",
+      "name": "凱基金融債20+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 34.58,
+          "nav": 34.7,
+          "premium_discount_pct": -0.3458,
+          "source": "twse"
+        }
+      ]
+    },
+    "00779B": {
+      "code": "00779B",
+      "name": "凱基美債25+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.12,
+          "nav": 28.17,
+          "premium_discount_pct": -0.1775,
+          "source": "twse"
+        }
+      ]
+    },
+    "00780B": {
+      "code": "00780B",
+      "name": "國泰A級金融債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 37.57,
+          "nav": 37.7908,
+          "premium_discount_pct": -0.5843,
+          "source": "twse"
+        }
+      ]
+    },
+    "00781B": {
+      "code": "00781B",
+      "name": "國泰A級科技債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.2,
+          "nav": 28.2694,
+          "premium_discount_pct": -0.2455,
+          "source": "twse"
+        }
+      ]
+    },
+    "00782B": {
+      "code": "00782B",
+      "name": "國泰A級公用債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.82,
+          "nav": 30.9026,
+          "premium_discount_pct": -0.2673,
+          "source": "twse"
+        }
+      ]
+    },
+    "00783": {
+      "code": "00783",
+      "name": "富邦中証500",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.12,
+          "nav": 31.23,
+          "premium_discount_pct": -3.5543,
+          "source": "twse"
+        }
+      ]
+    },
+    "00785B": {
+      "code": "00785B",
+      "name": "富邦金融投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 35.32,
+          "nav": 35.4564,
+          "premium_discount_pct": -0.3847,
+          "source": "twse"
+        }
+      ]
+    },
+    "00786B": {
+      "code": "00786B",
+      "name": "元大10年IG銀行債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.01,
+          "nav": 33.1276,
+          "premium_discount_pct": -0.355,
+          "source": "twse"
+        }
+      ]
+    },
+    "00787B": {
+      "code": "00787B",
+      "name": "元大10年IG醫療債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.61,
+          "nav": 32.8386,
+          "premium_discount_pct": -0.6961,
+          "source": "twse"
+        }
+      ]
+    },
+    "00788B": {
+      "code": "00788B",
+      "name": "元大10年IG電能債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.36,
+          "nav": 30.5305,
+          "premium_discount_pct": -0.5585,
+          "source": "twse"
+        }
+      ]
+    },
+    "00789B": {
+      "code": "00789B",
+      "name": "復華公司債A3",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 48.42,
+          "nav": 48.5281,
+          "premium_discount_pct": -0.2228,
+          "source": "twse"
+        }
+      ]
+    },
+    "00791B": {
+      "code": "00791B",
+      "name": "復華信用債1-5",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 57.65,
+          "nav": 57.7085,
+          "premium_discount_pct": -0.1014,
+          "source": "twse"
+        }
+      ]
+    },
+    "00792B": {
+      "code": "00792B",
+      "name": "群益A級公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.71,
+          "nav": 31.8009,
+          "premium_discount_pct": -0.2858,
+          "source": "twse"
+        }
+      ]
+    },
+    "00793B": {
+      "code": "00793B",
+      "name": "群益AAA-A醫療債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.84,
+          "nav": 30.9644,
+          "premium_discount_pct": -0.4018,
+          "source": "twse"
+        }
+      ]
+    },
+    "00795B": {
+      "code": "00795B",
+      "name": "中信美國公債20年",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 27.2614,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00799B": {
+      "code": "00799B",
+      "name": "國泰A級醫療債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 29.85,
+          "nav": 29.9886,
+          "premium_discount_pct": -0.4622,
+          "source": "twse"
+        }
+      ]
+    },
+    "00830": {
+      "code": "00830",
+      "name": "國泰費城半導體",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 90.0,
+          "nav": 92.41,
+          "premium_discount_pct": -2.6079,
+          "source": "twse"
+        }
+      ]
+    },
+    "00834B": {
+      "code": "00834B",
+      "name": "第一金金融債10+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 34.52,
+          "nav": 34.6988,
+          "premium_discount_pct": -0.5153,
+          "source": "twse"
+        }
+      ]
+    },
+    "00836B": {
+      "code": "00836B",
+      "name": "永豐10年A公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.77,
+          "nav": 28.8,
+          "premium_discount_pct": -0.1042,
+          "source": "twse"
+        }
+      ]
+    },
+    "00840B": {
+      "code": "00840B",
+      "name": "凱基IG精選15+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.08,
+          "nav": 30.1,
+          "premium_discount_pct": -0.0664,
+          "source": "twse"
+        }
+      ]
+    },
+    "00841B": {
+      "code": "00841B",
+      "name": "凱基AAA-AA公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.91,
+          "nav": 28.97,
+          "premium_discount_pct": -0.2071,
+          "source": "twse"
+        }
+      ]
+    },
+    "00842B": {
+      "code": "00842B",
+      "name": "台新美元銀行債券15年期以上ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.35,
+          "nav": 31.0,
+          "premium_discount_pct": 1.129,
+          "source": "twse"
+        }
+      ]
+    },
+    "00844B": {
+      "code": "00844B",
+      "name": "新光15年期(以上)美元金融債券ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.8,
+          "nav": 31.97,
+          "premium_discount_pct": -0.5317,
+          "source": "twse"
+        }
+      ]
+    },
+    "00845B": {
+      "code": "00845B",
+      "name": "富邦新興投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.67,
+          "nav": 33.7524,
+          "premium_discount_pct": -0.2441,
+          "source": "twse"
+        }
+      ]
+    },
+    "00846B": {
+      "code": "00846B",
+      "name": "富邦歐洲銀行債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 36.4,
+          "nav": 36.3993,
+          "premium_discount_pct": 0.0019,
+          "source": "twse"
+        }
+      ]
+    },
+    "00847B": {
+      "code": "00847B",
+      "name": "中信美國市政債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 25.8605,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00848B": {
+      "code": "00848B",
+      "name": "中信新興亞洲債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 34.6905,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00849B": {
+      "code": "00849B",
+      "name": "中信EM主權債0-5",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 37.9613,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00850": {
+      "code": "00850",
+      "name": "元大臺灣ESG永續ETF",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 89.75,
+          "nav": 89.82,
+          "premium_discount_pct": -0.0779,
+          "source": "twse"
+        }
+      ]
+    },
+    "00851": {
+      "code": "00851",
+      "name": "台新SG全球AI機器人精選ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 71.6,
+          "nav": 71.93,
+          "premium_discount_pct": -0.4588,
+          "source": "twse"
+        }
+      ]
+    },
+    "00852L": {
+      "code": "00852L",
+      "name": "國泰美國道瓊正2",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 34.99,
+          "nav": 35.0,
+          "premium_discount_pct": -0.0286,
+          "source": "twse"
+        }
+      ]
+    },
+    "00853B": {
+      "code": "00853B",
+      "name": "統一美債10年Aa-A",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 27.66,
+          "nav": 27.7,
+          "premium_discount_pct": -0.1444,
+          "source": "twse"
+        }
+      ]
+    },
+    "00856B": {
+      "code": "00856B",
+      "name": "永豐1-3年美公債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 37.85,
+          "nav": 38.08,
+          "premium_discount_pct": -0.604,
+          "source": "twse"
+        }
+      ]
+    },
+    "00857B": {
+      "code": "00857B",
+      "name": "永豐20年美公債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 23.18,
+          "nav": 23.22,
+          "premium_discount_pct": -0.1723,
+          "source": "twse"
+        }
+      ]
+    },
+    "00858": {
+      "code": "00858",
+      "name": "永豐美國500大",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 36.74,
+          "nav": 36.95,
+          "premium_discount_pct": -0.5683,
+          "source": "twse"
+        }
+      ]
+    },
+    "00859B": {
+      "code": "00859B",
+      "name": "群益0-1年美債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 41.22,
+          "nav": 41.3328,
+          "premium_discount_pct": -0.2729,
+          "source": "twse"
+        }
+      ]
+    },
+    "00860B": {
+      "code": "00860B",
+      "name": "群益1-5Y投資級債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 38.58,
+          "nav": 38.6345,
+          "premium_discount_pct": -0.1411,
+          "source": "twse"
+        }
+      ]
+    },
+    "00861": {
+      "code": "00861",
+      "name": "元大全球未來通訊",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 89.5,
+          "nav": 89.54,
+          "premium_discount_pct": -0.0447,
+          "source": "twse"
+        }
+      ]
+    },
+    "00862B": {
+      "code": "00862B",
+      "name": "中信投資級公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 31.789,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00863B": {
+      "code": "00863B",
+      "name": "中信全球電信債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 31.9451,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00864B": {
+      "code": "00864B",
+      "name": "中信美國公債0-1",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 46.8931,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00865B": {
+      "code": "00865B",
+      "name": "國泰US短期公債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 48.91,
+          "nav": 49.0734,
+          "premium_discount_pct": -0.333,
+          "source": "twse"
+        }
+      ]
+    },
+    "00867B": {
+      "code": "00867B",
+      "name": "新光15年期(以上)A-BBB美元電信債券ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.06,
+          "nav": 31.17,
+          "premium_discount_pct": -0.3529,
+          "source": "twse"
+        }
+      ]
+    },
+    "00870B": {
+      "code": "00870B",
+      "name": "元大15年EM主權債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 28.62,
+          "nav": 28.8694,
+          "premium_discount_pct": -0.8639,
+          "source": "twse"
+        }
+      ]
+    },
+    "00875": {
+      "code": "00875",
+      "name": "國泰網路資安",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 52.35,
+          "nav": 53.94,
+          "premium_discount_pct": -2.9477,
+          "source": "twse"
+        }
+      ]
+    },
+    "00876": {
+      "code": "00876",
+      "name": "元大全球5G",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 94.65,
+          "nav": 95.05,
+          "premium_discount_pct": -0.4208,
+          "source": "twse"
+        }
+      ]
+    },
+    "00877": {
+      "code": "00877",
+      "name": "復華中國5G",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 43.88,
+          "nav": 45.51,
+          "premium_discount_pct": -3.5816,
+          "source": "twse"
+        }
+      ]
+    },
+    "00878": {
+      "code": "00878",
+      "name": "國泰永續高股息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 33.19,
+          "nav": 33.44,
+          "premium_discount_pct": -0.7476,
+          "source": "twse"
+        }
+      ]
+    },
+    "00881": {
+      "code": "00881",
+      "name": "國泰台灣科技龍頭",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 53.3,
+          "nav": 53.2,
+          "premium_discount_pct": 0.188,
+          "source": "twse"
+        }
+      ]
+    },
+    "00882": {
+      "code": "00882",
+      "name": "中信中國高股息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 14.96,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00884B": {
+      "code": "00884B",
+      "name": "中信低碳新興債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 30.0803,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00885": {
+      "code": "00885",
+      "name": "富邦越南",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 18.84,
+          "nav": 19.03,
+          "premium_discount_pct": -0.9984,
+          "source": "twse"
+        }
+      ]
+    },
+    "00886": {
+      "code": "00886",
+      "name": "永豐美國科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 45.5,
+          "nav": 46.83,
+          "premium_discount_pct": -2.8401,
+          "source": "twse"
+        }
+      ]
+    },
+    "00887": {
+      "code": "00887",
+      "name": "永豐中國科技50大",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.31,
+          "nav": 19.11,
+          "premium_discount_pct": 1.0466,
+          "source": "twse"
+        }
+      ]
+    },
+    "00888": {
+      "code": "00888",
+      "name": "永豐台灣ESG",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 36.87,
+          "nav": 36.72,
+          "premium_discount_pct": 0.4085,
+          "source": "twse"
+        }
+      ]
+    },
+    "00890B": {
+      "code": "00890B",
+      "name": "凱基ESG BBB債15+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.5,
+          "nav": 32.55,
+          "premium_discount_pct": -0.1536,
+          "source": "twse"
+        }
+      ]
+    },
+    "00891": {
+      "code": "00891",
+      "name": "中信關鍵半導體",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 36.35,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00892": {
+      "code": "00892",
+      "name": "富邦台灣半導體",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 44.32,
+          "nav": 44.25,
+          "premium_discount_pct": 0.1582,
+          "source": "twse"
+        }
+      ]
+    },
+    "00893": {
+      "code": "00893",
+      "name": "國泰智能電動車",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 45.26,
+          "nav": 46.34,
+          "premium_discount_pct": -2.3306,
+          "source": "twse"
+        }
+      ]
+    },
+    "00894": {
+      "code": "00894",
+      "name": "中信小資高價30",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 47.52,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00895": {
+      "code": "00895",
+      "name": "富邦未來車",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 50.7,
+          "nav": 50.89,
+          "premium_discount_pct": -0.3734,
+          "source": "twse"
+        }
+      ]
+    },
+    "00896": {
+      "code": "00896",
+      "name": "中信綠能及電動車",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 27.36,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00897": {
+      "code": "00897",
+      "name": "富邦基因免疫生技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 11.51,
+          "nav": 11.57,
+          "premium_discount_pct": -0.5186,
+          "source": "twse"
+        }
+      ]
+    },
+    "00898": {
+      "code": "00898",
+      "name": "國泰基因免疫革命",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.54,
+          "nav": 9.76,
+          "premium_discount_pct": -2.2541,
+          "source": "twse"
+        }
+      ]
+    },
+    "00900": {
+      "code": "00900",
+      "name": "富邦特選高股息30",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.0,
+          "nav": 19.07,
+          "premium_discount_pct": -0.3671,
+          "source": "twse"
+        }
+      ]
+    },
+    "00901": {
+      "code": "00901",
+      "name": "永豐智能車供應鏈",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 45.65,
+          "nav": 45.6,
+          "premium_discount_pct": 0.1096,
+          "source": "twse"
+        }
+      ]
+    },
+    "00902": {
+      "code": "00902",
+      "name": "中信電池及儲能",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 13.39,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00903": {
+      "code": "00903",
+      "name": "富邦元宇宙",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 21.14,
+          "nav": 21.18,
+          "premium_discount_pct": -0.1889,
+          "source": "twse"
+        }
+      ]
+    },
+    "00904": {
+      "code": "00904",
+      "name": "新光臺灣全市場半導體精選30ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 42.15,
+          "nav": 42.21,
+          "premium_discount_pct": -0.1421,
+          "source": "twse"
+        }
+      ]
+    },
+    "00907": {
+      "code": "00907",
+      "name": "永豐優息存股",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.38,
+          "nav": 16.5,
+          "premium_discount_pct": -0.7273,
+          "source": "twse"
+        }
+      ]
+    },
+    "00908": {
+      "code": "00908",
+      "name": "富邦入息REITs+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.26,
+          "nav": 15.32,
+          "premium_discount_pct": -0.3916,
+          "source": "twse"
+        }
+      ]
+    },
+    "00909": {
+      "code": "00909",
+      "name": "國泰數位支付服務",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 45.8,
+          "nav": 46.85,
+          "premium_discount_pct": -2.2412,
+          "source": "twse"
+        }
+      ]
+    },
+    "00910": {
+      "code": "00910",
+      "name": "第一金太空衛星",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 61.5,
+          "nav": 61.3706,
+          "premium_discount_pct": 0.2109,
+          "source": "twse"
+        }
+      ]
+    },
+    "00911": {
+      "code": "00911",
+      "name": "兆豐洲際半導體",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 61.45,
+          "nav": 61.26,
+          "premium_discount_pct": 0.3102,
+          "source": "twse"
+        }
+      ]
+    },
+    "00912": {
+      "code": "00912",
+      "name": "中信臺灣智慧50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 33.98,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00913": {
+      "code": "00913",
+      "name": "兆豐台灣晶圓製造",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 51.8,
+          "nav": 51.81,
+          "premium_discount_pct": -0.0193,
+          "source": "twse"
+        }
+      ]
+    },
+    "00915": {
+      "code": "00915",
+      "name": "凱基優選高股息30",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.98,
+          "nav": 32.1,
+          "premium_discount_pct": -0.3738,
+          "source": "twse"
+        }
+      ]
+    },
+    "00916": {
+      "code": "00916",
+      "name": "國泰全球品牌50(基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 26.04,
+          "nav": 26.41,
+          "premium_discount_pct": -1.401,
+          "source": "twse"
+        }
+      ]
+    },
+    "00917": {
+      "code": "00917",
+      "name": "中信特選金融",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 23.23,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00918": {
+      "code": "00918",
+      "name": "大華優利高填息30(本基金並無保證收益及配息且配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.94,
+          "nav": 32.01,
+          "premium_discount_pct": -0.2187,
+          "source": "twse"
+        }
+      ]
+    },
+    "00919": {
+      "code": "00919",
+      "name": "群益台灣精選高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 29.97,
+          "nav": 29.92,
+          "premium_discount_pct": 0.1671,
+          "source": "twse"
+        }
+      ]
+    },
+    "00920": {
+      "code": "00920",
+      "name": "富邦ESG綠色電力",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 25.02,
+          "nav": 24.95,
+          "premium_discount_pct": 0.2806,
+          "source": "twse"
+        }
+      ]
+    },
+    "00921": {
+      "code": "00921",
+      "name": "兆豐台灣龍頭等權重",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 23.14,
+          "nav": 23.2,
+          "premium_discount_pct": -0.2586,
+          "source": "twse"
+        }
+      ]
+    },
+    "00922": {
+      "code": "00922",
+      "name": "國泰台灣領袖50(基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 40.39,
+          "nav": 40.32,
+          "premium_discount_pct": 0.1736,
+          "source": "twse"
+        }
+      ]
+    },
+    "00923": {
+      "code": "00923",
+      "name": "群益台ESG低碳50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 42.02,
+          "nav": 41.86,
+          "premium_discount_pct": 0.3822,
+          "source": "twse"
+        }
+      ]
+    },
+    "00924": {
+      "code": "00924",
+      "name": "復華S&P500成長",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 32.63,
+          "nav": 32.84,
+          "premium_discount_pct": -0.6395,
+          "source": "twse"
+        }
+      ]
+    },
+    "00926": {
+      "code": "00926",
+      "name": "凱基全球菁英55",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 25.17,
+          "nav": 25.23,
+          "premium_discount_pct": -0.2378,
+          "source": "twse"
+        }
+      ]
+    },
+    "00927": {
+      "code": "00927",
+      "name": "群益半導體收益",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 41.61,
+          "nav": 41.52,
+          "premium_discount_pct": 0.2168,
+          "source": "twse"
+        }
+      ]
+    },
+    "00928": {
+      "code": "00928",
+      "name": "中信上櫃ESG30",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 36.79,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00929": {
+      "code": "00929",
+      "name": "復華台灣科技優息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 30.19,
+          "nav": 30.14,
+          "premium_discount_pct": 0.1659,
+          "source": "twse"
+        }
+      ]
+    },
+    "00930": {
+      "code": "00930",
+      "name": "永豐ESG低碳高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 24.48,
+          "nav": 24.58,
+          "premium_discount_pct": -0.4068,
+          "source": "twse"
+        }
+      ]
+    },
+    "00931B": {
+      "code": "00931B",
+      "name": "統一美債20年",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.55,
+          "nav": 13.57,
+          "premium_discount_pct": -0.1474,
+          "source": "twse"
+        }
+      ]
+    },
+    "00932": {
+      "code": "00932",
+      "name": "兆豐永續高息等權",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.82,
+          "nav": 17.9,
+          "premium_discount_pct": -0.4469,
+          "source": "twse"
+        }
+      ]
+    },
+    "00933B": {
+      "code": "00933B",
+      "name": "國泰10Y+金融債(基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.13,
+          "nav": 16.231,
+          "premium_discount_pct": -0.6223,
+          "source": "twse"
+        }
+      ]
+    },
+    "00934": {
+      "code": "00934",
+      "name": "中信成長高股息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 27.97,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00935": {
+      "code": "00935",
+      "name": "野村臺灣新科技50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 58.95,
+          "nav": 58.62,
+          "premium_discount_pct": 0.5629,
+          "source": "twse"
+        }
+      ]
+    },
+    "00936": {
+      "code": "00936",
+      "name": "台新臺灣永續高息中小型ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 20.91,
+          "nav": 20.94,
+          "premium_discount_pct": -0.1433,
+          "source": "twse"
+        }
+      ]
+    },
+    "00937B": {
+      "code": "00937B",
+      "name": "群益ESG投等債20+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.91,
+          "nav": 14.9563,
+          "premium_discount_pct": -0.3096,
+          "source": "twse"
+        }
+      ]
+    },
+    "00938": {
+      "code": "00938",
+      "name": "凱基優選 30",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 24.6,
+          "nav": 24.59,
+          "premium_discount_pct": 0.0407,
+          "source": "twse"
+        }
+      ]
+    },
+    "00939": {
+      "code": "00939",
+      "name": "統一台灣高息動能",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 21.46,
+          "nav": 21.5,
+          "premium_discount_pct": -0.186,
+          "source": "twse"
+        }
+      ]
+    },
+    "00940": {
+      "code": "00940",
+      "name": "元大台灣價值高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 12.53,
+          "nav": 12.56,
+          "premium_discount_pct": -0.2389,
+          "source": "twse"
+        }
+      ]
+    },
+    "00941": {
+      "code": "00941",
+      "name": "中信上游半導體",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 27.88,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00942B": {
+      "code": "00942B",
+      "name": "台新美國20年期以上A級公司債券ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.32,
+          "nav": 14.38,
+          "premium_discount_pct": -0.4172,
+          "source": "twse"
+        }
+      ]
+    },
+    "00943": {
+      "code": "00943",
+      "name": "兆豐電子高息等權",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 22.42,
+          "nav": 22.52,
+          "premium_discount_pct": -0.444,
+          "source": "twse"
+        }
+      ]
+    },
+    "00944": {
+      "code": "00944",
+      "name": "野村趨勢動能高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 21.79,
+          "nav": 21.83,
+          "premium_discount_pct": -0.1832,
+          "source": "twse"
+        }
+      ]
+    },
+    "00945B": {
+      "code": "00945B",
+      "name": "凱基美國非投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.64,
+          "nav": 14.69,
+          "premium_discount_pct": -0.3404,
+          "source": "twse"
+        }
+      ]
+    },
+    "00946": {
+      "code": "00946",
+      "name": "群益科技高息成長",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.4,
+          "nav": 15.42,
+          "premium_discount_pct": -0.1297,
+          "source": "twse"
+        }
+      ]
+    },
+    "00947": {
+      "code": "00947",
+      "name": "台新臺灣IC設計動能ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 37.3,
+          "nav": 37.08,
+          "premium_discount_pct": 0.5933,
+          "source": "twse"
+        }
+      ]
+    },
+    "00948B": {
+      "code": "00948B",
+      "name": "中信優息投資級債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 9.5431,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00949": {
+      "code": "00949",
+      "name": "復華日本龍頭",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 20.66,
+          "nav": 20.76,
+          "premium_discount_pct": -0.4817,
+          "source": "twse"
+        }
+      ]
+    },
+    "00950B": {
+      "code": "00950B",
+      "name": "凱基A級公司債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.11,
+          "nav": 14.15,
+          "premium_discount_pct": -0.2827,
+          "source": "twse"
+        }
+      ]
+    },
+    "00951": {
+      "code": "00951",
+      "name": "台新日本半導體ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.69,
+          "nav": 20.45,
+          "premium_discount_pct": -3.7164,
+          "source": "twse"
+        }
+      ]
+    },
+    "00952": {
+      "code": "00952",
+      "name": "凱基台灣AI 50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 18.45,
+          "nav": 18.44,
+          "premium_discount_pct": 0.0542,
+          "source": "twse"
+        }
+      ]
+    },
+    "00953B": {
+      "code": "00953B",
+      "name": "群益優選非投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.72,
+          "nav": 9.7422,
+          "premium_discount_pct": -0.2279,
+          "source": "twse"
+        }
+      ]
+    },
+    "00954": {
+      "code": "00954",
+      "name": "中信日本半導體",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 22.02,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00955": {
+      "code": "00955",
+      "name": "中信日本商社",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 14.15,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00956": {
+      "code": "00956",
+      "name": "中信日經高股息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 12.53,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00957B": {
+      "code": "00957B",
+      "name": "兆豐US優選投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.53,
+          "nav": 13.58,
+          "premium_discount_pct": -0.3682,
+          "source": "twse"
+        }
+      ]
+    },
+    "00958B": {
+      "code": "00958B",
+      "name": "永豐ESG銀行債15+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.37,
+          "nav": 9.37,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00959B": {
+      "code": "00959B",
+      "name": "大華投等美債15Y+ (本基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.43,
+          "nav": 9.45,
+          "premium_discount_pct": -0.2116,
+          "source": "twse"
+        }
+      ]
+    },
+    "00960": {
+      "code": "00960",
+      "name": "野村全球航運龍頭",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.76,
+          "nav": 17.89,
+          "premium_discount_pct": -0.7267,
+          "source": "twse"
+        }
+      ]
+    },
+    "00962": {
+      "code": "00962",
+      "name": "台新臺灣AI優息動能ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.81,
+          "nav": 14.86,
+          "premium_discount_pct": -0.3365,
+          "source": "twse"
+        }
+      ]
+    },
+    "00963": {
+      "code": "00963",
+      "name": "中信全球高股息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 12.76,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00964": {
+      "code": "00964",
+      "name": "中信亞太高股息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 14.22,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00965": {
+      "code": "00965",
+      "name": "元大全球航太與防衛科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 24.76,
+          "nav": 24.9,
+          "premium_discount_pct": -0.5622,
+          "source": "twse"
+        }
+      ]
+    },
+    "00966B": {
+      "code": "00966B",
+      "name": "統一ESG投等債15+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.98,
+          "nav": 14.0,
+          "premium_discount_pct": -0.1429,
+          "source": "twse"
+        }
+      ]
+    },
+    "00967B": {
+      "code": "00967B",
+      "name": "元大優息美債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.15,
+          "nav": 9.1981,
+          "premium_discount_pct": -0.5229,
+          "source": "twse"
+        }
+      ]
+    },
+    "00968B": {
+      "code": "00968B",
+      "name": "元大優息投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.3,
+          "nav": 9.3488,
+          "premium_discount_pct": -0.522,
+          "source": "twse"
+        }
+      ]
+    },
+    "00969B": {
+      "code": "00969B",
+      "name": "元大零息超長美債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 8.33,
+          "nav": 8.3044,
+          "premium_discount_pct": 0.3083,
+          "source": "twse"
+        }
+      ]
+    },
+    "00970B": {
+      "code": "00970B",
+      "name": "新光20年期以上BBB美元投資等級公司債ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.44,
+          "nav": 9.46,
+          "premium_discount_pct": -0.2114,
+          "source": "twse"
+        }
+      ]
+    },
+    "00971": {
+      "code": "00971",
+      "name": "野村美國研發龍頭",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.09,
+          "nav": 17.17,
+          "premium_discount_pct": -0.4659,
+          "source": "twse"
+        }
+      ]
+    },
+    "00972": {
+      "code": "00972",
+      "name": "野村日本動能高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.99,
+          "nav": 20.16,
+          "premium_discount_pct": -0.8433,
+          "source": "twse"
+        }
+      ]
+    },
+    "009800": {
+      "code": "009800",
+      "name": "中信NASDAQ",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 13.3,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "009801": {
+      "code": "009801",
+      "name": "中信美國創新科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 12.6,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "009802": {
+      "code": "009802",
+      "name": "富邦旗艦50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 18.98,
+          "nav": 18.96,
+          "premium_discount_pct": 0.1055,
+          "source": "twse"
+        }
+      ]
+    },
+    "009803": {
+      "code": "009803",
+      "name": "玉山市值動能50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 21.32,
+          "nav": 21.23,
+          "premium_discount_pct": 0.4239,
+          "source": "twse"
+        }
+      ]
+    },
+    "009804": {
+      "code": "009804",
+      "name": "聯邦台灣精彩50ETF證券投資信託基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 23.6,
+          "nav": 23.5,
+          "premium_discount_pct": 0.4255,
+          "source": "twse"
+        }
+      ]
+    },
+    "009805": {
+      "code": "009805",
+      "name": "新光美國電力基建息收ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.6,
+          "nav": 16.67,
+          "premium_discount_pct": -0.4199,
+          "source": "twse"
+        }
+      ]
+    },
+    "009806": {
+      "code": "009806",
+      "name": "台新標普500 ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.45,
+          "nav": 13.49,
+          "premium_discount_pct": -0.2965,
+          "source": "twse"
+        }
+      ]
+    },
+    "009807": {
+      "code": "009807",
+      "name": "台新標普科技精選ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.64,
+          "nav": 16.73,
+          "premium_discount_pct": -0.538,
+          "source": "twse"
+        }
+      ]
+    },
+    "009808": {
+      "code": "009808",
+      "name": "華南永昌優選50(本基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 31.15,
+          "nav": 31.23,
+          "premium_discount_pct": -0.2562,
+          "source": "twse"
+        }
+      ]
+    },
+    "009809": {
+      "code": "009809",
+      "name": "富邦淨零ESG50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.8,
+          "nav": 17.8,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00980A": {
+      "code": "00980A",
+      "name": "主動野村臺灣優選",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 23.64,
+          "nav": 23.66,
+          "premium_discount_pct": -0.0845,
+          "source": "twse"
+        }
+      ]
+    },
+    "00980B": {
+      "code": "00980B",
+      "name": "台新10年期以上特選全球BBB美元投資等級公司債券ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.54,
+          "nav": 9.57,
+          "premium_discount_pct": -0.3135,
+          "source": "twse"
+        }
+      ]
+    },
+    "00980D": {
+      "code": "00980D",
+      "name": "主動聯博投等入息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 20.54,
+          "nav": 20.5994,
+          "premium_discount_pct": -0.2884,
+          "source": "twse"
+        }
+      ]
+    },
+    "00980T": {
+      "code": "00980T",
+      "name": "平衡凱基美國TOP",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 11.51,
+          "nav": 11.58,
+          "premium_discount_pct": -0.6045,
+          "source": "twse"
+        }
+      ]
+    },
+    "009810": {
+      "code": "009810",
+      "name": "玉山全球藍籌100",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 20.72,
+          "nav": 20.78,
+          "premium_discount_pct": -0.2887,
+          "source": "twse"
+        }
+      ]
+    },
+    "009811": {
+      "code": "009811",
+      "name": "統一美國50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.05,
+          "nav": 13.09,
+          "premium_discount_pct": -0.3056,
+          "source": "twse"
+        }
+      ]
+    },
+    "009812": {
+      "code": "009812",
+      "name": "野村日本東證ETF",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 12.45,
+          "nav": 12.54,
+          "premium_discount_pct": -0.7177,
+          "source": "twse"
+        }
+      ]
+    },
+    "009813": {
+      "code": "009813",
+      "name": "貝萊德標普卓越50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 11.14,
+          "nav": 11.2,
+          "premium_discount_pct": -0.5357,
+          "source": "twse"
+        }
+      ]
+    },
+    "009814": {
+      "code": "009814",
+      "name": "富邦標普500",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 11.2,
+          "nav": 11.24,
+          "premium_discount_pct": -0.3559,
+          "source": "twse"
+        }
+      ]
+    },
+    "009815": {
+      "code": "009815",
+      "name": "大華美國MAG7+",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 11.25,
+          "nav": 11.34,
+          "premium_discount_pct": -0.7937,
+          "source": "twse"
+        }
+      ]
+    },
+    "009816": {
+      "code": "009816",
+      "name": "凱基台灣TOP50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.23,
+          "nav": 15.17,
+          "premium_discount_pct": 0.3955,
+          "source": "twse"
+        }
+      ]
+    },
+    "009817": {
+      "code": "009817",
+      "name": "國泰日本不動產",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.03,
+          "nav": 9.13,
+          "premium_discount_pct": -1.0953,
+          "source": "twse"
+        }
+      ]
+    },
+    "009818": {
+      "code": "009818",
+      "name": "華南永昌NASDAQxT",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.87,
+          "nav": 20.3,
+          "premium_discount_pct": -2.1182,
+          "source": "twse"
+        }
+      ]
+    },
+    "009819": {
+      "code": "009819",
+      "name": "中信數據及電力",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 10.4,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00981A": {
+      "code": "00981A",
+      "name": "主動統一台股增長",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 29.95,
+          "nav": 29.87,
+          "premium_discount_pct": 0.2678,
+          "source": "twse"
+        }
+      ]
+    },
+    "00981B": {
+      "code": "00981B",
+      "name": "第一金優選非投債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.32,
+          "nav": 9.3492,
+          "premium_discount_pct": -0.3123,
+          "source": "twse"
+        }
+      ]
+    },
+    "00981D": {
+      "code": "00981D",
+      "name": "主動中信非投等債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 10.5287,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00981T": {
+      "code": "00981T",
+      "name": "平衡凱基雙核收息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 12.24,
+          "nav": 12.21,
+          "premium_discount_pct": 0.2457,
+          "source": "twse"
+        }
+      ]
+    },
+    "009820": {
+      "code": "009820",
+      "name": "元大納斯達克精選",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.86,
+          "nav": 9.89,
+          "premium_discount_pct": -0.3033,
+          "source": "twse"
+        }
+      ]
+    },
+    "009821": {
+      "code": "009821",
+      "name": "野村稀土關鍵資源",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.35,
+          "nav": 13.52,
+          "premium_discount_pct": -1.2574,
+          "source": "twse"
+        }
+      ]
+    },
+    "009822": {
+      "code": "009822",
+      "name": "華南永昌未來金融",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.73,
+          "nav": 9.95,
+          "premium_discount_pct": -2.2111,
+          "source": "twse"
+        }
+      ]
+    },
+    "009823": {
+      "code": "009823",
+      "name": "群益S&P500",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.3,
+          "nav": 10.32,
+          "premium_discount_pct": -0.1938,
+          "source": "twse"
+        }
+      ]
+    },
+    "009824": {
+      "code": "009824",
+      "name": "群益美國科技巨頭",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.05,
+          "nav": 10.13,
+          "premium_discount_pct": -0.7897,
+          "source": "twse"
+        }
+      ]
+    },
+    "009825": {
+      "code": "009825",
+      "name": "聯邦美國金融創新ETF證券投資信託基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.95,
+          "nav": 9.96,
+          "premium_discount_pct": -0.1004,
+          "source": "twse"
+        }
+      ]
+    },
+    "00982A": {
+      "code": "00982A",
+      "name": "主動群益台灣強棒",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 24.02,
+          "nav": 24.0,
+          "premium_discount_pct": 0.0833,
+          "source": "twse"
+        }
+      ]
+    },
+    "00982D": {
+      "code": "00982D",
+      "name": "主動富邦動態入息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 9.97,
+          "nav": 9.9809,
+          "premium_discount_pct": -0.1092,
+          "source": "twse"
+        }
+      ]
+    },
+    "00982T": {
+      "code": "00982T",
+      "name": "兆豐台美動能股債平衡",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.5,
+          "nav": 15.65,
+          "premium_discount_pct": -0.9585,
+          "source": "twse"
+        }
+      ]
+    },
+    "00983A": {
+      "code": "00983A",
+      "name": "主動中信ARK創新",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 12.58,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00983B": {
+      "code": "00983B",
+      "name": "大華優利美公債20(本基金並無保證收益及配息且配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.66,
+          "nav": 15.72,
+          "premium_discount_pct": -0.3817,
+          "source": "twse"
+        }
+      ]
+    },
+    "00983D": {
+      "code": "00983D",
+      "name": "主動富邦複合收益",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.18,
+          "nav": 10.21,
+          "premium_discount_pct": -0.2938,
+          "source": "twse"
+        }
+      ]
+    },
+    "00984A": {
+      "code": "00984A",
+      "name": "主動安聯台灣高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.3,
+          "nav": 16.25,
+          "premium_discount_pct": 0.3077,
+          "source": "twse"
+        }
+      ]
+    },
+    "00984B": {
+      "code": "00984B",
+      "name": "大華優利美A債15(本基金並無保證收益及配息且配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.32,
+          "nav": 16.38,
+          "premium_discount_pct": -0.3663,
+          "source": "twse"
+        }
+      ]
+    },
+    "00984D": {
+      "code": "00984D",
+      "name": "主動聯博全球非投",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.16,
+          "nav": 10.153,
+          "premium_discount_pct": 0.0689,
+          "source": "twse"
+        }
+      ]
+    },
+    "00985A": {
+      "code": "00985A",
+      "name": "主動野村台灣50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 21.69,
+          "nav": 21.74,
+          "premium_discount_pct": -0.23,
+          "source": "twse"
+        }
+      ]
+    },
+    "00985B": {
+      "code": "00985B",
+      "name": "群益ESG投等債0-5",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.31,
+          "nav": 10.335,
+          "premium_discount_pct": -0.2419,
+          "source": "twse"
+        }
+      ]
+    },
+    "00985D": {
+      "code": "00985D",
+      "name": "主動貝萊德優投等",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.2,
+          "nav": 10.23,
+          "premium_discount_pct": -0.2933,
+          "source": "twse"
+        }
+      ]
+    },
+    "00986A": {
+      "code": "00986A",
+      "name": "台新全球龍頭成長主動式ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.92,
+          "nav": 14.93,
+          "premium_discount_pct": -0.067,
+          "source": "twse"
+        }
+      ]
+    },
+    "00986D": {
+      "code": "00986D",
+      "name": "主動復華金融債息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 14.82,
+          "nav": 14.83,
+          "premium_discount_pct": -0.0674,
+          "source": "twse"
+        }
+      ]
+    },
+    "00987A": {
+      "code": "00987A",
+      "name": "台新台灣優勢成長主動式ETF基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 16.06,
+          "nav": 16.06,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00987B": {
+      "code": "00987B",
+      "name": "野村10+澳洲公債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.9,
+          "nav": 15.98,
+          "premium_discount_pct": -0.5006,
+          "source": "twse"
+        }
+      ]
+    },
+    "00988A": {
+      "code": "00988A",
+      "name": "主動統一全球創新",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.17,
+          "nav": 19.34,
+          "premium_discount_pct": -0.879,
+          "source": "twse"
+        }
+      ]
+    },
+    "00988B": {
+      "code": "00988B",
+      "name": "玉山嚴選非投債",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 20.0,
+          "nav": 19.98,
+          "premium_discount_pct": 0.1001,
+          "source": "twse"
+        }
+      ]
+    },
+    "00989A": {
+      "code": "00989A",
+      "name": "主動摩根美國科技",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.66,
+          "nav": 17.75,
+          "premium_discount_pct": -0.507,
+          "source": "twse"
+        }
+      ]
+    },
+    "00989B": {
+      "code": "00989B",
+      "name": "台新美國優選收益非投資等級債券ETF證券投資信託基金",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.27,
+          "nav": 10.29,
+          "premium_discount_pct": -0.1944,
+          "source": "twse"
+        }
+      ]
+    },
+    "00990A": {
+      "code": "00990A",
+      "name": "主動元大AI新經濟",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.96,
+          "nav": 17.98,
+          "premium_discount_pct": -0.1112,
+          "source": "twse"
+        }
+      ]
+    },
+    "00990B": {
+      "code": "00990B",
+      "name": "國泰收益非投等債(基金之配息來源可能為收益平準金)",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.0,
+          "nav": 10.0198,
+          "premium_discount_pct": -0.1976,
+          "source": "twse"
+        }
+      ]
+    },
+    "00991A": {
+      "code": "00991A",
+      "name": "主動復華未來50",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 19.51,
+          "nav": 19.42,
+          "premium_discount_pct": 0.4634,
+          "source": "twse"
+        }
+      ]
+    },
+    "00992A": {
+      "code": "00992A",
+      "name": "主動群益科技創新",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.83,
+          "nav": 17.82,
+          "premium_discount_pct": 0.0561,
+          "source": "twse"
+        }
+      ]
+    },
+    "00993A": {
+      "code": "00993A",
+      "name": "主動安聯台灣",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 13.34,
+          "nav": 13.39,
+          "premium_discount_pct": -0.3734,
+          "source": "twse"
+        }
+      ]
+    },
+    "00994A": {
+      "code": "00994A",
+      "name": "主動第一金台股優",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.09,
+          "nav": 17.09,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00995A": {
+      "code": "00995A",
+      "name": "主動中信台灣卓越",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 0.0,
+          "nav": 17.32,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        }
+      ]
+    },
+    "00996A": {
+      "code": "00996A",
+      "name": "兆豐主動台灣豐收",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 15.04,
+          "nav": 15.06,
+          "premium_discount_pct": -0.1328,
+          "source": "twse"
+        }
+      ]
+    },
+    "00997A": {
+      "code": "00997A",
+      "name": "主動群益美國增長",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 12.15,
+          "nav": 12.27,
+          "premium_discount_pct": -0.978,
+          "source": "twse"
+        }
+      ]
+    },
+    "00998A": {
+      "code": "00998A",
+      "name": "主動復華金融股息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 17.12,
+          "nav": 17.18,
+          "premium_discount_pct": -0.3492,
+          "source": "twse"
+        }
+      ]
+    },
+    "00999A": {
+      "code": "00999A",
+      "name": "主動野村臺灣高息",
+      "rows": [
+        {
+          "date": "2026-07-12",
+          "close": 10.7,
+          "nav": 10.73,
+          "premium_discount_pct": -0.2796,
+          "source": "twse"
+        }
+      ]
+    }
+  },
+  "updated_at": "2026-07-12T21:29:45.934925+08:00"
+}

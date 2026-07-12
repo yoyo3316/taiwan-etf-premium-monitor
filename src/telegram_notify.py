@@ -51,8 +51,27 @@ def format_alert_message(
         f"折溢價：{rate_s}",
         f"通知類型：{type_label}",
         f"資料時間：{data_time}",
-        f"資料來源：{TWSE_INDICATOR_PAGE}",
+        f"資料來源（即時）：{TWSE_INDICATOR_PAGE}",
     ]
+
+    # Optional convergence reference (WantGoo history preferred)
+    conv_line = row.get("convergence_brief")
+    if conv_line:
+        lines.append(str(conv_line))
+    st = (row.get("convergence") or {}).get("stats") or {}
+    if st.get("sample_size"):
+        lines.append(
+            f"收斂細節：隔日收斂率 {st.get('converge_rate', 0)*100:.0f}%｜"
+            f"惡化率 {st.get('worsen_rate', 0)*100:.0f}%｜"
+            f"n={st.get('sample_size')}｜"
+            f"來源 {(row.get('convergence') or {}).get('history_source')}"
+        )
+    wg = (row.get("convergence") or {}).get("wantgoo_page") or row.get(
+        "wantgoo_page"
+    )
+    if wg:
+        lines.append(f"玩股網歷史：{wg}")
+
     if dash:
         lines.append(f"儀表板：{dash}")
     else:
@@ -61,6 +80,7 @@ def format_alert_message(
             f"（部署後至 {GITHUB_REPO_URL} 查看 README）"
         )
     lines.append(f"專案：{GITHUB_REPO_URL}")
+    lines.append("※收斂統計僅供參考，非投資建議")
     return "\n".join(lines)
 
 

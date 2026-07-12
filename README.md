@@ -15,7 +15,8 @@
 | 排程 | GitHub Actions 每 5 分鐘（UTC cron + 程式內 Asia/Taipei 再驗證） |
 | 通知 | Telegram Bot（憑證僅來自環境變數／Secrets） |
 | 防洗版 | 同一 ETF、同一方向在恢復正常前只通知一次 |
-| 儀表板 | Streamlit：總覽、排行、搜尋、告警清單、閾值設定 |
+| 儀表板 | Streamlit：總覽、排行、搜尋、告警清單、隔日收斂參考、閾值設定 |
+| 歷史收斂 | **玩股網**歷史折溢價作參考（可選）；失敗時用本系統 TWSE 日結累積 |
 
 ## 資料來源（已驗證）
 
@@ -148,8 +149,26 @@ streamlit run streamlit_app.py
 - 類型：溢價警示／折價警示  
 - 資料時間  
 - TWSE 資料來源連結  
+- **隔日收斂參考**（玩股網歷史優先；樣本不足會註明）  
+- 玩股網該檔歷史頁連結  
 - **儀表板網址**（環境變數 `DASHBOARD_URL`）  
 - GitHub 專案連結  
+
+### 隔日收斂怎麼算（玩股網參考）
+
+頁面範例：`https://www.wantgoo.com/stock/etf/00685l/discount-premium`  
+
+前端實際請求：
+
+- `GET /stock/etf/{code}/discount-premium-data`（淨值序列）  
+- `GET /investrue/{code}/daily-candlesticks?after=...`（收盤價）  
+
+公式與玩股網相同：`(市價 − 淨值) / 淨值 × 100%`  
+
+**隔日收斂率**：歷史上當 |折溢價| ≥ 門檻 的交易日，隔日 |折溢價| 變小的比例。  
+
+> 注意：玩股網部分 JSON 端點可能對自動化請求回 `400 BadRequest`（站方限制）。  
+> 系統會改以本專案每日累積的 TWSE 折溢價序列作備援；樣本隨交易日增加而變準。
 
 ### 防洗版規則
 

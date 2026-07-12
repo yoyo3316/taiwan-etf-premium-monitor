@@ -100,9 +100,28 @@ def test_parse_all_etf_minimal():
     assert rows[0]["market_price"] == 100.0
 
 
+def test_convergence_next_day():
+    from src.convergence import compute_next_day_convergence
+
+    series = [
+        {"date": "2026-01-01", "premium_discount_pct": 4.0},
+        {"date": "2026-01-02", "premium_discount_pct": 1.0},  # converge
+        {"date": "2026-01-03", "premium_discount_pct": 5.0},
+        {"date": "2026-01-04", "premium_discount_pct": 6.0},  # worsen
+        {"date": "2026-01-05", "premium_discount_pct": 0.5},  # from 6 -> 0.5 also event
+        {"date": "2026-01-06", "premium_discount_pct": -4.0},
+        {"date": "2026-01-07", "premium_discount_pct": -1.0},  # converge
+    ]
+    # events at: 4->1, 5->6, 6->0.5, -4->-1  => 4 samples, 3 converge
+    st = compute_next_day_convergence(series, abs_threshold=3.0)
+    assert st["sample_size"] == 4
+    assert abs(st["converge_rate"] - 0.75) < 1e-9
+
+
 if __name__ == "__main__":
     test_compute_premium_discount()
     test_evaluate_cross_check_anomaly()
     test_evaluate_premium_alert()
     test_parse_all_etf_minimal()
+    test_convergence_next_day()
     print("all tests passed")

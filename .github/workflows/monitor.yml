@@ -65,7 +65,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p data
-          git add data/latest.json data/alert_state.json data/settings.json || true
+          git add data/latest.json data/alert_state.json data/settings.json data/history/twse_eod.json || true
           if git diff --staged --quiet; then
             echo "No data changes to commit"
           else

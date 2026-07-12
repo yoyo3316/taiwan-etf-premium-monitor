@@ -28,3 +28,6 @@ htmlcov/
 tmp_*.py
 data/_wantgoo*
 data/history/wantgoo/
+# Probe / temp artifacts
+data/_*
+scripts/probe_*

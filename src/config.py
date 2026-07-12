@@ -44,9 +44,10 @@ CROSS_CHECK_TOLERANCE_PP = 0.05  # percentage points
 
 # Public links (not secrets)
 GITHUB_REPO_URL = "https://github.com/yoyo3316/taiwan-etf-premium-monitor"
-# Set DASHBOARD_URL after Streamlit Community Cloud deploy, e.g.
-# https://xxxx.streamlit.app
-DEFAULT_DASHBOARD_URL = ""
+# Streamlit Community Cloud (override with env DASHBOARD_URL if redeployed)
+DEFAULT_DASHBOARD_URL = (
+    "https://yoyo3316-taiwan-etf-premium-monitor-streamlit-app-0sobwl.streamlit.app"
+)
 
 
 def _float_env(name: str, default: float) -> float:

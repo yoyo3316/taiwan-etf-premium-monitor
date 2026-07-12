@@ -34,30 +34,107 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Spacing: leave room for Streamlit Cloud top toolbar (Deploy/Share)
-# so the title is not clipped. Avoid theme color overrides.
+# Finance-style palette (light, high contrast). Leave room under Cloud Share bar.
 st.markdown(
     """
     <style>
-      /* Streamlit Cloud header/share bar ~3–4rem */
+      :root {
+        --bg: #f1f5f9;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #64748b;
+        --line: #e2e8f0;
+        --blue: #1d4ed8;
+        --blue-soft: #eff6ff;
+        --red: #b91c1c;
+        --red-soft: #fef2f2;
+        --green: #166534;
+        --green-soft: #ecfdf5;
+        --amber: #b45309;
+        --amber-soft: #fffbeb;
+      }
+      .stApp { background: var(--bg); }
       .block-container {
-        padding-top: 3.5rem !important;
-        padding-bottom: 1.5rem !important;
-        max-width: 1100px;
+        padding-top: 3.75rem !important;
+        padding-bottom: 2rem !important;
+        max-width: 1080px;
       }
-      header[data-testid="stHeader"] {
-        background: transparent;
+      header[data-testid="stHeader"] { background: rgba(241,245,249,.92); }
+      section[data-testid="stSidebar"] {
+        background: #f8fafc !important;
+        border-right: 1px solid var(--line);
       }
-      h1 {
-        font-size: 1.45rem !important;
-        margin-top: 0.25rem !important;
-        margin-bottom: 0.15rem !important;
+      /* Title strip */
+      .app-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 55%, #1d4ed8 100%);
+        color: #fff;
+        border-radius: 14px;
+        padding: 0.9rem 1.15rem;
+        margin-bottom: 0.85rem;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+      }
+      .app-hero h1 {
+        margin: 0 !important;
+        font-size: 1.35rem !important;
+        font-weight: 700 !important;
+        color: #fff !important;
         line-height: 1.3 !important;
       }
-      div[data-testid="stMetricValue"] { font-size: 1.1rem !important; }
-      div[data-testid="stMetricLabel"] { font-size: 0.85rem !important; }
-      /* Tighter vertical gaps */
-      div[data-testid="stVerticalBlock"] > div { gap: 0.4rem; }
+      .app-hero .sub {
+        margin-top: 0.25rem;
+        font-size: 0.86rem;
+        color: #cbd5e1;
+      }
+      /* Status chips */
+      .chip-row { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.35rem 0 0.75rem 0; }
+      .chip {
+        display: inline-flex; align-items: center; gap: 0.35rem;
+        border-radius: 999px; padding: 0.28rem 0.7rem;
+        font-size: 0.86rem; font-weight: 600;
+        border: 1px solid transparent;
+      }
+      .chip-time { background: #fff; color: #0f172a; border-color: var(--line); }
+      .chip-open { background: var(--green-soft); color: var(--green); border-color: #bbf7d0; }
+      .chip-pre { background: var(--blue-soft); color: var(--blue); border-color: #bfdbfe; }
+      .chip-closed { background: var(--amber-soft); color: var(--amber); border-color: #fde68a; }
+      .chip-alert { background: var(--red-soft); color: var(--red); border-color: #fecaca; }
+      .chip-ok { background: var(--green-soft); color: var(--green); border-color: #bbf7d0; }
+      /* Card for attention table */
+      .panel {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 0.85rem 1rem 1rem 1rem;
+        box-shadow: 0 1px 2px rgba(15,23,42,.04);
+      }
+      .panel h3 {
+        margin: 0 0 0.2rem 0 !important;
+        font-size: 1.05rem !important;
+        color: var(--text) !important;
+      }
+      .panel .hint { color: var(--muted); font-size: 0.84rem; margin-bottom: 0.55rem; }
+      /* Metrics */
+      div[data-testid="stMetric"] {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 0.55rem 0.75rem;
+      }
+      div[data-testid="stMetricValue"] {
+        font-size: 1.15rem !important;
+        color: #0f172a !important;
+        font-weight: 700 !important;
+      }
+      div[data-testid="stMetricLabel"] {
+        font-size: 0.82rem !important;
+        color: #64748b !important;
+      }
+      /* Dataframe */
+      [data-testid="stDataFrame"] {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        overflow: hidden;
+      }
     </style>
     """,
     unsafe_allow_html=True,
@@ -391,14 +468,21 @@ def _attention_df(over: list[dict], thr_abs: float) -> pd.DataFrame:
 
 
 def main() -> None:
-    # Compact header — avoid multi-line clutter under Cloud Share toolbar
-    st.markdown("### 📊 台灣 ETF 折溢價")
+    st.markdown(
+        """
+        <div class="app-hero">
+          <h1>📊 台灣 ETF 折溢價監控</h1>
+          <div class="sub">超標清單 · 點代號看玩股網歷史 · 僅供輔助參考</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
     file_settings = load_settings_file()
     sess = session_status()
 
     with st.sidebar:
-        st.header("設定")
+        st.markdown("### 設定")
         premium = st.number_input(
             "溢價門檻 (%)",
             value=float(file_settings.get("premium_threshold", 3.0)),
@@ -460,17 +544,24 @@ def main() -> None:
     in_session = sess.get("in_session")
     if in_session and state == "pre_market":
         sess_label = "盤前"
+        chip_cls = "chip-pre"
     elif in_session:
         sess_label = "盤中"
+        chip_cls = "chip-open"
     elif state == "closed_day":
         sess_label = "休市"
+        chip_cls = "chip-closed"
     else:
         sess_label = sess.get("reason") or "非盤中"
+        chip_cls = "chip-closed"
 
     over = [r for r in rows if r.get("over_threshold")]
     thr_abs = max(abs(float(premium)), abs(float(discount)))
+    n_prem = sum(1 for r in over if r.get("alert_direction") == "premium")
+    n_disc = sum(1 for r in over if r.get("alert_direction") == "discount")
+    alert_chip = "chip-alert" if over else "chip-ok"
 
-    # Enrich attention list with convergence (best-effort, no live WantGoo spam)
+    # Enrich attention list with convergence (best-effort)
     for r in over[:20]:
         code = str(r.get("code") or "")
         if not code:
@@ -485,16 +576,22 @@ def main() -> None:
         )
         r["convergence"] = analysis
 
-    # ---- One-line status: update time only ----
-    c1, c2, c3 = st.columns([1.4, 1, 1.2])
-    c1.metric("更新時間", fetched)
-    c2.metric("狀態", sess_label)
-    c3.metric("需留意", f"{len(over)} 檔")
+    st.markdown(
+        f"""
+        <div class="chip-row">
+          <span class="chip chip-time">🕐 更新 {fetched}</span>
+          <span class="chip {chip_cls}">● {sess_label}</span>
+          <span class="chip {alert_chip}">⚡ 需留意 {len(over)} 檔
+            （溢價 {n_prem}／折價 {n_disc}）</span>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
-    st.markdown("#### ⚡ 需留意")
+    st.markdown("### ⚡ 需留意")
     st.caption(
-        f"門檻 溢價≥+{premium:.2f}% / 折價≤{discount:.2f}% · "
-        "點**代號**開玩股網歷史折溢價"
+        f"門檻 溢價 ≥ +{premium:.2f}% ／ 折價 ≤ {discount:.2f}% · "
+        "點 **代號** 開玩股網歷史 · 🔴溢價 🔵折價"
     )
 
     if not over:

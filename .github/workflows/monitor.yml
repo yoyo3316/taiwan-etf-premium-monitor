@@ -47,10 +47,12 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          # Optional repo Variables; empty falls back to code defaults (3.0 / -3.0 / 10)
+          # Optional repo Variables; empty falls back to code defaults
           PREMIUM_THRESHOLD: ${{ vars.PREMIUM_THRESHOLD }}
           DISCOUNT_THRESHOLD: ${{ vars.DISCOUNT_THRESHOLD }}
           DATA_MAX_AGE_MINUTES: ${{ vars.DATA_MAX_AGE_MINUTES }}
+          # Set after Streamlit deploy: Settings → Secrets and variables → Variables
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
           FORCE_FLAG=""
           if [ "${{ github.event.inputs.force_notify }}" = "true" ]; then

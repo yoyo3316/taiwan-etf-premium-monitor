@@ -7,19 +7,26 @@ from typing import Any
 
 import requests
 
-from .config import TWSE_INDICATOR_PAGE
+from .config import GITHUB_REPO_URL, TWSE_INDICATOR_PAGE
 
 logger = logging.getLogger(__name__)
 
 
-def format_alert_message(row: dict[str, Any]) -> str:
+def format_alert_message(
+    row: dict[str, Any],
+    *,
+    dashboard_url: str | None = None,
+) -> str:
     direction = row.get("alert_direction")
     if direction == "premium":
         title = "🔴 溢價警示"
+        type_label = "溢價警示"
     elif direction == "discount":
         title = "🔵 折價警示"
+        type_label = "折價警示"
     else:
         title = "⚠️ ETF 折溢價警示"
+        type_label = "折溢價警示"
 
     rate = row.get("premium_discount_pct")
     rate_s = f"{rate:+.2f}%" if isinstance(rate, (int, float)) else "N/A"
@@ -31,6 +38,9 @@ def format_alert_message(row: dict[str, Any]) -> str:
         f"{row.get('data_date', '')} {row.get('data_time', '')}".strip()
     )
 
+    # Prefer explicit dashboard URL; allow per-row override
+    dash = (row.get("dashboard_url") or dashboard_url or "").strip()
+
     lines = [
         title,
         "",
@@ -39,10 +49,18 @@ def format_alert_message(row: dict[str, Any]) -> str:
         f"市價：{price_s}",
         f"預估淨值／指標價值：{nav_s}",
         f"折溢價：{rate_s}",
-        f"通知類型：{'溢價警示' if direction == 'premium' else '折價警示'}",
+        f"通知類型：{type_label}",
         f"資料時間：{data_time}",
         f"資料來源：{TWSE_INDICATOR_PAGE}",
     ]
+    if dash:
+        lines.append(f"儀表板：{dash}")
+    else:
+        lines.append(
+            "儀表板：尚未設定 DASHBOARD_URL"
+            f"（部署後至 {GITHUB_REPO_URL} 查看 README）"
+        )
+    lines.append(f"專案：{GITHUB_REPO_URL}")
     return "\n".join(lines)
 
 
@@ -83,9 +101,12 @@ def notify_alert(
     bot_token: str | None,
     chat_id: str | None,
     row: dict[str, Any],
+    *,
+    dashboard_url: str | None = None,
 ) -> bool:
+    text = format_alert_message(row, dashboard_url=dashboard_url)
     if not bot_token or not chat_id:
         logger.warning("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set; dry-run")
-        logger.info("Would notify:\n%s", format_alert_message(row))
+        logger.info("Would notify:\n%s", text)
         return False
-    return send_telegram_message(bot_token, chat_id, format_alert_message(row))
+    return send_telegram_message(bot_token, chat_id, text)

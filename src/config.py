@@ -42,6 +42,12 @@ DEFAULT_DATA_MAX_AGE_MINUTES = 10
 PREMARKET_DATA_MAX_AGE_MINUTES = 18 * 60  # 18 hours
 CROSS_CHECK_TOLERANCE_PP = 0.05  # percentage points
 
+# Public links (not secrets)
+GITHUB_REPO_URL = "https://github.com/yoyo3316/taiwan-etf-premium-monitor"
+# Set DASHBOARD_URL after Streamlit Community Cloud deploy, e.g.
+# https://xxxx.streamlit.app
+DEFAULT_DASHBOARD_URL = ""
+
 
 def _float_env(name: str, default: float) -> float:
     raw = os.environ.get(name)
@@ -64,10 +70,12 @@ class Settings:
     data_max_age_minutes: int = DEFAULT_DATA_MAX_AGE_MINUTES
     telegram_bot_token: str | None = None
     telegram_chat_id: str | None = None
+    dashboard_url: str | None = None
     cross_check_tolerance_pp: float = CROSS_CHECK_TOLERANCE_PP
 
     @classmethod
     def from_env(cls) -> "Settings":
+        dash = (os.environ.get("DASHBOARD_URL") or DEFAULT_DASHBOARD_URL or "").strip()
         return cls(
             premium_threshold=_float_env(
                 "PREMIUM_THRESHOLD", DEFAULT_PREMIUM_THRESHOLD
@@ -80,6 +88,7 @@ class Settings:
             ),
             telegram_bot_token=os.environ.get("TELEGRAM_BOT_TOKEN") or None,
             telegram_chat_id=os.environ.get("TELEGRAM_CHAT_ID") or None,
+            dashboard_url=dash or None,
             cross_check_tolerance_pp=CROSS_CHECK_TOLERANCE_PP,
         )
 

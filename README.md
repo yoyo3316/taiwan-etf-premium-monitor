@@ -148,6 +148,8 @@ streamlit run streamlit_app.py
 - 類型：溢價警示／折價警示  
 - 資料時間  
 - TWSE 資料來源連結  
+- **儀表板網址**（環境變數 `DASHBOARD_URL`）  
+- GitHub 專案連結  
 
 ### 防洗版規則
 
@@ -170,7 +172,14 @@ Repo → **Settings → Secrets and variables → Actions**：
 | `TELEGRAM_BOT_TOKEN` | Bot token |
 | `TELEGRAM_CHAT_ID` | 接收聊天室 ID |
 
-可選 **Variables**：`PREMIUM_THRESHOLD`、`DISCOUNT_THRESHOLD`、`DATA_MAX_AGE_MINUTES`。
+可選 **Variables**（Settings → Secrets and variables → Actions → **Variables** 分頁）：
+
+| Variable | 說明 |
+|----------|------|
+| `PREMIUM_THRESHOLD` | 溢價門檻，預設 3.0 |
+| `DISCOUNT_THRESHOLD` | 折價門檻，預設 -3.0 |
+| `DATA_MAX_AGE_MINUTES` | 資料過期分鐘，預設 10 |
+| `DASHBOARD_URL` | Streamlit 儀表板完整網址（會出現在 Telegram 通知裡） |
 
 ### 3. Actions 排程說明
 
@@ -180,13 +189,37 @@ Repo → **Settings → Secrets and variables → Actions**：
 - GitHub 排程**不保證準時**，可能延遲數分鐘甚至更久。
 - 每次成功執行會 commit `data/latest.json` 與 `data/alert_state.json` 供儀表板／狀態使用。
 
-### 4. Streamlit Community Cloud
+### 4. Streamlit Community Cloud（儀表板網址）
 
-1. 登入 [share.streamlit.io](https://share.streamlit.io)
-2. 選擇本 repository
-3. Main file path：`streamlit_app.py`
-4. Python version：3.11（建議）
-5. 部署後即可公開瀏覽儀表板
+> **重要：** GitHub 專案頁**預設不會**自動顯示 `.streamlit.app` 網址。  
+> 網址在 **Streamlit Cloud** 產生，不在 GitHub 的 Code／Releases 裡。
+
+#### 部署步驟
+
+1. 登入 [share.streamlit.io](https://share.streamlit.io)（用 GitHub 帳號）
+2. **Create app** → 選本 repository：`yoyo3316/taiwan-etf-premium-monitor`
+3. Branch：`main`；Main file：`streamlit_app.py`
+4. 按 **Deploy**，等到狀態 **Running**
+5. 複製瀏覽器網址（形如 `https://xxxx.streamlit.app`）
+
+一鍵部署：  
+https://share.streamlit.io/deploy?repository=yoyo3316%2Ftaiwan-etf-premium-monitor&branch=main&mainModule=streamlit_app.py
+
+#### 之後如何找回網址
+
+| 地方 | 有沒有網址 |
+|------|------------|
+| [share.streamlit.io](https://share.streamlit.io) → Your apps | ✅ 主來源 |
+| GitHub → 本 repo → **About**（右側齒輪）→ Website | ✅ 可自行貼上 |
+| GitHub → Code 檔案列表 | ❌ 預設沒有 |
+| Telegram 告警底部「儀表板」 | ✅ 設定 `DASHBOARD_URL` 後會顯示 |
+
+#### 把網址寫進 Telegram 通知
+
+1. 複製 Streamlit 網址  
+2. GitHub repo → **Settings → Secrets and variables → Actions → Variables**  
+3. 新增 Variable 名稱：`DASHBOARD_URL`，值：`https://你的app.streamlit.app`  
+4. （建議）同一頁把網址也貼到 repo **About → Website**，之後在 GitHub 右側就能點進去  
 
 儀表板**不需要** Telegram Secrets；告警由 Actions 負責。
 

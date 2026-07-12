@@ -232,6 +232,7 @@ def run_monitor(
                 settings.telegram_bot_token,
                 settings.telegram_chat_id,
                 row,
+                dashboard_url=settings.dashboard_url,
             )
             if ok or (
                 not settings.telegram_bot_token or not settings.telegram_chat_id

@@ -38,13 +38,21 @@ def _status_banner(sess: dict, snapshot: dict | None) -> None:
     in_session = sess.get("in_session")
     state = sess.get("state")
     if in_session:
-        st.success(
-            f"交易時段中（Asia/Taipei {sess.get('session')}）｜"
-            f"現在：{sess.get('now')}"
-        )
+        if state == "pre_market":
+            st.info(
+                f"盤前監控中（Asia/Taipei {sess.get('session')}，"
+                f"正式開盤 {sess.get('official_open', '09:00')}）｜"
+                f"現在：{sess.get('now')}　"
+                "此時資料可能仍為前一交易日，僅供開盤前留意。"
+            )
+        else:
+            st.success(
+                f"交易時段中（Asia/Taipei {sess.get('session')}）｜"
+                f"現在：{sess.get('now')}"
+            )
     else:
         st.warning(
-            f"非交易時段／休市｜狀態：{sess.get('reason')}（{state}）｜"
+            f"非監控時段／休市｜狀態：{sess.get('reason')}（{state}）｜"
             f"現在：{sess.get('now')}　"
             "儀表板資料可能非即時，請勿當作盤中即時報價。"
         )

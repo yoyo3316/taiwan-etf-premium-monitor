@@ -5,9 +5,9 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from .config import Settings, TWSE_INDICATOR_PAGE
+from .config import PREMARKET_DATA_MAX_AGE_MINUTES, Settings, TWSE_INDICATOR_PAGE
 from .market_hours import (
-    is_market_session,
+    is_premarket_watch,
     is_stale,
     now_taipei,
     parse_twse_datetime,
@@ -58,7 +58,11 @@ def evaluate_record(
 
     data_dt = parse_twse_datetime(raw.get("data_date"), raw.get("data_time"))
     data_time_iso = data_dt.isoformat() if data_dt else None
-    stale = is_stale(data_dt, data_max_age_minutes, now=now)
+    # Pre-open watch may still use prior-session TWSE figures.
+    effective_max_age = data_max_age_minutes
+    if is_premarket_watch(now):
+        effective_max_age = max(data_max_age_minutes, PREMARKET_DATA_MAX_AGE_MINUTES)
+    stale = is_stale(data_dt, effective_max_age, now=now)
 
     status = "ok"
     issues: list[str] = []
@@ -95,7 +99,9 @@ def evaluate_record(
 
     if status == "ok" and stale:
         status = "stale"
-        issues.append(f"資料超過 {data_max_age_minutes} 分鐘")
+        issues.append(f"資料超過 {effective_max_age} 分鐘")
+    elif status == "ok" and is_premarket_watch(now):
+        issues.append("盤前監控（可能為前一交易日資料）")
 
     # Prefer calculated value; fall back to official if calc missing but official present
     pd_pct = calc_pd if calc_pd is not None else official_pd

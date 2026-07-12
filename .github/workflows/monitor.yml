@@ -3,8 +3,8 @@ name: ETF Premium/Discount Monitor
 on:
   schedule:
     # Every 5 minutes. GitHub cron is UTC.
-    # Taiwan session 09:00–13:30 ≈ 01:00–05:30 UTC (no DST).
-    # We schedule a wider UTC window on weekdays; Asia/Taipei checks inside code.
+    # Taiwan monitor window 08:50–13:30 ≈ 00:50–05:30 UTC (no DST).
+    # Wider UTC window on weekdays; Asia/Taipei checks inside code.
     - cron: "*/5 0-6 * * 1-5"
   workflow_dispatch:
     inputs:
@@ -68,5 +68,10 @@ jobs:
             echo "No data changes to commit"
           else
             git commit -m "chore(data): update ETF snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # Retry push in case another run committed concurrently
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push attempt $i failed; retrying..."
+              sleep 3
+            done
           fi

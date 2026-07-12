@@ -28,12 +28,18 @@ TWSE_VALUE_PAGE = (
 )
 
 TIMEZONE = "Asia/Taipei"
-MARKET_OPEN = (9, 0)  # 09:00
+# Monitor / notify window starts 08:50 so users can watch pre-open.
+MARKET_OPEN = (8, 50)  # 08:50 盤前監控開始
+# Official continuous auction open (for UI labels / pre-market data policy).
+MARKET_OFFICIAL_OPEN = (9, 0)  # 09:00
 MARKET_CLOSE = (13, 30)  # 13:30
 
 DEFAULT_PREMIUM_THRESHOLD = 3.0
 DEFAULT_DISCOUNT_THRESHOLD = -3.0
 DEFAULT_DATA_MAX_AGE_MINUTES = 10
+# Pre-open (08:50–09:00): TWSE may still show prior session figures;
+# allow longer age so 盤前 can still surface notable premium/discount.
+PREMARKET_DATA_MAX_AGE_MINUTES = 18 * 60  # 18 hours
 CROSS_CHECK_TOLERANCE_PP = 0.05  # percentage points
 
 

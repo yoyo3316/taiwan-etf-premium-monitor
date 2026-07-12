@@ -66,7 +66,7 @@ https://mis.twse.com.tw/stock/data/all_etf.txt
 - 誤差 **> 0.05 個百分點** → 標記 `anomaly`，**不發送通知**。
 - 市價／預估淨值／折溢價缺值，或預估淨值 ≤ 0 → 不通知。
 - 資料時間超過 **10 分鐘**（可設定）→ 視為過期，不通知。
-- 僅在 **Asia/Taipei** 平日 **09:00–13:30** 且非休市日發送告警。
+- 僅在 **Asia/Taipei** 平日 **08:50–13:30**（含盤前 08:50 起）且非休市日發送告警。
 
 ## 架構
 
@@ -176,7 +176,7 @@ Repo → **Settings → Secrets and variables → Actions**：
 
 - Workflow：`.github/workflows/monitor.yml`
 - Cron（UTC）：`*/5 0-6 * * 1-5`（週一至週五，約涵蓋台北交易時段）
-- **程式內仍以 Asia/Taipei 二次判斷**交易日與 09:00–13:30。
+- **程式內仍以 Asia/Taipei 二次判斷**交易日與 08:50–13:30（08:50 盤前監控起）。
 - GitHub 排程**不保證準時**，可能延遲數分鐘甚至更久。
 - 每次成功執行會 commit `data/latest.json` 與 `data/alert_state.json` 供儀表板／狀態使用。
 

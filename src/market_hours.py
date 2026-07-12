@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 
-from .config import MARKET_CLOSE, MARKET_OPEN, TIMEZONE
+from .config import MARKET_CLOSE, MARKET_OFFICIAL_OPEN, MARKET_OPEN, TIMEZONE
 
 TZ = ZoneInfo(TIMEZONE)
 
@@ -130,7 +130,10 @@ def is_trading_day(d: date | None = None) -> bool:
 
 
 def is_market_session(when: datetime | None = None) -> bool:
-    """True during TWSE regular session: weekdays 09:00–13:30 Taipei, non-holiday."""
+    """True during monitor window: weekdays 08:50–13:30 Taipei, non-holiday.
+
+    08:50–09:00 is pre-open watch; 09:00–13:30 is the continuous auction session.
+    """
     when = when or now_taipei()
     if when.tzinfo is None:
         when = when.replace(tzinfo=TZ)
@@ -146,6 +149,19 @@ def is_market_session(when: datetime | None = None) -> bool:
     return open_t <= t <= close_t
 
 
+def is_premarket_watch(when: datetime | None = None) -> bool:
+    """True on trading days during 08:50–09:00 (before official open)."""
+    when = when or now_taipei()
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=TZ)
+    else:
+        when = when.astimezone(TZ)
+    if not is_trading_day(when.date()):
+        return False
+    t = when.time()
+    return time(*MARKET_OPEN) <= t < time(*MARKET_OFFICIAL_OPEN)
+
+
 def session_status(when: datetime | None = None) -> dict:
     when = when or now_taipei()
     if when.tzinfo is None:
@@ -159,7 +175,10 @@ def session_status(when: datetime | None = None) -> dict:
         reason = "休市日（週末或國定假日）"
         state = "closed_day"
     elif when.time() < time(*MARKET_OPEN):
-        reason = "開盤前"
+        reason = "監控開始前"
+        state = "before_watch"
+    elif when.time() < time(*MARKET_OFFICIAL_OPEN):
+        reason = "盤前監控中（08:50 起）"
         state = "pre_market"
     elif when.time() > time(*MARKET_CLOSE):
         reason = "收盤後"
@@ -173,10 +192,12 @@ def session_status(when: datetime | None = None) -> dict:
         "timezone": TIMEZONE,
         "is_trading_day": trading_day,
         "in_session": in_session,
+        "is_premarket_watch": is_premarket_watch(when),
         "state": state,
         "reason": reason,
         "session": f"{MARKET_OPEN[0]:02d}:{MARKET_OPEN[1]:02d}"
         f"–{MARKET_CLOSE[0]:02d}:{MARKET_CLOSE[1]:02d}",
+        "official_open": f"{MARKET_OFFICIAL_OPEN[0]:02d}:{MARKET_OFFICIAL_OPEN[1]:02d}",
     }
 
 

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T21:58:16.338803+08:00",
+  "updated_at": "2026-07-12T22:05:43.890885+08:00",
   "timezone": "Asia/Taipei",
   "universe": [
     "0050",
@@ -35,7 +35,7 @@
     }
   ],
   "methodology": {
-    "holdings_source": "pocket.tw top disclosed holdings (SSR embed)",
+    "holdings_source": "cmoney.tw fundholding (full disclosed shareholding via dtno.cmoney.tw JsonCsv DtNo=59449513); pocket.tw fallback",
     "overlap_metric": "weighted_min = sum min(w_a,w_b); within_top = weighted_min / min(coverage_a, coverage_b)",
     "same_index": "Official product index identity (TWSE/issuer). Identical equity universe by construction.",
     "thresholds": {
@@ -44,97 +44,174 @@
     },
     "disclaimer": "For relative-value research only. Not investment advice. Not risk-free arbitrage. Creation/redemption is institutional."
   },
-  "pair_count": 12,
+  "pair_count": 19,
   "pairs": [
     {
       "a": "0050",
       "b": "006208",
-      "common_count": 10,
+      "common_count": 50,
       "common_codes": [
+        "1216",
+        "1303",
+        "2059",
+        "2301",
         "2303",
         "2308",
         "2317",
         "2327",
         "2330",
+        "2344",
         "2345",
+        "2357",
+        "2360",
+        "2368",
+        "2382",
         "2383",
+        "2395",
+        "2408",
+        "2412",
+        "2449",
         "2454",
+        "2603",
+        "2880",
+        "2881",
+        "2882",
+        "2883",
+        "2884",
+        "2885",
+        "2886",
+        "2887",
+        "2890",
         "2891",
-        "3711"
+        "2892",
+        "3008",
+        "3017",
+        "3037",
+        "3045",
+        "3231",
+        "3443",
+        "3653",
+        "3661",
+        "3665",
+        "3711",
+        "4904",
+        "4958",
+        "5880",
+        "6505",
+        "6669",
+        "7769",
+        "8046"
       ],
       "common_detail": [
         {
           "code": "2330",
           "weight_a": 58.31,
-          "weight_b": 58.3289,
+          "weight_b": 58.33,
           "min_weight": 58.31
         },
         {
           "code": "2454",
           "weight_a": 5.73,
-          "weight_b": 5.7112,
-          "min_weight": 5.7112
+          "weight_b": 5.71,
+          "min_weight": 5.71
         },
         {
           "code": "2308",
           "weight_a": 3.59,
-          "weight_b": 3.5879,
-          "min_weight": 3.5879
+          "weight_b": 3.59,
+          "min_weight": 3.59
         },
         {
           "code": "2317",
           "weight_a": 2.86,
-          "weight_b": 2.8664,
+          "weight_b": 2.87,
           "min_weight": 2.86
         },
         {
           "code": "3711",
           "weight_a": 2.22,
-          "weight_b": 2.2202,
+          "weight_b": 2.22,
           "min_weight": 2.22
         },
         {
           "code": "2303",
           "weight_a": 1.8,
-          "weight_b": 1.7986,
-          "min_weight": 1.7986
+          "weight_b": 1.8,
+          "min_weight": 1.8
         },
         {
           "code": "2383",
           "weight_a": 1.52,
-          "weight_b": 1.5191,
-          "min_weight": 1.5191
+          "weight_b": 1.52,
+          "min_weight": 1.52
         },
         {
           "code": "2327",
           "weight_a": 1.4,
-          "weight_b": 1.4007,
+          "weight_b": 1.4,
           "min_weight": 1.4
         },
         {
           "code": "2891",
           "weight_a": 1.23,
-          "weight_b": 1.2223,
-          "min_weight": 1.2223
+          "weight_b": 1.22,
+          "min_weight": 1.22
         },
         {
           "code": "2345",
           "weight_a": 1.22,
-          "weight_b": 1.2096,
-          "min_weight": 1.2096
+          "weight_b": 1.21,
+          "min_weight": 1.21
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.14,
+          "weight_b": 1.14,
+          "min_weight": 1.14
+        },
+        {
+          "code": "2881",
+          "weight_a": 1.03,
+          "weight_b": 1.03,
+          "min_weight": 1.03
+        },
+        {
+          "code": "2382",
+          "weight_a": 0.97,
+          "weight_b": 0.98,
+          "min_weight": 0.97
+        },
+        {
+          "code": "2882",
+          "weight_a": 0.91,
+          "weight_b": 0.91,
+          "min_weight": 0.91
+        },
+        {
+          "code": "1303",
+          "weight_a": 0.88,
+          "weight_b": 0.88,
+          "min_weight": 0.88
         }
       ],
-      "only_a_sample": [],
-      "only_b_sample": [],
-      "weighted_min_overlap_pct": 79.8387,
-      "coverage_a_pct": 79.88,
-      "coverage_b_pct": 79.8649,
-      "within_top_overlap_pct": 99.9672,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/0050",
-      "source_b": "https://www.pocket.tw/etf/tw/006208",
-      "method": "top_holdings_weighted_min",
+      "only_a_sample": [
+        "202607NYF",
+        "202607TX",
+        "202608NYF",
+        "202608TX"
+      ],
+      "only_b_sample": [
+        "202607WTXN6F"
+      ],
+      "weighted_min_overlap_pct": 99.21,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 100.06,
+      "within_top_overlap_pct": 99.1604,
+      "holding_count_a": 54,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/006208/fundholding",
+      "method": "full_holdings_weighted_min",
       "name_a": "元大台灣50",
       "name_b": "富邦台50",
       "same_index": true,
@@ -156,79 +233,157 @@
     {
       "a": "0052",
       "b": "006208",
-      "common_count": 7,
+      "common_count": 27,
       "common_codes": [
+        "2301",
         "2303",
         "2317",
         "2327",
         "2330",
+        "2344",
+        "2357",
+        "2368",
+        "2382",
         "2383",
+        "2395",
+        "2408",
+        "2449",
         "2454",
-        "3711"
+        "3008",
+        "3017",
+        "3037",
+        "3231",
+        "3443",
+        "3653",
+        "3661",
+        "3665",
+        "3711",
+        "4958",
+        "6669",
+        "7769",
+        "8046"
       ],
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 64.8136,
-          "weight_b": 58.3289,
-          "min_weight": 58.3289
+          "weight_a": 64.81,
+          "weight_b": 58.33,
+          "min_weight": 58.33
         },
         {
           "code": "2454",
-          "weight_a": 6.3603,
-          "weight_b": 5.7112,
-          "min_weight": 5.7112
+          "weight_a": 6.36,
+          "weight_b": 5.71,
+          "min_weight": 5.71
         },
         {
           "code": "2317",
-          "weight_a": 3.1925,
-          "weight_b": 2.8664,
-          "min_weight": 2.8664
+          "weight_a": 3.19,
+          "weight_b": 2.87,
+          "min_weight": 2.87
         },
         {
           "code": "3711",
-          "weight_a": 2.4727,
-          "weight_b": 2.2202,
-          "min_weight": 2.2202
+          "weight_a": 2.47,
+          "weight_b": 2.22,
+          "min_weight": 2.22
         },
         {
           "code": "2303",
-          "weight_a": 2.0031,
-          "weight_b": 1.7986,
-          "min_weight": 1.7986
+          "weight_a": 2.0,
+          "weight_b": 1.8,
+          "min_weight": 1.8
         },
         {
           "code": "2383",
-          "weight_a": 1.6696,
-          "weight_b": 1.5191,
-          "min_weight": 1.5191
+          "weight_a": 1.67,
+          "weight_b": 1.52,
+          "min_weight": 1.52
         },
         {
           "code": "2327",
-          "weight_a": 1.5603,
-          "weight_b": 1.4007,
-          "min_weight": 1.4007
+          "weight_a": 1.56,
+          "weight_b": 1.4,
+          "min_weight": 1.4
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.27,
+          "weight_b": 1.14,
+          "min_weight": 1.14
+        },
+        {
+          "code": "2382",
+          "weight_a": 1.09,
+          "weight_b": 0.98,
+          "min_weight": 0.98
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.83,
+          "weight_b": 0.74,
+          "min_weight": 0.74
+        },
+        {
+          "code": "2344",
+          "weight_a": 0.6,
+          "weight_b": 0.54,
+          "min_weight": 0.54
+        },
+        {
+          "code": "6669",
+          "weight_a": 0.58,
+          "weight_b": 0.52,
+          "min_weight": 0.52
+        },
+        {
+          "code": "2408",
+          "weight_a": 0.55,
+          "weight_b": 0.49,
+          "min_weight": 0.49
+        },
+        {
+          "code": "2357",
+          "weight_a": 0.51,
+          "weight_b": 0.46,
+          "min_weight": 0.46
+        },
+        {
+          "code": "4958",
+          "weight_a": 0.49,
+          "weight_b": 0.44,
+          "min_weight": 0.44
         }
       ],
       "only_a_sample": [
-        "2382",
-        "3017",
-        "3037"
+        "202607WTEN6F",
+        "202607WVHFN6F",
+        "2313",
+        "2324",
+        "2337",
+        "2347",
+        "2353",
+        "2354"
       ],
       "only_b_sample": [
+        "1216",
+        "1303",
+        "202607WTXN6F",
+        "2059",
         "2308",
         "2345",
-        "2891"
+        "2360",
+        "2412"
       ],
-      "weighted_min_overlap_pct": 73.8451,
-      "coverage_a_pct": 85.2583,
-      "coverage_b_pct": 79.8649,
-      "within_top_overlap_pct": 92.4625,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/0052",
-      "source_b": "https://www.pocket.tw/etf/tw/006208",
-      "method": "top_holdings_weighted_min",
+      "weighted_min_overlap_pct": 83.24,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 100.06,
+      "within_top_overlap_pct": 83.1984,
+      "holding_count_a": 73,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/0052/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/006208/fundholding",
+      "method": "full_holdings_weighted_min",
       "name_a": "富邦科技",
       "name_b": "富邦台50",
       "same_index": false,
@@ -250,79 +405,157 @@
     {
       "a": "0050",
       "b": "0052",
-      "common_count": 7,
+      "common_count": 27,
       "common_codes": [
+        "2301",
         "2303",
         "2317",
         "2327",
         "2330",
+        "2344",
+        "2357",
+        "2368",
+        "2382",
         "2383",
+        "2395",
+        "2408",
+        "2449",
         "2454",
-        "3711"
+        "3008",
+        "3017",
+        "3037",
+        "3231",
+        "3443",
+        "3653",
+        "3661",
+        "3665",
+        "3711",
+        "4958",
+        "6669",
+        "7769",
+        "8046"
       ],
       "common_detail": [
         {
           "code": "2330",
           "weight_a": 58.31,
-          "weight_b": 64.8136,
+          "weight_b": 64.81,
           "min_weight": 58.31
         },
         {
           "code": "2454",
           "weight_a": 5.73,
-          "weight_b": 6.3603,
+          "weight_b": 6.36,
           "min_weight": 5.73
         },
         {
           "code": "2317",
           "weight_a": 2.86,
-          "weight_b": 3.1925,
+          "weight_b": 3.19,
           "min_weight": 2.86
         },
         {
           "code": "3711",
           "weight_a": 2.22,
-          "weight_b": 2.4727,
+          "weight_b": 2.47,
           "min_weight": 2.22
         },
         {
           "code": "2303",
           "weight_a": 1.8,
-          "weight_b": 2.0031,
+          "weight_b": 2.0,
           "min_weight": 1.8
         },
         {
           "code": "2383",
           "weight_a": 1.52,
-          "weight_b": 1.6696,
+          "weight_b": 1.67,
           "min_weight": 1.52
         },
         {
           "code": "2327",
           "weight_a": 1.4,
-          "weight_b": 1.5603,
+          "weight_b": 1.56,
           "min_weight": 1.4
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.14,
+          "weight_b": 1.27,
+          "min_weight": 1.14
+        },
+        {
+          "code": "2382",
+          "weight_a": 0.97,
+          "weight_b": 1.09,
+          "min_weight": 0.97
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.74,
+          "weight_b": 0.83,
+          "min_weight": 0.74
+        },
+        {
+          "code": "2344",
+          "weight_a": 0.54,
+          "weight_b": 0.6,
+          "min_weight": 0.54
+        },
+        {
+          "code": "6669",
+          "weight_a": 0.52,
+          "weight_b": 0.58,
+          "min_weight": 0.52
+        },
+        {
+          "code": "2408",
+          "weight_a": 0.49,
+          "weight_b": 0.55,
+          "min_weight": 0.49
+        },
+        {
+          "code": "2357",
+          "weight_a": 0.46,
+          "weight_b": 0.51,
+          "min_weight": 0.46
+        },
+        {
+          "code": "4958",
+          "weight_a": 0.44,
+          "weight_b": 0.49,
+          "min_weight": 0.44
         }
       ],
       "only_a_sample": [
-        "2308",
-        "2345",
-        "2891"
+        "1216",
+        "1303",
+        "202607NYF",
+        "202607TX",
+        "202608NYF",
+        "202608TX",
+        "2059",
+        "2308"
       ],
       "only_b_sample": [
-        "2382",
-        "3017",
-        "3037"
+        "202607WTEN6F",
+        "202607WVHFN6F",
+        "2313",
+        "2324",
+        "2337",
+        "2347",
+        "2353",
+        "2354"
       ],
-      "weighted_min_overlap_pct": 73.84,
-      "coverage_a_pct": 79.88,
-      "coverage_b_pct": 85.2583,
-      "within_top_overlap_pct": 92.4387,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/0050",
-      "source_b": "https://www.pocket.tw/etf/tw/0052",
-      "method": "top_holdings_weighted_min",
+      "weighted_min_overlap_pct": 83.2,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 100.05,
+      "within_top_overlap_pct": 83.1584,
+      "holding_count_a": 54,
+      "holding_count_b": 73,
+      "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/0052/fundholding",
+      "method": "full_holdings_weighted_min",
       "name_a": "元大台灣50",
       "name_b": "富邦科技",
       "same_index": false,
@@ -342,17 +575,398 @@
       "relative_hint": "—"
     },
     {
+      "a": "0050",
+      "b": "009816",
+      "common_count": 50,
+      "common_codes": [
+        "1216",
+        "1303",
+        "202607TX",
+        "2059",
+        "2301",
+        "2303",
+        "2308",
+        "2317",
+        "2327",
+        "2330",
+        "2344",
+        "2345",
+        "2357",
+        "2360",
+        "2368",
+        "2382",
+        "2383",
+        "2408",
+        "2412",
+        "2449",
+        "2454",
+        "2603",
+        "2880",
+        "2881",
+        "2882",
+        "2883",
+        "2884",
+        "2885",
+        "2886",
+        "2887",
+        "2890",
+        "2891",
+        "2892",
+        "3008",
+        "3017",
+        "3037",
+        "3045",
+        "3231",
+        "3443",
+        "3653",
+        "3661",
+        "3665",
+        "3711",
+        "4904",
+        "4958",
+        "5880",
+        "6505",
+        "6669",
+        "7769",
+        "8046"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.31,
+          "weight_b": 41.25,
+          "min_weight": 41.25
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.73,
+          "weight_b": 8.24,
+          "min_weight": 5.73
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.59,
+          "weight_b": 5.5,
+          "min_weight": 3.59
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.86,
+          "weight_b": 4.02,
+          "min_weight": 2.86
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.22,
+          "weight_b": 3.11,
+          "min_weight": 2.22
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.8,
+          "weight_b": 1.74,
+          "min_weight": 1.74
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.52,
+          "weight_b": 1.64,
+          "min_weight": 1.52
+        },
+        {
+          "code": "2327",
+          "weight_a": 1.4,
+          "weight_b": 1.67,
+          "min_weight": 1.4
+        },
+        {
+          "code": "2891",
+          "weight_a": 1.23,
+          "weight_b": 1.29,
+          "min_weight": 1.23
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.22,
+          "weight_b": 2.37,
+          "min_weight": 1.22
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.14,
+          "weight_b": 2.18,
+          "min_weight": 1.14
+        },
+        {
+          "code": "2881",
+          "weight_a": 1.03,
+          "weight_b": 1.21,
+          "min_weight": 1.03
+        },
+        {
+          "code": "2382",
+          "weight_a": 0.97,
+          "weight_b": 0.98,
+          "min_weight": 0.97
+        },
+        {
+          "code": "2882",
+          "weight_a": 0.91,
+          "weight_b": 0.9,
+          "min_weight": 0.9
+        },
+        {
+          "code": "1303",
+          "weight_a": 0.88,
+          "weight_b": 0.97,
+          "min_weight": 0.88
+        }
+      ],
+      "only_a_sample": [
+        "202607NYF",
+        "202608NYF",
+        "202608TX",
+        "2395"
+      ],
+      "only_b_sample": [
+        "6515"
+      ],
+      "weighted_min_overlap_pct": 82.38,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 99.88,
+      "within_top_overlap_pct": 82.479,
+      "holding_count_a": 54,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "元大台灣50",
+      "name_b": "凱基台灣TOP50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.53,
+      "premium_b": 0.4,
+      "premium_gap_a_minus_b": 0.13,
+      "price_a": 105.8,
+      "price_b": 15.23,
+      "nav_a": 105.24,
+      "nav_b": 15.17,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "006208",
+      "b": "009816",
+      "common_count": 49,
+      "common_codes": [
+        "1216",
+        "1303",
+        "2059",
+        "2301",
+        "2303",
+        "2308",
+        "2317",
+        "2327",
+        "2330",
+        "2344",
+        "2345",
+        "2357",
+        "2360",
+        "2368",
+        "2382",
+        "2383",
+        "2408",
+        "2412",
+        "2449",
+        "2454",
+        "2603",
+        "2880",
+        "2881",
+        "2882",
+        "2883",
+        "2884",
+        "2885",
+        "2886",
+        "2887",
+        "2890",
+        "2891",
+        "2892",
+        "3008",
+        "3017",
+        "3037",
+        "3045",
+        "3231",
+        "3443",
+        "3653",
+        "3661",
+        "3665",
+        "3711",
+        "4904",
+        "4958",
+        "5880",
+        "6505",
+        "6669",
+        "7769",
+        "8046"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.33,
+          "weight_b": 41.25,
+          "min_weight": 41.25
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.71,
+          "weight_b": 8.24,
+          "min_weight": 5.71
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.59,
+          "weight_b": 5.5,
+          "min_weight": 3.59
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.87,
+          "weight_b": 4.02,
+          "min_weight": 2.87
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.22,
+          "weight_b": 3.11,
+          "min_weight": 2.22
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.8,
+          "weight_b": 1.74,
+          "min_weight": 1.74
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.52,
+          "weight_b": 1.64,
+          "min_weight": 1.52
+        },
+        {
+          "code": "2327",
+          "weight_a": 1.4,
+          "weight_b": 1.67,
+          "min_weight": 1.4
+        },
+        {
+          "code": "2891",
+          "weight_a": 1.22,
+          "weight_b": 1.29,
+          "min_weight": 1.22
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.21,
+          "weight_b": 2.37,
+          "min_weight": 1.21
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.14,
+          "weight_b": 2.18,
+          "min_weight": 1.14
+        },
+        {
+          "code": "2881",
+          "weight_a": 1.03,
+          "weight_b": 1.21,
+          "min_weight": 1.03
+        },
+        {
+          "code": "2382",
+          "weight_a": 0.98,
+          "weight_b": 0.98,
+          "min_weight": 0.98
+        },
+        {
+          "code": "2882",
+          "weight_a": 0.91,
+          "weight_b": 0.9,
+          "min_weight": 0.9
+        },
+        {
+          "code": "1303",
+          "weight_a": 0.88,
+          "weight_b": 0.97,
+          "min_weight": 0.88
+        }
+      ],
+      "only_a_sample": [
+        "202607WTXN6F",
+        "2395"
+      ],
+      "only_b_sample": [
+        "202607TX",
+        "6515"
+      ],
+      "weighted_min_overlap_pct": 81.83,
+      "coverage_a_pct": 100.06,
+      "coverage_b_pct": 99.88,
+      "within_top_overlap_pct": 81.9283,
+      "holding_count_a": 51,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/006208/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "富邦台50",
+      "name_b": "凱基台灣TOP50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.52,
+      "premium_b": 0.4,
+      "premium_gap_a_minus_b": 0.12,
+      "price_a": 245.7,
+      "price_b": 15.23,
+      "nav_a": 244.43,
+      "nav_b": 15.17,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
       "a": "00881",
       "b": "009816",
-      "common_count": 7,
+      "common_count": 22,
       "common_codes": [
+        "202607TX",
+        "2059",
         "2303",
         "2308",
         "2317",
         "2330",
         "2345",
+        "2360",
+        "2368",
+        "2382",
+        "2383",
+        "2449",
         "2454",
-        "3037"
+        "3008",
+        "3017",
+        "3037",
+        "3045",
+        "3231",
+        "3665",
+        "4904",
+        "4958",
+        "6515"
       ],
       "common_detail": [
         {
@@ -396,26 +1010,85 @@
           "weight_a": 3.78,
           "weight_b": 1.74,
           "min_weight": 1.74
+        },
+        {
+          "code": "2383",
+          "weight_a": 2.79,
+          "weight_b": 1.64,
+          "min_weight": 1.64
+        },
+        {
+          "code": "202607TX",
+          "weight_a": 1.56,
+          "weight_b": 2.74,
+          "min_weight": 1.56
+        },
+        {
+          "code": "2382",
+          "weight_a": 1.84,
+          "weight_b": 0.98,
+          "min_weight": 0.98
+        },
+        {
+          "code": "4958",
+          "weight_a": 1.6,
+          "weight_b": 0.96,
+          "min_weight": 0.96
+        },
+        {
+          "code": "3017",
+          "weight_a": 1.62,
+          "weight_b": 0.79,
+          "min_weight": 0.79
+        },
+        {
+          "code": "3665",
+          "weight_a": 1.1,
+          "weight_b": 0.76,
+          "min_weight": 0.76
+        },
+        {
+          "code": "2360",
+          "weight_a": 1.7,
+          "weight_b": 0.68,
+          "min_weight": 0.68
+        },
+        {
+          "code": "2059",
+          "weight_a": 1.91,
+          "weight_b": 0.57,
+          "min_weight": 0.57
         }
       ],
       "only_a_sample": [
-        "2059",
-        "2383",
+        "2313",
+        "2379",
+        "3034",
+        "3036",
+        "3044",
+        "3105",
+        "4938",
         "6223"
       ],
       "only_b_sample": [
-        "2885",
-        "3711"
+        "1216",
+        "1303",
+        "2301",
+        "2327",
+        "2344",
+        "2357",
+        "2408",
+        "2412"
       ],
-      "weighted_min_overlap_pct": 63.97,
-      "coverage_a_pct": 76.1,
-      "coverage_b_pct": 70.27,
-      "within_top_overlap_pct": 91.0346,
-      "holding_count_a": 10,
-      "holding_count_b": 9,
-      "source_a": "https://www.pocket.tw/etf/tw/00881",
-      "source_b": "https://www.pocket.tw/etf/tw/009816",
-      "method": "top_holdings_weighted_min",
+      "weighted_min_overlap_pct": 74.19,
+      "coverage_a_pct": 100.04,
+      "coverage_b_pct": 99.88,
+      "within_top_overlap_pct": 74.2791,
+      "holding_count_a": 31,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
+      "method": "full_holdings_weighted_min",
       "name_a": "國泰台灣科技龍頭",
       "name_b": "凱基台灣TOP50",
       "same_index": false,
@@ -435,268 +1108,166 @@
       "relative_hint": "—"
     },
     {
-      "a": "0050",
-      "b": "009816",
-      "common_count": 7,
-      "common_codes": [
-        "2303",
-        "2308",
-        "2317",
-        "2330",
-        "2345",
-        "2454",
-        "3711"
-      ],
-      "common_detail": [
-        {
-          "code": "2330",
-          "weight_a": 58.31,
-          "weight_b": 41.25,
-          "min_weight": 41.25
-        },
-        {
-          "code": "2454",
-          "weight_a": 5.73,
-          "weight_b": 8.24,
-          "min_weight": 5.73
-        },
-        {
-          "code": "2308",
-          "weight_a": 3.59,
-          "weight_b": 5.5,
-          "min_weight": 3.59
-        },
-        {
-          "code": "2317",
-          "weight_a": 2.86,
-          "weight_b": 4.02,
-          "min_weight": 2.86
-        },
-        {
-          "code": "3711",
-          "weight_a": 2.22,
-          "weight_b": 3.11,
-          "min_weight": 2.22
-        },
-        {
-          "code": "2303",
-          "weight_a": 1.8,
-          "weight_b": 1.74,
-          "min_weight": 1.74
-        },
-        {
-          "code": "2345",
-          "weight_a": 1.22,
-          "weight_b": 2.37,
-          "min_weight": 1.22
-        }
-      ],
-      "only_a_sample": [
-        "2327",
-        "2383",
-        "2891"
-      ],
-      "only_b_sample": [
-        "2885",
-        "3037"
-      ],
-      "weighted_min_overlap_pct": 58.61,
-      "coverage_a_pct": 79.88,
-      "coverage_b_pct": 70.27,
-      "within_top_overlap_pct": 83.4069,
-      "holding_count_a": 10,
-      "holding_count_b": 9,
-      "source_a": "https://www.pocket.tw/etf/tw/0050",
-      "source_b": "https://www.pocket.tw/etf/tw/009816",
-      "method": "top_holdings_weighted_min",
-      "name_a": "元大台灣50",
-      "name_b": "凱基台灣TOP50",
-      "same_index": false,
-      "index_name": null,
-      "index_evidence": null,
-      "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
-      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.53,
-      "premium_b": 0.4,
-      "premium_gap_a_minus_b": 0.13,
-      "price_a": 105.8,
-      "price_b": 15.23,
-      "nav_a": 105.24,
-      "nav_b": 15.17,
-      "gap_interesting": false,
-      "relative_hint": "—"
-    },
-    {
-      "a": "006208",
-      "b": "009816",
-      "common_count": 7,
-      "common_codes": [
-        "2303",
-        "2308",
-        "2317",
-        "2330",
-        "2345",
-        "2454",
-        "3711"
-      ],
-      "common_detail": [
-        {
-          "code": "2330",
-          "weight_a": 58.3289,
-          "weight_b": 41.25,
-          "min_weight": 41.25
-        },
-        {
-          "code": "2454",
-          "weight_a": 5.7112,
-          "weight_b": 8.24,
-          "min_weight": 5.7112
-        },
-        {
-          "code": "2308",
-          "weight_a": 3.5879,
-          "weight_b": 5.5,
-          "min_weight": 3.5879
-        },
-        {
-          "code": "2317",
-          "weight_a": 2.8664,
-          "weight_b": 4.02,
-          "min_weight": 2.8664
-        },
-        {
-          "code": "3711",
-          "weight_a": 2.2202,
-          "weight_b": 3.11,
-          "min_weight": 2.2202
-        },
-        {
-          "code": "2303",
-          "weight_a": 1.7986,
-          "weight_b": 1.74,
-          "min_weight": 1.74
-        },
-        {
-          "code": "2345",
-          "weight_a": 1.2096,
-          "weight_b": 2.37,
-          "min_weight": 1.2096
-        }
-      ],
-      "only_a_sample": [
-        "2327",
-        "2383",
-        "2891"
-      ],
-      "only_b_sample": [
-        "2885",
-        "3037"
-      ],
-      "weighted_min_overlap_pct": 58.5853,
-      "coverage_a_pct": 79.8649,
-      "coverage_b_pct": 70.27,
-      "within_top_overlap_pct": 83.3717,
-      "holding_count_a": 10,
-      "holding_count_b": 9,
-      "source_a": "https://www.pocket.tw/etf/tw/006208",
-      "source_b": "https://www.pocket.tw/etf/tw/009816",
-      "method": "top_holdings_weighted_min",
-      "name_a": "富邦台50",
-      "name_b": "凱基台灣TOP50",
-      "same_index": false,
-      "index_name": null,
-      "index_evidence": null,
-      "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
-      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.52,
-      "premium_b": 0.4,
-      "premium_gap_a_minus_b": 0.12,
-      "price_a": 245.7,
-      "price_b": 15.23,
-      "nav_a": 244.43,
-      "nav_b": 15.17,
-      "gap_interesting": false,
-      "relative_hint": "—"
-    },
-    {
       "a": "0052",
       "b": "009816",
-      "common_count": 6,
+      "common_count": 27,
       "common_codes": [
+        "2301",
         "2303",
         "2317",
+        "2327",
         "2330",
+        "2344",
+        "2357",
+        "2368",
+        "2382",
+        "2383",
+        "2408",
+        "2449",
         "2454",
+        "3008",
+        "3017",
         "3037",
-        "3711"
+        "3231",
+        "3443",
+        "3653",
+        "3661",
+        "3665",
+        "3711",
+        "4958",
+        "6515",
+        "6669",
+        "7769",
+        "8046"
       ],
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 64.8136,
+          "weight_a": 64.81,
           "weight_b": 41.25,
           "min_weight": 41.25
         },
         {
           "code": "2454",
-          "weight_a": 6.3603,
+          "weight_a": 6.36,
           "weight_b": 8.24,
-          "min_weight": 6.3603
+          "min_weight": 6.36
         },
         {
           "code": "2317",
-          "weight_a": 3.1925,
+          "weight_a": 3.19,
           "weight_b": 4.02,
-          "min_weight": 3.1925
+          "min_weight": 3.19
         },
         {
           "code": "3711",
-          "weight_a": 2.4727,
+          "weight_a": 2.47,
           "weight_b": 3.11,
-          "min_weight": 2.4727
+          "min_weight": 2.47
         },
         {
           "code": "2303",
-          "weight_a": 2.0031,
+          "weight_a": 2.0,
           "weight_b": 1.74,
           "min_weight": 1.74
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.67,
+          "weight_b": 1.64,
+          "min_weight": 1.64
+        },
+        {
+          "code": "2327",
+          "weight_a": 1.56,
+          "weight_b": 1.67,
+          "min_weight": 1.56
         },
         {
           "code": "3037",
-          "weight_a": 1.2709,
+          "weight_a": 1.27,
           "weight_b": 2.18,
-          "min_weight": 1.2709
+          "min_weight": 1.27
+        },
+        {
+          "code": "2382",
+          "weight_a": 1.09,
+          "weight_b": 0.98,
+          "min_weight": 0.98
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.83,
+          "weight_b": 0.79,
+          "min_weight": 0.79
+        },
+        {
+          "code": "6669",
+          "weight_a": 0.58,
+          "weight_b": 0.58,
+          "min_weight": 0.58
+        },
+        {
+          "code": "2408",
+          "weight_a": 0.55,
+          "weight_b": 0.63,
+          "min_weight": 0.55
+        },
+        {
+          "code": "2344",
+          "weight_a": 0.6,
+          "weight_b": 0.54,
+          "min_weight": 0.54
+        },
+        {
+          "code": "4958",
+          "weight_a": 0.49,
+          "weight_b": 0.96,
+          "min_weight": 0.49
+        },
+        {
+          "code": "2357",
+          "weight_a": 0.51,
+          "weight_b": 0.47,
+          "min_weight": 0.47
         }
       ],
       "only_a_sample": [
-        "2327",
-        "2382",
-        "2383",
-        "3017"
+        "202607WTEN6F",
+        "202607WVHFN6F",
+        "2313",
+        "2324",
+        "2337",
+        "2347",
+        "2353",
+        "2354"
       ],
       "only_b_sample": [
+        "1216",
+        "1303",
+        "202607TX",
+        "2059",
         "2308",
         "2345",
-        "2885"
+        "2360",
+        "2412"
       ],
-      "weighted_min_overlap_pct": 56.2864,
-      "coverage_a_pct": 85.2583,
-      "coverage_b_pct": 70.27,
-      "within_top_overlap_pct": 80.1002,
-      "holding_count_a": 10,
-      "holding_count_b": 9,
-      "source_a": "https://www.pocket.tw/etf/tw/0052",
-      "source_b": "https://www.pocket.tw/etf/tw/009816",
-      "method": "top_holdings_weighted_min",
+      "weighted_min_overlap_pct": 68.16,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 99.88,
+      "within_top_overlap_pct": 68.2419,
+      "holding_count_a": 73,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/0052/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
+      "method": "full_holdings_weighted_min",
       "name_a": "富邦科技",
       "name_b": "凱基台灣TOP50",
       "same_index": false,
       "index_name": null,
       "index_evidence": null,
       "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
       "premium_a": 0.45,
       "premium_b": 0.4,
@@ -709,301 +1280,33 @@
       "relative_hint": "—"
     },
     {
-      "a": "00878",
-      "b": "00919",
-      "common_count": 7,
-      "common_codes": [
-        "2357",
-        "2379",
-        "2382",
-        "2603",
-        "2882",
-        "2887",
-        "2891"
-      ],
-      "common_detail": [
-        {
-          "code": "2891",
-          "weight_a": 10.56,
-          "weight_b": 11.3245,
-          "min_weight": 10.56
-        },
-        {
-          "code": "2382",
-          "weight_a": 10.47,
-          "weight_b": 11.967,
-          "min_weight": 10.47
-        },
-        {
-          "code": "2882",
-          "weight_a": 5.92,
-          "weight_b": 11.7335,
-          "min_weight": 5.92
-        },
-        {
-          "code": "2357",
-          "weight_a": 4.32,
-          "weight_b": 4.3001,
-          "min_weight": 4.3001
-        },
-        {
-          "code": "2603",
-          "weight_a": 3.58,
-          "weight_b": 3.5569,
-          "min_weight": 3.5569
-        },
-        {
-          "code": "2379",
-          "weight_a": 3.55,
-          "weight_b": 3.4791,
-          "min_weight": 3.4791
-        },
-        {
-          "code": "2887",
-          "weight_a": 3.44,
-          "weight_b": 7.7404,
-          "min_weight": 3.44
-        }
-      ],
-      "only_a_sample": [
-        "2303",
-        "2454",
-        "3711"
-      ],
-      "only_b_sample": [
-        "2881",
-        "2883",
-        "3034"
-      ],
-      "weighted_min_overlap_pct": 41.7261,
-      "coverage_a_pct": 52.68,
-      "coverage_b_pct": 75.5742,
-      "within_top_overlap_pct": 79.2067,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/00878",
-      "source_b": "https://www.pocket.tw/etf/tw/00919",
-      "method": "top_holdings_weighted_min",
-      "name_a": "國泰永續高股息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
-      "name_b": "群益台灣精選高息",
-      "same_index": false,
-      "index_name": null,
-      "index_evidence": null,
-      "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
-      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": -0.75,
-      "premium_b": 0.17,
-      "premium_gap_a_minus_b": -0.92,
-      "price_a": 33.19,
-      "price_b": 29.97,
-      "nav_a": 33.44,
-      "nav_b": 29.92,
-      "gap_interesting": false,
-      "relative_hint": "—"
-    },
-    {
-      "a": "0050",
-      "b": "00881",
-      "common_count": 7,
-      "common_codes": [
-        "2303",
-        "2308",
-        "2317",
-        "2330",
-        "2345",
-        "2383",
-        "2454"
-      ],
-      "common_detail": [
-        {
-          "code": "2330",
-          "weight_a": 58.31,
-          "weight_b": 40.05,
-          "min_weight": 40.05
-        },
-        {
-          "code": "2454",
-          "weight_a": 5.73,
-          "weight_b": 9.68,
-          "min_weight": 5.73
-        },
-        {
-          "code": "2308",
-          "weight_a": 3.59,
-          "weight_b": 6.39,
-          "min_weight": 3.59
-        },
-        {
-          "code": "2317",
-          "weight_a": 2.86,
-          "weight_b": 4.66,
-          "min_weight": 2.86
-        },
-        {
-          "code": "2303",
-          "weight_a": 1.8,
-          "weight_b": 3.78,
-          "min_weight": 1.8
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.52,
-          "weight_b": 2.79,
-          "min_weight": 1.52
-        },
-        {
-          "code": "2345",
-          "weight_a": 1.22,
-          "weight_b": 2.24,
-          "min_weight": 1.22
-        }
-      ],
-      "only_a_sample": [
-        "2327",
-        "2891",
-        "3711"
-      ],
-      "only_b_sample": [
-        "2059",
-        "3037",
-        "6223"
-      ],
-      "weighted_min_overlap_pct": 56.77,
-      "coverage_a_pct": 79.88,
-      "coverage_b_pct": 76.1,
-      "within_top_overlap_pct": 74.5992,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/0050",
-      "source_b": "https://www.pocket.tw/etf/tw/00881",
-      "method": "top_holdings_weighted_min",
-      "name_a": "元大台灣50",
-      "name_b": "國泰台灣科技龍頭",
-      "same_index": false,
-      "index_name": null,
-      "index_evidence": null,
-      "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
-      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.53,
-      "premium_b": 0.19,
-      "premium_gap_a_minus_b": 0.34,
-      "price_a": 105.8,
-      "price_b": 53.3,
-      "nav_a": 105.24,
-      "nav_b": 53.2,
-      "gap_interesting": false,
-      "relative_hint": "—"
-    },
-    {
-      "a": "006208",
-      "b": "00881",
-      "common_count": 7,
-      "common_codes": [
-        "2303",
-        "2308",
-        "2317",
-        "2330",
-        "2345",
-        "2383",
-        "2454"
-      ],
-      "common_detail": [
-        {
-          "code": "2330",
-          "weight_a": 58.3289,
-          "weight_b": 40.05,
-          "min_weight": 40.05
-        },
-        {
-          "code": "2454",
-          "weight_a": 5.7112,
-          "weight_b": 9.68,
-          "min_weight": 5.7112
-        },
-        {
-          "code": "2308",
-          "weight_a": 3.5879,
-          "weight_b": 6.39,
-          "min_weight": 3.5879
-        },
-        {
-          "code": "2317",
-          "weight_a": 2.8664,
-          "weight_b": 4.66,
-          "min_weight": 2.8664
-        },
-        {
-          "code": "2303",
-          "weight_a": 1.7986,
-          "weight_b": 3.78,
-          "min_weight": 1.7986
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.5191,
-          "weight_b": 2.79,
-          "min_weight": 1.5191
-        },
-        {
-          "code": "2345",
-          "weight_a": 1.2096,
-          "weight_b": 2.24,
-          "min_weight": 1.2096
-        }
-      ],
-      "only_a_sample": [
-        "2327",
-        "2891",
-        "3711"
-      ],
-      "only_b_sample": [
-        "2059",
-        "3037",
-        "6223"
-      ],
-      "weighted_min_overlap_pct": 56.7428,
-      "coverage_a_pct": 79.8649,
-      "coverage_b_pct": 76.1,
-      "within_top_overlap_pct": 74.5635,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/006208",
-      "source_b": "https://www.pocket.tw/etf/tw/00881",
-      "method": "top_holdings_weighted_min",
-      "name_a": "富邦台50",
-      "name_b": "國泰台灣科技龍頭",
-      "same_index": false,
-      "index_name": null,
-      "index_evidence": null,
-      "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
-      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.52,
-      "premium_b": 0.19,
-      "premium_gap_a_minus_b": 0.33,
-      "price_a": 245.7,
-      "price_b": 53.3,
-      "nav_a": 244.43,
-      "nav_b": 53.2,
-      "gap_interesting": false,
-      "relative_hint": "—"
-    },
-    {
       "a": "00403A",
       "b": "00981A",
-      "common_count": 9,
+      "common_count": 23,
       "common_codes": [
         "2303",
+        "2308",
         "2327",
         "2330",
         "2345",
+        "2368",
         "2383",
         "2454",
         "3017",
         "3037",
-        "6223"
+        "3264",
+        "3653",
+        "3665",
+        "3711",
+        "4966",
+        "5274",
+        "6223",
+        "6274",
+        "6488",
+        "6515",
+        "6669",
+        "6805",
+        "8046"
       ],
       "common_detail": [
         {
@@ -1059,30 +1362,80 @@
           "weight_a": 3.19,
           "weight_b": 5.69,
           "min_weight": 3.19
+        },
+        {
+          "code": "2308",
+          "weight_a": 2.81,
+          "weight_b": 3.46,
+          "min_weight": 2.81
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.46,
+          "weight_b": 3.64,
+          "min_weight": 2.46
+        },
+        {
+          "code": "6669",
+          "weight_a": 2.45,
+          "weight_b": 4.43,
+          "min_weight": 2.45
+        },
+        {
+          "code": "2368",
+          "weight_a": 1.82,
+          "weight_b": 3.25,
+          "min_weight": 1.82
+        },
+        {
+          "code": "6274",
+          "weight_a": 1.64,
+          "weight_b": 2.95,
+          "min_weight": 1.64
+        },
+        {
+          "code": "3653",
+          "weight_a": 1.54,
+          "weight_b": 2.64,
+          "min_weight": 1.54
         }
       ],
       "only_a_sample": [
-        "2344"
+        "1303",
+        "1560",
+        "2049",
+        "2317",
+        "2337",
+        "2344",
+        "2360",
+        "2455"
       ],
       "only_b_sample": [
-        "6669"
+        "1590",
+        "2002",
+        "2449",
+        "3376",
+        "5439",
+        "6147",
+        "6187",
+        "6191"
       ],
-      "weighted_min_overlap_pct": 43.75,
-      "coverage_a_pct": 59.38,
-      "coverage_b_pct": 65.83,
-      "within_top_overlap_pct": 73.678,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/00403a",
-      "source_b": "https://www.pocket.tw/etf/tw/00981a",
-      "method": "top_holdings_weighted_min",
+      "weighted_min_overlap_pct": 59.23,
+      "coverage_a_pct": 92.41,
+      "coverage_b_pct": 97.06,
+      "within_top_overlap_pct": 64.0948,
+      "holding_count_a": 45,
+      "holding_count_b": 35,
+      "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00981A/fundholding",
+      "method": "full_holdings_weighted_min",
       "name_a": "主動統一升級50",
       "name_b": "主動統一台股增長",
       "same_index": false,
       "index_name": null,
       "index_evidence": null,
       "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
       "premium_a": 0.1,
       "premium_b": 0.27,
@@ -1095,83 +1448,491 @@
       "relative_hint": "—"
     },
     {
-      "a": "0052",
+      "a": "0050",
       "b": "00881",
-      "common_count": 6,
+      "common_count": 21,
       "common_codes": [
+        "202607TX",
+        "2059",
         "2303",
+        "2308",
         "2317",
         "2330",
+        "2345",
+        "2360",
+        "2368",
+        "2382",
         "2383",
+        "2449",
         "2454",
-        "3037"
+        "3008",
+        "3017",
+        "3037",
+        "3045",
+        "3231",
+        "3665",
+        "4904",
+        "4958"
       ],
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 64.8136,
+          "weight_a": 58.31,
           "weight_b": 40.05,
           "min_weight": 40.05
         },
         {
           "code": "2454",
-          "weight_a": 6.3603,
+          "weight_a": 5.73,
           "weight_b": 9.68,
-          "min_weight": 6.3603
+          "min_weight": 5.73
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.59,
+          "weight_b": 6.39,
+          "min_weight": 3.59
         },
         {
           "code": "2317",
-          "weight_a": 3.1925,
+          "weight_a": 2.86,
           "weight_b": 4.66,
-          "min_weight": 3.1925
+          "min_weight": 2.86
         },
         {
           "code": "2303",
-          "weight_a": 2.0031,
+          "weight_a": 1.8,
           "weight_b": 3.78,
-          "min_weight": 2.0031
+          "min_weight": 1.8
         },
         {
           "code": "2383",
-          "weight_a": 1.6696,
+          "weight_a": 1.52,
           "weight_b": 2.79,
-          "min_weight": 1.6696
+          "min_weight": 1.52
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.22,
+          "weight_b": 2.24,
+          "min_weight": 1.22
         },
         {
           "code": "3037",
-          "weight_a": 1.2709,
+          "weight_a": 1.14,
           "weight_b": 2.7,
-          "min_weight": 1.2709
+          "min_weight": 1.14
+        },
+        {
+          "code": "2382",
+          "weight_a": 0.97,
+          "weight_b": 1.84,
+          "min_weight": 0.97
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.74,
+          "weight_b": 1.62,
+          "min_weight": 0.74
+        },
+        {
+          "code": "2360",
+          "weight_a": 0.66,
+          "weight_b": 1.7,
+          "min_weight": 0.66
+        },
+        {
+          "code": "202607TX",
+          "weight_a": 0.55,
+          "weight_b": 1.56,
+          "min_weight": 0.55
+        },
+        {
+          "code": "2059",
+          "weight_a": 0.45,
+          "weight_b": 1.91,
+          "min_weight": 0.45
+        },
+        {
+          "code": "4958",
+          "weight_a": 0.44,
+          "weight_b": 1.6,
+          "min_weight": 0.44
+        },
+        {
+          "code": "3231",
+          "weight_a": 0.43,
+          "weight_b": 1.35,
+          "min_weight": 0.43
         }
       ],
       "only_a_sample": [
+        "1216",
+        "1303",
+        "202607NYF",
+        "202608NYF",
+        "202608TX",
+        "2301",
         "2327",
-        "2382",
-        "3017",
-        "3711"
+        "2344"
       ],
       "only_b_sample": [
+        "2313",
+        "2379",
+        "3034",
+        "3036",
+        "3044",
+        "3105",
+        "4938",
+        "6223"
+      ],
+      "weighted_min_overlap_pct": 63.86,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 100.04,
+      "within_top_overlap_pct": 63.8345,
+      "holding_count_a": 54,
+      "holding_count_b": 31,
+      "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "元大台灣50",
+      "name_b": "國泰台灣科技龍頭",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.53,
+      "premium_b": 0.19,
+      "premium_gap_a_minus_b": 0.34,
+      "price_a": 105.8,
+      "price_b": 53.3,
+      "nav_a": 105.24,
+      "nav_b": 53.2,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "006208",
+      "b": "00881",
+      "common_count": 20,
+      "common_codes": [
+        "2059",
+        "2303",
+        "2308",
+        "2317",
+        "2330",
+        "2345",
+        "2360",
+        "2368",
+        "2382",
+        "2383",
+        "2449",
+        "2454",
+        "3008",
+        "3017",
+        "3037",
+        "3045",
+        "3231",
+        "3665",
+        "4904",
+        "4958"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.33,
+          "weight_b": 40.05,
+          "min_weight": 40.05
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.71,
+          "weight_b": 9.68,
+          "min_weight": 5.71
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.59,
+          "weight_b": 6.39,
+          "min_weight": 3.59
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.87,
+          "weight_b": 4.66,
+          "min_weight": 2.87
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.8,
+          "weight_b": 3.78,
+          "min_weight": 1.8
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.52,
+          "weight_b": 2.79,
+          "min_weight": 1.52
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.21,
+          "weight_b": 2.24,
+          "min_weight": 1.21
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.14,
+          "weight_b": 2.7,
+          "min_weight": 1.14
+        },
+        {
+          "code": "2382",
+          "weight_a": 0.98,
+          "weight_b": 1.84,
+          "min_weight": 0.98
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.74,
+          "weight_b": 1.62,
+          "min_weight": 0.74
+        },
+        {
+          "code": "2360",
+          "weight_a": 0.66,
+          "weight_b": 1.7,
+          "min_weight": 0.66
+        },
+        {
+          "code": "2059",
+          "weight_a": 0.45,
+          "weight_b": 1.91,
+          "min_weight": 0.45
+        },
+        {
+          "code": "4958",
+          "weight_a": 0.44,
+          "weight_b": 1.6,
+          "min_weight": 0.44
+        },
+        {
+          "code": "3231",
+          "weight_a": 0.43,
+          "weight_b": 1.35,
+          "min_weight": 0.43
+        },
+        {
+          "code": "2368",
+          "weight_a": 0.37,
+          "weight_b": 1.14,
+          "min_weight": 0.37
+        }
+      ],
+      "only_a_sample": [
+        "1216",
+        "1303",
+        "202607WTXN6F",
+        "2301",
+        "2327",
+        "2344",
+        "2357",
+        "2395"
+      ],
+      "only_b_sample": [
+        "202607TX",
+        "2313",
+        "2379",
+        "3034",
+        "3036",
+        "3044",
+        "3105",
+        "4938"
+      ],
+      "weighted_min_overlap_pct": 63.31,
+      "coverage_a_pct": 100.06,
+      "coverage_b_pct": 100.04,
+      "within_top_overlap_pct": 63.2847,
+      "holding_count_a": 51,
+      "holding_count_b": 31,
+      "source_a": "https://www.cmoney.tw/etf/tw/006208/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "富邦台50",
+      "name_b": "國泰台灣科技龍頭",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.52,
+      "premium_b": 0.19,
+      "premium_gap_a_minus_b": 0.33,
+      "price_a": 245.7,
+      "price_b": 53.3,
+      "nav_a": 244.43,
+      "nav_b": 53.2,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0052",
+      "b": "00881",
+      "common_count": 21,
+      "common_codes": [
+        "2303",
+        "2313",
+        "2317",
+        "2330",
+        "2368",
+        "2379",
+        "2382",
+        "2383",
+        "2449",
+        "2454",
+        "3008",
+        "3017",
+        "3034",
+        "3036",
+        "3037",
+        "3044",
+        "3231",
+        "3665",
+        "4938",
+        "4958",
+        "6515"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 64.81,
+          "weight_b": 40.05,
+          "min_weight": 40.05
+        },
+        {
+          "code": "2454",
+          "weight_a": 6.36,
+          "weight_b": 9.68,
+          "min_weight": 6.36
+        },
+        {
+          "code": "2317",
+          "weight_a": 3.19,
+          "weight_b": 4.66,
+          "min_weight": 3.19
+        },
+        {
+          "code": "2303",
+          "weight_a": 2.0,
+          "weight_b": 3.78,
+          "min_weight": 2.0
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.67,
+          "weight_b": 2.79,
+          "min_weight": 1.67
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.27,
+          "weight_b": 2.7,
+          "min_weight": 1.27
+        },
+        {
+          "code": "2382",
+          "weight_a": 1.09,
+          "weight_b": 1.84,
+          "min_weight": 1.09
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.83,
+          "weight_b": 1.62,
+          "min_weight": 0.83
+        },
+        {
+          "code": "4958",
+          "weight_a": 0.49,
+          "weight_b": 1.6,
+          "min_weight": 0.49
+        },
+        {
+          "code": "3231",
+          "weight_a": 0.48,
+          "weight_b": 1.35,
+          "min_weight": 0.48
+        },
+        {
+          "code": "2379",
+          "weight_a": 0.45,
+          "weight_b": 1.35,
+          "min_weight": 0.45
+        },
+        {
+          "code": "2368",
+          "weight_a": 0.41,
+          "weight_b": 1.14,
+          "min_weight": 0.41
+        },
+        {
+          "code": "3008",
+          "weight_a": 0.41,
+          "weight_b": 1.41,
+          "min_weight": 0.41
+        },
+        {
+          "code": "2449",
+          "weight_a": 0.37,
+          "weight_b": 1.09,
+          "min_weight": 0.37
+        },
+        {
+          "code": "3665",
+          "weight_a": 0.37,
+          "weight_b": 1.1,
+          "min_weight": 0.37
+        }
+      ],
+      "only_a_sample": [
+        "202607WTEN6F",
+        "202607WVHFN6F",
+        "2301",
+        "2324",
+        "2327",
+        "2337",
+        "2344",
+        "2347"
+      ],
+      "only_b_sample": [
+        "202607TX",
         "2059",
         "2308",
         "2345",
-        "6223"
+        "2360",
+        "3045",
+        "3105",
+        "4904"
       ],
-      "weighted_min_overlap_pct": 54.5464,
-      "coverage_a_pct": 85.2583,
-      "coverage_b_pct": 76.1,
-      "within_top_overlap_pct": 71.6773,
-      "holding_count_a": 10,
-      "holding_count_b": 10,
-      "source_a": "https://www.pocket.tw/etf/tw/0052",
-      "source_b": "https://www.pocket.tw/etf/tw/00881",
-      "method": "top_holdings_weighted_min",
+      "weighted_min_overlap_pct": 60.84,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 100.04,
+      "within_top_overlap_pct": 60.8157,
+      "holding_count_a": 73,
+      "holding_count_b": 31,
+      "source_a": "https://www.cmoney.tw/etf/tw/0052/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "method": "full_holdings_weighted_min",
       "name_a": "富邦科技",
       "name_b": "國泰台灣科技龍頭",
       "same_index": false,
       "index_name": null,
       "index_evidence": null,
       "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
       "premium_a": 0.45,
       "premium_b": 0.19,
@@ -1180,6 +1941,1307 @@
       "price_b": 53.3,
       "nav_a": 61.72,
       "nav_b": 53.2,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00878",
+      "b": "00919",
+      "common_count": 13,
+      "common_codes": [
+        "202607TX",
+        "2357",
+        "2379",
+        "2382",
+        "2603",
+        "2618",
+        "2881",
+        "2882",
+        "2887",
+        "2891",
+        "3034",
+        "3293",
+        "5871"
+      ],
+      "common_detail": [
+        {
+          "code": "2891",
+          "weight_a": 10.56,
+          "weight_b": 11.32,
+          "min_weight": 10.56
+        },
+        {
+          "code": "2382",
+          "weight_a": 10.47,
+          "weight_b": 11.97,
+          "min_weight": 10.47
+        },
+        {
+          "code": "2882",
+          "weight_a": 5.92,
+          "weight_b": 11.73,
+          "min_weight": 5.92
+        },
+        {
+          "code": "2357",
+          "weight_a": 4.32,
+          "weight_b": 4.3,
+          "min_weight": 4.3
+        },
+        {
+          "code": "2603",
+          "weight_a": 3.58,
+          "weight_b": 3.56,
+          "min_weight": 3.56
+        },
+        {
+          "code": "2379",
+          "weight_a": 3.55,
+          "weight_b": 3.48,
+          "min_weight": 3.48
+        },
+        {
+          "code": "2887",
+          "weight_a": 3.44,
+          "weight_b": 7.74,
+          "min_weight": 3.44
+        },
+        {
+          "code": "3034",
+          "weight_a": 2.83,
+          "weight_b": 3.72,
+          "min_weight": 2.83
+        },
+        {
+          "code": "202607TX",
+          "weight_a": 2.78,
+          "weight_b": 3.16,
+          "min_weight": 2.78
+        },
+        {
+          "code": "2881",
+          "weight_a": 2.74,
+          "weight_b": 13.45,
+          "min_weight": 2.74
+        },
+        {
+          "code": "2618",
+          "weight_a": 1.83,
+          "weight_b": 1.81,
+          "min_weight": 1.81
+        },
+        {
+          "code": "3293",
+          "weight_a": 1.79,
+          "weight_b": 1.57,
+          "min_weight": 1.57
+        },
+        {
+          "code": "5871",
+          "weight_a": 1.6,
+          "weight_b": 1.51,
+          "min_weight": 1.51
+        }
+      ],
+      "only_a_sample": [
+        "1216",
+        "2301",
+        "2303",
+        "2356",
+        "2376",
+        "2412",
+        "2454",
+        "2880"
+      ],
+      "only_b_sample": [
+        "1210",
+        "1319",
+        "1402",
+        "1477",
+        "2105",
+        "2211",
+        "2347",
+        "2385"
+      ],
+      "weighted_min_overlap_pct": 54.97,
+      "coverage_a_pct": 100.5,
+      "coverage_b_pct": 100.59,
+      "within_top_overlap_pct": 54.6965,
+      "holding_count_a": 31,
+      "holding_count_b": 41,
+      "source_a": "https://www.cmoney.tw/etf/tw/00878/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00919/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "國泰永續高股息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "name_b": "群益台灣精選高息",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": -0.75,
+      "premium_b": 0.17,
+      "premium_gap_a_minus_b": -0.92,
+      "price_a": 33.19,
+      "price_b": 29.97,
+      "nav_a": 33.44,
+      "nav_b": 29.92,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0056",
+      "b": "00878",
+      "common_count": 23,
+      "common_codes": [
+        "1216",
+        "202607TX",
+        "2301",
+        "2303",
+        "2356",
+        "2357",
+        "2376",
+        "2379",
+        "2382",
+        "2454",
+        "2603",
+        "2618",
+        "2880",
+        "2885",
+        "2886",
+        "2887",
+        "2891",
+        "3034",
+        "3045",
+        "3231",
+        "3711",
+        "4904",
+        "5876"
+      ],
+      "common_detail": [
+        {
+          "code": "2382",
+          "weight_a": 4.42,
+          "weight_b": 10.47,
+          "min_weight": 4.42
+        },
+        {
+          "code": "2891",
+          "weight_a": 4.3,
+          "weight_b": 10.56,
+          "min_weight": 4.3
+        },
+        {
+          "code": "2303",
+          "weight_a": 3.48,
+          "weight_b": 4.74,
+          "min_weight": 3.48
+        },
+        {
+          "code": "2357",
+          "weight_a": 3.23,
+          "weight_b": 4.32,
+          "min_weight": 3.23
+        },
+        {
+          "code": "2379",
+          "weight_a": 2.93,
+          "weight_b": 3.55,
+          "min_weight": 2.93
+        },
+        {
+          "code": "2886",
+          "weight_a": 3.47,
+          "weight_b": 2.63,
+          "min_weight": 2.63
+        },
+        {
+          "code": "2885",
+          "weight_a": 2.74,
+          "weight_b": 2.53,
+          "min_weight": 2.53
+        },
+        {
+          "code": "2603",
+          "weight_a": 2.48,
+          "weight_b": 3.58,
+          "min_weight": 2.48
+        },
+        {
+          "code": "1216",
+          "weight_a": 2.69,
+          "weight_b": 2.46,
+          "min_weight": 2.46
+        },
+        {
+          "code": "2887",
+          "weight_a": 2.38,
+          "weight_b": 3.44,
+          "min_weight": 2.38
+        },
+        {
+          "code": "2880",
+          "weight_a": 3.66,
+          "weight_b": 2.37,
+          "min_weight": 2.37
+        },
+        {
+          "code": "2301",
+          "weight_a": 2.18,
+          "weight_b": 2.18,
+          "min_weight": 2.18
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.16,
+          "weight_b": 2.88,
+          "min_weight": 2.16
+        },
+        {
+          "code": "3034",
+          "weight_a": 2.11,
+          "weight_b": 2.83,
+          "min_weight": 2.11
+        },
+        {
+          "code": "3045",
+          "weight_a": 2.11,
+          "weight_b": 2.39,
+          "min_weight": 2.11
+        }
+      ],
+      "only_a_sample": [
+        "1102",
+        "1303",
+        "1513",
+        "202608TX",
+        "2027",
+        "2105",
+        "2317",
+        "2324"
+      ],
+      "only_b_sample": [
+        "2412",
+        "2881",
+        "2882",
+        "2912",
+        "3293",
+        "4958",
+        "5347",
+        "5871"
+      ],
+      "weighted_min_overlap_pct": 54.57,
+      "coverage_a_pct": 100.23,
+      "coverage_b_pct": 100.5,
+      "within_top_overlap_pct": 54.4448,
+      "holding_count_a": 52,
+      "holding_count_b": 31,
+      "source_a": "https://www.cmoney.tw/etf/tw/0056/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00878/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "元大高股息",
+      "name_b": "國泰永續高股息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.36,
+      "premium_b": -0.75,
+      "premium_gap_a_minus_b": 1.11,
+      "price_a": 52.65,
+      "price_b": 33.19,
+      "nav_a": 52.46,
+      "nav_b": 33.44,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00403A",
+      "b": "00881",
+      "common_count": 16,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2317",
+        "2330",
+        "2345",
+        "2360",
+        "2368",
+        "2383",
+        "2454",
+        "3017",
+        "3037",
+        "3665",
+        "4958",
+        "6223",
+        "6274",
+        "6515"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 19.01,
+          "weight_b": 40.05,
+          "min_weight": 19.01
+        },
+        {
+          "code": "2454",
+          "weight_a": 3.86,
+          "weight_b": 9.68,
+          "min_weight": 3.86
+        },
+        {
+          "code": "2303",
+          "weight_a": 7.19,
+          "weight_b": 3.78,
+          "min_weight": 3.78
+        },
+        {
+          "code": "2308",
+          "weight_a": 2.81,
+          "weight_b": 6.39,
+          "min_weight": 2.81
+        },
+        {
+          "code": "2383",
+          "weight_a": 3.71,
+          "weight_b": 2.79,
+          "min_weight": 2.79
+        },
+        {
+          "code": "3037",
+          "weight_a": 3.8,
+          "weight_b": 2.7,
+          "min_weight": 2.7
+        },
+        {
+          "code": "2345",
+          "weight_a": 3.19,
+          "weight_b": 2.24,
+          "min_weight": 2.24
+        },
+        {
+          "code": "6223",
+          "weight_a": 4.35,
+          "weight_b": 1.9,
+          "min_weight": 1.9
+        },
+        {
+          "code": "3017",
+          "weight_a": 4.99,
+          "weight_b": 1.62,
+          "min_weight": 1.62
+        },
+        {
+          "code": "4958",
+          "weight_a": 2.33,
+          "weight_b": 1.6,
+          "min_weight": 1.6
+        },
+        {
+          "code": "6274",
+          "weight_a": 1.64,
+          "weight_b": 1.53,
+          "min_weight": 1.53
+        },
+        {
+          "code": "2368",
+          "weight_a": 1.82,
+          "weight_b": 1.14,
+          "min_weight": 1.14
+        },
+        {
+          "code": "6515",
+          "weight_a": 0.95,
+          "weight_b": 0.74,
+          "min_weight": 0.74
+        },
+        {
+          "code": "2360",
+          "weight_a": 0.5,
+          "weight_b": 1.7,
+          "min_weight": 0.5
+        },
+        {
+          "code": "2317",
+          "weight_a": 0.47,
+          "weight_b": 4.66,
+          "min_weight": 0.47
+        }
+      ],
+      "only_a_sample": [
+        "1303",
+        "1560",
+        "2049",
+        "2327",
+        "2337",
+        "2344",
+        "2455",
+        "3189"
+      ],
+      "only_b_sample": [
+        "202607TX",
+        "2059",
+        "2313",
+        "2379",
+        "2382",
+        "2449",
+        "3008",
+        "3034"
+      ],
+      "weighted_min_overlap_pct": 46.88,
+      "coverage_a_pct": 92.41,
+      "coverage_b_pct": 100.04,
+      "within_top_overlap_pct": 50.7304,
+      "holding_count_a": 45,
+      "holding_count_b": 31,
+      "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "主動統一升級50",
+      "name_b": "國泰台灣科技龍頭",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.1,
+      "premium_b": 0.19,
+      "premium_gap_a_minus_b": -0.09,
+      "price_a": 10.48,
+      "price_b": 53.3,
+      "nav_a": 10.47,
+      "nav_b": 53.2,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00403A",
+      "b": "009816",
+      "common_count": 23,
+      "common_codes": [
+        "1303",
+        "2303",
+        "2308",
+        "2317",
+        "2327",
+        "2330",
+        "2344",
+        "2345",
+        "2360",
+        "2368",
+        "2383",
+        "2454",
+        "3017",
+        "3037",
+        "3443",
+        "3653",
+        "3665",
+        "3711",
+        "4958",
+        "6515",
+        "6669",
+        "7769",
+        "8046"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 19.01,
+          "weight_b": 41.25,
+          "min_weight": 19.01
+        },
+        {
+          "code": "2454",
+          "weight_a": 3.86,
+          "weight_b": 8.24,
+          "min_weight": 3.86
+        },
+        {
+          "code": "2308",
+          "weight_a": 2.81,
+          "weight_b": 5.5,
+          "min_weight": 2.81
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.46,
+          "weight_b": 3.11,
+          "min_weight": 2.46
+        },
+        {
+          "code": "2345",
+          "weight_a": 3.19,
+          "weight_b": 2.37,
+          "min_weight": 2.37
+        },
+        {
+          "code": "3037",
+          "weight_a": 3.8,
+          "weight_b": 2.18,
+          "min_weight": 2.18
+        },
+        {
+          "code": "2303",
+          "weight_a": 7.19,
+          "weight_b": 1.74,
+          "min_weight": 1.74
+        },
+        {
+          "code": "2327",
+          "weight_a": 4.98,
+          "weight_b": 1.67,
+          "min_weight": 1.67
+        },
+        {
+          "code": "2383",
+          "weight_a": 3.71,
+          "weight_b": 1.64,
+          "min_weight": 1.64
+        },
+        {
+          "code": "4958",
+          "weight_a": 2.33,
+          "weight_b": 0.96,
+          "min_weight": 0.96
+        },
+        {
+          "code": "1303",
+          "weight_a": 0.95,
+          "weight_b": 0.97,
+          "min_weight": 0.95
+        },
+        {
+          "code": "3443",
+          "weight_a": 1.28,
+          "weight_b": 0.83,
+          "min_weight": 0.83
+        },
+        {
+          "code": "3017",
+          "weight_a": 4.99,
+          "weight_b": 0.79,
+          "min_weight": 0.79
+        },
+        {
+          "code": "3653",
+          "weight_a": 1.54,
+          "weight_b": 0.74,
+          "min_weight": 0.74
+        },
+        {
+          "code": "7769",
+          "weight_a": 1.14,
+          "weight_b": 0.69,
+          "min_weight": 0.69
+        }
+      ],
+      "only_a_sample": [
+        "1560",
+        "2049",
+        "2337",
+        "2455",
+        "3189",
+        "3211",
+        "3264",
+        "3529"
+      ],
+      "only_b_sample": [
+        "1216",
+        "202607TX",
+        "2059",
+        "2301",
+        "2357",
+        "2382",
+        "2408",
+        "2412"
+      ],
+      "weighted_min_overlap_pct": 46.15,
+      "coverage_a_pct": 92.41,
+      "coverage_b_pct": 99.88,
+      "within_top_overlap_pct": 49.9405,
+      "holding_count_a": 45,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "主動統一升級50",
+      "name_b": "凱基台灣TOP50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.1,
+      "premium_b": 0.4,
+      "premium_gap_a_minus_b": -0.3,
+      "price_a": 10.48,
+      "price_b": 15.23,
+      "nav_a": 10.47,
+      "nav_b": 15.17,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00403A",
+      "b": "006208",
+      "common_count": 22,
+      "common_codes": [
+        "1303",
+        "2303",
+        "2308",
+        "2317",
+        "2327",
+        "2330",
+        "2344",
+        "2345",
+        "2360",
+        "2368",
+        "2383",
+        "2454",
+        "3017",
+        "3037",
+        "3443",
+        "3653",
+        "3665",
+        "3711",
+        "4958",
+        "6669",
+        "7769",
+        "8046"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 19.01,
+          "weight_b": 58.33,
+          "min_weight": 19.01
+        },
+        {
+          "code": "2454",
+          "weight_a": 3.86,
+          "weight_b": 5.71,
+          "min_weight": 3.86
+        },
+        {
+          "code": "2308",
+          "weight_a": 2.81,
+          "weight_b": 3.59,
+          "min_weight": 2.81
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.46,
+          "weight_b": 2.22,
+          "min_weight": 2.22
+        },
+        {
+          "code": "2303",
+          "weight_a": 7.19,
+          "weight_b": 1.8,
+          "min_weight": 1.8
+        },
+        {
+          "code": "2383",
+          "weight_a": 3.71,
+          "weight_b": 1.52,
+          "min_weight": 1.52
+        },
+        {
+          "code": "2327",
+          "weight_a": 4.98,
+          "weight_b": 1.4,
+          "min_weight": 1.4
+        },
+        {
+          "code": "2345",
+          "weight_a": 3.19,
+          "weight_b": 1.21,
+          "min_weight": 1.21
+        },
+        {
+          "code": "3037",
+          "weight_a": 3.8,
+          "weight_b": 1.14,
+          "min_weight": 1.14
+        },
+        {
+          "code": "1303",
+          "weight_a": 0.95,
+          "weight_b": 0.88,
+          "min_weight": 0.88
+        },
+        {
+          "code": "3017",
+          "weight_a": 4.99,
+          "weight_b": 0.74,
+          "min_weight": 0.74
+        },
+        {
+          "code": "2344",
+          "weight_a": 4.3,
+          "weight_b": 0.54,
+          "min_weight": 0.54
+        },
+        {
+          "code": "6669",
+          "weight_a": 2.45,
+          "weight_b": 0.52,
+          "min_weight": 0.52
+        },
+        {
+          "code": "2360",
+          "weight_a": 0.5,
+          "weight_b": 0.66,
+          "min_weight": 0.5
+        },
+        {
+          "code": "2317",
+          "weight_a": 0.47,
+          "weight_b": 2.87,
+          "min_weight": 0.47
+        }
+      ],
+      "only_a_sample": [
+        "1560",
+        "2049",
+        "2337",
+        "2455",
+        "3189",
+        "3211",
+        "3264",
+        "3529"
+      ],
+      "only_b_sample": [
+        "1216",
+        "202607WTXN6F",
+        "2059",
+        "2301",
+        "2357",
+        "2382",
+        "2395",
+        "2408"
+      ],
+      "weighted_min_overlap_pct": 40.88,
+      "coverage_a_pct": 92.41,
+      "coverage_b_pct": 100.06,
+      "within_top_overlap_pct": 44.2376,
+      "holding_count_a": 45,
+      "holding_count_b": 51,
+      "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/006208/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "主動統一升級50",
+      "name_b": "富邦台50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.1,
+      "premium_b": 0.52,
+      "premium_gap_a_minus_b": -0.42,
+      "price_a": 10.48,
+      "price_b": 245.7,
+      "nav_a": 10.47,
+      "nav_b": 244.43,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00403A",
+      "b": "0050",
+      "common_count": 22,
+      "common_codes": [
+        "1303",
+        "2303",
+        "2308",
+        "2317",
+        "2327",
+        "2330",
+        "2344",
+        "2345",
+        "2360",
+        "2368",
+        "2383",
+        "2454",
+        "3017",
+        "3037",
+        "3443",
+        "3653",
+        "3665",
+        "3711",
+        "4958",
+        "6669",
+        "7769",
+        "8046"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 19.01,
+          "weight_b": 58.31,
+          "min_weight": 19.01
+        },
+        {
+          "code": "2454",
+          "weight_a": 3.86,
+          "weight_b": 5.73,
+          "min_weight": 3.86
+        },
+        {
+          "code": "2308",
+          "weight_a": 2.81,
+          "weight_b": 3.59,
+          "min_weight": 2.81
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.46,
+          "weight_b": 2.22,
+          "min_weight": 2.22
+        },
+        {
+          "code": "2303",
+          "weight_a": 7.19,
+          "weight_b": 1.8,
+          "min_weight": 1.8
+        },
+        {
+          "code": "2383",
+          "weight_a": 3.71,
+          "weight_b": 1.52,
+          "min_weight": 1.52
+        },
+        {
+          "code": "2327",
+          "weight_a": 4.98,
+          "weight_b": 1.4,
+          "min_weight": 1.4
+        },
+        {
+          "code": "2345",
+          "weight_a": 3.19,
+          "weight_b": 1.22,
+          "min_weight": 1.22
+        },
+        {
+          "code": "3037",
+          "weight_a": 3.8,
+          "weight_b": 1.14,
+          "min_weight": 1.14
+        },
+        {
+          "code": "1303",
+          "weight_a": 0.95,
+          "weight_b": 0.88,
+          "min_weight": 0.88
+        },
+        {
+          "code": "3017",
+          "weight_a": 4.99,
+          "weight_b": 0.74,
+          "min_weight": 0.74
+        },
+        {
+          "code": "2344",
+          "weight_a": 4.3,
+          "weight_b": 0.54,
+          "min_weight": 0.54
+        },
+        {
+          "code": "6669",
+          "weight_a": 2.45,
+          "weight_b": 0.52,
+          "min_weight": 0.52
+        },
+        {
+          "code": "2360",
+          "weight_a": 0.5,
+          "weight_b": 0.66,
+          "min_weight": 0.5
+        },
+        {
+          "code": "2317",
+          "weight_a": 0.47,
+          "weight_b": 2.86,
+          "min_weight": 0.47
+        }
+      ],
+      "only_a_sample": [
+        "1560",
+        "2049",
+        "2337",
+        "2455",
+        "3189",
+        "3211",
+        "3264",
+        "3529"
+      ],
+      "only_b_sample": [
+        "1216",
+        "202607NYF",
+        "202607TX",
+        "202608NYF",
+        "202608TX",
+        "2059",
+        "2301",
+        "2357"
+      ],
+      "weighted_min_overlap_pct": 40.87,
+      "coverage_a_pct": 92.41,
+      "coverage_b_pct": 100.05,
+      "within_top_overlap_pct": 44.2268,
+      "holding_count_a": 45,
+      "holding_count_b": 54,
+      "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/0050/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "主動統一升級50",
+      "name_b": "元大台灣50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.1,
+      "premium_b": 0.53,
+      "premium_gap_a_minus_b": -0.43,
+      "price_a": 10.48,
+      "price_b": 105.8,
+      "nav_a": 10.47,
+      "nav_b": 105.24,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00881",
+      "b": "00981A",
+      "common_count": 14,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2330",
+        "2345",
+        "2368",
+        "2383",
+        "2449",
+        "2454",
+        "3017",
+        "3037",
+        "3665",
+        "6223",
+        "6274",
+        "6515"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 40.05,
+          "weight_b": 10.51,
+          "min_weight": 10.51
+        },
+        {
+          "code": "2454",
+          "weight_a": 9.68,
+          "weight_b": 7.33,
+          "min_weight": 7.33
+        },
+        {
+          "code": "2303",
+          "weight_a": 3.78,
+          "weight_b": 4.91,
+          "min_weight": 3.78
+        },
+        {
+          "code": "2308",
+          "weight_a": 6.39,
+          "weight_b": 3.46,
+          "min_weight": 3.46
+        },
+        {
+          "code": "2383",
+          "weight_a": 2.79,
+          "weight_b": 8.97,
+          "min_weight": 2.79
+        },
+        {
+          "code": "3037",
+          "weight_a": 2.7,
+          "weight_b": 5.03,
+          "min_weight": 2.7
+        },
+        {
+          "code": "2345",
+          "weight_a": 2.24,
+          "weight_b": 5.69,
+          "min_weight": 2.24
+        },
+        {
+          "code": "6223",
+          "weight_a": 1.9,
+          "weight_b": 6.3,
+          "min_weight": 1.9
+        },
+        {
+          "code": "3017",
+          "weight_a": 1.62,
+          "weight_b": 4.44,
+          "min_weight": 1.62
+        },
+        {
+          "code": "6274",
+          "weight_a": 1.53,
+          "weight_b": 2.95,
+          "min_weight": 1.53
+        },
+        {
+          "code": "2368",
+          "weight_a": 1.14,
+          "weight_b": 3.25,
+          "min_weight": 1.14
+        },
+        {
+          "code": "3665",
+          "weight_a": 1.1,
+          "weight_b": 3.28,
+          "min_weight": 1.1
+        },
+        {
+          "code": "6515",
+          "weight_a": 0.74,
+          "weight_b": 0.58,
+          "min_weight": 0.58
+        },
+        {
+          "code": "2449",
+          "weight_a": 1.09,
+          "weight_b": 0.21,
+          "min_weight": 0.21
+        }
+      ],
+      "only_a_sample": [
+        "202607TX",
+        "2059",
+        "2313",
+        "2317",
+        "2360",
+        "2379",
+        "2382",
+        "3008"
+      ],
+      "only_b_sample": [
+        "1590",
+        "2002",
+        "2327",
+        "3264",
+        "3376",
+        "3653",
+        "3711",
+        "4966"
+      ],
+      "weighted_min_overlap_pct": 40.89,
+      "coverage_a_pct": 100.04,
+      "coverage_b_pct": 97.06,
+      "within_top_overlap_pct": 42.1286,
+      "holding_count_a": 31,
+      "holding_count_b": 35,
+      "source_a": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00981A/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "國泰台灣科技龍頭",
+      "name_b": "主動統一台股增長",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.19,
+      "premium_b": 0.27,
+      "premium_gap_a_minus_b": -0.08,
+      "price_a": 53.3,
+      "price_b": 29.95,
+      "nav_a": 53.2,
+      "nav_b": 29.87,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0056",
+      "b": "00940",
+      "common_count": 26,
+      "common_codes": [
+        "1102",
+        "1216",
+        "1513",
+        "202607TX",
+        "202608TX",
+        "2303",
+        "2356",
+        "2357",
+        "2379",
+        "2385",
+        "2454",
+        "2474",
+        "2618",
+        "2883",
+        "2885",
+        "2887",
+        "2890",
+        "2891",
+        "3023",
+        "3034",
+        "3036",
+        "3044",
+        "3045",
+        "3702",
+        "4938",
+        "9904"
+      ],
+      "common_detail": [
+        {
+          "code": "2303",
+          "weight_a": 3.48,
+          "weight_b": 3.52,
+          "min_weight": 3.48
+        },
+        {
+          "code": "2357",
+          "weight_a": 3.23,
+          "weight_b": 4.35,
+          "min_weight": 3.23
+        },
+        {
+          "code": "2379",
+          "weight_a": 2.93,
+          "weight_b": 3.39,
+          "min_weight": 2.93
+        },
+        {
+          "code": "2891",
+          "weight_a": 4.3,
+          "weight_b": 2.86,
+          "min_weight": 2.86
+        },
+        {
+          "code": "2890",
+          "weight_a": 3.95,
+          "weight_b": 2.43,
+          "min_weight": 2.43
+        },
+        {
+          "code": "1216",
+          "weight_a": 2.69,
+          "weight_b": 2.22,
+          "min_weight": 2.22
+        },
+        {
+          "code": "3034",
+          "weight_a": 2.11,
+          "weight_b": 3.81,
+          "min_weight": 2.11
+        },
+        {
+          "code": "3045",
+          "weight_a": 2.11,
+          "weight_b": 2.11,
+          "min_weight": 2.11
+        },
+        {
+          "code": "2885",
+          "weight_a": 2.74,
+          "weight_b": 2.03,
+          "min_weight": 2.03
+        },
+        {
+          "code": "2883",
+          "weight_a": 2.44,
+          "weight_b": 1.61,
+          "min_weight": 1.61
+        },
+        {
+          "code": "3036",
+          "weight_a": 1.81,
+          "weight_b": 1.6,
+          "min_weight": 1.6
+        },
+        {
+          "code": "2356",
+          "weight_a": 1.56,
+          "weight_b": 3.08,
+          "min_weight": 1.56
+        },
+        {
+          "code": "4938",
+          "weight_a": 1.41,
+          "weight_b": 2.45,
+          "min_weight": 1.41
+        },
+        {
+          "code": "202608TX",
+          "weight_a": 1.38,
+          "weight_b": 2.66,
+          "min_weight": 1.38
+        },
+        {
+          "code": "2618",
+          "weight_a": 1.36,
+          "weight_b": 3.12,
+          "min_weight": 1.36
+        }
+      ],
+      "only_a_sample": [
+        "1303",
+        "2027",
+        "2105",
+        "2301",
+        "2317",
+        "2324",
+        "2344",
+        "2347"
+      ],
+      "only_b_sample": [
+        "1319",
+        "2393",
+        "2404",
+        "2421",
+        "2458",
+        "2610",
+        "2615",
+        "2801"
+      ],
+      "weighted_min_overlap_pct": 40.28,
+      "coverage_a_pct": 100.23,
+      "coverage_b_pct": 99.8,
+      "within_top_overlap_pct": 40.3607,
+      "holding_count_a": 52,
+      "holding_count_b": 52,
+      "source_a": "https://www.cmoney.tw/etf/tw/0056/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00940/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "元大高股息",
+      "name_b": "元大台灣價值高息",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.36,
+      "premium_b": -0.24,
+      "premium_gap_a_minus_b": 0.6,
+      "price_a": 52.65,
+      "price_b": 12.53,
+      "nav_a": 52.46,
+      "nav_b": 12.56,
       "gap_interesting": false,
       "relative_hint": "—"
     }

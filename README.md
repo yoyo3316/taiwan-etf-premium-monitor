@@ -267,7 +267,8 @@ taiwan-etf-premium-monitor/
 ## 安全與限制
 
 - 不將 `TELEGRAM_*` 寫入 repo。
-- 不使用 CMoney、Yahoo、Wantgoo、FinMind 或投信網站作為**主要**資料來源。
+- **即時折溢價**僅使用 TWSE `all_etf.txt`（不依賴 CMoney／Yahoo 等做盤中報價）。
+- **成分股配對研究**使用 CMoney ETF 持股明細（完整揭露），失敗時 fallback pocket.tw；WantGoo 僅作歷史收斂參考。
 - 預估淨值由投信／總代理人提供，TWSE 僅轉載；僅供參考。
 - 休市日、週末、開盤前／收盤後不送告警。
 

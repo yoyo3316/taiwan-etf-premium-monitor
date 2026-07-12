@@ -1,9 +1,10 @@
 {
   "0050": {
     "etf": "0050",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/0050",
-    "fetched_at": "2026-07-12T21:58:07.768425+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/0050/fundholding",
+    "fetched_at": "2026-07-12T22:05:37.130908+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2330",
@@ -54,139 +55,882 @@
         "code": "2345",
         "name": "智邦",
         "weight": 1.22
-      }
-    ],
-    "holding_count": 10,
-    "weight_coverage_pct": 79.88,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
-  },
-  "006208": {
-    "etf": "006208",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/006208",
-    "fetched_at": "2026-07-12T21:58:08.297348+08:00",
-    "holdings": [
-      {
-        "code": "2330",
-        "name": "台積電",
-        "weight": 58.3289
-      },
-      {
-        "code": "2454",
-        "name": "聯發科",
-        "weight": 5.7112
-      },
-      {
-        "code": "2308",
-        "name": "台達電",
-        "weight": 3.5879
-      },
-      {
-        "code": "2317",
-        "name": "鴻海",
-        "weight": 2.8664
-      },
-      {
-        "code": "3711",
-        "name": "日月光投控",
-        "weight": 2.2202
-      },
-      {
-        "code": "2303",
-        "name": "聯電",
-        "weight": 1.7986
-      },
-      {
-        "code": "2383",
-        "name": "台光電",
-        "weight": 1.5191
-      },
-      {
-        "code": "2327",
-        "name": "國巨*",
-        "weight": 1.4007
-      },
-      {
-        "code": "2891",
-        "name": "中信金",
-        "weight": 1.2223
-      },
-      {
-        "code": "2345",
-        "name": "智邦",
-        "weight": 1.2096
-      }
-    ],
-    "holding_count": 10,
-    "weight_coverage_pct": 79.8649,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
-  },
-  "0052": {
-    "etf": "0052",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/0052",
-    "fetched_at": "2026-07-12T21:58:08.801166+08:00",
-    "holdings": [
-      {
-        "code": "2330",
-        "name": "台積電",
-        "weight": 64.8136
-      },
-      {
-        "code": "2454",
-        "name": "聯發科",
-        "weight": 6.3603
-      },
-      {
-        "code": "2317",
-        "name": "鴻海",
-        "weight": 3.1925
-      },
-      {
-        "code": "3711",
-        "name": "日月光投控",
-        "weight": 2.4727
-      },
-      {
-        "code": "2303",
-        "name": "聯電",
-        "weight": 2.0031
-      },
-      {
-        "code": "2383",
-        "name": "台光電",
-        "weight": 1.6696
-      },
-      {
-        "code": "2327",
-        "name": "國巨*",
-        "weight": 1.5603
       },
       {
         "code": "3037",
         "name": "欣興",
-        "weight": 1.2709
+        "weight": 1.14
+      },
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "weight": 1.03
       },
       {
         "code": "2382",
         "name": "廣達",
-        "weight": 1.0868
+        "weight": 0.97
+      },
+      {
+        "code": "2882",
+        "name": "國泰金",
+        "weight": 0.91
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "weight": 0.88
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 0.84
+      },
+      {
+        "code": "2885",
+        "name": "元大金",
+        "weight": 0.74
       },
       {
         "code": "3017",
         "name": "奇鋐",
-        "weight": 0.8285
+        "weight": 0.74
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "weight": 0.66
+      },
+      {
+        "code": "202607TX",
+        "name": "臺股期貨",
+        "weight": 0.55
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "weight": 0.54
+      },
+      {
+        "code": "2886",
+        "name": "兆豐金",
+        "weight": 0.54
+      },
+      {
+        "code": "2884",
+        "name": "玉山金",
+        "weight": 0.52
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "weight": 0.52
+      },
+      {
+        "code": "2890",
+        "name": "永豐金",
+        "weight": 0.51
+      },
+      {
+        "code": "2412",
+        "name": "中華電",
+        "weight": 0.5
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "weight": 0.49
+      },
+      {
+        "code": "2883",
+        "name": "凱基金",
+        "weight": 0.47
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 0.46
+      },
+      {
+        "code": "2059",
+        "name": "川湖",
+        "weight": 0.45
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "weight": 0.44
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 0.43
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "weight": 0.41
+      },
+      {
+        "code": "1216",
+        "name": "統一",
+        "weight": 0.38
+      },
+      {
+        "code": "2892",
+        "name": "第一金",
+        "weight": 0.37
+      },
+      {
+        "code": "3008",
+        "name": "大立光",
+        "weight": 0.37
+      },
+      {
+        "code": "7769",
+        "name": "鴻勁",
+        "weight": 0.37
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "weight": 0.36
+      },
+      {
+        "code": "2880",
+        "name": "華南金",
+        "weight": 0.35
+      },
+      {
+        "code": "3443",
+        "name": "創意",
+        "weight": 0.34
+      },
+      {
+        "code": "3661",
+        "name": "世芯-KY",
+        "weight": 0.33
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight": 0.33
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "weight": 0.33
+      },
+      {
+        "code": "3653",
+        "name": "健策",
+        "weight": 0.28
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "weight": 0.26
+      },
+      {
+        "code": "5880",
+        "name": "合庫金",
+        "weight": 0.26
+      },
+      {
+        "code": "2395",
+        "name": "研華",
+        "weight": 0.25
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "weight": 0.21
+      },
+      {
+        "code": "4904",
+        "name": "遠傳",
+        "weight": 0.17
+      },
+      {
+        "code": "202608TX",
+        "name": "臺股期貨",
+        "weight": 0.16
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "weight": 0.15
+      },
+      {
+        "code": "6505",
+        "name": "台塑化",
+        "weight": 0.07
+      },
+      {
+        "code": "202607NYF",
+        "name": "台灣50ETF股票期貨",
+        "weight": 0.06
+      },
+      {
+        "code": "202608NYF",
+        "name": "台灣50ETF股票期貨",
+        "weight": 0.03
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 85.2583,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 54,
+    "weight_coverage_pct": 100.05,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
+  },
+  "006208": {
+    "etf": "006208",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/006208/fundholding",
+    "fetched_at": "2026-07-12T22:05:37.572460+08:00",
+    "as_of": "20260709",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 58.33
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 5.71
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight": 3.59
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 2.87
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.22
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 1.8
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 1.52
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 1.4
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 1.22
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight": 1.21
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "weight": 1.14
+      },
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "weight": 1.03
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 0.98
+      },
+      {
+        "code": "2882",
+        "name": "國泰金",
+        "weight": 0.91
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "weight": 0.88
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 0.85
+      },
+      {
+        "code": "202607WTXN6F",
+        "name": "台股指數期貨",
+        "weight": 0.77
+      },
+      {
+        "code": "2885",
+        "name": "元大金",
+        "weight": 0.74
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight": 0.74
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "weight": 0.66
+      },
+      {
+        "code": "2886",
+        "name": "兆豐金",
+        "weight": 0.55
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "weight": 0.54
+      },
+      {
+        "code": "2884",
+        "name": "玉山金",
+        "weight": 0.52
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "weight": 0.52
+      },
+      {
+        "code": "2890",
+        "name": "永豐金",
+        "weight": 0.51
+      },
+      {
+        "code": "2412",
+        "name": "中華電",
+        "weight": 0.5
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "weight": 0.49
+      },
+      {
+        "code": "2883",
+        "name": "凱基金",
+        "weight": 0.47
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 0.46
+      },
+      {
+        "code": "2059",
+        "name": "川湖",
+        "weight": 0.45
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "weight": 0.44
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 0.43
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "weight": 0.41
+      },
+      {
+        "code": "1216",
+        "name": "統一",
+        "weight": 0.38
+      },
+      {
+        "code": "7769",
+        "name": "鴻勁",
+        "weight": 0.38
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "weight": 0.37
+      },
+      {
+        "code": "2892",
+        "name": "第一金",
+        "weight": 0.37
+      },
+      {
+        "code": "3008",
+        "name": "大立光",
+        "weight": 0.37
+      },
+      {
+        "code": "2880",
+        "name": "華南金",
+        "weight": 0.35
+      },
+      {
+        "code": "3443",
+        "name": "創意",
+        "weight": 0.34
+      },
+      {
+        "code": "3661",
+        "name": "世芯-KY",
+        "weight": 0.33
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight": 0.33
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "weight": 0.33
+      },
+      {
+        "code": "3653",
+        "name": "健策",
+        "weight": 0.28
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "weight": 0.26
+      },
+      {
+        "code": "5880",
+        "name": "合庫金",
+        "weight": 0.26
+      },
+      {
+        "code": "2395",
+        "name": "研華",
+        "weight": 0.25
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "weight": 0.21
+      },
+      {
+        "code": "4904",
+        "name": "遠傳",
+        "weight": 0.17
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "weight": 0.15
+      },
+      {
+        "code": "6505",
+        "name": "台塑化",
+        "weight": 0.07
+      }
+    ],
+    "holding_count": 51,
+    "weight_coverage_pct": 100.06,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
+  },
+  "0052": {
+    "etf": "0052",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/0052/fundholding",
+    "fetched_at": "2026-07-12T22:05:38.010052+08:00",
+    "as_of": "20260709",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 64.81
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 6.36
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 3.19
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.47
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 2.0
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 1.67
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 1.56
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "weight": 1.27
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 1.09
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight": 0.83
+      },
+      {
+        "code": "202607WTEN6F",
+        "name": "電子指數期貨",
+        "weight": 0.71
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "weight": 0.6
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "weight": 0.58
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "weight": 0.55
+      },
+      {
+        "code": "3481",
+        "name": "群創",
+        "weight": 0.53
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 0.51
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "weight": 0.49
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 0.48
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "weight": 0.46
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱",
+        "weight": 0.45
+      },
+      {
+        "code": "7769",
+        "name": "鴻勁",
+        "weight": 0.42
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "weight": 0.41
+      },
+      {
+        "code": "3008",
+        "name": "大立光",
+        "weight": 0.41
+      },
+      {
+        "code": "3443",
+        "name": "創意",
+        "weight": 0.38
+      },
+      {
+        "code": "3661",
+        "name": "世芯-KY",
+        "weight": 0.37
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight": 0.37
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "weight": 0.37
+      },
+      {
+        "code": "3034",
+        "name": "聯詠",
+        "weight": 0.34
+      },
+      {
+        "code": "3653",
+        "name": "健策",
+        "weight": 0.31
+      },
+      {
+        "code": "3189",
+        "name": "景碩",
+        "weight": 0.29
+      },
+      {
+        "code": "2337",
+        "name": "旺宏",
+        "weight": 0.29
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "weight": 0.29
+      },
+      {
+        "code": "2395",
+        "name": "研華",
+        "weight": 0.27
+      },
+      {
+        "code": "2313",
+        "name": "華通",
+        "weight": 0.26
+      },
+      {
+        "code": "6770",
+        "name": "力積電",
+        "weight": 0.26
+      },
+      {
+        "code": "6239",
+        "name": "力成",
+        "weight": 0.24
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "weight": 0.22
+      },
+      {
+        "code": "3044",
+        "name": "健鼎",
+        "weight": 0.22
+      },
+      {
+        "code": "2409",
+        "name": "友達",
+        "weight": 0.21
+      },
+      {
+        "code": "2356",
+        "name": "英業達",
+        "weight": 0.2
+      },
+      {
+        "code": "2376",
+        "name": "技嘉",
+        "weight": 0.2
+      },
+      {
+        "code": "6415",
+        "name": "矽力*-KY",
+        "weight": 0.19
+      },
+      {
+        "code": "3533",
+        "name": "嘉澤",
+        "weight": 0.18
+      },
+      {
+        "code": "4938",
+        "name": "和碩",
+        "weight": 0.18
+      },
+      {
+        "code": "3036",
+        "name": "文曄",
+        "weight": 0.18
+      },
+      {
+        "code": "3702",
+        "name": "大聯大",
+        "weight": 0.17
+      },
+      {
+        "code": "2324",
+        "name": "仁寶",
+        "weight": 0.16
+      },
+      {
+        "code": "2492",
+        "name": "華新科",
+        "weight": 0.15
+      },
+      {
+        "code": "202607WVHFN6F",
+        "name": "富邦科技ETF期貨",
+        "weight": 0.12
+      },
+      {
+        "code": "2347",
+        "name": "聯強",
+        "weight": 0.12
+      },
+      {
+        "code": "6257",
+        "name": "矽格",
+        "weight": 0.12
+      },
+      {
+        "code": "2377",
+        "name": "微星",
+        "weight": 0.11
+      },
+      {
+        "code": "6531",
+        "name": "愛普*",
+        "weight": 0.11
+      },
+      {
+        "code": "2353",
+        "name": "宏碁",
+        "weight": 0.1
+      },
+      {
+        "code": "2474",
+        "name": "可成",
+        "weight": 0.1
+      },
+      {
+        "code": "3706",
+        "name": "神達",
+        "weight": 0.09
+      },
+      {
+        "code": "5434",
+        "name": "崇越",
+        "weight": 0.09
+      },
+      {
+        "code": "6213",
+        "name": "聯茂",
+        "weight": 0.09
+      },
+      {
+        "code": "6805",
+        "name": "富世達",
+        "weight": 0.09
+      },
+      {
+        "code": "8210",
+        "name": "勤誠",
+        "weight": 0.09
+      },
+      {
+        "code": "2455",
+        "name": "全新",
+        "weight": 0.07
+      },
+      {
+        "code": "2385",
+        "name": "群光",
+        "weight": 0.07
+      },
+      {
+        "code": "2354",
+        "name": "鴻準",
+        "weight": 0.06
+      },
+      {
+        "code": "6196",
+        "name": "帆宣",
+        "weight": 0.06
+      },
+      {
+        "code": "5269",
+        "name": "祥碩",
+        "weight": 0.06
+      },
+      {
+        "code": "6789",
+        "name": "采鈺",
+        "weight": 0.06
+      },
+      {
+        "code": "3030",
+        "name": "德律",
+        "weight": 0.05
+      },
+      {
+        "code": "2467",
+        "name": "志聖",
+        "weight": 0.05
+      },
+      {
+        "code": "3005",
+        "name": "神基",
+        "weight": 0.05
+      },
+      {
+        "code": "2451",
+        "name": "創見",
+        "weight": 0.05
+      },
+      {
+        "code": "3532",
+        "name": "台勝科",
+        "weight": 0.03
+      },
+      {
+        "code": "4919",
+        "name": "新唐",
+        "weight": 0.03
+      },
+      {
+        "code": "6526",
+        "name": "達發",
+        "weight": 0.03
+      }
+    ],
+    "holding_count": 73,
+    "weight_coverage_pct": 100.05,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "009816": {
     "etf": "009816",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/009816",
-    "fetched_at": "2026-07-12T21:58:09.370659+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/009816/fundholding",
+    "fetched_at": "2026-07-12T22:05:38.444293+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2330",
@@ -214,6 +958,11 @@
         "weight": 3.11
       },
       {
+        "code": "202607TX",
+        "name": "臺股期貨",
+        "weight": 2.74
+      },
+      {
         "code": "2345",
         "name": "智邦",
         "weight": 2.37
@@ -232,17 +981,223 @@
         "code": "2303",
         "name": "聯電",
         "weight": 1.74
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 1.67
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 1.64
+      },
+      {
+        "code": "2412",
+        "name": "中華電",
+        "weight": 1.44
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 1.29
+      },
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "weight": 1.21
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 0.98
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "weight": 0.97
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "weight": 0.96
+      },
+      {
+        "code": "2882",
+        "name": "國泰金",
+        "weight": 0.9
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 0.86
+      },
+      {
+        "code": "3443",
+        "name": "創意電子",
+        "weight": 0.83
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight": 0.79
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight": 0.76
+      },
+      {
+        "code": "3653",
+        "name": "健策",
+        "weight": 0.74
+      },
+      {
+        "code": "7769",
+        "name": "鴻勁",
+        "weight": 0.69
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "weight": 0.68
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "weight": 0.63
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "weight": 0.58
+      },
+      {
+        "code": "2059",
+        "name": "川湖",
+        "weight": 0.57
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "weight": 0.56
+      },
+      {
+        "code": "2890",
+        "name": "永豐金",
+        "weight": 0.55
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "weight": 0.54
+      },
+      {
+        "code": "2884",
+        "name": "玉山金",
+        "weight": 0.53
+      },
+      {
+        "code": "2886",
+        "name": "兆豐金",
+        "weight": 0.53
+      },
+      {
+        "code": "2883",
+        "name": "凱基金",
+        "weight": 0.49
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 0.47
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "weight": 0.44
+      },
+      {
+        "code": "3008",
+        "name": "大立光",
+        "weight": 0.43
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 0.43
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "weight": 0.4
+      },
+      {
+        "code": "2880",
+        "name": "華南金",
+        "weight": 0.4
+      },
+      {
+        "code": "2892",
+        "name": "第一金",
+        "weight": 0.38
+      },
+      {
+        "code": "1216",
+        "name": "統一",
+        "weight": 0.37
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "weight": 0.35
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "weight": 0.34
+      },
+      {
+        "code": "3661",
+        "name": "世芯-KY",
+        "weight": 0.32
+      },
+      {
+        "code": "5880",
+        "name": "合庫金",
+        "weight": 0.28
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "weight": 0.26
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "weight": 0.24
+      },
+      {
+        "code": "4904",
+        "name": "遠傳",
+        "weight": 0.23
+      },
+      {
+        "code": "6505",
+        "name": "台塑化",
+        "weight": 0.14
       }
     ],
-    "holding_count": 9,
-    "weight_coverage_pct": 70.27,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 51,
+    "weight_coverage_pct": 99.88,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "0056": {
     "etf": "0056",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/0056",
-    "fetched_at": "2026-07-12T21:58:09.869921+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/0056/fundholding",
+    "fetched_at": "2026-07-12T22:05:38.883217+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2382",
@@ -293,17 +1248,228 @@
         "code": "3231",
         "name": "緯創",
         "weight": 3.21
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "weight": 3.06
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱",
+        "weight": 2.93
+      },
+      {
+        "code": "2885",
+        "name": "元大金",
+        "weight": 2.74
+      },
+      {
+        "code": "1216",
+        "name": "統一",
+        "weight": 2.69
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "weight": 2.48
+      },
+      {
+        "code": "2883",
+        "name": "凱基金",
+        "weight": 2.44
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 2.38
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 2.21
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "weight": 2.18
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.16
+      },
+      {
+        "code": "3034",
+        "name": "聯詠",
+        "weight": 2.11
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "weight": 2.11
+      },
+      {
+        "code": "2884",
+        "name": "玉山金",
+        "weight": 2.06
+      },
+      {
+        "code": "4904",
+        "name": "遠傳",
+        "weight": 1.92
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 1.82
+      },
+      {
+        "code": "3036",
+        "name": "文曄",
+        "weight": 1.81
+      },
+      {
+        "code": "6239",
+        "name": "力成",
+        "weight": 1.58
+      },
+      {
+        "code": "3044",
+        "name": "健鼎",
+        "weight": 1.57
+      },
+      {
+        "code": "2356",
+        "name": "英業達",
+        "weight": 1.56
+      },
+      {
+        "code": "202607TX",
+        "name": "臺股期貨",
+        "weight": 1.48
+      },
+      {
+        "code": "2376",
+        "name": "技嘉",
+        "weight": 1.46
+      },
+      {
+        "code": "4938",
+        "name": "和碩",
+        "weight": 1.41
+      },
+      {
+        "code": "202608TX",
+        "name": "臺股期貨",
+        "weight": 1.38
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "weight": 1.37
+      },
+      {
+        "code": "2618",
+        "name": "長榮航",
+        "weight": 1.36
+      },
+      {
+        "code": "5876",
+        "name": "上海商銀",
+        "weight": 1.25
+      },
+      {
+        "code": "3702",
+        "name": "大聯大",
+        "weight": 1.11
+      },
+      {
+        "code": "2324",
+        "name": "仁寶",
+        "weight": 1.01
+      },
+      {
+        "code": "2347",
+        "name": "聯強",
+        "weight": 0.99
+      },
+      {
+        "code": "6285",
+        "name": "啟碁",
+        "weight": 0.83
+      },
+      {
+        "code": "2377",
+        "name": "微星",
+        "weight": 0.8
+      },
+      {
+        "code": "1102",
+        "name": "亞泥",
+        "weight": 0.72
+      },
+      {
+        "code": "2474",
+        "name": "可成",
+        "weight": 0.7
+      },
+      {
+        "code": "2105",
+        "name": "正新",
+        "weight": 0.67
+      },
+      {
+        "code": "2353",
+        "name": "宏碁",
+        "weight": 0.61
+      },
+      {
+        "code": "2027",
+        "name": "大成鋼",
+        "weight": 0.58
+      },
+      {
+        "code": "1513",
+        "name": "中興電",
+        "weight": 0.54
+      },
+      {
+        "code": "2385",
+        "name": "群光",
+        "weight": 0.5
+      },
+      {
+        "code": "3023",
+        "name": "信邦",
+        "weight": 0.5
+      },
+      {
+        "code": "2645",
+        "name": "長榮航太",
+        "weight": 0.45
+      },
+      {
+        "code": "3005",
+        "name": "神基",
+        "weight": 0.45
+      },
+      {
+        "code": "9904",
+        "name": "寶成",
+        "weight": 0.36
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 37.89,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 52,
+    "weight_coverage_pct": 100.23,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00878": {
     "etf": "00878",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00878",
-    "fetched_at": "2026-07-12T21:58:10.488189+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00878/fundholding",
+    "fetched_at": "2026-07-12T22:05:39.324334+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2891",
@@ -354,78 +1520,340 @@
         "code": "3711",
         "name": "日月光投控",
         "weight": 2.88
-      }
-    ],
-    "holding_count": 10,
-    "weight_coverage_pct": 52.68,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
-  },
-  "00919": {
-    "etf": "00919",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00919",
-    "fetched_at": "2026-07-12T21:58:11.046493+08:00",
-    "holdings": [
-      {
-        "code": "2881",
-        "name": "富邦金",
-        "weight": 13.4482
-      },
-      {
-        "code": "2382",
-        "name": "廣達",
-        "weight": 11.967
-      },
-      {
-        "code": "2882",
-        "name": "國泰金",
-        "weight": 11.7335
-      },
-      {
-        "code": "2891",
-        "name": "中信金",
-        "weight": 11.3245
-      },
-      {
-        "code": "2887",
-        "name": "台新新光金",
-        "weight": 7.7404
-      },
-      {
-        "code": "2883",
-        "name": "凱基金",
-        "weight": 4.3089
-      },
-      {
-        "code": "2357",
-        "name": "華碩",
-        "weight": 4.3001
       },
       {
         "code": "3034",
         "name": "聯詠",
-        "weight": 3.7156
+        "weight": 2.83
+      },
+      {
+        "code": "202607TX",
+        "name": "台股期貨",
+        "weight": 2.78
+      },
+      {
+        "code": "5347",
+        "name": "世界先進",
+        "weight": 2.76
+      },
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "weight": 2.74
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "weight": 2.74
+      },
+      {
+        "code": "2886",
+        "name": "兆豐金",
+        "weight": 2.63
+      },
+      {
+        "code": "2885",
+        "name": "元大金",
+        "weight": 2.53
+      },
+      {
+        "code": "1216",
+        "name": "統一",
+        "weight": 2.46
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "weight": 2.39
+      },
+      {
+        "code": "2880",
+        "name": "華南金",
+        "weight": 2.37
+      },
+      {
+        "code": "4904",
+        "name": "遠傳",
+        "weight": 2.34
+      },
+      {
+        "code": "2412",
+        "name": "中華電",
+        "weight": 2.23
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "weight": 2.18
+      },
+      {
+        "code": "2356",
+        "name": "英業達",
+        "weight": 2.08
+      },
+      {
+        "code": "2912",
+        "name": "統一超",
+        "weight": 2.04
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 1.95
+      },
+      {
+        "code": "2376",
+        "name": "技嘉",
+        "weight": 1.85
+      },
+      {
+        "code": "2618",
+        "name": "長榮航",
+        "weight": 1.83
+      },
+      {
+        "code": "3293",
+        "name": "鈊  象",
+        "weight": 1.79
+      },
+      {
+        "code": "5876",
+        "name": "上海商銀",
+        "weight": 1.7
+      },
+      {
+        "code": "5871",
+        "name": "中租-KY",
+        "weight": 1.6
+      }
+    ],
+    "holding_count": 31,
+    "weight_coverage_pct": 100.5,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
+  },
+  "00919": {
+    "etf": "00919",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00919/fundholding",
+    "fetched_at": "2026-07-12T22:05:39.747238+08:00",
+    "as_of": "20260709",
+    "holdings": [
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "weight": 13.45
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 11.97
+      },
+      {
+        "code": "2882",
+        "name": "國泰金",
+        "weight": 11.73
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 11.32
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 7.74
+      },
+      {
+        "code": "2883",
+        "name": "凱基金",
+        "weight": 4.31
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 4.3
+      },
+      {
+        "code": "3034",
+        "name": "聯詠",
+        "weight": 3.72
       },
       {
         "code": "2603",
         "name": "長榮",
-        "weight": 3.5569
+        "weight": 3.56
       },
       {
         "code": "2379",
         "name": "瑞昱",
-        "weight": 3.4791
+        "weight": 3.48
+      },
+      {
+        "code": "202607TX",
+        "name": "台指期",
+        "weight": 3.16
+      },
+      {
+        "code": "2618",
+        "name": "長榮航",
+        "weight": 1.81
+      },
+      {
+        "code": "4938",
+        "name": "和碩",
+        "weight": 1.71
+      },
+      {
+        "code": "3293",
+        "name": "鈊象",
+        "weight": 1.57
+      },
+      {
+        "code": "5871",
+        "name": "中租-KY",
+        "weight": 1.51
+      },
+      {
+        "code": "2347",
+        "name": "聯強",
+        "weight": 1.06
+      },
+      {
+        "code": "1402",
+        "name": "遠東新",
+        "weight": 1.06
+      },
+      {
+        "code": "2474",
+        "name": "可成",
+        "weight": 0.93
+      },
+      {
+        "code": "5522",
+        "name": "遠雄",
+        "weight": 0.85
+      },
+      {
+        "code": "2385",
+        "name": "群光",
+        "weight": 0.72
+      },
+      {
+        "code": "2105",
+        "name": "正新",
+        "weight": 0.71
+      },
+      {
+        "code": "2504",
+        "name": "國產",
+        "weight": 0.7
+      },
+      {
+        "code": "2855",
+        "name": "統一證",
+        "weight": 0.68
+      },
+      {
+        "code": "6121",
+        "name": "新普",
+        "weight": 0.66
+      },
+      {
+        "code": "2542",
+        "name": "興富發",
+        "weight": 0.62
+      },
+      {
+        "code": "8454",
+        "name": "富邦媒",
+        "weight": 0.61
+      },
+      {
+        "code": "1477",
+        "name": "聚陽",
+        "weight": 0.56
+      },
+      {
+        "code": "2458",
+        "name": "義隆",
+        "weight": 0.52
+      },
+      {
+        "code": "2637",
+        "name": "慧洋-KY",
+        "weight": 0.52
+      },
+      {
+        "code": "6890",
+        "name": "來億-KY",
+        "weight": 0.51
+      },
+      {
+        "code": "9910",
+        "name": "豐泰",
+        "weight": 0.46
+      },
+      {
+        "code": "9941",
+        "name": "裕融",
+        "weight": 0.45
+      },
+      {
+        "code": "2606",
+        "name": "裕民",
+        "weight": 0.45
+      },
+      {
+        "code": "2597",
+        "name": "潤弘",
+        "weight": 0.44
+      },
+      {
+        "code": "1210",
+        "name": "大成",
+        "weight": 0.44
+      },
+      {
+        "code": "8112",
+        "name": "至上",
+        "weight": 0.42
+      },
+      {
+        "code": "6670",
+        "name": "復盛應用",
+        "weight": 0.39
+      },
+      {
+        "code": "1319",
+        "name": "東陽",
+        "weight": 0.39
+      },
+      {
+        "code": "4763",
+        "name": "材料*-KY",
+        "weight": 0.37
+      },
+      {
+        "code": "4915",
+        "name": "致伸",
+        "weight": 0.37
+      },
+      {
+        "code": "2211",
+        "name": "長榮鋼",
+        "weight": 0.36
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 75.5742,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 41,
+    "weight_coverage_pct": 100.59,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00918": {
     "etf": "00918",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00918",
-    "fetched_at": "2026-07-12T21:58:11.600528+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00918/fundholding",
+    "fetched_at": "2026-07-12T22:05:40.188427+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2887",
@@ -476,22 +1904,123 @@
         "code": "2884",
         "name": "玉山金",
         "weight": 4.28
+      },
+      {
+        "code": "2890",
+        "name": "永豐金",
+        "weight": 4.11
+      },
+      {
+        "code": "2610",
+        "name": "華航",
+        "weight": 3.86
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 3.85
+      },
+      {
+        "code": "3702",
+        "name": "大聯大",
+        "weight": 3.68
+      },
+      {
+        "code": "2892",
+        "name": "第一金",
+        "weight": 3.51
+      },
+      {
+        "code": "2376",
+        "name": "技嘉",
+        "weight": 3.13
+      },
+      {
+        "code": "2404",
+        "name": "漢唐",
+        "weight": 2.88
+      },
+      {
+        "code": "2801",
+        "name": "彰銀",
+        "weight": 2.78
+      },
+      {
+        "code": "3293",
+        "name": "鈊象",
+        "weight": 2.7
+      },
+      {
+        "code": "8069",
+        "name": "元太",
+        "weight": 1.89
+      },
+      {
+        "code": "2474",
+        "name": "可成",
+        "weight": 1.89
+      },
+      {
+        "code": "2377",
+        "name": "微星",
+        "weight": 1.87
+      },
+      {
+        "code": "2027",
+        "name": "大成鋼",
+        "weight": 1.83
+      },
+      {
+        "code": "2353",
+        "name": "宏碁",
+        "weight": 1.38
+      },
+      {
+        "code": "5289",
+        "name": "宜鼎",
+        "weight": 1.3
+      },
+      {
+        "code": "1476",
+        "name": "儒鴻",
+        "weight": 0.92
+      },
+      {
+        "code": "3706",
+        "name": "神達",
+        "weight": 0.63
+      },
+      {
+        "code": "2542",
+        "name": "興富發",
+        "weight": 0.46
+      },
+      {
+        "code": "8464",
+        "name": "億豐",
+        "weight": 0.26
+      },
+      {
+        "code": "5269",
+        "name": "祥碩",
+        "weight": 0.01
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 54.64,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 30,
+    "weight_coverage_pct": 97.58,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00929": {
     "etf": "00929",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00929",
-    "fetched_at": "2026-07-12T21:58:12.121462+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00929/fundholding",
+    "fetched_at": "2026-07-12T22:05:40.611197+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "3034",
         "name": "聯詠科技",
-        "weight": 3.801
+        "weight": 3.8
       },
       {
         "code": "2379",
@@ -501,53 +2030,269 @@
       {
         "code": "6409",
         "name": "旭隼科技",
-        "weight": 2.891
+        "weight": 2.89
       },
       {
         "code": "3260",
         "name": "威剛科技",
-        "weight": 2.839
+        "weight": 2.84
       },
       {
         "code": "2347",
         "name": "聯強國際",
-        "weight": 2.825
+        "weight": 2.83
       },
       {
         "code": "2382",
         "name": "廣達電腦",
-        "weight": 2.802
+        "weight": 2.8
       },
       {
         "code": "2474",
         "name": "可成科技",
-        "weight": 2.722
+        "weight": 2.72
       },
       {
         "code": "2357",
         "name": "華碩電腦",
-        "weight": 2.683
+        "weight": 2.68
       },
       {
         "code": "6139",
         "name": "亞翔工程",
-        "weight": 2.596
+        "weight": 2.6
       },
       {
         "code": "3045",
         "name": "台灣大哥",
-        "weight": 2.571
+        "weight": 2.57
+      },
+      {
+        "code": "2412",
+        "name": "中華電信",
+        "weight": 2.32
+      },
+      {
+        "code": "2404",
+        "name": "漢唐集成",
+        "weight": 2.31
+      },
+      {
+        "code": "4904",
+        "name": "遠傳電信",
+        "weight": 2.28
+      },
+      {
+        "code": "3702",
+        "name": "大聯大控",
+        "weight": 2.22
+      },
+      {
+        "code": "5434",
+        "name": "崇越科技",
+        "weight": 2.22
+      },
+      {
+        "code": "5347",
+        "name": "世界先進",
+        "weight": 2.15
+      },
+      {
+        "code": "3706",
+        "name": "神達控股",
+        "weight": 2.11
+      },
+      {
+        "code": "5269",
+        "name": "祥碩科技",
+        "weight": 2.1
+      },
+      {
+        "code": "2376",
+        "name": "技嘉科技",
+        "weight": 2.09
+      },
+      {
+        "code": "5483",
+        "name": "中美矽晶",
+        "weight": 2.09
+      },
+      {
+        "code": "2356",
+        "name": "英業達股",
+        "weight": 2.07
+      },
+      {
+        "code": "6278",
+        "name": "台灣表面",
+        "weight": 2.05
+      },
+      {
+        "code": "2377",
+        "name": "微星科技",
+        "weight": 2.04
+      },
+      {
+        "code": "3231",
+        "name": "緯創資通",
+        "weight": 2.03
+      },
+      {
+        "code": "3023",
+        "name": "信邦電子",
+        "weight": 2.01
+      },
+      {
+        "code": "DA_NTD",
+        "name": "AFTER DEDUCTING SECURITIES PURCHASES AMOUNT",
+        "weight": 2.01
+      },
+      {
+        "code": "202607WTX",
+        "name": "115/07台股期貨",
+        "weight": 2.0
+      },
+      {
+        "code": "6691",
+        "name": "洋基工程",
+        "weight": 1.99
+      },
+      {
+        "code": "3211",
+        "name": "順達科技",
+        "weight": 1.98
+      },
+      {
+        "code": "8069",
+        "name": "元太科技",
+        "weight": 1.89
+      },
+      {
+        "code": "3090",
+        "name": "日電貿股",
+        "weight": 1.85
+      },
+      {
+        "code": "2303",
+        "name": "聯華電子",
+        "weight": 1.85
+      },
+      {
+        "code": "2458",
+        "name": "義隆電子",
+        "weight": 1.77
+      },
+      {
+        "code": "6121",
+        "name": "新普科技",
+        "weight": 1.74
+      },
+      {
+        "code": "2317",
+        "name": "鴻海精密",
+        "weight": 1.66
+      },
+      {
+        "code": "3044",
+        "name": "健鼎科技",
+        "weight": 1.6
+      },
+      {
+        "code": "6191",
+        "name": "精成科技",
+        "weight": 1.6
+      },
+      {
+        "code": "4966",
+        "name": "譜瑞-KY",
+        "weight": 1.59
+      },
+      {
+        "code": "6257",
+        "name": "矽格股份",
+        "weight": 1.56
+      },
+      {
+        "code": "5536",
+        "name": "聖暉工程",
+        "weight": 1.4
+      },
+      {
+        "code": "8112",
+        "name": "至上電子",
+        "weight": 1.4
+      },
+      {
+        "code": "3264",
+        "name": "欣銓科技",
+        "weight": 1.38
+      },
+      {
+        "code": "3008",
+        "name": "大立光電",
+        "weight": 1.37
+      },
+      {
+        "code": "3563",
+        "name": "牧德科技",
+        "weight": 1.1
+      },
+      {
+        "code": "2352",
+        "name": "佳世達科",
+        "weight": 1.07
+      },
+      {
+        "code": "6548",
+        "name": "長華科技",
+        "weight": 1.05
+      },
+      {
+        "code": "2301",
+        "name": "光寶科技",
+        "weight": 1.02
+      },
+      {
+        "code": "3227",
+        "name": "原相科技",
+        "weight": 1.02
+      },
+      {
+        "code": "5469",
+        "name": "瀚宇博德",
+        "weight": 0.97
+      },
+      {
+        "code": "8422",
+        "name": "可寧衛股",
+        "weight": 0.96
+      },
+      {
+        "code": "M_NTD",
+        "name": "MARGIN",
+        "weight": 0.96
+      },
+      {
+        "code": "4915",
+        "name": "致伸科技",
+        "weight": 0.81
+      },
+      {
+        "code": "8070",
+        "name": "長華電材",
+        "weight": 0.66
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 29.09,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 53,
+    "weight_coverage_pct": 101.44,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00940": {
     "etf": "00940",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00940",
-    "fetched_at": "2026-07-12T21:58:12.636980+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00940/fundholding",
+    "fetched_at": "2026-07-12T22:05:41.044250+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2357",
@@ -583,17 +2328,243 @@
         "code": "2891",
         "name": "中信金",
         "weight": 2.86
+      },
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "weight": 2.77
+      },
+      {
+        "code": "2404",
+        "name": "漢唐",
+        "weight": 2.77
+      },
+      {
+        "code": "202608TX",
+        "name": "臺股期貨",
+        "weight": 2.66
+      },
+      {
+        "code": "1513",
+        "name": "中興電",
+        "weight": 2.58
+      },
+      {
+        "code": "8069",
+        "name": "元太",
+        "weight": 2.56
+      },
+      {
+        "code": "4938",
+        "name": "和碩",
+        "weight": 2.45
+      },
+      {
+        "code": "2890",
+        "name": "永豐金",
+        "weight": 2.43
+      },
+      {
+        "code": "2892",
+        "name": "第一金",
+        "weight": 2.4
+      },
+      {
+        "code": "3293",
+        "name": "鈊象",
+        "weight": 2.32
+      },
+      {
+        "code": "2912",
+        "name": "統一超",
+        "weight": 2.26
+      },
+      {
+        "code": "1216",
+        "name": "統一",
+        "weight": 2.22
+      },
+      {
+        "code": "2610",
+        "name": "華航",
+        "weight": 2.14
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "weight": 2.11
+      },
+      {
+        "code": "2885",
+        "name": "元大金",
+        "weight": 2.03
+      },
+      {
+        "code": "2385",
+        "name": "群光",
+        "weight": 1.99
+      },
+      {
+        "code": "3706",
+        "name": "神達",
+        "weight": 1.93
+      },
+      {
+        "code": "3406",
+        "name": "玉晶光",
+        "weight": 1.92
+      },
+      {
+        "code": "2801",
+        "name": "彰銀",
+        "weight": 1.9
+      },
+      {
+        "code": "6139",
+        "name": "亞翔",
+        "weight": 1.79
+      },
+      {
+        "code": "5269",
+        "name": "祥碩",
+        "weight": 1.76
+      },
+      {
+        "code": "2615",
+        "name": "萬海",
+        "weight": 1.76
+      },
+      {
+        "code": "3023",
+        "name": "信邦",
+        "weight": 1.73
+      },
+      {
+        "code": "2458",
+        "name": "義隆",
+        "weight": 1.71
+      },
+      {
+        "code": "6414",
+        "name": "樺漢",
+        "weight": 1.66
+      },
+      {
+        "code": "2883",
+        "name": "凱基金",
+        "weight": 1.61
+      },
+      {
+        "code": "3036",
+        "name": "文曄",
+        "weight": 1.6
+      },
+      {
+        "code": "3042",
+        "name": "晶技",
+        "weight": 1.58
+      },
+      {
+        "code": "1102",
+        "name": "亞泥",
+        "weight": 1.52
+      },
+      {
+        "code": "9904",
+        "name": "寶成",
+        "weight": 1.38
+      },
+      {
+        "code": "3702",
+        "name": "大聯大",
+        "weight": 1.37
+      },
+      {
+        "code": "2474",
+        "name": "可成",
+        "weight": 1.36
+      },
+      {
+        "code": "3044",
+        "name": "健鼎",
+        "weight": 1.34
+      },
+      {
+        "code": "6176",
+        "name": "瑞儀",
+        "weight": 1.34
+      },
+      {
+        "code": "2421",
+        "name": "建準",
+        "weight": 1.28
+      },
+      {
+        "code": "6278",
+        "name": "台表科",
+        "weight": 1.27
+      },
+      {
+        "code": "4915",
+        "name": "致伸",
+        "weight": 1.22
+      },
+      {
+        "code": "2393",
+        "name": "億光",
+        "weight": 1.11
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 1.06
+      },
+      {
+        "code": "1319",
+        "name": "東陽",
+        "weight": 1.01
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 1.0
+      },
+      {
+        "code": "8016",
+        "name": "矽創",
+        "weight": 0.87
+      },
+      {
+        "code": "6196",
+        "name": "帆宣",
+        "weight": 0.81
+      },
+      {
+        "code": "5469",
+        "name": "瀚宇博",
+        "weight": 0.66
+      },
+      {
+        "code": "2915",
+        "name": "潤泰全",
+        "weight": 0.3
+      },
+      {
+        "code": "202607TX",
+        "name": "臺股期貨",
+        "weight": 0.13
       }
     ],
-    "holding_count": 7,
-    "weight_coverage_pct": 24.13,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 52,
+    "weight_coverage_pct": 99.8,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00881": {
     "etf": "00881",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00881",
-    "fetched_at": "2026-07-12T21:58:13.164257+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+    "fetched_at": "2026-07-12T22:05:41.466374+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2330",
@@ -644,17 +2615,123 @@
         "code": "6223",
         "name": "旺矽",
         "weight": 1.9
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 1.84
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "weight": 1.7
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight": 1.62
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "weight": 1.6
+      },
+      {
+        "code": "202607TX",
+        "name": "台股期貨",
+        "weight": 1.56
+      },
+      {
+        "code": "6274",
+        "name": "台  燿",
+        "weight": 1.53
+      },
+      {
+        "code": "3008",
+        "name": "大立光",
+        "weight": 1.41
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱",
+        "weight": 1.35
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 1.35
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "weight": 1.14
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight": 1.1
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "weight": 1.09
+      },
+      {
+        "code": "3034",
+        "name": "聯詠",
+        "weight": 1.06
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "weight": 0.79
+      },
+      {
+        "code": "3044",
+        "name": "健鼎",
+        "weight": 0.78
+      },
+      {
+        "code": "4904",
+        "name": "遠傳",
+        "weight": 0.77
+      },
+      {
+        "code": "2313",
+        "name": "華通",
+        "weight": 0.75
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "weight": 0.74
+      },
+      {
+        "code": "3105",
+        "name": "穩懋",
+        "weight": 0.6
+      },
+      {
+        "code": "4938",
+        "name": "和碩",
+        "weight": 0.6
+      },
+      {
+        "code": "3036",
+        "name": "文曄",
+        "weight": 0.56
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 76.1,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 31,
+    "weight_coverage_pct": 100.04,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00403A": {
     "etf": "00403A",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00403a",
-    "fetched_at": "2026-07-12T21:58:13.762459+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
+    "fetched_at": "2026-07-12T22:05:41.898006+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2330",
@@ -705,17 +2782,193 @@
         "code": "2345",
         "name": "智邦",
         "weight": 3.19
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight": 2.81
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.46
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "weight": 2.45
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "weight": 2.33
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "weight": 1.82
+      },
+      {
+        "code": "6488",
+        "name": "環球晶",
+        "weight": 1.79
+      },
+      {
+        "code": "6274",
+        "name": "台燿",
+        "weight": 1.64
+      },
+      {
+        "code": "3189",
+        "name": "景碩",
+        "weight": 1.57
+      },
+      {
+        "code": "3653",
+        "name": "健策",
+        "weight": 1.54
+      },
+      {
+        "code": "3533",
+        "name": "嘉澤",
+        "weight": 1.49
+      },
+      {
+        "code": "3443",
+        "name": "創意",
+        "weight": 1.28
+      },
+      {
+        "code": "8996",
+        "name": "高力",
+        "weight": 1.21
+      },
+      {
+        "code": "7769",
+        "name": "鴻勁",
+        "weight": 1.14
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "weight": 0.95
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "weight": 0.95
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "weight": 0.92
+      },
+      {
+        "code": "2337",
+        "name": "旺宏",
+        "weight": 0.88
+      },
+      {
+        "code": "8358",
+        "name": "金居",
+        "weight": 0.64
+      },
+      {
+        "code": "6805",
+        "name": "富世達",
+        "weight": 0.51
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "weight": 0.5
+      },
+      {
+        "code": "3211",
+        "name": "順達",
+        "weight": 0.5
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 0.47
+      },
+      {
+        "code": "3583",
+        "name": "辛耘",
+        "weight": 0.45
+      },
+      {
+        "code": "1560",
+        "name": "中砂",
+        "weight": 0.44
+      },
+      {
+        "code": "5274",
+        "name": "信驊",
+        "weight": 0.42
+      },
+      {
+        "code": "4966",
+        "name": "譜瑞-KY",
+        "weight": 0.32
+      },
+      {
+        "code": "6415",
+        "name": "矽力*-KY",
+        "weight": 0.29
+      },
+      {
+        "code": "6442",
+        "name": "光聖",
+        "weight": 0.27
+      },
+      {
+        "code": "2049",
+        "name": "上銀",
+        "weight": 0.21
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight": 0.19
+      },
+      {
+        "code": "6239",
+        "name": "力成",
+        "weight": 0.18
+      },
+      {
+        "code": "6196",
+        "name": "帆宣",
+        "weight": 0.15
+      },
+      {
+        "code": "3264",
+        "name": "欣銓",
+        "weight": 0.09
+      },
+      {
+        "code": "2455",
+        "name": "全新",
+        "weight": 0.09
+      },
+      {
+        "code": "3529",
+        "name": "力旺",
+        "weight": 0.08
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 59.38,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 45,
+    "weight_coverage_pct": 92.41,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00981A": {
     "etf": "00981A",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00981a",
-    "fetched_at": "2026-07-12T21:58:14.338305+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00981A/fundholding",
+    "fetched_at": "2026-07-12T22:05:42.330415+08:00",
+    "as_of": "20260709",
     "holdings": [
       {
         "code": "2330",
@@ -766,46 +3019,201 @@
         "code": "6669",
         "name": "緯穎",
         "weight": 4.43
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "weight": 4.05
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 3.64
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight": 3.46
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight": 3.28
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "weight": 3.25
+      },
+      {
+        "code": "6274",
+        "name": "台燿",
+        "weight": 2.95
+      },
+      {
+        "code": "3653",
+        "name": "健策",
+        "weight": 2.64
+      },
+      {
+        "code": "5274",
+        "name": "信驊",
+        "weight": 2.07
+      },
+      {
+        "code": "8210",
+        "name": "勤誠",
+        "weight": 0.97
+      },
+      {
+        "code": "6805",
+        "name": "富世達",
+        "weight": 0.96
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "weight": 0.58
+      },
+      {
+        "code": "6187",
+        "name": "萬潤",
+        "weight": 0.51
+      },
+      {
+        "code": "6147",
+        "name": "頎邦",
+        "weight": 0.5
+      },
+      {
+        "code": "6510",
+        "name": "精測",
+        "weight": 0.43
+      },
+      {
+        "code": "5439",
+        "name": "高技",
+        "weight": 0.42
+      },
+      {
+        "code": "6278",
+        "name": "台表科",
+        "weight": 0.31
+      },
+      {
+        "code": "6271",
+        "name": "同欣電",
+        "weight": 0.27
+      },
+      {
+        "code": "1590",
+        "name": "亞德客-KY",
+        "weight": 0.25
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "weight": 0.21
+      },
+      {
+        "code": "6191",
+        "name": "精成科",
+        "weight": 0.15
+      },
+      {
+        "code": "3264",
+        "name": "欣銓",
+        "weight": 0.13
+      },
+      {
+        "code": "3376",
+        "name": "新日興",
+        "weight": 0.12
+      },
+      {
+        "code": "4966",
+        "name": "譜瑞-KY",
+        "weight": 0.03
+      },
+      {
+        "code": "2002",
+        "name": "中鋼",
+        "weight": 0.03
+      },
+      {
+        "code": "6488",
+        "name": "環球晶",
+        "weight": 0.02
       }
     ],
-    "holding_count": 10,
-    "weight_coverage_pct": 65.83,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 35,
+    "weight_coverage_pct": 97.06,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00631L": {
     "etf": "00631L",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00631l",
-    "fetched_at": "2026-07-12T21:58:14.956468+08:00",
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00631L/fundholding",
+    "fetched_at": "2026-07-12T22:05:42.770300+08:00",
+    "as_of": "20260709",
     "holdings": [
+      {
+        "code": "202607TX",
+        "name": "臺股期貨",
+        "weight": 139.2
+      },
       {
         "code": "2330",
         "name": "台積電",
         "weight": 39.23
+      },
+      {
+        "code": "202608TX",
+        "name": "臺股期貨",
+        "weight": 21.35
       }
     ],
-    "holding_count": 1,
-    "weight_coverage_pct": 39.23,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "holding_count": 3,
+    "weight_coverage_pct": 199.78,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00685L": {
     "etf": "00685L",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00685l",
-    "fetched_at": "2026-07-12T21:58:15.514194+08:00",
-    "holdings": [],
-    "holding_count": 0,
-    "weight_coverage_pct": 0,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00685L/fundholding",
+    "fetched_at": "2026-07-12T22:05:43.192910+08:00",
+    "as_of": "20260709",
+    "holdings": [
+      {
+        "code": "202607TX",
+        "name": "台指期",
+        "weight": 149.99
+      },
+      {
+        "code": "202608TX",
+        "name": "台指期",
+        "weight": 49.67
+      }
+    ],
+    "holding_count": 2,
+    "weight_coverage_pct": 199.66,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   },
   "00632R": {
     "etf": "00632R",
-    "source": "pocket.tw",
-    "source_url": "https://www.pocket.tw/etf/tw/00632r",
-    "fetched_at": "2026-07-12T21:58:16.090370+08:00",
-    "holdings": [],
-    "holding_count": 0,
-    "weight_coverage_pct": 0,
-    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+    "source": "cmoney.tw",
+    "source_url": "https://www.cmoney.tw/etf/tw/00632R/fundholding",
+    "fetched_at": "2026-07-12T22:05:43.625407+08:00",
+    "as_of": "20260709",
+    "holdings": [
+      {
+        "code": "202607TX",
+        "name": "臺股期貨",
+        "weight": 99.9
+      }
+    ],
+    "holding_count": 1,
+    "weight_coverage_pct": 99.9,
+    "note": "Full disclosed shareholding from CMoney fundholding API (DtNo=59449513); coverage may be <100% due to cash/other."
   }
 }

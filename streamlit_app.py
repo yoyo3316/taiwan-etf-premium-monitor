@@ -491,7 +491,7 @@ def _render_pairs_panel(rows: list[dict]) -> None:
                 "名稱A": _short_name(str(p.get("name_a") or a), 12),
                 "名稱B": _short_name(str(p.get("name_b") or b), 12),
                 "同指數": "是" if same else "—",
-                "前十大重疊%": within,
+                "成分重疊%": within,
                 "權重重疊pp": wmin,
                 "共同檔數": p.get("common_count"),
                 "A折溢價%": p.get("premium_a"),
@@ -509,7 +509,7 @@ def _render_pairs_panel(rows: list[dict]) -> None:
         column_config={
             "A": _code_link_column("A"),
             "B": _code_link_column("B"),
-            "前十大重疊%": st.column_config.NumberColumn(format="%.1f%%"),
+            "成分重疊%": st.column_config.NumberColumn(format="%.1f%%"),
             "權重重疊pp": st.column_config.NumberColumn(format="%.1f"),
             "A折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
             "B折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
@@ -520,9 +520,10 @@ def _render_pairs_panel(rows: list[dict]) -> None:
         st.markdown(
             """
 - **同指數**：官方商品追蹤同一指數（例：0050／006208 → 臺灣50指數），權益成分宇宙相同。  
-- **持股來源**：pocket.tw 揭露的前十大（等）持股權重（每週一自動更新）。  
-- **權重重疊**：\\(\\sum \\min(w_A, w_B)\\)（百分點）。  
-- **前十大重疊%**：權重重疊 ÷ 兩者前十大覆蓋率之較小值。  
+- **持股來源**：CMoney ETF 持股明細（完整揭露名單，每週一自動更新；失敗時 fallback pocket.tw）。  
+  例：https://www.cmoney.tw/etf/tw/00646/fundholding  
+- **權重重疊**：\\(\\sum \\min(w_A, w_B)\\)（百分點，佔 NAV）。  
+- **成分重疊%**：權重重疊 ÷ 兩者持股覆蓋率之較小值。  
 - **不是**機構申購買回套利；散戶雙邊成本高，僅供相對價值研究。
             """
         )

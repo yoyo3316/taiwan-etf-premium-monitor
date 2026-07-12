@@ -114,7 +114,7 @@ def compute_pair_overlap(
         "holding_count_b": len(wb),
         "source_a": a.get("source_url"),
         "source_b": b.get("source_url"),
-        "method": "top_holdings_weighted_min",
+        "method": "full_holdings_weighted_min",
     }
 
 
@@ -204,7 +204,7 @@ def build_pairs(
         if not _holdings_usable(holdings[a]) or not _holdings_usable(holdings[b]):
             sig = same_index_lookup(a, b)
             if include_same_index_always and sig:
-                # keep same-index even if pocket top list thin
+                # keep same-index even if disclosed list is thin
                 pass
             else:
                 continue
@@ -368,7 +368,10 @@ def build_pairs_payload(
         "universe": PAIR_UNIVERSE,
         "same_index_groups": SAME_INDEX_GROUPS,
         "methodology": {
-            "holdings_source": "pocket.tw top disclosed holdings (SSR embed)",
+            "holdings_source": (
+                "cmoney.tw fundholding (full disclosed shareholding via "
+                "dtno.cmoney.tw JsonCsv DtNo=59449513); pocket.tw fallback"
+            ),
             "overlap_metric": (
                 "weighted_min = sum min(w_a,w_b); "
                 "within_top = weighted_min / min(coverage_a, coverage_b)"

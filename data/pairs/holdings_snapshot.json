@@ -1,0 +1,811 @@
+{
+  "0050": {
+    "etf": "0050",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/0050",
+    "fetched_at": "2026-07-12T21:58:07.768425+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 58.31
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 5.73
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight": 3.59
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 2.86
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.22
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 1.8
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 1.52
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 1.4
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 1.23
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight": 1.22
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 79.88,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "006208": {
+    "etf": "006208",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/006208",
+    "fetched_at": "2026-07-12T21:58:08.297348+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 58.3289
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 5.7112
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight": 3.5879
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 2.8664
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.2202
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 1.7986
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 1.5191
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 1.4007
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 1.2223
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight": 1.2096
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 79.8649,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "0052": {
+    "etf": "0052",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/0052",
+    "fetched_at": "2026-07-12T21:58:08.801166+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 64.8136
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 6.3603
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 3.1925
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.4727
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 2.0031
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 1.6696
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 1.5603
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "weight": 1.2709
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 1.0868
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight": 0.8285
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 85.2583,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "009816": {
+    "etf": "009816",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/009816",
+    "fetched_at": "2026-07-12T21:58:09.370659+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 41.25
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 8.24
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight": 5.5
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 4.02
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 3.11
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight": 2.37
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "weight": 2.18
+      },
+      {
+        "code": "2885",
+        "name": "元大金",
+        "weight": 1.86
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 1.74
+      }
+    ],
+    "holding_count": 9,
+    "weight_coverage_pct": 70.27,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "0056": {
+    "etf": "0056",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/0056",
+    "fetched_at": "2026-07-12T21:58:09.869921+08:00",
+    "holdings": [
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 4.42
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 4.3
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "weight": 4.16
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "weight": 4.01
+      },
+      {
+        "code": "2890",
+        "name": "永豐金",
+        "weight": 3.95
+      },
+      {
+        "code": "2880",
+        "name": "華南金",
+        "weight": 3.66
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 3.48
+      },
+      {
+        "code": "2886",
+        "name": "兆豐金",
+        "weight": 3.47
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 3.23
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight": 3.21
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 37.89,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00878": {
+    "etf": "00878",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00878",
+    "fetched_at": "2026-07-12T21:58:10.488189+08:00",
+    "holdings": [
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 10.56
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 10.47
+      },
+      {
+        "code": "2882",
+        "name": "國泰金",
+        "weight": 5.92
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 4.74
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 4.32
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "weight": 3.58
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱",
+        "weight": 3.55
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 3.44
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 3.22
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "weight": 2.88
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 52.68,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00919": {
+    "etf": "00919",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00919",
+    "fetched_at": "2026-07-12T21:58:11.046493+08:00",
+    "holdings": [
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "weight": 13.4482
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 11.967
+      },
+      {
+        "code": "2882",
+        "name": "國泰金",
+        "weight": 11.7335
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 11.3245
+      },
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 7.7404
+      },
+      {
+        "code": "2883",
+        "name": "凱基金",
+        "weight": 4.3089
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 4.3001
+      },
+      {
+        "code": "3034",
+        "name": "聯詠",
+        "weight": 3.7156
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "weight": 3.5569
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱",
+        "weight": 3.4791
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 75.5742,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00918": {
+    "etf": "00918",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00918",
+    "fetched_at": "2026-07-12T21:58:11.600528+08:00",
+    "holdings": [
+      {
+        "code": "2887",
+        "name": "台新新光金",
+        "weight": 7.05
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 6.18
+      },
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 5.82
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight": 5.68
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "weight": 5.51
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱",
+        "weight": 5.31
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "weight": 5.06
+      },
+      {
+        "code": "2886",
+        "name": "兆豐金",
+        "weight": 4.89
+      },
+      {
+        "code": "2618",
+        "name": "長榮航",
+        "weight": 4.86
+      },
+      {
+        "code": "2884",
+        "name": "玉山金",
+        "weight": 4.28
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 54.64,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00929": {
+    "etf": "00929",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00929",
+    "fetched_at": "2026-07-12T21:58:12.121462+08:00",
+    "holdings": [
+      {
+        "code": "3034",
+        "name": "聯詠科技",
+        "weight": 3.801
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱半導",
+        "weight": 3.36
+      },
+      {
+        "code": "6409",
+        "name": "旭隼科技",
+        "weight": 2.891
+      },
+      {
+        "code": "3260",
+        "name": "威剛科技",
+        "weight": 2.839
+      },
+      {
+        "code": "2347",
+        "name": "聯強國際",
+        "weight": 2.825
+      },
+      {
+        "code": "2382",
+        "name": "廣達電腦",
+        "weight": 2.802
+      },
+      {
+        "code": "2474",
+        "name": "可成科技",
+        "weight": 2.722
+      },
+      {
+        "code": "2357",
+        "name": "華碩電腦",
+        "weight": 2.683
+      },
+      {
+        "code": "6139",
+        "name": "亞翔工程",
+        "weight": 2.596
+      },
+      {
+        "code": "3045",
+        "name": "台灣大哥",
+        "weight": 2.571
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 29.09,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00940": {
+    "etf": "00940",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00940",
+    "fetched_at": "2026-07-12T21:58:12.636980+08:00",
+    "holdings": [
+      {
+        "code": "2357",
+        "name": "華碩",
+        "weight": 4.35
+      },
+      {
+        "code": "3034",
+        "name": "聯詠",
+        "weight": 3.81
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 3.52
+      },
+      {
+        "code": "2379",
+        "name": "瑞昱",
+        "weight": 3.39
+      },
+      {
+        "code": "2618",
+        "name": "長榮航",
+        "weight": 3.12
+      },
+      {
+        "code": "2356",
+        "name": "英業達",
+        "weight": 3.08
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight": 2.86
+      }
+    ],
+    "holding_count": 7,
+    "weight_coverage_pct": 24.13,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00881": {
+    "etf": "00881",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00881",
+    "fetched_at": "2026-07-12T21:58:13.164257+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 40.05
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 9.68
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight": 6.39
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight": 4.66
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 3.78
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 2.79
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "weight": 2.7
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight": 2.24
+      },
+      {
+        "code": "2059",
+        "name": "川湖",
+        "weight": 1.91
+      },
+      {
+        "code": "6223",
+        "name": "旺矽",
+        "weight": 1.9
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 76.1,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00403A": {
+    "etf": "00403A",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00403a",
+    "fetched_at": "2026-07-12T21:58:13.762459+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 19.01
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 7.19
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight": 4.99
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 4.98
+      },
+      {
+        "code": "6223",
+        "name": "旺矽",
+        "weight": 4.35
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "weight": 4.3
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 3.86
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "weight": 3.8
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 3.71
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight": 3.19
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 59.38,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00981A": {
+    "etf": "00981A",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00981a",
+    "fetched_at": "2026-07-12T21:58:14.338305+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 10.51
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "weight": 8.97
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight": 8.22
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight": 7.33
+      },
+      {
+        "code": "6223",
+        "name": "旺矽",
+        "weight": 6.3
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight": 5.69
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "weight": 5.03
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight": 4.91
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight": 4.44
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "weight": 4.43
+      }
+    ],
+    "holding_count": 10,
+    "weight_coverage_pct": 65.83,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00631L": {
+    "etf": "00631L",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00631l",
+    "fetched_at": "2026-07-12T21:58:14.956468+08:00",
+    "holdings": [
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight": 39.23
+      }
+    ],
+    "holding_count": 1,
+    "weight_coverage_pct": 39.23,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00685L": {
+    "etf": "00685L",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00685l",
+    "fetched_at": "2026-07-12T21:58:15.514194+08:00",
+    "holdings": [],
+    "holding_count": 0,
+    "weight_coverage_pct": 0,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  },
+  "00632R": {
+    "etf": "00632R",
+    "source": "pocket.tw",
+    "source_url": "https://www.pocket.tw/etf/tw/00632r",
+    "fetched_at": "2026-07-12T21:58:16.090370+08:00",
+    "holdings": [],
+    "holding_count": 0,
+    "weight_coverage_pct": 0,
+    "note": "Top disclosed holdings from pocket.tw SSR payload; not necessarily full NAV (cash/other names omitted)."
+  }
+}

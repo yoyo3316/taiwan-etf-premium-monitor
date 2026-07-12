@@ -100,6 +100,40 @@ def test_parse_all_etf_minimal():
     assert rows[0]["market_price"] == 100.0
 
 
+def test_pair_overlap_same_index():
+    from src.pair_builder import build_pairs, compute_pair_overlap
+
+    holdings = {
+        "0050": {
+            "holdings": [
+                {"code": "2330", "weight": 50.0},
+                {"code": "2454", "weight": 10.0},
+                {"code": "2317", "weight": 8.0},
+                {"code": "2308", "weight": 5.0},
+                {"code": "3711", "weight": 4.0},
+            ],
+            "holding_count": 5,
+            "weight_coverage_pct": 77.0,
+        },
+        "006208": {
+            "holdings": [
+                {"code": "2330", "weight": 50.0},
+                {"code": "2454", "weight": 10.0},
+                {"code": "2317", "weight": 8.0},
+                {"code": "2308", "weight": 5.0},
+                {"code": "3711", "weight": 4.0},
+            ],
+            "holding_count": 5,
+            "weight_coverage_pct": 77.0,
+        },
+    }
+    ov = compute_pair_overlap("0050", "006208", holdings)
+    assert ov["weighted_min_overlap_pct"] == 77.0
+    pairs = build_pairs(holdings)
+    assert any(p["a"] == "0050" and p["b"] == "006208" for p in pairs)
+    assert any(p.get("same_index") for p in pairs)
+
+
 def test_hot_etf_chase_flag():
     from src.hot_etfs import build_hot_watch_rows
 
@@ -152,5 +186,6 @@ if __name__ == "__main__":
     test_evaluate_premium_alert()
     test_parse_all_etf_minimal()
     test_hot_etf_chase_flag()
+    test_pair_overlap_same_index()
     test_convergence_next_day()
     print("all tests passed")

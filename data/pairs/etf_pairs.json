@@ -1,0 +1,1187 @@
+{
+  "updated_at": "2026-07-12T21:58:16.338803+08:00",
+  "timezone": "Asia/Taipei",
+  "universe": [
+    "0050",
+    "006208",
+    "0052",
+    "009816",
+    "0056",
+    "00878",
+    "00919",
+    "00918",
+    "00929",
+    "00940",
+    "00881",
+    "00403A",
+    "00981A",
+    "00631L",
+    "00685L",
+    "00632R"
+  ],
+  "same_index_groups": [
+    {
+      "index_name": "富時臺灣證券交易所臺灣50指數",
+      "codes": [
+        "0050",
+        "006208"
+      ],
+      "names": {
+        "0050": "元大台灣50",
+        "006208": "富邦台50"
+      },
+      "evidence": "TWSE ETF product pages: both track FTSE TWSE Taiwan 50 Index (富時臺灣證券交易所臺灣50指數).",
+      "universe_overlap": 1.0
+    }
+  ],
+  "methodology": {
+    "holdings_source": "pocket.tw top disclosed holdings (SSR embed)",
+    "overlap_metric": "weighted_min = sum min(w_a,w_b); within_top = weighted_min / min(coverage_a, coverage_b)",
+    "same_index": "Official product index identity (TWSE/issuer). Identical equity universe by construction.",
+    "thresholds": {
+      "min_weighted_overlap_pct": 40,
+      "min_within_top_overlap_pct": 70
+    },
+    "disclaimer": "For relative-value research only. Not investment advice. Not risk-free arbitrage. Creation/redemption is institutional."
+  },
+  "pair_count": 12,
+  "pairs": [
+    {
+      "a": "0050",
+      "b": "006208",
+      "common_count": 10,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2317",
+        "2327",
+        "2330",
+        "2345",
+        "2383",
+        "2454",
+        "2891",
+        "3711"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.31,
+          "weight_b": 58.3289,
+          "min_weight": 58.31
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.73,
+          "weight_b": 5.7112,
+          "min_weight": 5.7112
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.59,
+          "weight_b": 3.5879,
+          "min_weight": 3.5879
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.86,
+          "weight_b": 2.8664,
+          "min_weight": 2.86
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.22,
+          "weight_b": 2.2202,
+          "min_weight": 2.22
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.8,
+          "weight_b": 1.7986,
+          "min_weight": 1.7986
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.52,
+          "weight_b": 1.5191,
+          "min_weight": 1.5191
+        },
+        {
+          "code": "2327",
+          "weight_a": 1.4,
+          "weight_b": 1.4007,
+          "min_weight": 1.4
+        },
+        {
+          "code": "2891",
+          "weight_a": 1.23,
+          "weight_b": 1.2223,
+          "min_weight": 1.2223
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.22,
+          "weight_b": 1.2096,
+          "min_weight": 1.2096
+        }
+      ],
+      "only_a_sample": [],
+      "only_b_sample": [],
+      "weighted_min_overlap_pct": 79.8387,
+      "coverage_a_pct": 79.88,
+      "coverage_b_pct": 79.8649,
+      "within_top_overlap_pct": 99.9672,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/0050",
+      "source_b": "https://www.pocket.tw/etf/tw/006208",
+      "method": "top_holdings_weighted_min",
+      "name_a": "元大台灣50",
+      "name_b": "富邦台50",
+      "same_index": true,
+      "index_name": "富時臺灣證券交易所臺灣50指數",
+      "index_evidence": "TWSE ETF product pages: both track FTSE TWSE Taiwan 50 Index (富時臺灣證券交易所臺灣50指數).",
+      "universe_overlap": 1.0,
+      "qualify_reason": "same_official_index+within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.53,
+      "premium_b": 0.52,
+      "premium_gap_a_minus_b": 0.01,
+      "price_a": 105.8,
+      "price_b": 245.7,
+      "nav_a": 105.24,
+      "nav_b": 244.43,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0052",
+      "b": "006208",
+      "common_count": 7,
+      "common_codes": [
+        "2303",
+        "2317",
+        "2327",
+        "2330",
+        "2383",
+        "2454",
+        "3711"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 64.8136,
+          "weight_b": 58.3289,
+          "min_weight": 58.3289
+        },
+        {
+          "code": "2454",
+          "weight_a": 6.3603,
+          "weight_b": 5.7112,
+          "min_weight": 5.7112
+        },
+        {
+          "code": "2317",
+          "weight_a": 3.1925,
+          "weight_b": 2.8664,
+          "min_weight": 2.8664
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.4727,
+          "weight_b": 2.2202,
+          "min_weight": 2.2202
+        },
+        {
+          "code": "2303",
+          "weight_a": 2.0031,
+          "weight_b": 1.7986,
+          "min_weight": 1.7986
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.6696,
+          "weight_b": 1.5191,
+          "min_weight": 1.5191
+        },
+        {
+          "code": "2327",
+          "weight_a": 1.5603,
+          "weight_b": 1.4007,
+          "min_weight": 1.4007
+        }
+      ],
+      "only_a_sample": [
+        "2382",
+        "3017",
+        "3037"
+      ],
+      "only_b_sample": [
+        "2308",
+        "2345",
+        "2891"
+      ],
+      "weighted_min_overlap_pct": 73.8451,
+      "coverage_a_pct": 85.2583,
+      "coverage_b_pct": 79.8649,
+      "within_top_overlap_pct": 92.4625,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/0052",
+      "source_b": "https://www.pocket.tw/etf/tw/006208",
+      "method": "top_holdings_weighted_min",
+      "name_a": "富邦科技",
+      "name_b": "富邦台50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.45,
+      "premium_b": 0.52,
+      "premium_gap_a_minus_b": -0.07,
+      "price_a": 62.0,
+      "price_b": 245.7,
+      "nav_a": 61.72,
+      "nav_b": 244.43,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0050",
+      "b": "0052",
+      "common_count": 7,
+      "common_codes": [
+        "2303",
+        "2317",
+        "2327",
+        "2330",
+        "2383",
+        "2454",
+        "3711"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.31,
+          "weight_b": 64.8136,
+          "min_weight": 58.31
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.73,
+          "weight_b": 6.3603,
+          "min_weight": 5.73
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.86,
+          "weight_b": 3.1925,
+          "min_weight": 2.86
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.22,
+          "weight_b": 2.4727,
+          "min_weight": 2.22
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.8,
+          "weight_b": 2.0031,
+          "min_weight": 1.8
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.52,
+          "weight_b": 1.6696,
+          "min_weight": 1.52
+        },
+        {
+          "code": "2327",
+          "weight_a": 1.4,
+          "weight_b": 1.5603,
+          "min_weight": 1.4
+        }
+      ],
+      "only_a_sample": [
+        "2308",
+        "2345",
+        "2891"
+      ],
+      "only_b_sample": [
+        "2382",
+        "3017",
+        "3037"
+      ],
+      "weighted_min_overlap_pct": 73.84,
+      "coverage_a_pct": 79.88,
+      "coverage_b_pct": 85.2583,
+      "within_top_overlap_pct": 92.4387,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/0050",
+      "source_b": "https://www.pocket.tw/etf/tw/0052",
+      "method": "top_holdings_weighted_min",
+      "name_a": "元大台灣50",
+      "name_b": "富邦科技",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.53,
+      "premium_b": 0.45,
+      "premium_gap_a_minus_b": 0.08,
+      "price_a": 105.8,
+      "price_b": 62.0,
+      "nav_a": 105.24,
+      "nav_b": 61.72,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00881",
+      "b": "009816",
+      "common_count": 7,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2317",
+        "2330",
+        "2345",
+        "2454",
+        "3037"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 40.05,
+          "weight_b": 41.25,
+          "min_weight": 40.05
+        },
+        {
+          "code": "2454",
+          "weight_a": 9.68,
+          "weight_b": 8.24,
+          "min_weight": 8.24
+        },
+        {
+          "code": "2308",
+          "weight_a": 6.39,
+          "weight_b": 5.5,
+          "min_weight": 5.5
+        },
+        {
+          "code": "2317",
+          "weight_a": 4.66,
+          "weight_b": 4.02,
+          "min_weight": 4.02
+        },
+        {
+          "code": "2345",
+          "weight_a": 2.24,
+          "weight_b": 2.37,
+          "min_weight": 2.24
+        },
+        {
+          "code": "3037",
+          "weight_a": 2.7,
+          "weight_b": 2.18,
+          "min_weight": 2.18
+        },
+        {
+          "code": "2303",
+          "weight_a": 3.78,
+          "weight_b": 1.74,
+          "min_weight": 1.74
+        }
+      ],
+      "only_a_sample": [
+        "2059",
+        "2383",
+        "6223"
+      ],
+      "only_b_sample": [
+        "2885",
+        "3711"
+      ],
+      "weighted_min_overlap_pct": 63.97,
+      "coverage_a_pct": 76.1,
+      "coverage_b_pct": 70.27,
+      "within_top_overlap_pct": 91.0346,
+      "holding_count_a": 10,
+      "holding_count_b": 9,
+      "source_a": "https://www.pocket.tw/etf/tw/00881",
+      "source_b": "https://www.pocket.tw/etf/tw/009816",
+      "method": "top_holdings_weighted_min",
+      "name_a": "國泰台灣科技龍頭",
+      "name_b": "凱基台灣TOP50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.19,
+      "premium_b": 0.4,
+      "premium_gap_a_minus_b": -0.21,
+      "price_a": 53.3,
+      "price_b": 15.23,
+      "nav_a": 53.2,
+      "nav_b": 15.17,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0050",
+      "b": "009816",
+      "common_count": 7,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2317",
+        "2330",
+        "2345",
+        "2454",
+        "3711"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.31,
+          "weight_b": 41.25,
+          "min_weight": 41.25
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.73,
+          "weight_b": 8.24,
+          "min_weight": 5.73
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.59,
+          "weight_b": 5.5,
+          "min_weight": 3.59
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.86,
+          "weight_b": 4.02,
+          "min_weight": 2.86
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.22,
+          "weight_b": 3.11,
+          "min_weight": 2.22
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.8,
+          "weight_b": 1.74,
+          "min_weight": 1.74
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.22,
+          "weight_b": 2.37,
+          "min_weight": 1.22
+        }
+      ],
+      "only_a_sample": [
+        "2327",
+        "2383",
+        "2891"
+      ],
+      "only_b_sample": [
+        "2885",
+        "3037"
+      ],
+      "weighted_min_overlap_pct": 58.61,
+      "coverage_a_pct": 79.88,
+      "coverage_b_pct": 70.27,
+      "within_top_overlap_pct": 83.4069,
+      "holding_count_a": 10,
+      "holding_count_b": 9,
+      "source_a": "https://www.pocket.tw/etf/tw/0050",
+      "source_b": "https://www.pocket.tw/etf/tw/009816",
+      "method": "top_holdings_weighted_min",
+      "name_a": "元大台灣50",
+      "name_b": "凱基台灣TOP50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.53,
+      "premium_b": 0.4,
+      "premium_gap_a_minus_b": 0.13,
+      "price_a": 105.8,
+      "price_b": 15.23,
+      "nav_a": 105.24,
+      "nav_b": 15.17,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "006208",
+      "b": "009816",
+      "common_count": 7,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2317",
+        "2330",
+        "2345",
+        "2454",
+        "3711"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.3289,
+          "weight_b": 41.25,
+          "min_weight": 41.25
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.7112,
+          "weight_b": 8.24,
+          "min_weight": 5.7112
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.5879,
+          "weight_b": 5.5,
+          "min_weight": 3.5879
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.8664,
+          "weight_b": 4.02,
+          "min_weight": 2.8664
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.2202,
+          "weight_b": 3.11,
+          "min_weight": 2.2202
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.7986,
+          "weight_b": 1.74,
+          "min_weight": 1.74
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.2096,
+          "weight_b": 2.37,
+          "min_weight": 1.2096
+        }
+      ],
+      "only_a_sample": [
+        "2327",
+        "2383",
+        "2891"
+      ],
+      "only_b_sample": [
+        "2885",
+        "3037"
+      ],
+      "weighted_min_overlap_pct": 58.5853,
+      "coverage_a_pct": 79.8649,
+      "coverage_b_pct": 70.27,
+      "within_top_overlap_pct": 83.3717,
+      "holding_count_a": 10,
+      "holding_count_b": 9,
+      "source_a": "https://www.pocket.tw/etf/tw/006208",
+      "source_b": "https://www.pocket.tw/etf/tw/009816",
+      "method": "top_holdings_weighted_min",
+      "name_a": "富邦台50",
+      "name_b": "凱基台灣TOP50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.52,
+      "premium_b": 0.4,
+      "premium_gap_a_minus_b": 0.12,
+      "price_a": 245.7,
+      "price_b": 15.23,
+      "nav_a": 244.43,
+      "nav_b": 15.17,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0052",
+      "b": "009816",
+      "common_count": 6,
+      "common_codes": [
+        "2303",
+        "2317",
+        "2330",
+        "2454",
+        "3037",
+        "3711"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 64.8136,
+          "weight_b": 41.25,
+          "min_weight": 41.25
+        },
+        {
+          "code": "2454",
+          "weight_a": 6.3603,
+          "weight_b": 8.24,
+          "min_weight": 6.3603
+        },
+        {
+          "code": "2317",
+          "weight_a": 3.1925,
+          "weight_b": 4.02,
+          "min_weight": 3.1925
+        },
+        {
+          "code": "3711",
+          "weight_a": 2.4727,
+          "weight_b": 3.11,
+          "min_weight": 2.4727
+        },
+        {
+          "code": "2303",
+          "weight_a": 2.0031,
+          "weight_b": 1.74,
+          "min_weight": 1.74
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.2709,
+          "weight_b": 2.18,
+          "min_weight": 1.2709
+        }
+      ],
+      "only_a_sample": [
+        "2327",
+        "2382",
+        "2383",
+        "3017"
+      ],
+      "only_b_sample": [
+        "2308",
+        "2345",
+        "2885"
+      ],
+      "weighted_min_overlap_pct": 56.2864,
+      "coverage_a_pct": 85.2583,
+      "coverage_b_pct": 70.27,
+      "within_top_overlap_pct": 80.1002,
+      "holding_count_a": 10,
+      "holding_count_b": 9,
+      "source_a": "https://www.pocket.tw/etf/tw/0052",
+      "source_b": "https://www.pocket.tw/etf/tw/009816",
+      "method": "top_holdings_weighted_min",
+      "name_a": "富邦科技",
+      "name_b": "凱基台灣TOP50",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.45,
+      "premium_b": 0.4,
+      "premium_gap_a_minus_b": 0.05,
+      "price_a": 62.0,
+      "price_b": 15.23,
+      "nav_a": 61.72,
+      "nav_b": 15.17,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00878",
+      "b": "00919",
+      "common_count": 7,
+      "common_codes": [
+        "2357",
+        "2379",
+        "2382",
+        "2603",
+        "2882",
+        "2887",
+        "2891"
+      ],
+      "common_detail": [
+        {
+          "code": "2891",
+          "weight_a": 10.56,
+          "weight_b": 11.3245,
+          "min_weight": 10.56
+        },
+        {
+          "code": "2382",
+          "weight_a": 10.47,
+          "weight_b": 11.967,
+          "min_weight": 10.47
+        },
+        {
+          "code": "2882",
+          "weight_a": 5.92,
+          "weight_b": 11.7335,
+          "min_weight": 5.92
+        },
+        {
+          "code": "2357",
+          "weight_a": 4.32,
+          "weight_b": 4.3001,
+          "min_weight": 4.3001
+        },
+        {
+          "code": "2603",
+          "weight_a": 3.58,
+          "weight_b": 3.5569,
+          "min_weight": 3.5569
+        },
+        {
+          "code": "2379",
+          "weight_a": 3.55,
+          "weight_b": 3.4791,
+          "min_weight": 3.4791
+        },
+        {
+          "code": "2887",
+          "weight_a": 3.44,
+          "weight_b": 7.7404,
+          "min_weight": 3.44
+        }
+      ],
+      "only_a_sample": [
+        "2303",
+        "2454",
+        "3711"
+      ],
+      "only_b_sample": [
+        "2881",
+        "2883",
+        "3034"
+      ],
+      "weighted_min_overlap_pct": 41.7261,
+      "coverage_a_pct": 52.68,
+      "coverage_b_pct": 75.5742,
+      "within_top_overlap_pct": 79.2067,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/00878",
+      "source_b": "https://www.pocket.tw/etf/tw/00919",
+      "method": "top_holdings_weighted_min",
+      "name_a": "國泰永續高股息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "name_b": "群益台灣精選高息",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": -0.75,
+      "premium_b": 0.17,
+      "premium_gap_a_minus_b": -0.92,
+      "price_a": 33.19,
+      "price_b": 29.97,
+      "nav_a": 33.44,
+      "nav_b": 29.92,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0050",
+      "b": "00881",
+      "common_count": 7,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2317",
+        "2330",
+        "2345",
+        "2383",
+        "2454"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.31,
+          "weight_b": 40.05,
+          "min_weight": 40.05
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.73,
+          "weight_b": 9.68,
+          "min_weight": 5.73
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.59,
+          "weight_b": 6.39,
+          "min_weight": 3.59
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.86,
+          "weight_b": 4.66,
+          "min_weight": 2.86
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.8,
+          "weight_b": 3.78,
+          "min_weight": 1.8
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.52,
+          "weight_b": 2.79,
+          "min_weight": 1.52
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.22,
+          "weight_b": 2.24,
+          "min_weight": 1.22
+        }
+      ],
+      "only_a_sample": [
+        "2327",
+        "2891",
+        "3711"
+      ],
+      "only_b_sample": [
+        "2059",
+        "3037",
+        "6223"
+      ],
+      "weighted_min_overlap_pct": 56.77,
+      "coverage_a_pct": 79.88,
+      "coverage_b_pct": 76.1,
+      "within_top_overlap_pct": 74.5992,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/0050",
+      "source_b": "https://www.pocket.tw/etf/tw/00881",
+      "method": "top_holdings_weighted_min",
+      "name_a": "元大台灣50",
+      "name_b": "國泰台灣科技龍頭",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.53,
+      "premium_b": 0.19,
+      "premium_gap_a_minus_b": 0.34,
+      "price_a": 105.8,
+      "price_b": 53.3,
+      "nav_a": 105.24,
+      "nav_b": 53.2,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "006208",
+      "b": "00881",
+      "common_count": 7,
+      "common_codes": [
+        "2303",
+        "2308",
+        "2317",
+        "2330",
+        "2345",
+        "2383",
+        "2454"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 58.3289,
+          "weight_b": 40.05,
+          "min_weight": 40.05
+        },
+        {
+          "code": "2454",
+          "weight_a": 5.7112,
+          "weight_b": 9.68,
+          "min_weight": 5.7112
+        },
+        {
+          "code": "2308",
+          "weight_a": 3.5879,
+          "weight_b": 6.39,
+          "min_weight": 3.5879
+        },
+        {
+          "code": "2317",
+          "weight_a": 2.8664,
+          "weight_b": 4.66,
+          "min_weight": 2.8664
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.7986,
+          "weight_b": 3.78,
+          "min_weight": 1.7986
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.5191,
+          "weight_b": 2.79,
+          "min_weight": 1.5191
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.2096,
+          "weight_b": 2.24,
+          "min_weight": 1.2096
+        }
+      ],
+      "only_a_sample": [
+        "2327",
+        "2891",
+        "3711"
+      ],
+      "only_b_sample": [
+        "2059",
+        "3037",
+        "6223"
+      ],
+      "weighted_min_overlap_pct": 56.7428,
+      "coverage_a_pct": 79.8649,
+      "coverage_b_pct": 76.1,
+      "within_top_overlap_pct": 74.5635,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/006208",
+      "source_b": "https://www.pocket.tw/etf/tw/00881",
+      "method": "top_holdings_weighted_min",
+      "name_a": "富邦台50",
+      "name_b": "國泰台灣科技龍頭",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.52,
+      "premium_b": 0.19,
+      "premium_gap_a_minus_b": 0.33,
+      "price_a": 245.7,
+      "price_b": 53.3,
+      "nav_a": 244.43,
+      "nav_b": 53.2,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00403A",
+      "b": "00981A",
+      "common_count": 9,
+      "common_codes": [
+        "2303",
+        "2327",
+        "2330",
+        "2345",
+        "2383",
+        "2454",
+        "3017",
+        "3037",
+        "6223"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 19.01,
+          "weight_b": 10.51,
+          "min_weight": 10.51
+        },
+        {
+          "code": "2327",
+          "weight_a": 4.98,
+          "weight_b": 8.22,
+          "min_weight": 4.98
+        },
+        {
+          "code": "2303",
+          "weight_a": 7.19,
+          "weight_b": 4.91,
+          "min_weight": 4.91
+        },
+        {
+          "code": "3017",
+          "weight_a": 4.99,
+          "weight_b": 4.44,
+          "min_weight": 4.44
+        },
+        {
+          "code": "6223",
+          "weight_a": 4.35,
+          "weight_b": 6.3,
+          "min_weight": 4.35
+        },
+        {
+          "code": "2454",
+          "weight_a": 3.86,
+          "weight_b": 7.33,
+          "min_weight": 3.86
+        },
+        {
+          "code": "3037",
+          "weight_a": 3.8,
+          "weight_b": 5.03,
+          "min_weight": 3.8
+        },
+        {
+          "code": "2383",
+          "weight_a": 3.71,
+          "weight_b": 8.97,
+          "min_weight": 3.71
+        },
+        {
+          "code": "2345",
+          "weight_a": 3.19,
+          "weight_b": 5.69,
+          "min_weight": 3.19
+        }
+      ],
+      "only_a_sample": [
+        "2344"
+      ],
+      "only_b_sample": [
+        "6669"
+      ],
+      "weighted_min_overlap_pct": 43.75,
+      "coverage_a_pct": 59.38,
+      "coverage_b_pct": 65.83,
+      "within_top_overlap_pct": 73.678,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/00403a",
+      "source_b": "https://www.pocket.tw/etf/tw/00981a",
+      "method": "top_holdings_weighted_min",
+      "name_a": "主動統一升級50",
+      "name_b": "主動統一台股增長",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.1,
+      "premium_b": 0.27,
+      "premium_gap_a_minus_b": -0.17,
+      "price_a": 10.48,
+      "price_b": 29.95,
+      "nav_a": 10.47,
+      "nav_b": 29.87,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0052",
+      "b": "00881",
+      "common_count": 6,
+      "common_codes": [
+        "2303",
+        "2317",
+        "2330",
+        "2383",
+        "2454",
+        "3037"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 64.8136,
+          "weight_b": 40.05,
+          "min_weight": 40.05
+        },
+        {
+          "code": "2454",
+          "weight_a": 6.3603,
+          "weight_b": 9.68,
+          "min_weight": 6.3603
+        },
+        {
+          "code": "2317",
+          "weight_a": 3.1925,
+          "weight_b": 4.66,
+          "min_weight": 3.1925
+        },
+        {
+          "code": "2303",
+          "weight_a": 2.0031,
+          "weight_b": 3.78,
+          "min_weight": 2.0031
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.6696,
+          "weight_b": 2.79,
+          "min_weight": 1.6696
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.2709,
+          "weight_b": 2.7,
+          "min_weight": 1.2709
+        }
+      ],
+      "only_a_sample": [
+        "2327",
+        "2382",
+        "3017",
+        "3711"
+      ],
+      "only_b_sample": [
+        "2059",
+        "2308",
+        "2345",
+        "6223"
+      ],
+      "weighted_min_overlap_pct": 54.5464,
+      "coverage_a_pct": 85.2583,
+      "coverage_b_pct": 76.1,
+      "within_top_overlap_pct": 71.6773,
+      "holding_count_a": 10,
+      "holding_count_b": 10,
+      "source_a": "https://www.pocket.tw/etf/tw/0052",
+      "source_b": "https://www.pocket.tw/etf/tw/00881",
+      "method": "top_holdings_weighted_min",
+      "name_a": "富邦科技",
+      "name_b": "國泰台灣科技龍頭",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.45,
+      "premium_b": 0.19,
+      "premium_gap_a_minus_b": 0.26,
+      "price_a": 62.0,
+      "price_b": 53.3,
+      "nav_a": 61.72,
+      "nav_b": 53.2,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    }
+  ]
+}

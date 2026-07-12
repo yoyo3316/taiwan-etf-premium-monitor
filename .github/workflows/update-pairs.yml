@@ -1,0 +1,52 @@
+name: Weekly ETF Pair Overlap Update
+
+on:
+  schedule:
+    # Every Monday 00:30 UTC ≈ Monday 08:30 Asia/Taipei
+    - cron: "30 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etf-pairs-weekly
+  cancel-in-progress: false
+
+jobs:
+  update-pairs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build pair list from verified holdings
+        run: python scripts/update_pairs.py -v
+
+      - name: Commit pair artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data/pairs
+          git add data/pairs/etf_pairs.json data/pairs/holdings_snapshot.json || true
+          if git diff --staged --quiet; then
+            echo "No pair data changes"
+          else
+            git commit -m "chore(data): weekly ETF pair overlap update $(date -u +%Y-%m-%d)"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              sleep 3
+            done
+          fi

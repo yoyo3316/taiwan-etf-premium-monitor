@@ -20,9 +20,11 @@ if str(ROOT) not in sys.path:
 from src.config import Settings
 from src.convergence import analyze_code, format_convergence_brief
 from src.history_store import get_twse_series, is_fresh, load_wantgoo_history, save_wantgoo_history
+from src.config import DATA_DIR
 from src.hot_etfs import HOT_CHASE_PREMIUM_PCT, build_hot_watch_rows
 from src.market_hours import now_taipei, session_status
 from src.monitor import evaluate_record, summarize
+from src.pair_builder import attach_live_premium_gap
 from src.state import active_alerts, load_alert_state
 from src.storage import load_settings_file, load_snapshot, save_settings_file
 from src.twse_client import fetch_etf_records
@@ -435,6 +437,97 @@ def _top_ranks(
         )
 
 
+def _load_pairs_file() -> dict | None:
+    path = DATA_DIR / "pairs" / "etf_pairs.json"
+    if not path.exists():
+        return None
+    try:
+        import json
+
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def _render_pairs_panel(rows: list[dict]) -> None:
+    """Show verified high-overlap ETF pairs + live premium gap."""
+    st.markdown("### 🔗 相似 ETF 配對（成分重疊驗證）")
+    payload = _load_pairs_file()
+    if not payload:
+        st.info(
+            "尚無配對資料。請執行 `python scripts/update_pairs.py`，"
+            "或等待每週一 GitHub Actions 自動更新。"
+        )
+        return
+
+    updated = _fmt_time(payload.get("updated_at"))
+    method = (payload.get("methodology") or {}).get("holdings_source", "")
+    st.caption(
+        f"更新：{updated} · 持股來源：{method} · "
+        "重疊以「權重取 min 加總」驗證 · **研究用，非無風險套利**"
+    )
+
+    pairs = payload.get("pairs") or []
+    # refresh gap with current page rows
+    pairs = attach_live_premium_gap(pairs, rows)
+
+    interesting = [p for p in pairs if p.get("gap_interesting")]
+    if interesting:
+        st.warning(
+            f"目前有 **{len(interesting)}** 組高重疊配對，"
+            "折溢價差距 ≥ 1 個百分點（僅研究提示）。"
+        )
+
+    records = []
+    for p in pairs:
+        a, b = p["a"], p["b"]
+        within = p.get("within_top_overlap_pct")
+        wmin = p.get("weighted_min_overlap_pct")
+        same = p.get("same_index")
+        records.append(
+            {
+                "A": wantgoo_page_url(a),
+                "B": wantgoo_page_url(b),
+                "名稱A": _short_name(str(p.get("name_a") or a), 12),
+                "名稱B": _short_name(str(p.get("name_b") or b), 12),
+                "同指數": "是" if same else "—",
+                "前十大重疊%": within,
+                "權重重疊pp": wmin,
+                "共同檔數": p.get("common_count"),
+                "A折溢價%": p.get("premium_a"),
+                "B折溢價%": p.get("premium_b"),
+                "價差A-B": p.get("premium_gap_a_minus_b"),
+                "研究提示": p.get("relative_hint") or "—",
+            }
+        )
+    df = pd.DataFrame(records)
+    st.dataframe(
+        df,
+        use_container_width=True,
+        hide_index=True,
+        height=min(480, 56 + 34 * max(len(df), 1)),
+        column_config={
+            "A": _code_link_column("A"),
+            "B": _code_link_column("B"),
+            "前十大重疊%": st.column_config.NumberColumn(format="%.1f%%"),
+            "權重重疊pp": st.column_config.NumberColumn(format="%.1f"),
+            "A折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
+            "B折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
+            "價差A-B": st.column_config.NumberColumn(format="%+.2f"),
+        },
+    )
+    with st.expander("驗證方法說明"):
+        st.markdown(
+            """
+- **同指數**：官方商品追蹤同一指數（例：0050／006208 → 臺灣50指數），權益成分宇宙相同。  
+- **持股來源**：pocket.tw 揭露的前十大（等）持股權重（每週一自動更新）。  
+- **權重重疊**：\\(\\sum \\min(w_A, w_B)\\)（百分點）。  
+- **前十大重疊%**：權重重疊 ÷ 兩者前十大覆蓋率之較小值。  
+- **不是**機構申購買回套利；散戶雙邊成本高，僅供相對價值研究。
+            """
+        )
+
+
 def _render_hot_etf_panel(
     rows: list[dict], *, chase_pct: float = HOT_CHASE_PREMIUM_PCT
 ) -> None:
@@ -682,6 +775,9 @@ def main() -> None:
 
     st.divider()
     _render_hot_etf_panel(rows, chase_pct=HOT_CHASE_PREMIUM_PCT)
+
+    st.divider()
+    _render_pairs_panel(rows)
 
     # Optional extras collapsed
     with st.expander("更多（排行 / 搜尋 / 說明）", expanded=False):

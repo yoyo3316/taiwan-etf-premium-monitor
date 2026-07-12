@@ -34,14 +34,30 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Only spacing tweaks — do NOT override theme text/background colors
-# (that caused white-on-white on Streamlit Cloud / dark mode).
+# Spacing: leave room for Streamlit Cloud top toolbar (Deploy/Share)
+# so the title is not clipped. Avoid theme color overrides.
 st.markdown(
     """
     <style>
-      .block-container { padding-top: 1rem; max-width: 1400px; }
-      h1 { font-size: 1.7rem !important; }
-      div[data-testid="stMetricValue"] { font-size: 1.15rem !important; }
+      /* Streamlit Cloud header/share bar ~3–4rem */
+      .block-container {
+        padding-top: 3.5rem !important;
+        padding-bottom: 1.5rem !important;
+        max-width: 1100px;
+      }
+      header[data-testid="stHeader"] {
+        background: transparent;
+      }
+      h1 {
+        font-size: 1.45rem !important;
+        margin-top: 0.25rem !important;
+        margin-bottom: 0.15rem !important;
+        line-height: 1.3 !important;
+      }
+      div[data-testid="stMetricValue"] { font-size: 1.1rem !important; }
+      div[data-testid="stMetricLabel"] { font-size: 0.85rem !important; }
+      /* Tighter vertical gaps */
+      div[data-testid="stVerticalBlock"] > div { gap: 0.4rem; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -341,101 +357,42 @@ def _top_ranks(
         )
 
 
-def _render_convergence_panel(
-    rows: list[dict], premium: float, discount: float
-) -> None:
-    """WantGoo-based next-day convergence reference for over-threshold ETFs."""
-    st.subheader("📈 隔日收斂參考（玩股網歷史）")
-    st.caption(
-        "統計：當 |折溢價| 超過門檻時，隔日是否往 0 靠近。"
-        "優先使用[玩股網淨值及折溢價](https://www.wantgoo.com/stock/etf/net-value)歷史；"
-        "若 API 不可用則改用本系統累積的 TWSE 日結。**僅供參考，非投資建議。**"
-    )
-
-    thr = max(abs(premium), abs(discount))
-    q_code = st.text_input(
-        "查詢單檔代號（可留空＝只看目前超標）",
-        placeholder="例如 00685L 或 0050",
-        key="conv_code",
-    ).strip().upper()
-
-    targets: list[dict] = []
-    if q_code:
-        targets = [
-            next((r for r in rows if str(r.get("code", "")).upper() == q_code), None)
-            or {"code": q_code, "name": q_code, "alert_direction": None}
-        ]
-    else:
-        targets = [r for r in rows if r.get("over_threshold")][:15]
-
-    if not targets:
-        st.info("目前沒有超過門檻的 ETF。可在上方輸入代號查詢歷史收斂。")
-        return
-
-    fetch_live = st.checkbox("即時向玩股網抓歷史（可能失敗或較慢）", value=False)
-    out_rows = []
-    for r in targets:
-        code = str(r.get("code") or "").upper()
+def _attention_df(over: list[dict], thr_abs: float) -> pd.DataFrame:
+    """Compact table for stocks over threshold, with WantGoo links."""
+    records = []
+    for r in sorted(
+        over,
+        key=lambda x: abs(x.get("premium_discount_pct") or 0),
+        reverse=True,
+    ):
+        code = str(r.get("code") or "")
+        pct = r.get("premium_discount_pct")
         direction = r.get("alert_direction")
-        wg = load_wantgoo_history(code)
-        if fetch_live and not is_fresh(wg, max_age_hours=12):
-            with st.spinner(f"抓取玩股網 {code} …"):
-                wg = try_fetch_history(code)
-                if wg.get("rows"):
-                    save_wantgoo_history(wg)
-        analysis = analyze_code(
-            code,
-            wantgoo_payload=wg,
-            twse_series=get_twse_series(code),
-            abs_threshold=thr,
-            direction=direction if direction in ("premium", "discount") else None,
-        )
-        st_stats = analysis.get("stats") or {}
-        out_rows.append(
+        tag = "🔴溢價" if direction == "premium" else "🔵折價"
+        # optional short convergence if already attached
+        conv = r.get("convergence") or {}
+        st_stats = conv.get("stats") or {}
+        records.append(
             {
-                "代號": wantgoo_page_url(code),
-                "名稱": _short_name(str(r.get("name") or code), 14),
-                "目前折溢價%": r.get("premium_discount_pct"),
-                "收斂標籤": st_stats.get("label"),
-                "隔日收斂率": st_stats.get("converge_rate"),
-                "惡化率": st_stats.get("worsen_rate"),
-                "樣本n": st_stats.get("sample_size"),
-                "歷史來源": analysis.get("history_source"),
-                "玩股網": wantgoo_page_url(code),
-                "說明": format_convergence_brief(analysis),
+                "代號": wantgoo_page_url(code) if code else "",
+                "名稱": _short_name(str(r.get("name") or ""), 16),
+                "折溢價%": pct,
+                "方向": tag,
+                "市價": r.get("market_price"),
+                "預估淨值": r.get("estimated_nav"),
+                "隔日收斂": (
+                    f"{st_stats['converge_rate']*100:.0f}% (n={st_stats['sample_size']})"
+                    if st_stats.get("sample_size")
+                    else "—"
+                ),
             }
         )
-
-    df = pd.DataFrame(out_rows)
-    st.caption("點擊「代號」或「玩股網」→ 開啟該檔歷史折溢價頁")
-    st.dataframe(
-        df,
-        use_container_width=True,
-        hide_index=True,
-        column_config={
-            "代號": _code_link_column("代號"),
-            "目前折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
-            "隔日收斂率": st.column_config.NumberColumn(format="%.0%"),
-            "惡化率": st.column_config.NumberColumn(format="%.0%"),
-            "玩股網": _wantgoo_link_column("玩股網"),
-        },
-        height=min(420, 48 + 38 * max(len(df), 1)),
-    )
-    if any(x.get("歷史來源") == "none" or (x.get("樣本n") or 0) == 0 for x in out_rows):
-        st.warning(
-            "部分標的尚無歷史樣本：玩股網 API 目前常回 400（站方限制），"
-            "系統會持續用 TWSE 日結自行累積；樣本變多後收斂率會較有意義。"
-        )
+    return pd.DataFrame(records)
 
 
 def main() -> None:
-    st.title("📊 台灣 ETF 折溢價監控")
-    st.write(
-        "即時來源：[TWSE 指標價值揭露]("
-        "https://mis.twse.com.tw/stock/various-areas/etf-price/"
-        "indicator-disclosure-etf?lang=zhHant) · "
-        "歷史收斂參考：玩股網（可選）"
-    )
+    # Compact header — avoid multi-line clutter under Cloud Share toolbar
+    st.markdown("### 📊 台灣 ETF 折溢價")
 
     file_settings = load_settings_file()
     sess = session_status()
@@ -461,38 +418,24 @@ def main() -> None:
             max_value=120,
             step=1,
         )
-
-        c1, c2 = st.columns(2)
-        with c1:
-            if st.button("儲存", use_container_width=True):
-                save_settings_file(
-                    {
-                        "premium_threshold": float(premium),
-                        "discount_threshold": float(discount),
-                        "data_max_age_minutes": int(max_age),
-                    }
-                )
-                st.success("已儲存")
-        with c2:
-            if st.button("重新整理", use_container_width=True, type="primary"):
-                st.cache_data.clear()
-                st.rerun()
-
+        if st.button("重新整理", use_container_width=True, type="primary"):
+            st.cache_data.clear()
+            st.rerun()
+        if st.button("儲存門檻", use_container_width=True):
+            save_settings_file(
+                {
+                    "premium_threshold": float(premium),
+                    "discount_threshold": float(discount),
+                    "data_max_age_minutes": int(max_age),
+                }
+            )
+            st.success("已儲存")
         data_mode = st.radio(
             "資料來源",
             options=["即時 TWSE", "Repo 快照"],
             index=0,
         )
-
-        st.divider()
-        st.markdown(
-            "**使用提示**\n\n"
-            "1. 先看溢價／折價排行\n"
-            "2. 紅＝溢價、藍＝折價\n"
-            "3. **點代號** → 玩股網歷史折溢價\n"
-            "4. 休市／盤前可能非即時\n"
-            "5. 僅供輔助，不可當自動下單"
-        )
+        st.caption("點代號 → 玩股網歷史折溢價")
 
     snapshot = None
     live_error = None
@@ -505,177 +448,119 @@ def main() -> None:
     else:
         snapshot = load_snapshot()
 
-    # Status — use native Streamlit alerts (theme-safe)
-    state = sess.get("state")
-    in_session = sess.get("in_session")
-    now_s = _fmt_time(sess.get("now"))
-    window = sess.get("session", "08:50–13:30")
-
-    if in_session and state == "pre_market":
-        st.info(
-            f"**盤前監控中**（{window}，正式開盤 "
-            f"{sess.get('official_open', '09:00')}）· 現在 {now_s}\n\n"
-            "資料可能仍為前一交易日，僅供開盤前留意。"
-        )
-    elif in_session:
-        st.success(f"**交易時段中**（{window}）· 現在 {now_s}")
-    elif state == "closed_day":
-        st.warning(
-            f"**休市日** · 現在 {now_s}\n\n"
-            "畫面資料不是盤中即時，請勿當作下單依據。"
-        )
-    else:
-        st.warning(
-            f"**非監控時段**：{sess.get('reason')} · 現在 {now_s}\n\n"
-            "畫面資料可能不是盤中即時。"
-        )
-
-    st.caption(
-        (snapshot or {}).get("disclaimer")
-        or "僅為輔助監控與告警，不可視為即時交易或自動下單系統。"
-    )
-
     if live_error:
-        st.error(f"即時抓取失敗，改顯示快照：{live_error}")
-
+        st.error(f"抓取失敗：{live_error}")
     if not snapshot:
-        st.error("尚無資料。請確認 TWSE 可連線，或先執行監控腳本。")
-        st.code("python scripts/run_monitor.py --no-notify", language="bash")
+        st.error("尚無資料")
         return
 
     rows = _prepare_rows(snapshot, float(premium), float(discount))
-    n_prem = sum(1 for r in rows if r.get("alert_direction") == "premium")
-    n_disc = sum(1 for r in rows if r.get("alert_direction") == "discount")
-    n_ok = sum(1 for r in rows if r.get("status") == "ok")
-    n_stale = sum(1 for r in rows if r.get("status") == "stale")
-    n_bad = sum(
-        1 for r in rows if r.get("status") in ("anomaly", "missing", "invalid")
-    )
-    total = len(rows)
     fetched = _fmt_time(snapshot.get("fetched_at"))
+    state = sess.get("state")
+    in_session = sess.get("in_session")
+    if in_session and state == "pre_market":
+        sess_label = "盤前"
+    elif in_session:
+        sess_label = "盤中"
+    elif state == "closed_day":
+        sess_label = "休市"
+    else:
+        sess_label = sess.get("reason") or "非盤中"
 
-    k1, k2, k3, k4, k5, k6 = st.columns(6)
-    k1.metric("更新時間", fetched)
-    k2.metric("ETF 總數", f"{total}")
-    k3.metric("有效", f"{n_ok}")
-    k4.metric("逾時", f"{n_stale}")
-    k5.metric("溢價超標", f"{n_prem}")
-    k6.metric("折價超標", f"{n_disc}")
-    if n_bad:
-        st.caption(f"另有 {n_bad} 筆異常／缺值（不納入告警）")
-
-    # Alerts
-    locked = snapshot.get("active_alerts") or active_alerts(load_alert_state())
     over = [r for r in rows if r.get("over_threshold")]
-    if locked or over:
-        st.subheader("⚡ 需留意")
-        if locked:
-            st.markdown("**Telegram 已鎖定告警**")
-            adf = pd.DataFrame(locked)
-            rename = {
-                "code": "代號",
-                "name": "名稱",
-                "direction": "方向",
-                "rate": "折溢價%",
-                "notified_at": "通知時間",
-            }
-            cols = [c for c in rename if c in adf.columns]
-            if cols:
-                show = adf[cols].rename(columns=rename)
-                if "方向" in show.columns:
-                    show["方向"] = show["方向"].map(
-                        {"premium": "🔴溢價", "discount": "🔵折價"}
-                    )
-                if "通知時間" in show.columns:
-                    show["通知時間"] = show["通知時間"].map(_fmt_time)
-                if "名稱" in show.columns:
-                    show["名稱"] = show["名稱"].map(
-                        lambda x: _short_name(str(x), 18)
-                    )
-                if "代號" in show.columns:
-                    show["代號"] = show["代號"].map(
-                        lambda x: wantgoo_page_url(str(x)) if x else ""
-                    )
-                st.dataframe(
-                    show,
-                    use_container_width=True,
-                    hide_index=True,
-                    height=min(220, 48 + 36 * max(len(show), 1)),
-                    column_config={
-                        "代號": _code_link_column("代號"),
-                        "折溢價%": st.column_config.NumberColumn(format="%+.2f%%"),
-                    },
-                )
-        if over:
-            st.markdown(f"**目前超過門檻 · {len(over)} 檔**（門檻 溢價≥+{premium:.2f}% / 折價≤{discount:.2f}%）")
-            over_df = _build_display_df(over, simple=True)
-            if not over_df.empty and "_sort_pd" in over_df.columns:
-                over_df = over_df.reindex(
-                    over_df["_sort_pd"].abs().sort_values(ascending=False).index
-                )
-            _render_table(over_df, height=min(320, 48 + 36 * max(len(over), 1)))
-        st.divider()
+    thr_abs = max(abs(float(premium)), abs(float(discount)))
 
-    st.subheader("排行榜")
-    top_n = st.slider("排行顯示筆數", 5, 20, 10, 1)
-    _top_ranks(rows, float(premium), float(discount), n=top_n)
-
-    st.divider()
-    _render_convergence_panel(rows, float(premium), float(discount))
-
-    st.divider()
-    st.subheader("全部清單")
-
-    f1, f2, f3, f4 = st.columns([2.2, 1.3, 1, 1])
-    with f1:
-        q = st.text_input(
-            "搜尋代號或名稱",
-            placeholder="例如 0050、高股息",
+    # Enrich attention list with convergence (best-effort, no live WantGoo spam)
+    for r in over[:20]:
+        code = str(r.get("code") or "")
+        if not code:
+            continue
+        wg = load_wantgoo_history(code)
+        analysis = analyze_code(
+            code,
+            wantgoo_payload=wg,
+            twse_series=get_twse_series(code),
+            abs_threshold=thr_abs,
+            direction=r.get("alert_direction"),
         )
-    with f2:
-        status_filter = st.selectbox(
-            "狀態篩選",
-            options=["全部", "僅有效", "僅逾時", "僅異常／缺值"],
-        )
-    with f3:
-        only_alert = st.checkbox("只看超標", value=False)
-    with f4:
-        detail = st.checkbox("詳細欄位", value=False)
+        r["convergence"] = analysis
 
-    full_df = _build_display_df(
-        rows,
-        simple=not detail,
-        query=q or "",
-        only_alert=only_alert,
-        status_filter=status_filter,
-    )
-    if not full_df.empty and "_sort_pd" in full_df.columns:
-        full_df = full_df.reindex(
-            full_df["_sort_pd"].fillna(0).abs().sort_values(ascending=False).index
-        )
+    # ---- One-line status: update time only ----
+    c1, c2, c3 = st.columns([1.4, 1, 1.2])
+    c1.metric("更新時間", fetched)
+    c2.metric("狀態", sess_label)
+    c3.metric("需留意", f"{len(over)} 檔")
 
+    st.markdown("#### ⚡ 需留意")
     st.caption(
-        f"顯示 **{len(full_df)}** / {total} 檔 · 點欄位可排序 · "
-        "**點「代號」開啟玩股網歷史折溢價**"
+        f"門檻 溢價≥+{premium:.2f}% / 折價≤{discount:.2f}% · "
+        "點**代號**開玩股網歷史折溢價"
     )
-    _render_table(full_df, height=520)
 
-    with st.expander("資料來源與規則說明"):
-        st.markdown(
-            """
-| 項目 | 說明 |
-|------|------|
-| 端點 | `https://mis.twse.com.tw/stock/data/all_etf.txt` |
-| 公式 | 折溢價% = (市價 − 預估淨值) ÷ 預估淨值 × 100 |
-| 交叉驗證 | 自算與官方誤差 > 0.05pp → 異常，不告警 |
-| 通知時段 | 平日 08:50–13:30（Asia/Taipei），含盤前 |
-| 防洗版 | 同 ETF 同方向鎖定至回到門檻內 |
-| 限制 | Actions 可能延遲，**非**即時交易系統 |
-            """
+    if not over:
+        st.success("目前沒有超過門檻的 ETF")
+    else:
+        adf = _attention_df(over, thr_abs)
+        st.dataframe(
+            adf,
+            use_container_width=True,
+            hide_index=True,
+            height=min(520, 56 + 36 * max(len(adf), 1)),
+            column_config={
+                "代號": _code_link_column("代號"),
+                "折溢價%": st.column_config.NumberColumn(
+                    "折溢價%", format="%+.2f%%", width="small"
+                ),
+                "市價": st.column_config.NumberColumn("市價", format="%.2f", width="small"),
+                "預估淨值": st.column_config.NumberColumn(
+                    "淨值", format="%.2f", width="small"
+                ),
+                "方向": st.column_config.TextColumn("方向", width="small"),
+                "隔日收斂": st.column_config.TextColumn("隔日收斂", width="small"),
+            },
         )
-        src = snapshot.get("source") or {}
-        if src:
-            st.json(src)
+
+    # Optional extras collapsed
+    with st.expander("更多（排行 / 搜尋 / 說明）", expanded=False):
+        usable = [
+            r
+            for r in rows
+            if isinstance(r.get("premium_discount_pct"), (int, float))
+            and r.get("status") in ("ok", "stale")
+        ]
+        top_p = sorted(
+            usable, key=lambda r: r["premium_discount_pct"], reverse=True
+        )[:5]
+        top_d = sorted(usable, key=lambda r: r["premium_discount_pct"])[:5]
+        left, right = st.columns(2)
+        with left:
+            st.markdown("**溢價 TOP5**")
+            st.dataframe(
+                _rank_dataframe(top_p),
+                use_container_width=True,
+                hide_index=True,
+                column_config=_rank_column_config(),
+            )
+        with right:
+            st.markdown("**折價 TOP5**")
+            st.dataframe(
+                _rank_dataframe(top_d),
+                use_container_width=True,
+                hide_index=True,
+                column_config=_rank_column_config(),
+            )
+
+        q = st.text_input("搜尋代號或名稱", placeholder="0050")
+        if q:
+            hit = _build_display_df(rows, simple=True, query=q)
+            _render_table(hit, height=280)
+
+        st.markdown(
+            "- 即時：[TWSE](https://mis.twse.com.tw/stock/various-areas/etf-price/"
+            "indicator-disclosure-etf?lang=zhHant)  \n"
+            "- 歷史：點代號 → 玩股網  \n"
+            "- 僅供輔助監控，非即時交易系統"
+        )
 
 
 if __name__ == "__main__":

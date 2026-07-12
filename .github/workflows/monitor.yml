@@ -1,0 +1,72 @@
+name: ETF Premium/Discount Monitor
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub cron is UTC.
+    # Taiwan session 09:00–13:30 ≈ 01:00–05:30 UTC (no DST).
+    # We schedule a wider UTC window on weekdays; Asia/Taipei checks inside code.
+    - cron: "*/5 0-6 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      force_notify:
+        description: "Allow Telegram notify outside market session (testing)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etf-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional repo Variables; empty falls back to code defaults (3.0 / -3.0 / 10)
+          PREMIUM_THRESHOLD: ${{ vars.PREMIUM_THRESHOLD }}
+          DISCOUNT_THRESHOLD: ${{ vars.DISCOUNT_THRESHOLD }}
+          DATA_MAX_AGE_MINUTES: ${{ vars.DATA_MAX_AGE_MINUTES }}
+        run: |
+          FORCE_FLAG=""
+          if [ "${{ github.event.inputs.force_notify }}" = "true" ]; then
+            FORCE_FLAG="--force-notify"
+          fi
+          python scripts/run_monitor.py -v $FORCE_FLAG
+
+      - name: Commit snapshot & alert state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data
+          git add data/latest.json data/alert_state.json data/settings.json || true
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore(data): update ETF snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

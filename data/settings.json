@@ -1,0 +1,5 @@
+{
+  "premium_threshold": 3.0,
+  "discount_threshold": -3.0,
+  "data_max_age_minutes": 10
+}

@@ -1,16 +1,5 @@
 {
-  "locks": {
-    "00657K:premium": {
-      "code": "00657K",
-      "name": "國泰日經225+U",
-      "direction": "premium",
-      "rate": 3.0029,
-      "market_price": 25.04,
-      "estimated_nav": 24.31,
-      "notified_at": "2026-07-16T09:16:22.091236+08:00",
-      "updated_at": "2026-07-16T09:16:22.091236+08:00"
-    }
-  },
+  "locks": {},
   "history": [
     {
       "code": "00657K",

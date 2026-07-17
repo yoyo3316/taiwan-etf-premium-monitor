@@ -1,6 +1,115 @@
 {
-  "locks": {},
+  "locks": {
+    "0057:premium": {
+      "code": "0057",
+      "name": "富邦摩台",
+      "direction": "premium",
+      "rate": 3.1588,
+      "market_price": 315.15,
+      "estimated_nav": 305.5,
+      "notified_at": "2026-07-17T09:20:13.531934+08:00",
+      "updated_at": "2026-07-17T09:20:13.531934+08:00"
+    },
+    "006203:premium": {
+      "code": "006203",
+      "name": "元大MSCI台灣",
+      "direction": "premium",
+      "rate": 3.0628,
+      "market_price": 193.15,
+      "estimated_nav": 187.41,
+      "notified_at": "2026-07-17T09:20:14.046012+08:00",
+      "updated_at": "2026-07-17T09:20:14.046012+08:00"
+    },
+    "006204:premium": {
+      "code": "006204",
+      "name": "永豐臺灣加權",
+      "direction": "premium",
+      "rate": 3.4787,
+      "market_price": 229.05,
+      "estimated_nav": 221.35,
+      "notified_at": "2026-07-17T09:20:14.577794+08:00",
+      "updated_at": "2026-07-17T09:20:14.577794+08:00"
+    },
+    "00657K:premium": {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "premium",
+      "rate": 3.7241,
+      "market_price": 24.51,
+      "estimated_nav": 23.63,
+      "notified_at": "2026-07-17T09:20:15.103689+08:00",
+      "updated_at": "2026-07-17T09:20:15.103689+08:00"
+    },
+    "00702:discount": {
+      "code": "00702",
+      "name": "國泰標普低波高息(本基金並無保證收益及配息)",
+      "direction": "discount",
+      "rate": -3.4335,
+      "market_price": 24.75,
+      "estimated_nav": 25.63,
+      "notified_at": "2026-07-17T09:20:15.623763+08:00",
+      "updated_at": "2026-07-17T09:20:15.623763+08:00"
+    },
+    "00728:premium": {
+      "code": "00728",
+      "name": "第一金工業30",
+      "direction": "premium",
+      "rate": 4.9202,
+      "market_price": 64.4,
+      "estimated_nav": 61.38,
+      "notified_at": "2026-07-17T09:20:16.155562+08:00",
+      "updated_at": "2026-07-17T09:20:16.155562+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "00728",
+      "name": "第一金工業30",
+      "direction": "premium",
+      "rate": 4.9202,
+      "notified_at": "2026-07-17T09:20:07.967065+08:00",
+      "data_time": "2026-07-17T09:19:27+08:00"
+    },
+    {
+      "code": "00702",
+      "name": "國泰標普低波高息(本基金並無保證收益及配息)",
+      "direction": "discount",
+      "rate": -3.4335,
+      "notified_at": "2026-07-17T09:20:07.967065+08:00",
+      "data_time": "2026-07-17T09:19:32+08:00"
+    },
+    {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "premium",
+      "rate": 3.7241,
+      "notified_at": "2026-07-17T09:20:07.967065+08:00",
+      "data_time": "2026-07-17T09:19:17+08:00"
+    },
+    {
+      "code": "006204",
+      "name": "永豐臺灣加權",
+      "direction": "premium",
+      "rate": 3.4787,
+      "notified_at": "2026-07-17T09:20:07.967065+08:00",
+      "data_time": "2026-07-17T09:19:13+08:00"
+    },
+    {
+      "code": "006203",
+      "name": "元大MSCI台灣",
+      "direction": "premium",
+      "rate": 3.0628,
+      "notified_at": "2026-07-17T09:20:07.967065+08:00",
+      "data_time": "2026-07-17T09:19:30+08:00"
+    },
+    {
+      "code": "0057",
+      "name": "富邦摩台",
+      "direction": "premium",
+      "rate": 3.1588,
+      "notified_at": "2026-07-17T09:20:07.967065+08:00",
+      "data_time": "2026-07-17T09:19:08+08:00"
+    },
     {
       "code": "00657K",
       "name": "國泰日經225+U",

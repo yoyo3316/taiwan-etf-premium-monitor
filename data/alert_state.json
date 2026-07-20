@@ -1,37 +1,25 @@
 {
   "locks": {
-    "006203:premium": {
-      "code": "006203",
-      "name": "元大MSCI台灣",
+    "00643K:premium": {
+      "code": "00643K",
+      "name": "群益深証中小+R",
       "direction": "premium",
-      "rate": 3.0628,
-      "market_price": 193.15,
-      "estimated_nav": 187.41,
-      "notified_at": "2026-07-17T09:20:14.046012+08:00",
-      "updated_at": "2026-07-17T09:20:14.046012+08:00"
-    },
-    "006204:premium": {
-      "code": "006204",
-      "name": "永豐臺灣加權",
-      "direction": "premium",
-      "rate": 3.4787,
-      "market_price": 229.05,
-      "estimated_nav": 221.35,
-      "notified_at": "2026-07-17T09:20:14.577794+08:00",
-      "updated_at": "2026-07-17T09:20:14.577794+08:00"
-    },
-    "00702:discount": {
-      "code": "00702",
-      "name": "國泰標普低波高息(本基金並無保證收益及配息)",
-      "direction": "discount",
-      "rate": -3.4335,
-      "market_price": 24.75,
-      "estimated_nav": 25.63,
-      "notified_at": "2026-07-17T09:20:15.623763+08:00",
-      "updated_at": "2026-07-17T09:20:15.623763+08:00"
+      "rate": 4.0712,
+      "market_price": 4.09,
+      "estimated_nav": 3.93,
+      "notified_at": "2026-07-20T11:09:16.340985+08:00",
+      "updated_at": "2026-07-20T11:09:16.340985+08:00"
     }
   },
   "history": [
+    {
+      "code": "00643K",
+      "name": "群益深証中小+R",
+      "direction": "premium",
+      "rate": 4.0712,
+      "notified_at": "2026-07-20T11:09:11.886064+08:00",
+      "data_time": "2026-07-20T11:08:15+08:00"
+    },
     {
       "code": "00728",
       "name": "第一金工業30",

@@ -1,16 +1,5 @@
 {
-  "locks": {
-    "00643K:premium": {
-      "code": "00643K",
-      "name": "群益深証中小+R",
-      "direction": "premium",
-      "rate": 4.0712,
-      "market_price": 4.09,
-      "estimated_nav": 3.93,
-      "notified_at": "2026-07-20T11:09:16.340985+08:00",
-      "updated_at": "2026-07-20T11:09:16.340985+08:00"
-    }
-  },
+  "locks": {},
   "history": [
     {
       "code": "00643K",

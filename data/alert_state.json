@@ -1,16 +1,5 @@
 {
-  "locks": {
-    "00625K:discount": {
-      "code": "00625K",
-      "name": "富邦上証+R",
-      "direction": "discount",
-      "rate": -3.1034,
-      "market_price": 8.43,
-      "estimated_nav": 8.7,
-      "notified_at": "2026-07-22T09:16:24.789881+08:00",
-      "updated_at": "2026-07-22T09:16:24.789881+08:00"
-    }
-  },
+  "locks": {},
   "history": [
     {
       "code": "00625K",

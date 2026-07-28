@@ -1,6 +1,25 @@
 {
-  "locks": {},
+  "locks": {
+    "00657K:premium": {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "premium",
+      "rate": 3.9007,
+      "market_price": 23.44,
+      "estimated_nav": 22.56,
+      "notified_at": "2026-07-28T09:16:17.978941+08:00",
+      "updated_at": "2026-07-28T09:16:17.978941+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "premium",
+      "rate": 3.9007,
+      "notified_at": "2026-07-28T09:15:00.979549+08:00",
+      "data_time": "2026-07-28T09:14:13+08:00"
+    },
     {
       "code": "00625K",
       "name": "富邦上証+R",

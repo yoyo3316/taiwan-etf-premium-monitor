@@ -1,6 +1,43 @@
 {
-  "locks": {},
+  "locks": {
+    "006204:premium": {
+      "code": "006204",
+      "name": "永豐臺灣加權",
+      "direction": "premium",
+      "rate": 3.6441,
+      "market_price": 209.9,
+      "estimated_nav": 202.52,
+      "notified_at": "2026-07-29T09:17:58.550817+08:00",
+      "updated_at": "2026-07-29T09:17:58.550817+08:00"
+    },
+    "00741B:discount": {
+      "code": "00741B",
+      "name": "富邦全球非投等債",
+      "direction": "discount",
+      "rate": -4.8576,
+      "market_price": 36.0,
+      "estimated_nav": 37.838,
+      "notified_at": "2026-07-29T09:17:59.151595+08:00",
+      "updated_at": "2026-07-29T09:17:59.151595+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "00741B",
+      "name": "富邦全球非投等債",
+      "direction": "discount",
+      "rate": -4.8576,
+      "notified_at": "2026-07-29T09:17:53.306088+08:00",
+      "data_time": "2026-07-29T09:17:24+08:00"
+    },
+    {
+      "code": "006204",
+      "name": "永豐臺灣加權",
+      "direction": "premium",
+      "rate": 3.6441,
+      "notified_at": "2026-07-29T09:17:53.306088+08:00",
+      "data_time": "2026-07-29T09:17:12+08:00"
+    },
     {
       "code": "00657K",
       "name": "國泰日經225+U",

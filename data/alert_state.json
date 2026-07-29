@@ -1,26 +1,5 @@
 {
-  "locks": {
-    "00643K:premium": {
-      "code": "00643K",
-      "name": "群益深証中小+R",
-      "direction": "premium",
-      "rate": 3.6745,
-      "market_price": 3.95,
-      "estimated_nav": 3.81,
-      "notified_at": "2026-07-29T12:32:51.043930+08:00",
-      "updated_at": "2026-07-29T12:32:51.043930+08:00"
-    },
-    "00830:discount": {
-      "code": "00830",
-      "name": "國泰費城半導體",
-      "direction": "discount",
-      "rate": -3.5485,
-      "market_price": 76.65,
-      "estimated_nav": 79.47,
-      "notified_at": "2026-07-29T12:32:51.641710+08:00",
-      "updated_at": "2026-07-29T12:32:51.641710+08:00"
-    }
-  },
+  "locks": {},
   "history": [
     {
       "code": "00830",

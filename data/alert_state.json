@@ -1,27 +1,25 @@
 {
   "locks": {
-    "00657K:discount": {
-      "code": "00657K",
-      "name": "國泰日經225+U",
-      "direction": "discount",
-      "rate": -3.6826,
-      "market_price": 21.97,
-      "estimated_nav": 22.81,
-      "notified_at": "2026-07-30T09:10:41.152963+08:00",
-      "updated_at": "2026-07-30T09:10:41.152963+08:00"
-    },
-    "00852L:premium": {
-      "code": "00852L",
-      "name": "國泰美國道瓊正2",
+    "00643K:premium": {
+      "code": "00643K",
+      "name": "群益深証中小+R",
       "direction": "premium",
-      "rate": 4.0223,
-      "market_price": 35.43,
-      "estimated_nav": 34.06,
-      "notified_at": "2026-07-30T09:10:41.726915+08:00",
-      "updated_at": "2026-07-30T09:10:41.726915+08:00"
+      "rate": 4.2895,
+      "market_price": 3.89,
+      "estimated_nav": 3.73,
+      "notified_at": "2026-07-30T12:16:09.448826+08:00",
+      "updated_at": "2026-07-30T12:16:09.448826+08:00"
     }
   },
   "history": [
+    {
+      "code": "00643K",
+      "name": "群益深証中小+R",
+      "direction": "premium",
+      "rate": 4.2895,
+      "notified_at": "2026-07-30T12:16:05.628336+08:00",
+      "data_time": "2026-07-30T12:15:30+08:00"
+    },
     {
       "code": "00852L",
       "name": "國泰美國道瓊正2",

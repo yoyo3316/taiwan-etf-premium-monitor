@@ -1,17 +1,205 @@
 {
   "locks": {
-    "00643K:premium": {
-      "code": "00643K",
-      "name": "群益深証中小+R",
+    "0053:discount": {
+      "code": "0053",
+      "name": "元大電子",
+      "direction": "discount",
+      "rate": -6.8751,
+      "market_price": 206.7,
+      "estimated_nav": 221.96,
+      "notified_at": "2026-07-31T09:23:38.596714+08:00",
+      "updated_at": "2026-07-31T09:23:38.596714+08:00"
+    },
+    "0057:discount": {
+      "code": "0057",
+      "name": "富邦摩台",
+      "direction": "discount",
+      "rate": -6.5665,
+      "market_price": 280.45,
+      "estimated_nav": 300.16,
+      "notified_at": "2026-07-31T09:23:39.211092+08:00",
+      "updated_at": "2026-07-31T09:23:39.211092+08:00"
+    },
+    "006203:discount": {
+      "code": "006203",
+      "name": "元大MSCI台灣",
+      "direction": "discount",
+      "rate": -6.7467,
+      "market_price": 170.15,
+      "estimated_nav": 182.46,
+      "notified_at": "2026-07-31T09:23:39.886681+08:00",
+      "updated_at": "2026-07-31T09:23:39.886681+08:00"
+    },
+    "00657:discount": {
+      "code": "00657",
+      "name": "國泰日經225",
+      "direction": "discount",
+      "rate": -4.6807,
+      "market_price": 72.7,
+      "estimated_nav": 76.27,
+      "notified_at": "2026-07-31T09:23:40.499305+08:00",
+      "updated_at": "2026-07-31T09:23:40.499305+08:00"
+    },
+    "00657K:discount": {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "discount",
+      "rate": -4.3404,
+      "market_price": 22.48,
+      "estimated_nav": 23.5,
+      "notified_at": "2026-07-31T09:23:41.109005+08:00",
+      "updated_at": "2026-07-31T09:23:41.109005+08:00"
+    },
+    "00830:premium": {
+      "code": "00830",
+      "name": "國泰費城半導體",
       "direction": "premium",
-      "rate": 4.2895,
-      "market_price": 3.89,
-      "estimated_nav": 3.73,
-      "notified_at": "2026-07-30T12:16:09.448826+08:00",
-      "updated_at": "2026-07-30T12:16:09.448826+08:00"
+      "rate": 3.1473,
+      "market_price": 83.9,
+      "estimated_nav": 81.34,
+      "notified_at": "2026-07-31T09:23:41.748579+08:00",
+      "updated_at": "2026-07-31T09:23:41.748579+08:00"
+    },
+    "00877:premium": {
+      "code": "00877",
+      "name": "復華中國5G",
+      "direction": "premium",
+      "rate": 6.638,
+      "market_price": 34.7,
+      "estimated_nav": 32.54,
+      "notified_at": "2026-07-31T09:23:42.392339+08:00",
+      "updated_at": "2026-07-31T09:23:42.392339+08:00"
+    },
+    "00887:premium": {
+      "code": "00887",
+      "name": "永豐中國科技50大",
+      "direction": "premium",
+      "rate": 4.7919,
+      "market_price": 16.62,
+      "estimated_nav": 15.86,
+      "notified_at": "2026-07-31T09:23:43.037287+08:00",
+      "updated_at": "2026-07-31T09:23:43.037287+08:00"
+    },
+    "00911:premium": {
+      "code": "00911",
+      "name": "兆豐洲際半導體",
+      "direction": "premium",
+      "rate": 3.2692,
+      "market_price": 53.7,
+      "estimated_nav": 52.0,
+      "notified_at": "2026-07-31T09:23:43.646173+08:00",
+      "updated_at": "2026-07-31T09:23:43.646173+08:00"
+    },
+    "00982T:discount": {
+      "code": "00982T",
+      "name": "兆豐台美動能股債平衡",
+      "direction": "discount",
+      "rate": -3.2765,
+      "market_price": 14.17,
+      "estimated_nav": 14.65,
+      "notified_at": "2026-07-31T09:23:44.264950+08:00",
+      "updated_at": "2026-07-31T09:23:44.264950+08:00"
+    },
+    "00990A:premium": {
+      "code": "00990A",
+      "name": "主動元大AI新經濟",
+      "direction": "premium",
+      "rate": 3.9757,
+      "market_price": 15.43,
+      "estimated_nav": 14.84,
+      "notified_at": "2026-07-31T09:23:44.922032+08:00",
+      "updated_at": "2026-07-31T09:23:44.922032+08:00"
     }
   },
   "history": [
+    {
+      "code": "00990A",
+      "name": "主動元大AI新經濟",
+      "direction": "premium",
+      "rate": 3.9757,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:23:15+08:00"
+    },
+    {
+      "code": "00982T",
+      "name": "兆豐台美動能股債平衡",
+      "direction": "discount",
+      "rate": -3.2765,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:23:16+08:00"
+    },
+    {
+      "code": "00911",
+      "name": "兆豐洲際半導體",
+      "direction": "premium",
+      "rate": 3.2692,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:23:16+08:00"
+    },
+    {
+      "code": "00887",
+      "name": "永豐中國科技50大",
+      "direction": "premium",
+      "rate": 4.7919,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:22:52+08:00"
+    },
+    {
+      "code": "00877",
+      "name": "復華中國5G",
+      "direction": "premium",
+      "rate": 6.638,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:23:03+08:00"
+    },
+    {
+      "code": "00830",
+      "name": "國泰費城半導體",
+      "direction": "premium",
+      "rate": 3.1473,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:22:44+08:00"
+    },
+    {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "discount",
+      "rate": -4.3404,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:22:44+08:00"
+    },
+    {
+      "code": "00657",
+      "name": "國泰日經225",
+      "direction": "discount",
+      "rate": -4.6807,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:22:59+08:00"
+    },
+    {
+      "code": "006203",
+      "name": "元大MSCI台灣",
+      "direction": "discount",
+      "rate": -6.7467,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:23:15+08:00"
+    },
+    {
+      "code": "0057",
+      "name": "富邦摩台",
+      "direction": "discount",
+      "rate": -6.5665,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:23:05+08:00"
+    },
+    {
+      "code": "0053",
+      "name": "元大電子",
+      "direction": "discount",
+      "rate": -6.8751,
+      "notified_at": "2026-07-31T09:23:34.579606+08:00",
+      "data_time": "2026-07-31T09:23:15+08:00"
+    },
     {
       "code": "00643K",
       "name": "群益深証中小+R",

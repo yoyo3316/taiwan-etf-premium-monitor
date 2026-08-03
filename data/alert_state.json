@@ -1,16 +1,5 @@
 {
-  "locks": {
-    "00990A:premium": {
-      "code": "00990A",
-      "name": "主動元大AI新經濟",
-      "direction": "premium",
-      "rate": 3.9757,
-      "market_price": 15.43,
-      "estimated_nav": 14.84,
-      "notified_at": "2026-07-31T09:23:44.922032+08:00",
-      "updated_at": "2026-07-31T09:23:44.922032+08:00"
-    }
-  },
+  "locks": {},
   "history": [
     {
       "code": "00990A",

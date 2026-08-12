@@ -1,6 +1,25 @@
 {
-  "locks": {},
+  "locks": {
+    "00715L:discount": {
+      "code": "00715L",
+      "name": "街口標普高盛布蘭特原油ER單日正向2倍指數股票型期貨信託基金",
+      "direction": "discount",
+      "rate": -3.057,
+      "market_price": 47.25,
+      "estimated_nav": 48.74,
+      "notified_at": "2026-08-12T08:50:53.209170+08:00",
+      "updated_at": "2026-08-12T08:50:53.209170+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "00715L",
+      "name": "街口標普高盛布蘭特原油ER單日正向2倍指數股票型期貨信託基金",
+      "direction": "discount",
+      "rate": -3.057,
+      "notified_at": "2026-08-12T08:50:49.198280+08:00",
+      "data_time": "2026-08-12T08:50:15+08:00"
+    },
     {
       "code": "00643K",
       "name": "群益深証中小+R",

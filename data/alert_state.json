@@ -1,6 +1,115 @@
 {
-  "locks": {},
+  "locks": {
+    "00663L:discount": {
+      "code": "00663L",
+      "name": "國泰臺灣加權正2",
+      "direction": "discount",
+      "rate": -3.2411,
+      "market_price": 101.8,
+      "estimated_nav": 105.21,
+      "notified_at": "2026-08-13T08:52:33.215575+08:00",
+      "updated_at": "2026-08-13T08:52:33.215575+08:00"
+    },
+    "00675L:discount": {
+      "code": "00675L",
+      "name": "富邦臺灣加權正2",
+      "direction": "discount",
+      "rate": -3.0468,
+      "market_price": 308.35,
+      "estimated_nav": 318.04,
+      "notified_at": "2026-08-13T08:52:33.754818+08:00",
+      "updated_at": "2026-08-13T08:52:33.754818+08:00"
+    },
+    "00685L:discount": {
+      "code": "00685L",
+      "name": "群益臺灣加權正2",
+      "direction": "discount",
+      "rate": -3.3333,
+      "market_price": 11.6,
+      "estimated_nav": 12.0,
+      "notified_at": "2026-08-13T08:52:34.274008+08:00",
+      "updated_at": "2026-08-13T08:52:34.274008+08:00"
+    },
+    "00963:discount": {
+      "code": "00963",
+      "name": "中信全球高股息",
+      "direction": "discount",
+      "rate": -5.8991,
+      "market_price": 13.24,
+      "estimated_nav": 14.07,
+      "notified_at": "2026-08-13T08:52:34.807859+08:00",
+      "updated_at": "2026-08-13T08:52:34.807859+08:00"
+    },
+    "00988A:discount": {
+      "code": "00988A",
+      "name": "主動統一全球創新",
+      "direction": "discount",
+      "rate": -4.2833,
+      "market_price": 16.76,
+      "estimated_nav": 17.51,
+      "notified_at": "2026-08-13T08:52:35.335343+08:00",
+      "updated_at": "2026-08-13T08:52:35.335343+08:00"
+    },
+    "00990A:discount": {
+      "code": "00990A",
+      "name": "主動元大AI新經濟",
+      "direction": "discount",
+      "rate": -3.8113,
+      "market_price": 15.9,
+      "estimated_nav": 16.53,
+      "notified_at": "2026-08-13T08:52:35.865333+08:00",
+      "updated_at": "2026-08-13T08:52:35.865333+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "00990A",
+      "name": "主動元大AI新經濟",
+      "direction": "discount",
+      "rate": -3.8113,
+      "notified_at": "2026-08-13T08:52:29.409090+08:00",
+      "data_time": "2026-08-13T08:52:00+08:00"
+    },
+    {
+      "code": "00988A",
+      "name": "主動統一全球創新",
+      "direction": "discount",
+      "rate": -4.2833,
+      "notified_at": "2026-08-13T08:52:29.409090+08:00",
+      "data_time": "2026-08-13T08:52:02+08:00"
+    },
+    {
+      "code": "00963",
+      "name": "中信全球高股息",
+      "direction": "discount",
+      "rate": -5.8991,
+      "notified_at": "2026-08-13T08:52:29.409090+08:00",
+      "data_time": "2026-08-13T08:52:00+08:00"
+    },
+    {
+      "code": "00685L",
+      "name": "群益臺灣加權正2",
+      "direction": "discount",
+      "rate": -3.3333,
+      "notified_at": "2026-08-13T08:52:29.409090+08:00",
+      "data_time": "2026-08-13T08:52:00+08:00"
+    },
+    {
+      "code": "00675L",
+      "name": "富邦臺灣加權正2",
+      "direction": "discount",
+      "rate": -3.0468,
+      "notified_at": "2026-08-13T08:52:29.409090+08:00",
+      "data_time": "2026-08-13T08:52:07+08:00"
+    },
+    {
+      "code": "00663L",
+      "name": "國泰臺灣加權正2",
+      "direction": "discount",
+      "rate": -3.2411,
+      "notified_at": "2026-08-13T08:52:29.409090+08:00",
+      "data_time": "2026-08-13T08:52:00+08:00"
+    },
     {
       "code": "00715L",
       "name": "街口標普高盛布蘭特原油ER單日正向2倍指數股票型期貨信託基金",

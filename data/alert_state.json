@@ -1,6 +1,61 @@
 {
-  "locks": {},
+  "locks": {
+    "00708L:premium": {
+      "code": "00708L",
+      "name": "期元大S&P黃金正2",
+      "direction": "premium",
+      "rate": 3.2513,
+      "market_price": 82.25,
+      "estimated_nav": 79.66,
+      "notified_at": "2026-08-14T08:51:22.793096+08:00",
+      "updated_at": "2026-08-14T08:51:22.793096+08:00"
+    },
+    "00715L:premium": {
+      "code": "00715L",
+      "name": "街口標普高盛布蘭特原油ER單日正向2倍指數股票型期貨信託基金",
+      "direction": "premium",
+      "rate": 3.6077,
+      "market_price": 47.96,
+      "estimated_nav": 46.29,
+      "notified_at": "2026-08-14T08:51:23.421077+08:00",
+      "updated_at": "2026-08-14T08:51:23.421077+08:00"
+    },
+    "009825:discount": {
+      "code": "009825",
+      "name": "聯邦美國金融創新ETF證券投資信託基金",
+      "direction": "discount",
+      "rate": -3.7178,
+      "market_price": 10.1,
+      "estimated_nav": 10.49,
+      "notified_at": "2026-08-14T08:51:24.050763+08:00",
+      "updated_at": "2026-08-14T08:51:24.050763+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "009825",
+      "name": "聯邦美國金融創新ETF證券投資信託基金",
+      "direction": "discount",
+      "rate": -3.7178,
+      "notified_at": "2026-08-14T08:51:18.869890+08:00",
+      "data_time": "2026-08-14T08:51:00+08:00"
+    },
+    {
+      "code": "00715L",
+      "name": "街口標普高盛布蘭特原油ER單日正向2倍指數股票型期貨信託基金",
+      "direction": "premium",
+      "rate": 3.6077,
+      "notified_at": "2026-08-14T08:51:18.869890+08:00",
+      "data_time": "2026-08-14T08:51:00+08:00"
+    },
+    {
+      "code": "00708L",
+      "name": "期元大S&P黃金正2",
+      "direction": "premium",
+      "rate": 3.2513,
+      "notified_at": "2026-08-14T08:51:18.869890+08:00",
+      "data_time": "2026-08-14T08:51:00+08:00"
+    },
     {
       "code": "00990A",
       "name": "主動元大AI新經濟",

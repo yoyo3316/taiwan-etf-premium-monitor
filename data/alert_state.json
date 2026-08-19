@@ -1,6 +1,25 @@
 {
-  "locks": {},
+  "locks": {
+    "00657K:premium": {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "premium",
+      "rate": 3.3292,
+      "market_price": 25.14,
+      "estimated_nav": 24.33,
+      "notified_at": "2026-08-19T09:58:30.044402+08:00",
+      "updated_at": "2026-08-19T09:58:30.044402+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "00657K",
+      "name": "國泰日經225+U",
+      "direction": "premium",
+      "rate": 3.3292,
+      "notified_at": "2026-08-19T09:58:25.028200+08:00",
+      "data_time": "2026-08-19T09:57:48+08:00"
+    },
     {
       "code": "009825",
       "name": "聯邦美國金融創新ETF證券投資信託基金",

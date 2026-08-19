@@ -1,16 +1,5 @@
 {
-  "locks": {
-    "0061:discount": {
-      "code": "0061",
-      "name": "元大寶滬深",
-      "direction": "discount",
-      "rate": -3.1387,
-      "market_price": 24.38,
-      "estimated_nav": 25.17,
-      "notified_at": "2026-08-19T13:15:20.446542+08:00",
-      "updated_at": "2026-08-19T13:15:20.446542+08:00"
-    }
-  },
+  "locks": {},
   "history": [
     {
       "code": "0061",

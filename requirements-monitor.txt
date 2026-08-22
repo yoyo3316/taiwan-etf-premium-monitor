@@ -1,0 +1,3 @@
+# Dependencies needed by scheduled monitoring jobs only.
+# Keep the Streamlit dashboard dependencies in requirements.txt.
+requests>=2.31.0

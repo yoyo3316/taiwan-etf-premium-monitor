@@ -27,6 +27,7 @@ Field mapping (confirmed from page UI + sample payload):
 from __future__ import annotations
 
 import logging
+import time
 from typing import Any
 
 import requests
@@ -46,6 +47,12 @@ DEFAULT_HEADERS = {
         "indicator-disclosure-etf?lang=zhHant"
     ),
 }
+
+# The MIS endpoint occasionally returns a transient 502 to GitHub-hosted
+# runners.  A small bounded retry here is much more reliable than failing an
+# entire scheduled monitoring cycle on the first response.
+RETRYABLE_STATUS_CODES = frozenset({429, 500, 502, 503, 504})
+DEFAULT_FETCH_ATTEMPTS = 4
 
 
 def _to_float(value: Any) -> float | None:
@@ -68,17 +75,46 @@ def _to_str(value: Any) -> str:
     return str(value).strip()
 
 
-def fetch_all_etf_raw(timeout: int = 30) -> dict[str, Any]:
+def fetch_all_etf_raw(
+    timeout: int = 20,
+    attempts: int = DEFAULT_FETCH_ATTEMPTS,
+) -> dict[str, Any]:
     """Fetch the official all_etf.txt JSON used by TWSE disclosure pages."""
-    url = f"{TWSE_ALL_ETF_URL}?_={int(__import__('time').time() * 1000)}"
-    resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
-    resp.raise_for_status()
-    # TWSE serves UTF-8 JSON; force utf-8 to avoid mis-detection on some clients
-    resp.encoding = "utf-8"
-    data = resp.json()
-    if not isinstance(data, dict) or "a1" not in data:
-        raise ValueError("Unexpected all_etf.txt structure: missing key 'a1'")
-    return data
+    attempts = max(1, attempts)
+    last_error: Exception | None = None
+
+    for attempt in range(1, attempts + 1):
+        url = f"{TWSE_ALL_ETF_URL}?_={int(time.time() * 1000)}"
+        try:
+            resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
+            if resp.status_code in RETRYABLE_STATUS_CODES:
+                raise requests.HTTPError(
+                    f"TWSE returned HTTP {resp.status_code}", response=resp
+                )
+            resp.raise_for_status()
+            # TWSE serves UTF-8 JSON; force utf-8 to avoid mis-detection.
+            resp.encoding = "utf-8"
+            data = resp.json()
+            if not isinstance(data, dict) or "a1" not in data:
+                raise ValueError("Unexpected all_etf.txt structure: missing key 'a1'")
+            return data
+        except (requests.RequestException, ValueError) as exc:
+            last_error = exc
+            if attempt == attempts:
+                break
+            delay = 2 ** (attempt - 1)
+            logger.warning(
+                "TWSE all_etf fetch failed (attempt %s/%s): %s; retrying in %ss",
+                attempt,
+                attempts,
+                exc,
+                delay,
+            )
+            time.sleep(delay)
+
+    raise RuntimeError(
+        f"TWSE all_etf fetch failed after {attempts} attempts"
+    ) from last_error
 
 
 def fetch_category_etf_codes(

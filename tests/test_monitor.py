@@ -12,6 +12,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src.monitor import compute_premium_discount, evaluate_record
+from src import twse_client
 from src.twse_client import parse_all_etf
 
 TZ = ZoneInfo("Asia/Taipei")
@@ -98,6 +99,27 @@ def test_parse_all_etf_minimal():
     assert len(rows) == 1
     assert rows[0]["code"] == "0050"
     assert rows[0]["market_price"] == 100.0
+
+
+def test_fetch_all_etf_retries_transient_502(monkeypatch):
+    class Response:
+        def __init__(self, status_code, payload=None):
+            self.status_code = status_code
+            self.payload = payload
+            self.encoding = None
+
+        def raise_for_status(self):
+            if self.status_code >= 400:
+                raise twse_client.requests.HTTPError(response=self)
+
+        def json(self):
+            return self.payload
+
+    responses = [Response(502), Response(200, {"a1": []})]
+    monkeypatch.setattr(twse_client.requests, "get", lambda *args, **kwargs: responses.pop(0))
+    monkeypatch.setattr(twse_client.time, "sleep", lambda _delay: None)
+
+    assert twse_client.fetch_all_etf_raw(attempts=2) == {"a1": []}
 
 
 def test_pair_overlap_same_index():

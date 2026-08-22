@@ -139,10 +139,10 @@ def fetch_daily_candles_after(
     return data
 
 
-def build_history_from_wantgoo(code: str) -> dict[str, Any]:
+def build_history_from_wantgoo(code: str, timeout: int = 8) -> dict[str, Any]:
     """Merge NAV + close into daily premium/discount series (WantGoo formula)."""
     code = code.strip().upper()
-    nav_rows = fetch_discount_premium_raw(code)
+    nav_rows = fetch_discount_premium_raw(code, timeout=timeout)
     if not nav_rows:
         return {
             "code": code,
@@ -163,7 +163,7 @@ def build_history_from_wantgoo(code: str) -> dict[str, Any]:
     candles: list[dict[str, Any]] = []
     candle_err = None
     try:
-        candles = fetch_daily_candles_after(code, candle_after)
+        candles = fetch_daily_candles_after(code, candle_after, timeout=timeout)
     except Exception as exc:
         candle_err = str(exc)
         logger.warning("WantGoo candles failed for %s: %s", code, exc)
@@ -232,10 +232,10 @@ def build_history_from_wantgoo(code: str) -> dict[str, Any]:
     }
 
 
-def try_fetch_history(code: str) -> dict[str, Any]:
+def try_fetch_history(code: str, timeout: int = 8) -> dict[str, Any]:
     """Best-effort fetch; never raises."""
     try:
-        return build_history_from_wantgoo(code)
+        return build_history_from_wantgoo(code, timeout=timeout)
     except Exception as exc:
         logger.warning("WantGoo history failed for %s: %s", code, exc)
         return {

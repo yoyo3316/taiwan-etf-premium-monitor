@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import time
 from typing import Any
 
 from .config import PREMARKET_DATA_MAX_AGE_MINUTES, Settings, TWSE_INDICATOR_PAGE
@@ -36,6 +37,10 @@ from .twse_client import fetch_etf_records
 from .wantgoo_client import try_fetch_history, wantgoo_page_url
 
 logger = logging.getLogger(__name__)
+
+MAX_WANTGOO_FETCHES = 5
+WANTGOO_TIMEOUT_SECONDS = 8
+WANTGOO_TIME_BUDGET_SECONDS = 50
 
 
 def compute_premium_discount(
@@ -232,15 +237,20 @@ def run_monitor(
         if r.get("alert_direction") in ("premium", "discount")
         and r.get("status") in ("ok", "stale")
     ]
-    # Limit external WantGoo calls per cycle
-    max_wantgoo_fetches = 12
+    # WantGoo is reference-only: cap both calls and wall-clock time so an
+    # unreliable third-party endpoint cannot consume the Actions job.
+    max_wantgoo_fetches = MAX_WANTGOO_FETCHES
     fetched = 0
+    wantgoo_started = time.monotonic()
     for row in candidates:
+        if time.monotonic() - wantgoo_started >= WANTGOO_TIME_BUDGET_SECONDS:
+            logger.warning("WantGoo time budget exhausted; using local history")
+            break
         code = row["code"]
         direction = row.get("alert_direction")
         wg = load_wantgoo_history(code)
         if not is_fresh(wg, max_age_hours=20) and fetched < max_wantgoo_fetches:
-            wg = try_fetch_history(code)
+            wg = try_fetch_history(code, timeout=WANTGOO_TIMEOUT_SECONDS)
             if wg.get("rows"):
                 save_wantgoo_history(wg)
             fetched += 1

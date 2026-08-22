@@ -26,7 +26,7 @@ from src.market_hours import now_taipei, session_status
 from src.monitor import evaluate_record, summarize
 from src.pair_builder import attach_live_premium_gap
 from src.state import active_alerts, load_alert_state
-from src.storage import load_settings_file, load_snapshot, save_settings_file
+from src.storage import load_settings_file, load_snapshot
 from src.twse_client import fetch_etf_records
 from src.wantgoo_client import try_fetch_history, wantgoo_page_url
 
@@ -643,12 +643,14 @@ def main() -> None:
         premium = st.number_input(
             "溢價門檻 (%)",
             value=float(file_settings.get("premium_threshold", 3.0)),
+            min_value=0.1,
             step=0.1,
             format="%.2f",
         )
         discount = st.number_input(
             "折價門檻 (%)",
             value=float(file_settings.get("discount_threshold", -3.0)),
+            max_value=-0.1,
             step=0.1,
             format="%.2f",
         )
@@ -662,15 +664,7 @@ def main() -> None:
         if st.button("重新整理", use_container_width=True, type="primary"):
             st.cache_data.clear()
             st.rerun()
-        if st.button("儲存門檻", use_container_width=True):
-            save_settings_file(
-                {
-                    "premium_threshold": float(premium),
-                    "discount_threshold": float(discount),
-                    "data_max_age_minutes": int(max_age),
-                }
-            )
-            st.success("已儲存")
+        st.caption("門檻僅套用於目前瀏覽工作階段；重新開啟頁面會回復預設值。")
         data_mode = st.radio(
             "資料來源",
             options=["即時 TWSE", "Repo 快照"],

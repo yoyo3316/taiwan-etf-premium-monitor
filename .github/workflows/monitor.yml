@@ -5,7 +5,9 @@ on:
     # Every 5 minutes. GitHub cron is UTC.
     # Taiwan monitor window 08:50–13:30 ≈ 00:50–05:30 UTC (no DST).
     # Wider UTC window on weekdays; Asia/Taipei checks inside code.
-    - cron: "*/5 0-6 * * 1-5"
+    - cron: "50-59/5 0 * * 1-5"
+    - cron: "*/5 1-4 * * 1-5"
+    - cron: "0-30/5 5 * * 1-5"
   workflow_dispatch:
     inputs:
       force_notify:
@@ -72,9 +74,17 @@ jobs:
           else
             git commit -m "chore(data): update ETF snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
             # Retry push in case another run committed concurrently
+            pushed=false
             for i in 1 2 3; do
-              git pull --rebase origin main && git push && break
+              if git pull --rebase origin main && git push; then
+                pushed=true
+                break
+              fi
               echo "Push attempt $i failed; retrying..."
               sleep 3
             done
+            if [ "$pushed" != "true" ]; then
+              echo "Failed to push monitor state after 3 attempts" >&2
+              exit 1
+            fi
           fi

@@ -122,6 +122,19 @@ def test_fetch_all_etf_retries_transient_502(monkeypatch):
     assert twse_client.fetch_all_etf_raw(attempts=2) == {"a1": []}
 
 
+def test_invalid_environment_settings_fall_back_to_defaults(monkeypatch):
+    from src.config import Settings
+
+    monkeypatch.setenv("PREMIUM_THRESHOLD", "not-a-number")
+    monkeypatch.setenv("DISCOUNT_THRESHOLD", "1")
+    monkeypatch.setenv("DATA_MAX_AGE_MINUTES", "0")
+
+    settings = Settings.from_env()
+    assert settings.premium_threshold == 3.0
+    assert settings.discount_threshold == -3.0
+    assert settings.data_max_age_minutes == 10
+
+
 def test_pair_overlap_same_index():
     from src.pair_builder import build_pairs, compute_pair_overlap
 

@@ -54,14 +54,24 @@ def _float_env(name: str, default: float) -> float:
     raw = os.environ.get(name)
     if raw is None or str(raw).strip() == "":
         return default
-    return float(raw)
+    try:
+        return float(raw)
+    except (TypeError, ValueError):
+        return default
 
 
 def _int_env(name: str, default: int) -> int:
     raw = os.environ.get(name)
     if raw is None or str(raw).strip() == "":
         return default
-    return int(raw)
+    try:
+        return int(raw)
+    except (TypeError, ValueError):
+        return default
+
+
+def _valid_thresholds(premium: float, discount: float, max_age: int) -> bool:
+    return premium > 0 and discount < 0 and discount < premium and max_age > 0
 
 
 @dataclass(frozen=True)
@@ -77,16 +87,17 @@ class Settings:
     @classmethod
     def from_env(cls) -> "Settings":
         dash = (os.environ.get("DASHBOARD_URL") or DEFAULT_DASHBOARD_URL or "").strip()
+        premium = _float_env("PREMIUM_THRESHOLD", DEFAULT_PREMIUM_THRESHOLD)
+        discount = _float_env("DISCOUNT_THRESHOLD", DEFAULT_DISCOUNT_THRESHOLD)
+        max_age = _int_env("DATA_MAX_AGE_MINUTES", DEFAULT_DATA_MAX_AGE_MINUTES)
+        if not _valid_thresholds(premium, discount, max_age):
+            premium = DEFAULT_PREMIUM_THRESHOLD
+            discount = DEFAULT_DISCOUNT_THRESHOLD
+            max_age = DEFAULT_DATA_MAX_AGE_MINUTES
         return cls(
-            premium_threshold=_float_env(
-                "PREMIUM_THRESHOLD", DEFAULT_PREMIUM_THRESHOLD
-            ),
-            discount_threshold=_float_env(
-                "DISCOUNT_THRESHOLD", DEFAULT_DISCOUNT_THRESHOLD
-            ),
-            data_max_age_minutes=_int_env(
-                "DATA_MAX_AGE_MINUTES", DEFAULT_DATA_MAX_AGE_MINUTES
-            ),
+            premium_threshold=premium,
+            discount_threshold=discount,
+            data_max_age_minutes=max_age,
             telegram_bot_token=os.environ.get("TELEGRAM_BOT_TOKEN") or None,
             telegram_chat_id=os.environ.get("TELEGRAM_CHAT_ID") or None,
             dashboard_url=dash or None,

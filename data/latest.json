@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-08-27T19:00:22.390721+08:00",
+  "fetched_at": "2026-08-28T00:06:20.732334+08:00",
   "timezone": "Asia/Taipei",
   "session": {
-    "now": "2026-08-27T19:00:22.390721+08:00",
+    "now": "2026-08-28T00:06:20.732334+08:00",
     "timezone": "Asia/Taipei",
     "is_trading_day": true,
     "in_session": false,
     "is_premarket_watch": false,
-    "state": "after_market",
-    "reason": "收盤後",
+    "state": "before_watch",
+    "reason": "監控開始前",
     "session": "08:50–13:30",
     "official_open": "09:00"
   },

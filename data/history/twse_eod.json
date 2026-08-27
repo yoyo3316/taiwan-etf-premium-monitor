@@ -249,6 +249,13 @@
           "nav": 14.7,
           "premium_discount_pct": 0.068,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.81,
+          "nav": 14.83,
+          "premium_discount_pct": -0.1349,
+          "source": "twse"
         }
       ]
     },
@@ -499,6 +506,13 @@
           "close": 13.5,
           "nav": 13.57,
           "premium_discount_pct": -0.5158,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.63,
+          "nav": 13.75,
+          "premium_discount_pct": -0.8727,
           "source": "twse"
         }
       ]
@@ -751,6 +765,13 @@
           "nav": 9.51,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.63,
+          "nav": 9.51,
+          "premium_discount_pct": 1.2618,
+          "source": "twse"
         }
       ]
     },
@@ -1001,6 +1022,13 @@
           "close": 10.16,
           "nav": 10.22,
           "premium_discount_pct": -0.5871,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.25,
+          "nav": 10.3,
+          "premium_discount_pct": -0.4854,
           "source": "twse"
         }
       ]
@@ -1253,6 +1281,13 @@
           "nav": 9.6722,
           "premium_discount_pct": -0.4363,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.61,
+          "nav": 9.6342,
+          "premium_discount_pct": -0.2512,
+          "source": "twse"
         }
       ]
     },
@@ -1503,6 +1538,13 @@
           "close": 8.63,
           "nav": 8.65,
           "premium_discount_pct": -0.2312,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 8.68,
+          "nav": 8.71,
+          "premium_discount_pct": -0.3444,
           "source": "twse"
         }
       ]
@@ -1755,6 +1797,13 @@
           "nav": 9.66,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.7,
+          "nav": 9.71,
+          "premium_discount_pct": -0.103,
+          "source": "twse"
         }
       ]
     },
@@ -2005,6 +2054,13 @@
           "close": 9.68,
           "nav": 9.73,
           "premium_discount_pct": -0.5139,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.77,
+          "nav": 9.8,
+          "premium_discount_pct": -0.3061,
           "source": "twse"
         }
       ]
@@ -2257,6 +2313,13 @@
           "nav": 106.07,
           "premium_discount_pct": -0.1603,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 106.05,
+          "nav": 106.15,
+          "premium_discount_pct": -0.0942,
+          "source": "twse"
         }
       ]
     },
@@ -2507,6 +2570,13 @@
           "close": 144.5,
           "nav": 144.37,
           "premium_discount_pct": 0.09,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 145.8,
+          "nav": 145.29,
+          "premium_discount_pct": 0.351,
           "source": "twse"
         }
       ]
@@ -2759,6 +2829,13 @@
           "nav": 62.08,
           "premium_discount_pct": -0.2094,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 61.9,
+          "nav": 62.04,
+          "premium_discount_pct": -0.2257,
+          "source": "twse"
         }
       ]
     },
@@ -3009,6 +3086,13 @@
           "close": 241.15,
           "nav": 240.35,
           "premium_discount_pct": 0.3328,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 241.55,
+          "nav": 240.74,
+          "premium_discount_pct": 0.3365,
           "source": "twse"
         }
       ]
@@ -3261,6 +3345,13 @@
           "nav": 44.58,
           "premium_discount_pct": -0.1346,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 44.53,
+          "nav": 44.61,
+          "premium_discount_pct": -0.1793,
+          "source": "twse"
         }
       ]
     },
@@ -3511,6 +3602,13 @@
           "close": 53.25,
           "nav": 53.47,
           "premium_discount_pct": -0.4114,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 53.6,
+          "nav": 53.79,
+          "premium_discount_pct": -0.3532,
           "source": "twse"
         }
       ]
@@ -3763,6 +3861,13 @@
           "nav": 316.42,
           "premium_discount_pct": 0.1833,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 318.95,
+          "nav": 316.46,
+          "premium_discount_pct": 0.7868,
+          "source": "twse"
         }
       ]
     },
@@ -4013,6 +4118,13 @@
           "close": 24.38,
           "nav": 24.37,
           "premium_discount_pct": 0.041,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 24.48,
+          "nav": 24.57,
+          "premium_discount_pct": -0.3663,
           "source": "twse"
         }
       ]
@@ -4265,6 +4377,13 @@
           "nav": 43.65,
           "premium_discount_pct": -0.3666,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 44.05,
+          "nav": 44.26,
+          "premium_discount_pct": -0.4745,
+          "source": "twse"
         }
       ]
     },
@@ -4515,6 +4634,13 @@
           "close": 193.2,
           "nav": 192.78,
           "premium_discount_pct": 0.2179,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 193.5,
+          "nav": 192.88,
+          "premium_discount_pct": 0.3214,
           "source": "twse"
         }
       ]
@@ -4767,6 +4893,13 @@
           "nav": 228.86,
           "premium_discount_pct": -0.3321,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 229.8,
+          "nav": 229.7,
+          "premium_discount_pct": 0.0435,
+          "source": "twse"
         }
       ]
     },
@@ -5017,6 +5150,13 @@
           "close": 40.62,
           "nav": 40.83,
           "premium_discount_pct": -0.5143,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 40.74,
+          "nav": 41.01,
+          "premium_discount_pct": -0.6584,
           "source": "twse"
         }
       ]
@@ -5269,6 +5409,13 @@
           "nav": 37.97,
           "premium_discount_pct": -0.6321,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.8,
+          "nav": 38.07,
+          "premium_discount_pct": -0.7092,
+          "source": "twse"
         }
       ]
     },
@@ -5519,6 +5666,13 @@
           "close": 32.49,
           "nav": 32.64,
           "premium_discount_pct": -0.4596,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.45,
+          "nav": 32.72,
+          "premium_discount_pct": -0.8252,
           "source": "twse"
         }
       ]
@@ -5771,6 +5925,13 @@
           "nav": 243.01,
           "premium_discount_pct": -0.0658,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 243.15,
+          "nav": 243.17,
+          "premium_discount_pct": -0.0082,
+          "source": "twse"
         }
       ]
     },
@@ -6021,6 +6182,13 @@
           "close": 8.56,
           "nav": 8.61,
           "premium_discount_pct": -0.5807,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 8.56,
+          "nav": 8.69,
+          "premium_discount_pct": -1.496,
           "source": "twse"
         }
       ]
@@ -6273,6 +6441,13 @@
           "nav": 35.79,
           "premium_discount_pct": -0.2235,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 35.95,
+          "nav": 35.94,
+          "premium_discount_pct": 0.0278,
+          "source": "twse"
         }
       ]
     },
@@ -6523,6 +6698,13 @@
           "close": 9.99,
           "nav": 9.97,
           "premium_discount_pct": 0.2006,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.95,
+          "nav": 9.94,
+          "premium_discount_pct": 0.1006,
           "source": "twse"
         }
       ]
@@ -6775,6 +6957,13 @@
           "nav": 48.79,
           "premium_discount_pct": -0.3279,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 48.7,
+          "nav": 49.02,
+          "premium_discount_pct": -0.6528,
+          "source": "twse"
         }
       ]
     },
@@ -7025,6 +7214,13 @@
           "close": 3.12,
           "nav": 3.13,
           "premium_discount_pct": -0.3195,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 3.12,
+          "nav": 3.12,
+          "premium_discount_pct": 0.0,
           "source": "twse"
         }
       ]
@@ -7277,6 +7473,13 @@
           "nav": 48.1,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 47.8,
+          "nav": 47.56,
+          "premium_discount_pct": 0.5046,
+          "source": "twse"
         }
       ]
     },
@@ -7527,6 +7730,13 @@
           "close": 27.89,
           "nav": 27.89,
           "premium_discount_pct": 0.0,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.82,
+          "nav": 27.85,
+          "premium_discount_pct": -0.1077,
           "source": "twse"
         }
       ]
@@ -7779,6 +7989,13 @@
           "nav": 8.76,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 8.78,
+          "nav": 8.79,
+          "premium_discount_pct": -0.1138,
+          "source": "twse"
         }
       ]
     },
@@ -8029,6 +8246,13 @@
           "close": 20.12,
           "nav": 20.16,
           "premium_discount_pct": -0.1984,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 20.07,
+          "nav": 20.16,
+          "premium_discount_pct": -0.4464,
           "source": "twse"
         }
       ]
@@ -8281,6 +8505,13 @@
           "nav": 6.67,
           "premium_discount_pct": -0.1499,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 6.63,
+          "nav": 6.64,
+          "premium_discount_pct": -0.1506,
+          "source": "twse"
         }
       ]
     },
@@ -8531,6 +8762,13 @@
           "close": 16.65,
           "nav": 16.67,
           "premium_discount_pct": -0.12,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 16.61,
+          "nav": 16.64,
+          "premium_discount_pct": -0.1803,
           "source": "twse"
         }
       ]
@@ -8783,6 +9021,13 @@
           "nav": 109.1,
           "premium_discount_pct": -0.3208,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 108.9,
+          "nav": 109.16,
+          "premium_discount_pct": -0.2382,
+          "source": "twse"
         }
       ]
     },
@@ -9030,6 +9275,13 @@
         },
         {
           "date": "2026-08-26",
+          "close": 3.65,
+          "nav": 3.67,
+          "premium_discount_pct": -0.545,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
           "close": 3.65,
           "nav": 3.67,
           "premium_discount_pct": -0.545,
@@ -9285,6 +9537,13 @@
           "nav": 26.88,
           "premium_discount_pct": -0.0744,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.16,
+          "nav": 27.2,
+          "premium_discount_pct": -0.1471,
+          "source": "twse"
         }
       ]
     },
@@ -9535,6 +9794,13 @@
           "close": 18.52,
           "nav": 18.52,
           "premium_discount_pct": 0.0,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 18.62,
+          "nav": 18.65,
+          "premium_discount_pct": -0.1609,
           "source": "twse"
         }
       ]
@@ -9787,6 +10053,13 @@
           "nav": 3.91,
           "premium_discount_pct": -0.5115,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 3.91,
+          "nav": 3.95,
+          "premium_discount_pct": -1.0127,
+          "source": "twse"
         }
       ]
     },
@@ -10037,6 +10310,13 @@
           "close": 58.05,
           "nav": 58.08,
           "premium_discount_pct": -0.0517,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 58.15,
+          "nav": 58.11,
+          "premium_discount_pct": 0.0688,
           "source": "twse"
         }
       ]
@@ -10289,6 +10569,13 @@
           "nav": 76.82,
           "premium_discount_pct": 0.1692,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 76.95,
+          "nav": 76.98,
+          "premium_discount_pct": -0.039,
+          "source": "twse"
         }
       ]
     },
@@ -10539,6 +10826,13 @@
           "close": 138.5,
           "nav": 138.74,
           "premium_discount_pct": -0.173,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 139.1,
+          "nav": 139.67,
+          "premium_discount_pct": -0.4081,
           "source": "twse"
         }
       ]
@@ -10791,6 +11085,13 @@
           "nav": 3.93,
           "premium_discount_pct": -0.2545,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 3.91,
+          "nav": 3.91,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -11041,6 +11342,13 @@
           "close": 17.45,
           "nav": 17.5,
           "premium_discount_pct": -0.2857,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.27,
+          "nav": 17.29,
+          "premium_discount_pct": -0.1157,
           "source": "twse"
         }
       ]
@@ -11293,6 +11601,13 @@
           "nav": 5.14,
           "premium_discount_pct": -0.3891,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 5.14,
+          "nav": 5.16,
+          "premium_discount_pct": -0.3876,
+          "source": "twse"
         }
       ]
     },
@@ -11543,6 +11858,13 @@
           "close": 33.44,
           "nav": 33.73,
           "premium_discount_pct": -0.8598,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 33.07,
+          "nav": 33.29,
+          "premium_discount_pct": -0.6609,
           "source": "twse"
         }
       ]
@@ -11795,6 +12117,13 @@
           "nav": 47.73,
           "premium_discount_pct": -0.4819,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 46.75,
+          "nav": 46.96,
+          "premium_discount_pct": -0.4472,
+          "source": "twse"
         }
       ]
     },
@@ -12045,6 +12374,13 @@
           "close": 6.68,
           "nav": 6.71,
           "premium_discount_pct": -0.4471,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 6.69,
+          "nav": 6.75,
+          "premium_discount_pct": -0.8889,
           "source": "twse"
         }
       ]
@@ -12297,6 +12633,13 @@
           "nav": 33.78,
           "premium_discount_pct": 0.148,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 33.85,
+          "nav": 34.11,
+          "premium_discount_pct": -0.7622,
+          "source": "twse"
         }
       ]
     },
@@ -12547,6 +12890,13 @@
           "close": 5.86,
           "nav": 5.9,
           "premium_discount_pct": -0.678,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 5.85,
+          "nav": 5.86,
+          "premium_discount_pct": -0.1706,
           "source": "twse"
         }
       ]
@@ -12799,6 +13149,13 @@
           "nav": 78.14,
           "premium_discount_pct": -0.1792,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 77.55,
+          "nav": 77.9,
+          "premium_discount_pct": -0.4493,
+          "source": "twse"
         }
       ]
     },
@@ -13049,6 +13406,13 @@
           "close": 24.51,
           "nav": 24.53,
           "premium_discount_pct": -0.0815,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 24.66,
+          "nav": 24.58,
+          "premium_discount_pct": 0.3255,
           "source": "twse"
         }
       ]
@@ -13301,6 +13665,13 @@
           "nav": 47.69,
           "premium_discount_pct": -2.2856,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 46.61,
+          "nav": 47.6,
+          "premium_discount_pct": -2.0798,
+          "source": "twse"
         }
       ]
     },
@@ -13551,6 +13922,13 @@
           "close": 85.9,
           "nav": 85.87,
           "premium_discount_pct": 0.0349,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 85.45,
+          "nav": 85.56,
+          "premium_discount_pct": -0.1286,
           "source": "twse"
         }
       ]
@@ -13803,6 +14181,13 @@
           "nav": 119.32,
           "premium_discount_pct": 0.067,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 119.85,
+          "nav": 118.8,
+          "premium_discount_pct": 0.8838,
+          "source": "twse"
         }
       ]
     },
@@ -14053,6 +14438,13 @@
           "close": 102.9,
           "nav": 103.03,
           "premium_discount_pct": -0.1262,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 103.75,
+          "nav": 104.85,
+          "premium_discount_pct": -1.0491,
           "source": "twse"
         }
       ]
@@ -14305,6 +14697,13 @@
           "nav": 1.61,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 1.62,
+          "nav": 1.6,
+          "premium_discount_pct": 1.25,
+          "source": "twse"
         }
       ]
     },
@@ -14555,6 +14954,13 @@
           "close": 9.61,
           "nav": 9.65,
           "premium_discount_pct": -0.4145,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.49,
+          "nav": 9.49,
+          "premium_discount_pct": 0.0,
           "source": "twse"
         }
       ]
@@ -14807,6 +15213,13 @@
           "nav": 9.0,
           "premium_discount_pct": -0.7778,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.0,
+          "nav": 9.05,
+          "premium_discount_pct": -0.5525,
+          "source": "twse"
         }
       ]
     },
@@ -15057,6 +15470,13 @@
           "close": 62.35,
           "nav": 62.37,
           "premium_discount_pct": -0.0321,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 62.25,
+          "nav": 61.93,
+          "premium_discount_pct": 0.5167,
           "source": "twse"
         }
       ]
@@ -15309,6 +15729,13 @@
           "nav": 19.58,
           "premium_discount_pct": 0.1021,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 19.57,
+          "nav": 19.54,
+          "premium_discount_pct": 0.1535,
+          "source": "twse"
         }
       ]
     },
@@ -15559,6 +15986,13 @@
           "close": 5.16,
           "nav": 5.18,
           "premium_discount_pct": -0.3861,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 5.17,
+          "nav": 5.19,
+          "premium_discount_pct": -0.3854,
           "source": "twse"
         }
       ]
@@ -15811,6 +16245,13 @@
           "nav": 196.13,
           "premium_discount_pct": 0.0612,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 199.1,
+          "nav": 201.09,
+          "premium_discount_pct": -0.9896,
+          "source": "twse"
         }
       ]
     },
@@ -16061,6 +16502,13 @@
           "close": 2.45,
           "nav": 2.46,
           "premium_discount_pct": -0.4065,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 2.44,
+          "nav": 2.43,
+          "premium_discount_pct": 0.4115,
           "source": "twse"
         }
       ]
@@ -16313,6 +16761,13 @@
           "nav": 12.8,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.65,
+          "nav": 12.62,
+          "premium_discount_pct": 0.2377,
+          "source": "twse"
         }
       ]
     },
@@ -16563,6 +17018,13 @@
           "close": 26.37,
           "nav": 26.36,
           "premium_discount_pct": 0.0379,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.51,
+          "nav": 26.64,
+          "premium_discount_pct": -0.488,
           "source": "twse"
         }
       ]
@@ -16815,6 +17277,13 @@
           "nav": 312.17,
           "premium_discount_pct": -0.1025,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 313.8,
+          "nav": 313.74,
+          "premium_discount_pct": 0.0191,
+          "source": "twse"
         }
       ]
     },
@@ -17065,6 +17534,13 @@
           "close": 5.53,
           "nav": 5.51,
           "premium_discount_pct": 0.363,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 5.5,
+          "nav": 5.49,
+          "premium_discount_pct": 0.1821,
           "source": "twse"
         }
       ]
@@ -17317,6 +17793,13 @@
           "nav": 45.06,
           "premium_discount_pct": -0.0444,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 44.71,
+          "nav": 44.62,
+          "premium_discount_pct": 0.2017,
+          "source": "twse"
         }
       ]
     },
@@ -17567,6 +18050,13 @@
           "close": 26.11,
           "nav": 26.1077,
           "premium_discount_pct": 0.0088,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.04,
+          "nav": 25.9914,
+          "premium_discount_pct": 0.187,
           "source": "twse"
         }
       ]
@@ -17819,6 +18309,13 @@
           "nav": 6.5554,
           "premium_discount_pct": -0.2349,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 6.56,
+          "nav": 6.5501,
+          "premium_discount_pct": 0.1511,
+          "source": "twse"
         }
       ]
     },
@@ -18069,6 +18566,13 @@
           "close": 21.52,
           "nav": 21.5918,
           "premium_discount_pct": -0.3325,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.52,
+          "nav": 21.5524,
+          "premium_discount_pct": -0.1503,
           "source": "twse"
         }
       ]
@@ -18321,6 +18825,13 @@
           "nav": 20.51,
           "premium_discount_pct": -0.7314,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 20.39,
+          "nav": 20.55,
+          "premium_discount_pct": -0.7786,
+          "source": "twse"
         }
       ]
     },
@@ -18571,6 +19082,13 @@
           "close": 21.2,
           "nav": 21.32,
           "premium_discount_pct": -0.5629,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.25,
+          "nav": 21.4,
+          "premium_discount_pct": -0.7009,
           "source": "twse"
         }
       ]
@@ -18823,6 +19341,13 @@
           "nav": 15.33,
           "premium_discount_pct": -0.5219,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.25,
+          "nav": 15.29,
+          "premium_discount_pct": -0.2616,
+          "source": "twse"
         }
       ]
     },
@@ -19074,6 +19599,13 @@
           "nav": 11.77,
           "premium_discount_pct": -0.1699,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.84,
+          "nav": 11.83,
+          "premium_discount_pct": 0.0845,
+          "source": "twse"
         }
       ]
     },
@@ -19321,6 +19853,13 @@
         },
         {
           "date": "2026-08-26",
+          "close": 0.99,
+          "nav": 0.98,
+          "premium_discount_pct": 1.0204,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
           "close": 0.99,
           "nav": 0.98,
           "premium_discount_pct": 1.0204,
@@ -19576,6 +20115,13 @@
           "nav": 27.4596,
           "premium_discount_pct": -0.1078,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.4,
+          "nav": 27.3322,
+          "premium_discount_pct": 0.2481,
+          "source": "twse"
         }
       ]
     },
@@ -19826,6 +20372,13 @@
           "close": 9.18,
           "nav": 9.1826,
           "premium_discount_pct": -0.0283,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.19,
+          "nav": 9.1868,
+          "premium_discount_pct": 0.0348,
           "source": "twse"
         }
       ]
@@ -20078,6 +20631,13 @@
           "nav": 6.5446,
           "premium_discount_pct": -0.0703,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 6.55,
+          "nav": 6.5438,
+          "premium_discount_pct": 0.0947,
+          "source": "twse"
         }
       ]
     },
@@ -20328,6 +20888,13 @@
           "close": 22.57,
           "nav": 22.6489,
           "premium_discount_pct": -0.3484,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 22.54,
+          "nav": 22.6254,
+          "premium_discount_pct": -0.3775,
           "source": "twse"
         }
       ]
@@ -20580,6 +21147,13 @@
           "nav": 76.98,
           "premium_discount_pct": -0.1689,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 76.55,
+          "nav": 76.74,
+          "premium_discount_pct": -0.2476,
+          "source": "twse"
         }
       ]
     },
@@ -20830,6 +21404,13 @@
           "close": 91.0,
           "nav": 91.13,
           "premium_discount_pct": -0.1427,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 91.15,
+          "nav": 91.17,
+          "premium_discount_pct": -0.0219,
           "source": "twse"
         }
       ]
@@ -21082,6 +21663,13 @@
           "nav": 22.6,
           "premium_discount_pct": -0.354,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 23.0,
+          "nav": 22.97,
+          "premium_discount_pct": 0.1306,
+          "source": "twse"
         }
       ]
     },
@@ -21332,6 +21920,13 @@
           "close": 41.95,
           "nav": 41.9483,
           "premium_discount_pct": 0.0041,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 41.76,
+          "nav": 41.7224,
+          "premium_discount_pct": 0.0901,
           "source": "twse"
         }
       ]
@@ -21584,6 +22179,13 @@
           "nav": 35.0177,
           "premium_discount_pct": 0.0066,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.85,
+          "nav": 34.7936,
+          "premium_discount_pct": 0.1621,
+          "source": "twse"
         }
       ]
     },
@@ -21834,6 +22436,13 @@
           "close": 28.41,
           "nav": 28.4389,
           "premium_discount_pct": -0.1016,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 28.37,
+          "nav": 28.3046,
+          "premium_discount_pct": 0.2311,
           "source": "twse"
         }
       ]
@@ -22086,6 +22695,13 @@
           "nav": 35.5763,
           "premium_discount_pct": 0.0666,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 35.42,
+          "nav": 35.3569,
+          "premium_discount_pct": 0.1785,
+          "source": "twse"
         }
       ]
     },
@@ -22336,6 +22952,13 @@
           "close": 17.56,
           "nav": 17.68,
           "premium_discount_pct": -0.6787,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.39,
+          "nav": 17.44,
+          "premium_discount_pct": -0.2867,
           "source": "twse"
         }
       ]
@@ -22588,6 +23211,13 @@
           "nav": 37.76,
           "premium_discount_pct": 0.0794,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.7,
+          "nav": 37.59,
+          "premium_discount_pct": 0.2926,
+          "source": "twse"
         }
       ]
     },
@@ -22838,6 +23468,13 @@
           "close": 25.34,
           "nav": 25.51,
           "premium_discount_pct": -0.6664,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 25.34,
+          "nav": 25.4,
+          "premium_discount_pct": -0.2362,
           "source": "twse"
         }
       ]
@@ -23090,6 +23727,13 @@
           "nav": 19.85,
           "premium_discount_pct": -0.7053,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 19.54,
+          "nav": 19.69,
+          "premium_discount_pct": -0.7618,
+          "source": "twse"
         }
       ]
     },
@@ -23340,6 +23984,13 @@
           "close": 18.98,
           "nav": 19.03,
           "premium_discount_pct": -0.2627,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 18.9,
+          "nav": 18.93,
+          "premium_discount_pct": -0.1585,
           "source": "twse"
         }
       ]
@@ -23592,6 +24243,13 @@
           "nav": 32.41,
           "premium_discount_pct": -0.8639,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.13,
+          "nav": 32.46,
+          "premium_discount_pct": -1.0166,
+          "source": "twse"
         }
       ]
     },
@@ -23842,6 +24500,13 @@
           "close": 90.85,
           "nav": 90.94,
           "premium_discount_pct": -0.099,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 89.75,
+          "nav": 88.83,
+          "premium_discount_pct": 1.0357,
           "source": "twse"
         }
       ]
@@ -24094,6 +24759,13 @@
           "nav": 41.8,
           "premium_discount_pct": -1.2201,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 41.36,
+          "nav": 41.4,
+          "premium_discount_pct": -0.0966,
+          "source": "twse"
         }
       ]
     },
@@ -24344,6 +25016,13 @@
           "close": 19.14,
           "nav": 19.14,
           "premium_discount_pct": 0.0,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 19.08,
+          "nav": 19.07,
+          "premium_discount_pct": 0.0524,
           "source": "twse"
         }
       ]
@@ -24596,6 +25275,13 @@
           "nav": 15.73,
           "premium_discount_pct": -0.1907,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.69,
+          "nav": 15.68,
+          "premium_discount_pct": 0.0638,
+          "source": "twse"
         }
       ]
     },
@@ -24846,6 +25532,13 @@
           "close": 8.84,
           "nav": 8.79,
           "premium_discount_pct": 0.5688,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 8.75,
+          "nav": 8.68,
+          "premium_discount_pct": 0.8065,
           "source": "twse"
         }
       ]
@@ -25098,6 +25791,13 @@
           "nav": 61.99,
           "premium_discount_pct": -0.5485,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 61.6,
+          "nav": 61.8,
+          "premium_discount_pct": -0.3236,
+          "source": "twse"
         }
       ]
     },
@@ -25348,6 +26048,13 @@
           "close": 22.34,
           "nav": 22.36,
           "premium_discount_pct": -0.0894,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 22.13,
+          "nav": 22.13,
+          "premium_discount_pct": 0.0,
           "source": "twse"
         }
       ]
@@ -25600,6 +26307,13 @@
           "nav": 46.43,
           "premium_discount_pct": -0.1508,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 46.83,
+          "nav": 47.16,
+          "premium_discount_pct": -0.6997,
+          "source": "twse"
         }
       ]
     },
@@ -25850,6 +26564,13 @@
           "close": 14.82,
           "nav": 14.93,
           "premium_discount_pct": -0.7368,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.83,
+          "nav": 14.84,
+          "premium_discount_pct": -0.0674,
           "source": "twse"
         }
       ]
@@ -26102,6 +26823,13 @@
           "nav": 31.2003,
           "premium_discount_pct": 0.0631,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.1,
+          "nav": 31.0339,
+          "premium_discount_pct": 0.213,
+          "source": "twse"
         }
       ]
     },
@@ -26352,6 +27080,13 @@
           "close": 32.13,
           "nav": 32.267,
           "premium_discount_pct": -0.4246,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.12,
+          "nav": 32.0978,
+          "premium_discount_pct": 0.0692,
           "source": "twse"
         }
       ]
@@ -26604,6 +27339,13 @@
           "nav": 34.589,
           "premium_discount_pct": -0.0838,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.52,
+          "nav": 34.4288,
+          "premium_discount_pct": 0.2649,
+          "source": "twse"
         }
       ]
     },
@@ -26854,6 +27596,13 @@
           "close": 29.56,
           "nav": 29.5734,
           "premium_discount_pct": -0.0453,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.49,
+          "nav": 29.4501,
+          "premium_discount_pct": 0.1355,
           "source": "twse"
         }
       ]
@@ -27106,6 +27855,13 @@
           "nav": 33.1642,
           "premium_discount_pct": -0.284,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.99,
+          "nav": 32.9701,
+          "premium_discount_pct": 0.0604,
+          "source": "twse"
         }
       ]
     },
@@ -27356,6 +28112,13 @@
           "close": 34.19,
           "nav": 34.2339,
           "premium_discount_pct": -0.1282,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.17,
+          "nav": 34.1149,
+          "premium_discount_pct": 0.1615,
           "source": "twse"
         }
       ]
@@ -27608,6 +28371,13 @@
           "nav": 32.4338,
           "premium_discount_pct": -0.135,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.28,
+          "nav": 32.2772,
+          "premium_discount_pct": 0.0087,
+          "source": "twse"
         }
       ]
     },
@@ -27858,6 +28628,13 @@
           "close": 39.44,
           "nav": 39.4024,
           "premium_discount_pct": 0.0954,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 39.28,
+          "nav": 39.2162,
+          "premium_discount_pct": 0.1627,
           "source": "twse"
         }
       ]
@@ -28110,6 +28887,13 @@
           "nav": 68.39,
           "premium_discount_pct": -0.2047,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 68.25,
+          "nav": 68.34,
+          "premium_discount_pct": -0.1317,
+          "source": "twse"
         }
       ]
     },
@@ -28360,6 +29144,13 @@
           "close": 29.13,
           "nav": 29.26,
           "premium_discount_pct": -0.4443,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.11,
+          "nav": 29.17,
+          "premium_discount_pct": -0.2057,
           "source": "twse"
         }
       ]
@@ -28612,6 +29403,13 @@
           "nav": 93.28,
           "premium_discount_pct": -0.3538,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 93.5,
+          "nav": 93.62,
+          "premium_discount_pct": -0.1282,
+          "source": "twse"
         }
       ]
     },
@@ -28862,6 +29660,13 @@
           "close": 67.15,
           "nav": 67.27,
           "premium_discount_pct": -0.1784,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 68.25,
+          "nav": 68.3,
+          "premium_discount_pct": -0.0732,
           "source": "twse"
         }
       ]
@@ -29114,6 +29919,13 @@
           "nav": 15.61,
           "premium_discount_pct": -0.3203,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.52,
+          "nav": 15.52,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -29364,6 +30176,13 @@
           "close": 102.65,
           "nav": 103.22,
           "premium_discount_pct": -0.5522,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 103.3,
+          "nav": 103.8,
+          "premium_discount_pct": -0.4817,
           "source": "twse"
         }
       ]
@@ -29616,6 +30435,13 @@
           "nav": 32.07,
           "premium_discount_pct": -0.9043,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.79,
+          "nav": 31.99,
+          "premium_discount_pct": -0.6252,
+          "source": "twse"
         }
       ]
     },
@@ -29866,6 +30692,13 @@
           "close": 40.67,
           "nav": 40.73,
           "premium_discount_pct": -0.1473,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 40.87,
+          "nav": 40.48,
+          "premium_discount_pct": 0.9634,
           "source": "twse"
         }
       ]
@@ -30118,6 +30951,13 @@
           "nav": 55.27,
           "premium_discount_pct": -0.1267,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 54.9,
+          "nav": 54.5,
+          "premium_discount_pct": 0.7339,
+          "source": "twse"
         }
       ]
     },
@@ -30368,6 +31208,13 @@
           "close": 27.92,
           "nav": 28.08,
           "premium_discount_pct": -0.5698,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.94,
+          "nav": 28.19,
+          "premium_discount_pct": -0.8868,
           "source": "twse"
         }
       ]
@@ -30620,6 +31467,13 @@
           "nav": 37.6593,
           "premium_discount_pct": -0.2371,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.57,
+          "nav": 37.4688,
+          "premium_discount_pct": 0.2701,
+          "source": "twse"
         }
       ]
     },
@@ -30870,6 +31724,13 @@
           "close": 37.37,
           "nav": 37.3204,
           "premium_discount_pct": 0.1329,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.3,
+          "nav": 37.1397,
+          "premium_discount_pct": 0.4316,
           "source": "twse"
         }
       ]
@@ -31122,6 +31983,13 @@
           "nav": 34.8075,
           "premium_discount_pct": -0.1652,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.68,
+          "nav": 34.6055,
+          "premium_discount_pct": 0.2153,
+          "source": "twse"
         }
       ]
     },
@@ -31372,6 +32240,13 @@
           "close": 30.99,
           "nav": 31.1,
           "premium_discount_pct": -0.3537,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.99,
+          "nav": 30.96,
+          "premium_discount_pct": 0.0969,
           "source": "twse"
         }
       ]
@@ -31624,6 +32499,13 @@
           "nav": 32.04,
           "premium_discount_pct": -0.3433,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.93,
+          "nav": 31.89,
+          "premium_discount_pct": 0.1254,
+          "source": "twse"
         }
       ]
     },
@@ -31874,6 +32756,13 @@
           "close": 30.63,
           "nav": 30.7739,
           "premium_discount_pct": -0.4676,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.67,
+          "nav": 30.6128,
+          "premium_discount_pct": 0.1868,
           "source": "twse"
         }
       ]
@@ -32126,6 +33015,13 @@
           "nav": 23.49,
           "premium_discount_pct": -0.3831,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 23.25,
+          "nav": 23.24,
+          "premium_discount_pct": 0.043,
+          "source": "twse"
         }
       ]
     },
@@ -32376,6 +33272,13 @@
           "close": 9.68,
           "nav": 9.7,
           "premium_discount_pct": -0.2062,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.57,
+          "nav": 9.54,
+          "premium_discount_pct": 0.3145,
           "source": "twse"
         }
       ]
@@ -32628,6 +33531,13 @@
           "nav": 31.7096,
           "premium_discount_pct": -0.1249,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.63,
+          "nav": 31.5904,
+          "premium_discount_pct": 0.1254,
+          "source": "twse"
         }
       ]
     },
@@ -32878,6 +33788,13 @@
           "close": 31.88,
           "nav": 31.9112,
           "premium_discount_pct": -0.0978,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.84,
+          "nav": 31.7661,
+          "premium_discount_pct": 0.2326,
           "source": "twse"
         }
       ]
@@ -33130,6 +34047,13 @@
           "nav": 30.6581,
           "premium_discount_pct": -0.0917,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.55,
+          "nav": 30.5389,
+          "premium_discount_pct": 0.0363,
+          "source": "twse"
         }
       ]
     },
@@ -33380,6 +34304,13 @@
           "close": 137.2,
           "nav": 137.16,
           "premium_discount_pct": 0.0292,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 137.95,
+          "nav": 138.52,
+          "premium_discount_pct": -0.4115,
           "source": "twse"
         }
       ]
@@ -33632,6 +34563,13 @@
           "nav": 50.51,
           "premium_discount_pct": -0.0198,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 50.35,
+          "nav": 50.3,
+          "premium_discount_pct": 0.0994,
+          "source": "twse"
         }
       ]
     },
@@ -33882,6 +34820,13 @@
           "close": 53.25,
           "nav": 53.27,
           "premium_discount_pct": -0.0375,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 53.1,
+          "nav": 53.04,
+          "premium_discount_pct": 0.1131,
           "source": "twse"
         }
       ]
@@ -34134,6 +35079,13 @@
           "nav": 52.62,
           "premium_discount_pct": 0.057,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 52.65,
+          "nav": 52.42,
+          "premium_discount_pct": 0.4388,
+          "source": "twse"
         }
       ]
     },
@@ -34384,6 +35336,13 @@
           "close": 33.31,
           "nav": 33.3005,
           "premium_discount_pct": 0.0285,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 33.25,
+          "nav": 33.1858,
+          "premium_discount_pct": 0.1935,
           "source": "twse"
         }
       ]
@@ -34636,6 +35595,13 @@
           "nav": 111.59,
           "premium_discount_pct": -0.4839,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 112.65,
+          "nav": 113.94,
+          "premium_discount_pct": -1.1322,
+          "source": "twse"
         }
       ]
     },
@@ -34886,6 +35852,13 @@
           "close": 35.88,
           "nav": 35.94,
           "premium_discount_pct": -0.1669,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 35.08,
+          "nav": 34.82,
+          "premium_discount_pct": 0.7467,
           "source": "twse"
         }
       ]
@@ -35138,6 +36111,13 @@
           "nav": 27.3533,
           "premium_discount_pct": -0.0852,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.28,
+          "nav": 27.2004,
+          "premium_discount_pct": 0.2926,
+          "source": "twse"
         }
       ]
     },
@@ -35388,6 +36368,13 @@
           "close": 48.59,
           "nav": 48.6793,
           "premium_discount_pct": -0.1834,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 48.42,
+          "nav": 48.4104,
+          "premium_discount_pct": 0.0198,
           "source": "twse"
         }
       ]
@@ -35640,6 +36627,13 @@
           "nav": 66.87,
           "premium_discount_pct": -0.1795,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 67.55,
+          "nav": 66.8,
+          "premium_discount_pct": 1.1228,
+          "source": "twse"
         }
       ]
     },
@@ -35890,6 +36884,13 @@
           "close": 15.45,
           "nav": 15.54,
           "premium_discount_pct": -0.5792,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.43,
+          "nav": 15.43,
+          "premium_discount_pct": 0.0,
           "source": "twse"
         }
       ]
@@ -36142,6 +37143,13 @@
           "nav": 32.8507,
           "premium_discount_pct": -0.2152,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.71,
+          "nav": 32.6901,
+          "premium_discount_pct": 0.0609,
+          "source": "twse"
         }
       ]
     },
@@ -36392,6 +37400,13 @@
           "close": 35.15,
           "nav": 35.2363,
           "premium_discount_pct": -0.2449,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 35.06,
+          "nav": 35.0394,
+          "premium_discount_pct": 0.0588,
           "source": "twse"
         }
       ]
@@ -36644,6 +37659,13 @@
           "nav": 31.44,
           "premium_discount_pct": -1.0814,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.1,
+          "nav": 31.25,
+          "premium_discount_pct": -0.48,
+          "source": "twse"
         }
       ]
     },
@@ -36894,6 +37916,13 @@
           "close": 31.45,
           "nav": 31.6,
           "premium_discount_pct": -0.4747,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.45,
+          "nav": 31.46,
+          "premium_discount_pct": -0.0318,
           "source": "twse"
         }
       ]
@@ -37146,6 +38175,13 @@
           "nav": 33.69,
           "premium_discount_pct": -0.3562,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 33.5,
+          "nav": 33.5,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -37396,6 +38432,13 @@
           "close": 27.67,
           "nav": 27.66,
           "premium_discount_pct": 0.0362,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.58,
+          "nav": 27.55,
+          "premium_discount_pct": 0.1089,
           "source": "twse"
         }
       ]
@@ -37648,6 +38691,13 @@
           "nav": 36.7392,
           "premium_discount_pct": -0.0795,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 36.58,
+          "nav": 36.5117,
+          "premium_discount_pct": 0.1871,
+          "source": "twse"
         }
       ]
     },
@@ -37898,6 +38948,13 @@
           "close": 27.38,
           "nav": 27.3537,
           "premium_discount_pct": 0.0961,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.3,
+          "nav": 27.255,
+          "premium_discount_pct": 0.1651,
           "source": "twse"
         }
       ]
@@ -38150,6 +39207,13 @@
           "nav": 29.7322,
           "premium_discount_pct": -0.1083,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.63,
+          "nav": 29.6301,
+          "premium_discount_pct": -0.0003,
+          "source": "twse"
         }
       ]
     },
@@ -38400,6 +39464,13 @@
           "close": 28.14,
           "nav": 28.28,
           "premium_discount_pct": -0.495,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 28.35,
+          "nav": 28.67,
+          "premium_discount_pct": -1.1161,
           "source": "twse"
         }
       ]
@@ -38652,6 +39723,13 @@
           "nav": 34.3945,
           "premium_discount_pct": -0.3038,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.15,
+          "nav": 34.1752,
+          "premium_discount_pct": -0.0737,
+          "source": "twse"
         }
       ]
     },
@@ -38902,6 +39980,13 @@
           "close": 32.05,
           "nav": 32.1835,
           "premium_discount_pct": -0.4148,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.98,
+          "nav": 31.9704,
+          "premium_discount_pct": 0.03,
           "source": "twse"
         }
       ]
@@ -39154,6 +40239,13 @@
           "nav": 32.1899,
           "premium_discount_pct": -0.3725,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.06,
+          "nav": 32.0007,
+          "premium_discount_pct": 0.1853,
+          "source": "twse"
         }
       ]
     },
@@ -39404,6 +40496,13 @@
           "close": 29.38,
           "nav": 29.5798,
           "premium_discount_pct": -0.6755,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.35,
+          "nav": 29.4189,
+          "premium_discount_pct": -0.2342,
           "source": "twse"
         }
       ]
@@ -39656,6 +40755,13 @@
           "nav": 46.6415,
           "premium_discount_pct": -0.1962,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 46.44,
+          "nav": 46.4769,
+          "premium_discount_pct": -0.0794,
+          "source": "twse"
         }
       ]
     },
@@ -39906,6 +41012,13 @@
           "close": 56.95,
           "nav": 56.9898,
           "premium_discount_pct": -0.0698,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 56.85,
+          "nav": 56.7811,
+          "premium_discount_pct": 0.1213,
           "source": "twse"
         }
       ]
@@ -40158,6 +41271,13 @@
           "nav": 31.146,
           "premium_discount_pct": -0.0514,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.99,
+          "nav": 30.984,
+          "premium_discount_pct": 0.0194,
+          "source": "twse"
         }
       ]
     },
@@ -40408,6 +41528,13 @@
           "close": 30.17,
           "nav": 30.31,
           "premium_discount_pct": -0.4619,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.0,
+          "nav": 30.1547,
+          "premium_discount_pct": -0.513,
           "source": "twse"
         }
       ]
@@ -40660,6 +41787,13 @@
           "nav": 26.218,
           "premium_discount_pct": -0.0687,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.15,
+          "nav": 26.1148,
+          "premium_discount_pct": 0.1348,
+          "source": "twse"
         }
       ]
     },
@@ -40910,6 +42044,13 @@
           "close": 28.79,
           "nav": 28.7755,
           "premium_discount_pct": 0.0504,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 28.75,
+          "nav": 28.6794,
+          "premium_discount_pct": 0.2462,
           "source": "twse"
         }
       ]
@@ -41162,6 +42303,13 @@
           "nav": 81.82,
           "premium_discount_pct": 0.4644,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 83.65,
+          "nav": 81.57,
+          "premium_discount_pct": 2.55,
+          "source": "twse"
         }
       ]
     },
@@ -41412,6 +42560,13 @@
           "close": 33.42,
           "nav": 33.6438,
           "premium_discount_pct": -0.6652,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 33.34,
+          "nav": 33.5169,
+          "premium_discount_pct": -0.5278,
           "source": "twse"
         }
       ]
@@ -41664,6 +42819,13 @@
           "nav": 28.22,
           "premium_discount_pct": -0.3189,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 28.13,
+          "nav": 28.11,
+          "premium_discount_pct": 0.0711,
+          "source": "twse"
         }
       ]
     },
@@ -41914,6 +43076,13 @@
           "close": 28.97,
           "nav": 29.07,
           "premium_discount_pct": -0.344,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 28.93,
+          "nav": 28.94,
+          "premium_discount_pct": -0.0346,
           "source": "twse"
         }
       ]
@@ -42166,6 +43335,13 @@
           "nav": 27.7,
           "premium_discount_pct": -0.3249,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.6,
+          "nav": 27.59,
+          "premium_discount_pct": 0.0362,
+          "source": "twse"
         }
       ]
     },
@@ -42416,6 +43592,13 @@
           "close": 29.61,
           "nav": 29.66,
           "premium_discount_pct": -0.1686,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.5,
+          "nav": 29.48,
+          "premium_discount_pct": 0.0678,
           "source": "twse"
         }
       ]
@@ -42668,6 +43851,13 @@
           "nav": 30.94,
           "premium_discount_pct": -0.4525,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.67,
+          "nav": 30.75,
+          "premium_discount_pct": -0.2602,
+          "source": "twse"
         }
       ]
     },
@@ -42918,6 +44108,13 @@
           "close": 32.73,
           "nav": 32.8241,
           "premium_discount_pct": -0.2867,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.64,
+          "nav": 32.6444,
+          "premium_discount_pct": -0.0135,
           "source": "twse"
         }
       ]
@@ -43170,6 +44367,13 @@
           "nav": 35.5182,
           "premium_discount_pct": -0.192,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 35.33,
+          "nav": 35.293,
+          "premium_discount_pct": 0.1048,
+          "source": "twse"
         }
       ]
     },
@@ -43420,6 +44624,13 @@
           "close": 24.9,
           "nav": 24.9339,
           "premium_discount_pct": -0.136,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 24.81,
+          "nav": 24.8305,
+          "premium_discount_pct": -0.0826,
           "source": "twse"
         }
       ]
@@ -43672,6 +44883,13 @@
           "nav": 33.6641,
           "premium_discount_pct": 0.0175,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 33.56,
+          "nav": 33.5214,
+          "premium_discount_pct": 0.1152,
+          "source": "twse"
         }
       ]
     },
@@ -43922,6 +45140,13 @@
           "close": 37.42,
           "nav": 37.4562,
           "premium_discount_pct": -0.0966,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.29,
+          "nav": 37.2924,
+          "premium_discount_pct": -0.0064,
           "source": "twse"
         }
       ]
@@ -44174,6 +45399,13 @@
           "nav": 90.64,
           "premium_discount_pct": -0.2648,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 90.55,
+          "nav": 90.8,
+          "premium_discount_pct": -0.2753,
+          "source": "twse"
         }
       ]
     },
@@ -44424,6 +45656,13 @@
           "close": 69.95,
           "nav": 70.31,
           "premium_discount_pct": -0.512,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 70.05,
+          "nav": 70.15,
+          "premium_discount_pct": -0.1426,
           "source": "twse"
         }
       ]
@@ -44676,6 +45915,13 @@
           "nav": 35.96,
           "premium_discount_pct": -0.1947,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 35.84,
+          "nav": 35.76,
+          "premium_discount_pct": 0.2237,
+          "source": "twse"
         }
       ]
     },
@@ -44926,6 +46172,13 @@
           "close": 27.03,
           "nav": 27.07,
           "premium_discount_pct": -0.1478,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.97,
+          "nav": 26.95,
+          "premium_discount_pct": 0.0742,
           "source": "twse"
         }
       ]
@@ -45178,6 +46431,13 @@
           "nav": 37.97,
           "premium_discount_pct": -0.158,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.72,
+          "nav": 37.82,
+          "premium_discount_pct": -0.2644,
+          "source": "twse"
         }
       ]
     },
@@ -45428,6 +46688,13 @@
           "close": 22.8,
           "nav": 22.85,
           "premium_discount_pct": -0.2188,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 22.73,
+          "nav": 22.72,
+          "premium_discount_pct": 0.044,
           "source": "twse"
         }
       ]
@@ -45680,6 +46947,13 @@
           "nav": 35.78,
           "premium_discount_pct": 0.1118,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 35.84,
+          "nav": 35.63,
+          "premium_discount_pct": 0.5894,
+          "source": "twse"
         }
       ]
     },
@@ -45930,6 +47204,13 @@
           "close": 41.14,
           "nav": 41.1281,
           "premium_discount_pct": 0.0289,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 41.01,
+          "nav": 40.9484,
+          "premium_discount_pct": 0.1504,
           "source": "twse"
         }
       ]
@@ -46182,6 +47463,13 @@
           "nav": 38.0473,
           "premium_discount_pct": -0.0455,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.9,
+          "nav": 37.8589,
+          "premium_discount_pct": 0.1086,
+          "source": "twse"
         }
       ]
     },
@@ -46432,6 +47720,13 @@
           "close": 85.35,
           "nav": 85.65,
           "premium_discount_pct": -0.3503,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 86.0,
+          "nav": 86.64,
+          "premium_discount_pct": -0.7387,
           "source": "twse"
         }
       ]
@@ -46684,6 +47979,13 @@
           "nav": 31.0325,
           "premium_discount_pct": -0.137,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.92,
+          "nav": 30.896,
+          "premium_discount_pct": 0.0777,
+          "source": "twse"
         }
       ]
     },
@@ -46934,6 +48236,13 @@
           "close": 31.01,
           "nav": 31.1873,
           "premium_discount_pct": -0.5685,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.05,
+          "nav": 31.0496,
+          "premium_discount_pct": 0.0013,
           "source": "twse"
         }
       ]
@@ -47186,6 +48495,13 @@
           "nav": 46.0912,
           "premium_discount_pct": 0.1276,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 45.97,
+          "nav": 45.8928,
+          "premium_discount_pct": 0.1682,
+          "source": "twse"
         }
       ]
     },
@@ -47436,6 +48752,13 @@
           "close": 48.86,
           "nav": 48.8229,
           "premium_discount_pct": 0.076,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 48.68,
+          "nav": 48.5768,
+          "premium_discount_pct": 0.2124,
           "source": "twse"
         }
       ]
@@ -47688,6 +49011,13 @@
           "nav": 29.95,
           "premium_discount_pct": -1.0351,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.61,
+          "nav": 29.8,
+          "premium_discount_pct": -0.6376,
+          "source": "twse"
         }
       ]
     },
@@ -47938,6 +49268,13 @@
           "close": 27.67,
           "nav": 27.8003,
           "premium_discount_pct": -0.4687,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.65,
+          "nav": 27.6666,
+          "premium_discount_pct": -0.06,
           "source": "twse"
         }
       ]
@@ -48190,6 +49527,13 @@
           "nav": 52.26,
           "premium_discount_pct": 0.4592,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 53.45,
+          "nav": 52.64,
+          "premium_discount_pct": 1.5388,
+          "source": "twse"
         }
       ]
     },
@@ -48440,6 +49784,13 @@
           "close": 86.7,
           "nav": 86.69,
           "premium_discount_pct": 0.0115,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 87.4,
+          "nav": 87.86,
+          "premium_discount_pct": -0.5236,
           "source": "twse"
         }
       ]
@@ -48692,6 +50043,13 @@
           "nav": 36.79,
           "premium_discount_pct": 0.0544,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.65,
+          "nav": 37.88,
+          "premium_discount_pct": -0.6072,
+          "source": "twse"
         }
       ]
     },
@@ -48942,6 +50300,13 @@
           "close": 32.82,
           "nav": 32.92,
           "premium_discount_pct": -0.3038,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.71,
+          "nav": 32.78,
+          "premium_discount_pct": -0.2135,
           "source": "twse"
         }
       ]
@@ -49194,6 +50559,13 @@
           "nav": 49.51,
           "premium_discount_pct": 0.0404,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 49.61,
+          "nav": 49.64,
+          "premium_discount_pct": -0.0604,
+          "source": "twse"
         }
       ]
     },
@@ -49444,6 +50816,13 @@
           "close": 15.11,
           "nav": 15.16,
           "premium_discount_pct": -0.3298,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.0,
+          "nav": 15.01,
+          "premium_discount_pct": -0.0666,
           "source": "twse"
         }
       ]
@@ -49696,6 +51075,13 @@
           "nav": 28.9704,
           "premium_discount_pct": -0.0704,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 28.88,
+          "nav": 28.8607,
+          "premium_discount_pct": 0.0669,
+          "source": "twse"
         }
       ]
     },
@@ -49946,6 +51332,13 @@
           "close": 18.41,
           "nav": 18.51,
           "premium_discount_pct": -0.5402,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 18.58,
+          "nav": 18.76,
+          "premium_discount_pct": -0.9595,
           "source": "twse"
         }
       ]
@@ -50198,6 +51591,13 @@
           "nav": 47.0,
           "premium_discount_pct": -0.5745,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 47.01,
+          "nav": 46.87,
+          "premium_discount_pct": 0.2987,
+          "source": "twse"
         }
       ]
     },
@@ -50448,6 +51848,13 @@
           "close": 16.16,
           "nav": 16.15,
           "premium_discount_pct": 0.0619,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 16.3,
+          "nav": 16.46,
+          "premium_discount_pct": -0.9721,
           "source": "twse"
         }
       ]
@@ -50700,6 +52107,13 @@
           "nav": 33.06,
           "premium_discount_pct": -0.2722,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.91,
+          "nav": 32.97,
+          "premium_discount_pct": -0.182,
+          "source": "twse"
         }
       ]
     },
@@ -50950,6 +52364,13 @@
           "close": 31.4,
           "nav": 31.52,
           "premium_discount_pct": -0.3807,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.37,
+          "nav": 31.38,
+          "premium_discount_pct": -0.0319,
           "source": "twse"
         }
       ]
@@ -51202,6 +52623,13 @@
           "nav": 34.35,
           "premium_discount_pct": 0.0291,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.27,
+          "nav": 34.28,
+          "premium_discount_pct": -0.0292,
+          "source": "twse"
         }
       ]
     },
@@ -51452,6 +52880,13 @@
           "close": 39.73,
           "nav": 39.84,
           "premium_discount_pct": -0.2761,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 40.02,
+          "nav": 40.08,
+          "premium_discount_pct": -0.1497,
           "source": "twse"
         }
       ]
@@ -51704,6 +53139,13 @@
           "nav": 42.62,
           "premium_discount_pct": 0.0939,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 42.73,
+          "nav": 42.44,
+          "premium_discount_pct": 0.6833,
+          "source": "twse"
         }
       ]
     },
@@ -51954,6 +53396,13 @@
           "close": 46.2,
           "nav": 46.31,
           "premium_discount_pct": -0.2375,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 46.37,
+          "nav": 46.42,
+          "premium_discount_pct": -0.1077,
           "source": "twse"
         }
       ]
@@ -52206,6 +53655,13 @@
           "nav": 49.79,
           "premium_discount_pct": 0.1607,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 49.95,
+          "nav": 49.49,
+          "premium_discount_pct": 0.9295,
+          "source": "twse"
         }
       ]
     },
@@ -52456,6 +53912,13 @@
           "close": 27.6,
           "nav": 27.56,
           "premium_discount_pct": 0.1451,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27.79,
+          "nav": 27.82,
+          "premium_discount_pct": -0.1078,
           "source": "twse"
         }
       ]
@@ -52708,6 +54171,13 @@
           "nav": 13.85,
           "premium_discount_pct": 0.2166,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.54,
+          "nav": 13.53,
+          "premium_discount_pct": 0.0739,
+          "source": "twse"
         }
       ]
     },
@@ -52958,6 +54428,13 @@
           "close": 11.29,
           "nav": 11.31,
           "premium_discount_pct": -0.1768,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.14,
+          "nav": 11.19,
+          "premium_discount_pct": -0.4468,
           "source": "twse"
         }
       ]
@@ -53210,6 +54687,13 @@
           "nav": 19.05,
           "premium_discount_pct": -0.5774,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 19.04,
+          "nav": 19.08,
+          "premium_discount_pct": -0.2096,
+          "source": "twse"
         }
       ]
     },
@@ -53460,6 +54944,13 @@
           "close": 45.45,
           "nav": 45.6,
           "premium_discount_pct": -0.3289,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 45.73,
+          "nav": 45.7,
+          "premium_discount_pct": 0.0656,
           "source": "twse"
         }
       ]
@@ -53712,6 +55203,13 @@
           "nav": 13.47,
           "premium_discount_pct": -0.1485,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.64,
+          "nav": 13.71,
+          "premium_discount_pct": -0.5106,
+          "source": "twse"
         }
       ]
     },
@@ -53962,6 +55460,13 @@
           "close": 21.14,
           "nav": 21.19,
           "premium_discount_pct": -0.236,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.13,
+          "nav": 21.01,
+          "premium_discount_pct": 0.5712,
           "source": "twse"
         }
       ]
@@ -54214,6 +55719,13 @@
           "nav": 40.32,
           "premium_discount_pct": -0.248,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 40.29,
+          "nav": 40.37,
+          "premium_discount_pct": -0.1982,
+          "source": "twse"
         }
       ]
     },
@@ -54464,6 +55976,13 @@
           "close": 17.18,
           "nav": 17.16,
           "premium_discount_pct": 0.1166,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.2,
+          "nav": 17.16,
+          "premium_discount_pct": 0.2331,
           "source": "twse"
         }
       ]
@@ -54716,6 +56235,13 @@
           "nav": 15.74,
           "premium_discount_pct": -0.3177,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.63,
+          "nav": 15.54,
+          "premium_discount_pct": 0.5792,
+          "source": "twse"
         }
       ]
     },
@@ -54966,6 +56492,13 @@
           "close": 47.69,
           "nav": 47.87,
           "premium_discount_pct": -0.376,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 46.95,
+          "nav": 46.49,
+          "premium_discount_pct": 0.9895,
           "source": "twse"
         }
       ]
@@ -55218,6 +56751,13 @@
           "nav": 58.5689,
           "premium_discount_pct": 0.1385,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 58.45,
+          "nav": 58.2013,
+          "premium_discount_pct": 0.4273,
+          "source": "twse"
         }
       ]
     },
@@ -55468,6 +57008,13 @@
           "close": 52.15,
           "nav": 51.92,
           "premium_discount_pct": 0.443,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 52.8,
+          "nav": 51.75,
+          "premium_discount_pct": 2.029,
           "source": "twse"
         }
       ]
@@ -55720,6 +57267,13 @@
           "nav": 34.53,
           "premium_discount_pct": -0.4344,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.42,
+          "nav": 34.58,
+          "premium_discount_pct": -0.4627,
+          "source": "twse"
         }
       ]
     },
@@ -55970,6 +57524,13 @@
           "close": 46.44,
           "nav": 46.56,
           "premium_discount_pct": -0.2577,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 46.67,
+          "nav": 46.7,
+          "premium_discount_pct": -0.0642,
           "source": "twse"
         }
       ]
@@ -56222,6 +57783,13 @@
           "nav": 31.77,
           "premium_discount_pct": -0.2833,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.59,
+          "nav": 31.61,
+          "premium_discount_pct": -0.0633,
+          "source": "twse"
         }
       ]
     },
@@ -56472,6 +58040,13 @@
           "close": 26.91,
           "nav": 26.99,
           "premium_discount_pct": -0.2964,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.85,
+          "nav": 26.87,
+          "premium_discount_pct": -0.0744,
           "source": "twse"
         }
       ]
@@ -56724,6 +58299,13 @@
           "nav": 24.3,
           "premium_discount_pct": 0.0823,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 24.18,
+          "nav": 24.12,
+          "premium_discount_pct": 0.2488,
+          "source": "twse"
         }
       ]
     },
@@ -56974,6 +58556,13 @@
           "close": 34.18,
           "nav": 34.19,
           "premium_discount_pct": -0.0292,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.12,
+          "nav": 34.09,
+          "premium_discount_pct": 0.088,
           "source": "twse"
         }
       ]
@@ -57226,6 +58815,13 @@
           "nav": 31.25,
           "premium_discount_pct": -0.128,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 31.31,
+          "nav": 31.29,
+          "premium_discount_pct": 0.0639,
+          "source": "twse"
         }
       ]
     },
@@ -57476,6 +59072,13 @@
           "close": 24.24,
           "nav": 24.33,
           "premium_discount_pct": -0.3699,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 24.67,
+          "nav": 24.57,
+          "premium_discount_pct": 0.407,
           "source": "twse"
         }
       ]
@@ -57728,6 +59331,13 @@
           "nav": 24.45,
           "premium_discount_pct": -0.3272,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 24.64,
+          "nav": 24.66,
+          "premium_discount_pct": -0.0811,
+          "source": "twse"
         }
       ]
     },
@@ -57978,6 +59588,13 @@
           "close": 41.01,
           "nav": 41.13,
           "premium_discount_pct": -0.2918,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 41.06,
+          "nav": 41.17,
+          "premium_discount_pct": -0.2672,
           "source": "twse"
         }
       ]
@@ -58230,6 +59847,13 @@
           "nav": 39.39,
           "premium_discount_pct": -0.3046,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 39.39,
+          "nav": 39.38,
+          "premium_discount_pct": 0.0254,
+          "source": "twse"
         }
       ]
     },
@@ -58480,6 +60104,13 @@
           "close": 33.03,
           "nav": 32.98,
           "premium_discount_pct": 0.1516,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 33.06,
+          "nav": 33.2,
+          "premium_discount_pct": -0.4217,
           "source": "twse"
         }
       ]
@@ -58732,6 +60363,13 @@
           "nav": 26.06,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.09,
+          "nav": 25.9,
+          "premium_discount_pct": 0.7336,
+          "source": "twse"
         }
       ]
     },
@@ -58982,6 +60620,13 @@
           "close": 36.36,
           "nav": 36.46,
           "premium_discount_pct": -0.2743,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 36.25,
+          "nav": 36.27,
+          "premium_discount_pct": -0.0551,
           "source": "twse"
         }
       ]
@@ -59234,6 +60879,13 @@
           "nav": 32.55,
           "premium_discount_pct": -0.553,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 32.69,
+          "nav": 32.85,
+          "premium_discount_pct": -0.4871,
+          "source": "twse"
         }
       ]
     },
@@ -59484,6 +61136,13 @@
           "close": 28.98,
           "nav": 29.03,
           "premium_discount_pct": -0.1722,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.05,
+          "nav": 29.11,
+          "premium_discount_pct": -0.2061,
           "source": "twse"
         }
       ]
@@ -59736,6 +61395,13 @@
           "nav": 24.01,
           "premium_discount_pct": -0.3748,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 23.94,
+          "nav": 24.02,
+          "premium_discount_pct": -0.3331,
+          "source": "twse"
         }
       ]
     },
@@ -59986,6 +61652,13 @@
           "close": 13.2,
           "nav": 13.19,
           "premium_discount_pct": 0.0758,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.17,
+          "nav": 13.14,
+          "premium_discount_pct": 0.2283,
           "source": "twse"
         }
       ]
@@ -60238,6 +61911,13 @@
           "nav": 17.68,
           "premium_discount_pct": -0.4525,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.64,
+          "nav": 17.7,
+          "premium_discount_pct": -0.339,
+          "source": "twse"
         }
       ]
     },
@@ -60488,6 +62168,13 @@
           "close": 15.72,
           "nav": 15.7245,
           "premium_discount_pct": -0.0286,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.69,
+          "nav": 15.638,
+          "premium_discount_pct": 0.3325,
           "source": "twse"
         }
       ]
@@ -60740,6 +62427,13 @@
           "nav": 29.39,
           "premium_discount_pct": -0.3062,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.46,
+          "nav": 29.46,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -60990,6 +62684,13 @@
           "close": 57.0,
           "nav": 57.15,
           "premium_discount_pct": -0.2625,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 57.2,
+          "nav": 57.33,
+          "premium_discount_pct": -0.2268,
           "source": "twse"
         }
       ]
@@ -61242,6 +62943,13 @@
           "nav": 21.56,
           "premium_discount_pct": -0.6494,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.53,
+          "nav": 21.54,
+          "premium_discount_pct": -0.0464,
+          "source": "twse"
         }
       ]
     },
@@ -61492,6 +63200,13 @@
           "close": 14.41,
           "nav": 14.4689,
           "premium_discount_pct": -0.4071,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.41,
+          "nav": 14.4086,
+          "premium_discount_pct": 0.0097,
           "source": "twse"
         }
       ]
@@ -61744,6 +63459,13 @@
           "nav": 25.0,
           "premium_discount_pct": 0.2,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 25.07,
+          "nav": 24.99,
+          "premium_discount_pct": 0.3201,
+          "source": "twse"
         }
       ]
     },
@@ -61994,6 +63716,13 @@
           "close": 22.69,
           "nav": 22.79,
           "premium_discount_pct": -0.4388,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 22.72,
+          "nav": 22.76,
+          "premium_discount_pct": -0.1757,
           "source": "twse"
         }
       ]
@@ -62246,6 +63975,13 @@
           "nav": 12.72,
           "premium_discount_pct": -0.5503,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.67,
+          "nav": 12.73,
+          "premium_discount_pct": -0.4713,
+          "source": "twse"
         }
       ]
     },
@@ -62496,6 +64232,13 @@
           "close": 25.55,
           "nav": 25.58,
           "premium_discount_pct": -0.1173,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 25.68,
+          "nav": 25.52,
+          "premium_discount_pct": 0.627,
           "source": "twse"
         }
       ]
@@ -62748,6 +64491,13 @@
           "nav": 13.93,
           "premium_discount_pct": -0.2872,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.88,
+          "nav": 13.86,
+          "premium_discount_pct": 0.1443,
+          "source": "twse"
         }
       ]
     },
@@ -62998,6 +64748,13 @@
           "close": 21.35,
           "nav": 21.47,
           "premium_discount_pct": -0.5589,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.43,
+          "nav": 21.48,
+          "premium_discount_pct": -0.2328,
           "source": "twse"
         }
       ]
@@ -63250,6 +65007,13 @@
           "nav": 20.88,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 20.89,
+          "nav": 20.9,
+          "premium_discount_pct": -0.0478,
+          "source": "twse"
         }
       ]
     },
@@ -63500,6 +65264,13 @@
           "close": 14.48,
           "nav": 14.47,
           "premium_discount_pct": 0.0691,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.44,
+          "nav": 14.41,
+          "premium_discount_pct": 0.2082,
           "source": "twse"
         }
       ]
@@ -63752,6 +65523,13 @@
           "nav": 15.61,
           "premium_discount_pct": -0.3844,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.55,
+          "nav": 15.62,
+          "premium_discount_pct": -0.4481,
+          "source": "twse"
         }
       ]
     },
@@ -64002,6 +65780,13 @@
           "close": 37.42,
           "nav": 37.38,
           "premium_discount_pct": 0.107,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 37.65,
+          "nav": 37.67,
+          "premium_discount_pct": -0.0531,
           "source": "twse"
         }
       ]
@@ -64254,6 +66039,13 @@
           "nav": 9.2396,
           "premium_discount_pct": -0.3204,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.2,
+          "nav": 9.2011,
+          "premium_discount_pct": -0.012,
+          "source": "twse"
         }
       ]
     },
@@ -64504,6 +66296,13 @@
           "close": 21.87,
           "nav": 21.92,
           "premium_discount_pct": -0.2281,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.74,
+          "nav": 21.84,
+          "premium_discount_pct": -0.4579,
           "source": "twse"
         }
       ]
@@ -64756,6 +66555,13 @@
           "nav": 13.83,
           "premium_discount_pct": -0.3615,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.77,
+          "nav": 13.76,
+          "premium_discount_pct": 0.0727,
+          "source": "twse"
         }
       ]
     },
@@ -65006,6 +66812,13 @@
           "close": 17.2,
           "nav": 17.15,
           "premium_discount_pct": 0.2915,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.19,
+          "nav": 17.18,
+          "premium_discount_pct": 0.0582,
           "source": "twse"
         }
       ]
@@ -65258,6 +67071,13 @@
           "nav": 18.07,
           "premium_discount_pct": 0.1107,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 18.12,
+          "nav": 18.07,
+          "premium_discount_pct": 0.2767,
+          "source": "twse"
         }
       ]
     },
@@ -65508,6 +67328,13 @@
           "close": 9.7,
           "nav": 9.6746,
           "premium_discount_pct": 0.2625,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.68,
+          "nav": 9.6318,
+          "premium_discount_pct": 0.5004,
           "source": "twse"
         }
       ]
@@ -65760,6 +67587,13 @@
           "nav": 18.26,
           "premium_discount_pct": 0.2738,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 18.35,
+          "nav": 18.31,
+          "premium_discount_pct": 0.2185,
+          "source": "twse"
         }
       ]
     },
@@ -66010,6 +67844,13 @@
           "close": 15.58,
           "nav": 15.64,
           "premium_discount_pct": -0.3836,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.42,
+          "nav": 15.49,
+          "premium_discount_pct": -0.4519,
           "source": "twse"
         }
       ]
@@ -66262,6 +68103,13 @@
           "nav": 13.45,
           "premium_discount_pct": -0.0743,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.31,
+          "nav": 13.31,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -66512,6 +68360,13 @@
           "close": 13.07,
           "nav": 13.11,
           "premium_discount_pct": -0.3051,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.06,
+          "nav": 13.04,
+          "premium_discount_pct": 0.1534,
           "source": "twse"
         }
       ]
@@ -66764,6 +68619,13 @@
           "nav": 9.13,
           "premium_discount_pct": -0.3286,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.09,
+          "nav": 9.09,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -67014,6 +68876,13 @@
           "close": 9.19,
           "nav": 9.22,
           "premium_discount_pct": -0.3254,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.18,
+          "nav": 9.18,
+          "premium_discount_pct": 0.0,
           "source": "twse"
         }
       ]
@@ -67266,6 +69135,13 @@
           "nav": 21.1,
           "premium_discount_pct": 0.4265,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 20.51,
+          "nav": 20.62,
+          "premium_discount_pct": -0.5335,
+          "source": "twse"
         }
       ]
     },
@@ -67516,6 +69392,13 @@
           "close": 15.23,
           "nav": 15.24,
           "premium_discount_pct": -0.0656,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.23,
+          "nav": 15.22,
+          "premium_discount_pct": 0.0657,
           "source": "twse"
         }
       ]
@@ -67768,6 +69651,13 @@
           "nav": 13.18,
           "premium_discount_pct": 0.3794,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.15,
+          "nav": 13.03,
+          "premium_discount_pct": 0.921,
+          "source": "twse"
         }
       ]
     },
@@ -68018,6 +69908,13 @@
           "close": 14.82,
           "nav": 14.89,
           "premium_discount_pct": -0.4701,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.82,
+          "nav": 14.85,
+          "premium_discount_pct": -0.202,
           "source": "twse"
         }
       ]
@@ -68270,6 +70167,13 @@
           "nav": 25.75,
           "premium_discount_pct": -0.3107,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.12,
+          "nav": 26.2,
+          "premium_discount_pct": -0.3053,
+          "source": "twse"
         }
       ]
     },
@@ -68520,6 +70424,13 @@
           "close": 13.6,
           "nav": 13.64,
           "premium_discount_pct": -0.2933,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.6,
+          "nav": 13.59,
+          "premium_discount_pct": 0.0736,
           "source": "twse"
         }
       ]
@@ -68772,6 +70683,13 @@
           "nav": 9.0005,
           "premium_discount_pct": 0.1055,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 8.99,
+          "nav": 8.9558,
+          "premium_discount_pct": 0.3819,
+          "source": "twse"
         }
       ]
     },
@@ -69022,6 +70940,13 @@
           "close": 9.05,
           "nav": 9.072,
           "premium_discount_pct": -0.2425,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.04,
+          "nav": 9.0243,
+          "premium_discount_pct": 0.174,
           "source": "twse"
         }
       ]
@@ -69274,6 +71199,13 @@
           "nav": 8.1048,
           "premium_discount_pct": -0.0592,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 8.09,
+          "nav": 8.1191,
+          "premium_discount_pct": -0.3584,
+          "source": "twse"
         }
       ]
     },
@@ -69524,6 +71456,13 @@
           "close": 9.12,
           "nav": 9.15,
           "premium_discount_pct": -0.3279,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.11,
+          "nav": 9.1,
+          "premium_discount_pct": 0.1099,
           "source": "twse"
         }
       ]
@@ -69776,6 +71715,13 @@
           "nav": 17.52,
           "premium_discount_pct": 0.0571,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.46,
+          "nav": 17.43,
+          "premium_discount_pct": 0.1721,
+          "source": "twse"
         }
       ]
     },
@@ -70026,6 +71972,13 @@
           "close": 22.02,
           "nav": 22.1,
           "premium_discount_pct": -0.362,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.75,
+          "nav": 21.84,
+          "premium_discount_pct": -0.4121,
           "source": "twse"
         }
       ]
@@ -70278,6 +72231,13 @@
           "nav": 12.93,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.98,
+          "nav": 12.88,
+          "premium_discount_pct": 0.7764,
+          "source": "twse"
         }
       ]
     },
@@ -70528,6 +72488,13 @@
           "close": 11.08,
           "nav": 11.06,
           "premium_discount_pct": 0.1808,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.15,
+          "nav": 11.04,
+          "premium_discount_pct": 0.9964,
           "source": "twse"
         }
       ]
@@ -70780,6 +72747,13 @@
           "nav": 19.21,
           "premium_discount_pct": -0.1562,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 19.27,
+          "nav": 19.28,
+          "premium_discount_pct": -0.0519,
+          "source": "twse"
         }
       ]
     },
@@ -71030,6 +73004,13 @@
           "close": 21.55,
           "nav": 21.56,
           "premium_discount_pct": -0.0464,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.58,
+          "nav": 21.6,
+          "premium_discount_pct": -0.0926,
           "source": "twse"
         }
       ]
@@ -71282,6 +73263,13 @@
           "nav": 22.45,
           "premium_discount_pct": -0.4454,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 22.4,
+          "nav": 22.51,
+          "premium_discount_pct": -0.4887,
+          "source": "twse"
         }
       ]
     },
@@ -71532,6 +73520,13 @@
           "close": 15.19,
           "nav": 15.13,
           "premium_discount_pct": 0.3966,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.41,
+          "nav": 15.26,
+          "premium_discount_pct": 0.983,
           "source": "twse"
         }
       ]
@@ -71784,6 +73779,13 @@
           "nav": 13.67,
           "premium_discount_pct": -0.5852,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.59,
+          "nav": 13.58,
+          "premium_discount_pct": 0.0736,
+          "source": "twse"
         }
       ]
     },
@@ -72034,6 +74036,13 @@
           "close": 16.5,
           "nav": 16.6,
           "premium_discount_pct": -0.6024,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 16.78,
+          "nav": 16.61,
+          "premium_discount_pct": 1.0235,
           "source": "twse"
         }
       ]
@@ -72286,6 +74295,13 @@
           "nav": 30.48,
           "premium_discount_pct": -0.3609,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30.43,
+          "nav": 30.47,
+          "premium_discount_pct": -0.1313,
+          "source": "twse"
         }
       ]
     },
@@ -72536,6 +74552,13 @@
           "close": 17.7,
           "nav": 17.72,
           "premium_discount_pct": -0.1129,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.61,
+          "nav": 17.65,
+          "premium_discount_pct": -0.2266,
           "source": "twse"
         }
       ]
@@ -72788,6 +74811,13 @@
           "nav": 24.56,
           "premium_discount_pct": -0.1629,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 24.71,
+          "nav": 24.75,
+          "premium_discount_pct": -0.1616,
+          "source": "twse"
         }
       ]
     },
@@ -73038,6 +75068,13 @@
           "close": 9.26,
           "nav": 9.29,
           "premium_discount_pct": -0.3229,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.25,
+          "nav": 9.24,
+          "premium_discount_pct": 0.1082,
           "source": "twse"
         }
       ]
@@ -73290,6 +75327,13 @@
           "nav": 20.1958,
           "premium_discount_pct": -0.0287,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 20.14,
+          "nav": 20.1482,
+          "premium_discount_pct": -0.0407,
+          "source": "twse"
         }
       ]
     },
@@ -73540,6 +75584,13 @@
           "close": 11.72,
           "nav": 11.7,
           "premium_discount_pct": 0.1709,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.69,
+          "nav": 11.63,
+          "premium_discount_pct": 0.5159,
           "source": "twse"
         }
       ]
@@ -73792,6 +75843,13 @@
           "nav": 21.35,
           "premium_discount_pct": -0.3279,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 21.22,
+          "nav": 21.18,
+          "premium_discount_pct": 0.1889,
+          "source": "twse"
         }
       ]
     },
@@ -74042,6 +76100,13 @@
           "close": 13.21,
           "nav": 13.19,
           "premium_discount_pct": 0.1516,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.18,
+          "nav": 13.22,
+          "premium_discount_pct": -0.3026,
           "source": "twse"
         }
       ]
@@ -74294,6 +76359,13 @@
           "nav": 12.93,
           "premium_discount_pct": -0.3094,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.8,
+          "nav": 12.86,
+          "premium_discount_pct": -0.4666,
+          "source": "twse"
         }
       ]
     },
@@ -74544,6 +76616,13 @@
           "close": 11.21,
           "nav": 11.22,
           "premium_discount_pct": -0.0891,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.19,
+          "nav": 11.27,
+          "premium_discount_pct": -0.7098,
           "source": "twse"
         }
       ]
@@ -74796,6 +76875,13 @@
           "nav": 11.37,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.39,
+          "nav": 11.32,
+          "premium_discount_pct": 0.6184,
+          "source": "twse"
         }
       ]
     },
@@ -75046,6 +77132,13 @@
           "close": 11.35,
           "nav": 11.37,
           "premium_discount_pct": -0.1759,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.37,
+          "nav": 11.29,
+          "premium_discount_pct": 0.7086,
           "source": "twse"
         }
       ]
@@ -75298,6 +77391,13 @@
           "nav": 15.48,
           "premium_discount_pct": -0.323,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.46,
+          "nav": 15.49,
+          "premium_discount_pct": -0.1937,
+          "source": "twse"
         }
       ]
     },
@@ -75548,6 +77648,13 @@
           "close": 9.15,
           "nav": 9.18,
           "premium_discount_pct": -0.3268,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.12,
+          "nav": 9.12,
+          "premium_discount_pct": 0.0,
           "source": "twse"
         }
       ]
@@ -75800,6 +77907,13 @@
           "nav": 19.73,
           "premium_discount_pct": -0.8616,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 19.75,
+          "nav": 19.66,
+          "premium_discount_pct": 0.4578,
+          "source": "twse"
         }
       ]
     },
@@ -76050,6 +78164,13 @@
           "close": 9.81,
           "nav": 9.76,
           "premium_discount_pct": 0.5123,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.91,
+          "nav": 9.78,
+          "premium_discount_pct": 1.3292,
           "source": "twse"
         }
       ]
@@ -76302,6 +78423,13 @@
           "nav": 29.51,
           "premium_discount_pct": -0.2372,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 29.52,
+          "nav": 29.64,
+          "premium_discount_pct": -0.4049,
+          "source": "twse"
         }
       ]
     },
@@ -76552,6 +78680,13 @@
           "close": 9.2,
           "nav": 9.1821,
           "premium_discount_pct": 0.1949,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.17,
+          "nav": 9.1497,
+          "premium_discount_pct": 0.2219,
           "source": "twse"
         }
       ]
@@ -76804,6 +78939,13 @@
           "nav": 10.3488,
           "premium_discount_pct": 0.0116,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.34,
+          "nav": 10.3053,
+          "premium_discount_pct": 0.3367,
+          "source": "twse"
         }
       ]
     },
@@ -77054,6 +79196,13 @@
           "close": 11.86,
           "nav": 11.86,
           "premium_discount_pct": 0.0,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.83,
+          "nav": 11.82,
+          "premium_discount_pct": 0.0846,
           "source": "twse"
         }
       ]
@@ -77306,6 +79455,13 @@
           "nav": 9.69,
           "premium_discount_pct": -0.1032,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.8,
+          "nav": 9.88,
+          "premium_discount_pct": -0.8097,
+          "source": "twse"
         }
       ]
     },
@@ -77556,6 +79712,13 @@
           "close": 16.09,
           "nav": 16.16,
           "premium_discount_pct": -0.4332,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.92,
+          "nav": 15.97,
+          "premium_discount_pct": -0.3131,
           "source": "twse"
         }
       ]
@@ -77808,6 +79971,13 @@
           "nav": 10.12,
           "premium_discount_pct": -1.1858,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.86,
+          "nav": 9.9,
+          "premium_discount_pct": -0.404,
+          "source": "twse"
         }
       ]
     },
@@ -78058,6 +80228,13 @@
           "close": 10.44,
           "nav": 10.45,
           "premium_discount_pct": -0.0957,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.45,
+          "nav": 10.5,
+          "premium_discount_pct": -0.4762,
           "source": "twse"
         }
       ]
@@ -78310,6 +80487,13 @@
           "nav": 9.89,
           "premium_discount_pct": -0.1011,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.97,
+          "nav": 10.06,
+          "premium_discount_pct": -0.8946,
+          "source": "twse"
         }
       ]
     },
@@ -78560,6 +80744,13 @@
           "close": 10.28,
           "nav": 10.45,
           "premium_discount_pct": -1.6268,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.21,
+          "nav": 10.29,
+          "premium_discount_pct": -0.7775,
           "source": "twse"
         }
       ]
@@ -78812,6 +81003,13 @@
           "nav": 22.22,
           "premium_discount_pct": -0.135,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 22.35,
+          "nav": 22.38,
+          "premium_discount_pct": -0.134,
+          "source": "twse"
         }
       ]
     },
@@ -79062,6 +81260,13 @@
           "close": 9.75,
           "nav": 9.7709,
           "premium_discount_pct": -0.2139,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.74,
+          "nav": 9.731,
+          "premium_discount_pct": 0.0925,
           "source": "twse"
         }
       ]
@@ -79314,6 +81519,13 @@
           "nav": 15.43,
           "premium_discount_pct": -0.9073,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.33,
+          "nav": 15.42,
+          "premium_discount_pct": -0.5837,
+          "source": "twse"
         }
       ]
     },
@@ -79564,6 +81776,13 @@
           "close": 12.71,
           "nav": 12.78,
           "premium_discount_pct": -0.5477,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.63,
+          "nav": 12.62,
+          "premium_discount_pct": 0.0792,
           "source": "twse"
         }
       ]
@@ -79816,6 +82035,13 @@
           "nav": 15.38,
           "premium_discount_pct": -0.2601,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.29,
+          "nav": 15.28,
+          "premium_discount_pct": 0.0654,
+          "source": "twse"
         }
       ]
     },
@@ -80066,6 +82292,13 @@
           "close": 9.98,
           "nav": 9.9663,
           "premium_discount_pct": 0.1375,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.94,
+          "nav": 9.9123,
+          "premium_discount_pct": 0.2795,
           "source": "twse"
         }
       ]
@@ -80318,6 +82551,13 @@
           "nav": 15.62,
           "premium_discount_pct": -0.4481,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.66,
+          "nav": 15.73,
+          "premium_discount_pct": -0.445,
+          "source": "twse"
         }
       ]
     },
@@ -80568,6 +82808,13 @@
           "close": 15.95,
           "nav": 16.01,
           "premium_discount_pct": -0.3748,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.93,
+          "nav": 15.92,
+          "premium_discount_pct": 0.0628,
           "source": "twse"
         }
       ]
@@ -80820,6 +83067,13 @@
           "nav": 10.0269,
           "premium_discount_pct": 0.4298,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.04,
+          "nav": 9.9929,
+          "premium_discount_pct": 0.4713,
+          "source": "twse"
         }
       ]
     },
@@ -81070,6 +83324,13 @@
           "close": 23.02,
           "nav": 23.09,
           "premium_discount_pct": -0.3032,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 23.26,
+          "nav": 23.31,
+          "premium_discount_pct": -0.2145,
           "source": "twse"
         }
       ]
@@ -81322,6 +83583,13 @@
           "nav": 10.24,
           "premium_discount_pct": 0.1953,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.21,
+          "nav": 10.1899,
+          "premium_discount_pct": 0.1973,
+          "source": "twse"
         }
       ]
     },
@@ -81571,6 +83839,13 @@
           "date": "2026-08-26",
           "close": 9.88,
           "nav": 9.88,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.86,
+          "nav": 9.86,
           "premium_discount_pct": 0.0,
           "source": "twse"
         }
@@ -81824,6 +84099,13 @@
           "nav": 14.25,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.4,
+          "nav": 14.24,
+          "premium_discount_pct": 1.1236,
+          "source": "twse"
         }
       ]
     },
@@ -82074,6 +84356,13 @@
           "close": 14.48,
           "nav": 14.49,
           "premium_discount_pct": -0.069,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.47,
+          "nav": 14.44,
+          "premium_discount_pct": 0.2078,
           "source": "twse"
         }
       ]
@@ -82326,6 +84615,13 @@
           "nav": 16.26,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 16.59,
+          "nav": 16.61,
+          "premium_discount_pct": -0.1204,
+          "source": "twse"
         }
       ]
     },
@@ -82576,6 +84872,13 @@
           "close": 16.08,
           "nav": 16.11,
           "premium_discount_pct": -0.1862,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.94,
+          "nav": 15.97,
+          "premium_discount_pct": -0.1879,
           "source": "twse"
         }
       ]
@@ -82828,6 +85131,13 @@
           "nav": 16.3,
           "premium_discount_pct": -0.4294,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 16.53,
+          "nav": 16.72,
+          "premium_discount_pct": -1.1364,
+          "source": "twse"
         }
       ]
     },
@@ -83078,6 +85388,13 @@
           "close": 19.64,
           "nav": 19.6,
           "premium_discount_pct": 0.2041,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 19.56,
+          "nav": 19.5,
+          "premium_discount_pct": 0.3077,
           "source": "twse"
         }
       ]
@@ -83330,6 +85647,13 @@
           "nav": 16.65,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 16.91,
+          "nav": 16.98,
+          "premium_discount_pct": -0.4122,
+          "source": "twse"
         }
       ]
     },
@@ -83580,6 +85904,13 @@
           "close": 10.11,
           "nav": 10.09,
           "premium_discount_pct": 0.1982,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.07,
+          "nav": 10.04,
+          "premium_discount_pct": 0.2988,
           "source": "twse"
         }
       ]
@@ -83832,6 +86163,13 @@
           "nav": 15.33,
           "premium_discount_pct": -0.5871,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 15.56,
+          "nav": 15.77,
+          "premium_discount_pct": -1.3316,
+          "source": "twse"
         }
       ]
     },
@@ -84082,6 +86420,13 @@
           "close": 9.99,
           "nav": 9.9977,
           "premium_discount_pct": -0.077,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.98,
+          "nav": 9.9465,
+          "premium_discount_pct": 0.3368,
           "source": "twse"
         }
       ]
@@ -84334,6 +86679,13 @@
           "nav": 18.11,
           "premium_discount_pct": -0.497,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 18.19,
+          "nav": 18.26,
+          "premium_discount_pct": -0.3834,
+          "source": "twse"
         }
       ]
     },
@@ -84584,6 +86936,13 @@
           "close": 18.16,
           "nav": 18.21,
           "premium_discount_pct": -0.2746,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 18.45,
+          "nav": 18.5,
+          "premium_discount_pct": -0.2703,
           "source": "twse"
         }
       ]
@@ -84836,6 +87195,13 @@
           "nav": 13.46,
           "premium_discount_pct": -0.5201,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.46,
+          "nav": 13.51,
+          "premium_discount_pct": -0.3701,
+          "source": "twse"
         }
       ]
     },
@@ -85086,6 +87452,13 @@
           "close": 17.2,
           "nav": 17.21,
           "premium_discount_pct": -0.0581,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.22,
+          "nav": 17.27,
+          "premium_discount_pct": -0.2895,
           "source": "twse"
         }
       ]
@@ -85338,6 +87711,13 @@
           "nav": 17.12,
           "premium_discount_pct": -0.5257,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.13,
+          "nav": 17.22,
+          "premium_discount_pct": -0.5226,
+          "source": "twse"
         }
       ]
     },
@@ -85588,6 +87968,13 @@
           "close": 13.93,
           "nav": 13.94,
           "premium_discount_pct": -0.0717,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.07,
+          "nav": 14.11,
+          "premium_discount_pct": -0.2835,
           "source": "twse"
         }
       ]
@@ -85840,6 +88227,13 @@
           "nav": 11.16,
           "premium_discount_pct": -0.8065,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.37,
+          "nav": 11.46,
+          "premium_discount_pct": -0.7853,
+          "source": "twse"
         }
       ]
     },
@@ -86090,6 +88484,13 @@
           "close": 17.93,
           "nav": 17.97,
           "premium_discount_pct": -0.2226,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 17.96,
+          "nav": 17.77,
+          "premium_discount_pct": 1.0692,
           "source": "twse"
         }
       ]
@@ -86342,6 +88743,13 @@
           "nav": 11.35,
           "premium_discount_pct": -0.5286,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 11.31,
+          "nav": 11.36,
+          "premium_discount_pct": -0.4401,
+          "source": "twse"
         }
       ]
     },
@@ -86585,6 +88993,13 @@
           "close": 23.61,
           "nav": 23.65,
           "premium_discount_pct": -0.1691,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 23.42,
+          "nav": 23.57,
+          "premium_discount_pct": -0.6364,
           "source": "twse"
         }
       ]
@@ -86830,6 +89245,13 @@
           "nav": 26.28,
           "premium_discount_pct": -0.2664,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 26.35,
+          "nav": 26.36,
+          "premium_discount_pct": -0.0379,
+          "source": "twse"
         }
       ]
     },
@@ -87073,6 +89495,13 @@
           "close": 13.16,
           "nav": 13.18,
           "premium_discount_pct": -0.1517,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13.17,
+          "nav": 13.15,
+          "premium_discount_pct": 0.1521,
           "source": "twse"
         }
       ]
@@ -87318,6 +89747,13 @@
           "nav": 9.66,
           "premium_discount_pct": -2.1739,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.51,
+          "nav": 9.62,
+          "premium_discount_pct": -1.1435,
+          "source": "twse"
         }
       ]
     },
@@ -87562,6 +89998,13 @@
           "nav": 9.8,
           "premium_discount_pct": -1.3265,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.67,
+          "nav": 9.75,
+          "premium_discount_pct": -0.8205,
+          "source": "twse"
         }
       ]
     },
@@ -87792,6 +90235,13 @@
           "nav": 10.49,
           "premium_discount_pct": -0.4766,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.49,
+          "nav": 10.52,
+          "premium_discount_pct": -0.2852,
+          "source": "twse"
         }
       ]
     },
@@ -87931,6 +90381,13 @@
           "nav": 11.72,
           "premium_discount_pct": 0.0853,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.1,
+          "nav": 12.05,
+          "premium_discount_pct": 0.4149,
+          "source": "twse"
         }
       ]
     },
@@ -88066,6 +90523,13 @@
         },
         {
           "date": "2026-08-26",
+          "close": 10.16,
+          "nav": 10.13,
+          "premium_discount_pct": 0.2962,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
           "close": 10.16,
           "nav": 10.13,
           "premium_discount_pct": 0.2962,
@@ -88209,6 +90673,13 @@
           "nav": 14.96,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 14.92,
+          "nav": 14.92,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -88257,6 +90728,13 @@
           "nav": 10.04,
           "premium_discount_pct": 0.0,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 0.0,
+          "nav": 10.07,
+          "premium_discount_pct": 0.0,
+          "source": "twse"
         }
       ]
     },
@@ -88298,6 +90776,13 @@
           "nav": 10.47,
           "premium_discount_pct": -0.4776,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.54,
+          "nav": 10.59,
+          "premium_discount_pct": -0.4721,
+          "source": "twse"
         }
       ]
     },
@@ -88310,6 +90795,13 @@
           "close": 9.65,
           "nav": 9.67,
           "premium_discount_pct": -0.2068,
+          "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 9.82,
+          "nav": 9.91,
+          "premium_discount_pct": -0.9082,
           "source": "twse"
         }
       ]
@@ -88324,9 +90816,16 @@
           "nav": 10.1,
           "premium_discount_pct": -0.099,
           "source": "twse"
+        },
+        {
+          "date": "2026-08-27",
+          "close": 10.08,
+          "nav": 10.09,
+          "premium_discount_pct": -0.0991,
+          "source": "twse"
         }
       ]
     }
   },
-  "updated_at": "2026-08-26T13:33:44.323144+08:00"
+  "updated_at": "2026-08-27T18:37:35.449753+08:00"
 }

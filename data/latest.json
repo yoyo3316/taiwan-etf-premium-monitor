@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-08-28T20:34:39.097740+08:00",
+  "fetched_at": "2026-08-29T01:09:49.723527+08:00",
   "timezone": "Asia/Taipei",
   "session": {
-    "now": "2026-08-28T20:34:39.097740+08:00",
+    "now": "2026-08-29T01:09:49.723527+08:00",
     "timezone": "Asia/Taipei",
-    "is_trading_day": true,
+    "is_trading_day": false,
     "in_session": false,
     "is_premarket_watch": false,
-    "state": "after_market",
-    "reason": "收盤後",
+    "state": "closed_day",
+    "reason": "休市日（週末或國定假日）",
     "session": "08:50–13:30",
     "official_open": "09:00"
   },

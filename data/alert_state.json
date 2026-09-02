@@ -1,6 +1,25 @@
 {
-  "locks": {},
+  "locks": {
+    "009828:premium": {
+      "code": "009828",
+      "name": "中信台日韓PCB",
+      "direction": "premium",
+      "rate": 3.0052,
+      "market_price": 9.94,
+      "estimated_nav": 9.65,
+      "notified_at": "2026-09-02T13:08:44.117291+08:00",
+      "updated_at": "2026-09-02T13:08:44.117291+08:00"
+    }
+  },
   "history": [
+    {
+      "code": "009828",
+      "name": "中信台日韓PCB",
+      "direction": "premium",
+      "rate": 3.0052,
+      "notified_at": "2026-09-02T13:08:40.108829+08:00",
+      "data_time": "2026-09-02T13:08:01+08:00"
+    },
     {
       "code": "0061",
       "name": "元大寶滬深",

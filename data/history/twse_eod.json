@@ -68352,8 +68352,8 @@
         {
           "date": "2026-09-25",
           "close": 27.15,
-          "nav": 26.81,
-          "premium_discount_pct": 1.2682,
+          "nav": 26.78,
+          "premium_discount_pct": 1.3816,
           "source": "twse"
         }
       ]
@@ -74120,8 +74120,8 @@
         {
           "date": "2026-09-25",
           "close": 37.08,
-          "nav": 37.19,
-          "premium_discount_pct": -0.2958,
+          "nav": 37.15,
+          "premium_discount_pct": -0.1884,
           "source": "twse"
         }
       ]
@@ -74532,8 +74532,8 @@
         {
           "date": "2026-09-25",
           "close": 21.86,
-          "nav": 21.55,
-          "premium_discount_pct": 1.4385,
+          "nav": 21.53,
+          "premium_discount_pct": 1.5327,
           "source": "twse"
         }
       ]
@@ -74944,8 +74944,8 @@
         {
           "date": "2026-09-25",
           "close": 36.12,
-          "nav": 36.11,
-          "premium_discount_pct": 0.0277,
+          "nav": 36.07,
+          "premium_discount_pct": 0.1386,
           "source": "twse"
         }
       ]
@@ -82360,8 +82360,8 @@
         {
           "date": "2026-09-25",
           "close": 49.66,
-          "nav": 50.12,
-          "premium_discount_pct": -0.9178,
+          "nav": 50.06,
+          "premium_discount_pct": -0.799,
           "source": "twse"
         }
       ]
@@ -82772,8 +82772,8 @@
         {
           "date": "2026-09-25",
           "close": 15.89,
-          "nav": 15.71,
-          "premium_discount_pct": 1.1458,
+          "nav": 15.69,
+          "premium_discount_pct": 1.2747,
           "source": "twse"
         }
       ]
@@ -109552,8 +109552,8 @@
         {
           "date": "2026-09-25",
           "close": 8.83,
-          "nav": 8.71,
-          "premium_discount_pct": 1.3777,
+          "nav": 8.7,
+          "premium_discount_pct": 1.4943,
           "source": "twse"
         }
       ]
@@ -146034,5 +146034,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-25T13:57:39.913350+08:00"
+  "updated_at": "2026-09-25T18:00:22.568021+08:00"
 }

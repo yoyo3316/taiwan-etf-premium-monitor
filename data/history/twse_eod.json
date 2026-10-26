@@ -92607,8 +92607,8 @@
         {
           "date": "2026-10-26",
           "close": 27.71,
-          "nav": 27.85,
-          "premium_discount_pct": -0.5027,
+          "nav": 27.86,
+          "premium_discount_pct": -0.5384,
           "source": "twse"
         }
       ]
@@ -100433,8 +100433,8 @@
         {
           "date": "2026-10-26",
           "close": 38.11,
-          "nav": 38.42,
-          "premium_discount_pct": -0.8069,
+          "nav": 38.43,
+          "premium_discount_pct": -0.8327,
           "source": "twse"
         }
       ]
@@ -100992,8 +100992,8 @@
         {
           "date": "2026-10-26",
           "close": 22.49,
-          "nav": 22.69,
-          "premium_discount_pct": -0.8814,
+          "nav": 22.7,
+          "premium_discount_pct": -0.9251,
           "source": "twse"
         }
       ]
@@ -101551,8 +101551,8 @@
         {
           "date": "2026-10-26",
           "close": 36.86,
-          "nav": 36.42,
-          "premium_discount_pct": 1.2081,
+          "nav": 36.43,
+          "premium_discount_pct": 1.1803,
           "source": "twse"
         }
       ]
@@ -111613,8 +111613,8 @@
         {
           "date": "2026-10-26",
           "close": 49.37,
-          "nav": 49.82,
-          "premium_discount_pct": -0.9033,
+          "nav": 49.84,
+          "premium_discount_pct": -0.943,
           "source": "twse"
         }
       ]
@@ -112172,8 +112172,8 @@
         {
           "date": "2026-10-26",
           "close": 13.59,
-          "nav": 13.76,
-          "premium_discount_pct": -1.2355,
+          "nav": 13.77,
+          "premium_discount_pct": -1.3072,
           "source": "twse"
         }
       ]
@@ -148507,8 +148507,8 @@
         {
           "date": "2026-10-26",
           "close": 8.94,
-          "nav": 8.95,
-          "premium_discount_pct": -0.1117,
+          "nav": 8.96,
+          "premium_discount_pct": -0.2232,
           "source": "twse"
         }
       ]
@@ -198874,5 +198874,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-26T13:51:28.103517+08:00"
+  "updated_at": "2026-10-26T18:46:27.673385+08:00"
 }

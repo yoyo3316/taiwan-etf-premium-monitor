@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T15:08:19.888107+08:00",
+  "updated_at": "2026-11-23T16:02:02.461240+08:00",
   "timezone": "Asia/Taipei",
   "universe": [
     "0050",
@@ -105,106 +105,106 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 58.46,
-          "weight_b": 58.45,
-          "min_weight": 58.45
+          "weight_a": 60.1,
+          "weight_b": 60.11,
+          "min_weight": 60.1
         },
         {
           "code": "2454",
-          "weight_a": 6.17,
-          "weight_b": 6.16,
-          "min_weight": 6.16
+          "weight_a": 6.06,
+          "weight_b": 6.07,
+          "min_weight": 6.06
         },
         {
           "code": "2317",
-          "weight_a": 2.99,
-          "weight_b": 2.99,
-          "min_weight": 2.99
+          "weight_a": 3.15,
+          "weight_b": 3.16,
+          "min_weight": 3.15
         },
         {
           "code": "2308",
-          "weight_a": 2.43,
-          "weight_b": 2.43,
-          "min_weight": 2.43
+          "weight_a": 2.13,
+          "weight_b": 2.14,
+          "min_weight": 2.13
         },
         {
           "code": "3711",
-          "weight_a": 2.02,
-          "weight_b": 2.02,
-          "min_weight": 2.02
-        },
-        {
-          "code": "1303",
-          "weight_a": 1.52,
-          "weight_b": 1.52,
-          "min_weight": 1.52
+          "weight_a": 1.86,
+          "weight_b": 1.87,
+          "min_weight": 1.86
         },
         {
           "code": "2891",
-          "weight_a": 1.42,
-          "weight_b": 1.41,
-          "min_weight": 1.41
+          "weight_a": 1.48,
+          "weight_b": 1.48,
+          "min_weight": 1.48
         },
         {
           "code": "2881",
-          "weight_a": 1.37,
-          "weight_b": 1.37,
-          "min_weight": 1.37
+          "weight_a": 1.4,
+          "weight_b": 1.4,
+          "min_weight": 1.4
         },
         {
-          "code": "2383",
+          "code": "1303",
           "weight_a": 1.25,
-          "weight_b": 1.24,
-          "min_weight": 1.24
+          "weight_b": 1.25,
+          "min_weight": 1.25
         },
         {
           "code": "2303",
-          "weight_a": 1.2,
-          "weight_b": 1.2,
-          "min_weight": 1.2
+          "weight_a": 1.15,
+          "weight_b": 1.15,
+          "min_weight": 1.15
         },
         {
           "code": "2882",
-          "weight_a": 1.11,
-          "weight_b": 1.11,
-          "min_weight": 1.11
+          "weight_a": 1.14,
+          "weight_b": 1.14,
+          "min_weight": 1.14
         },
         {
-          "code": "3037",
-          "weight_a": 1.05,
-          "weight_b": 1.05,
-          "min_weight": 1.05
-        },
-        {
-          "code": "3017",
-          "weight_a": 0.99,
-          "weight_b": 0.99,
-          "min_weight": 0.99
+          "code": "2383",
+          "weight_a": 1.0,
+          "weight_b": 1.01,
+          "min_weight": 1.0
         },
         {
           "code": "2887",
-          "weight_a": 0.97,
-          "weight_b": 0.97,
-          "min_weight": 0.97
+          "weight_a": 0.98,
+          "weight_b": 0.98,
+          "min_weight": 0.98
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.87,
+          "weight_b": 0.87,
+          "min_weight": 0.87
+        },
+        {
+          "code": "3037",
+          "weight_a": 0.87,
+          "weight_b": 0.87,
+          "min_weight": 0.87
         },
         {
           "code": "2885",
-          "weight_a": 0.85,
-          "weight_b": 0.85,
-          "min_weight": 0.85
+          "weight_a": 0.84,
+          "weight_b": 0.84,
+          "min_weight": 0.84
         }
       ],
       "only_a_sample": [
-        "202611NYF",
-        "202611TX"
+        "202612NYF",
+        "202612TX"
       ],
       "only_b_sample": [
-        "202611WTXX6F"
+        "202612WTXZ6F"
       ],
-      "weighted_min_overlap_pct": 99.71,
-      "coverage_a_pct": 100.01,
-      "coverage_b_pct": 99.96,
-      "within_top_overlap_pct": 99.7499,
+      "weighted_min_overlap_pct": 99.81,
+      "coverage_a_pct": 99.99,
+      "coverage_b_pct": 99.99,
+      "within_top_overlap_pct": 99.82,
       "holding_count_a": 52,
       "holding_count_b": 51,
       "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
@@ -218,184 +218,13 @@
       "universe_overlap": 1.0,
       "qualify_reason": "same_official_index+within_top>=70.0+weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.62,
-      "premium_b": 0.58,
-      "premium_gap_a_minus_b": 0.04,
-      "price_a": 96.45,
-      "price_b": 220.85,
-      "nav_a": 95.86,
-      "nav_b": 219.58,
-      "gap_interesting": false,
-      "relative_hint": "—"
-    },
-    {
-      "a": "0050",
-      "b": "0052",
-      "common_count": 26,
-      "common_codes": [
-        "2301",
-        "2303",
-        "2317",
-        "2327",
-        "2330",
-        "2344",
-        "2357",
-        "2368",
-        "2382",
-        "2383",
-        "2395",
-        "2408",
-        "2449",
-        "2454",
-        "3008",
-        "3017",
-        "3037",
-        "3231",
-        "3443",
-        "3653",
-        "3665",
-        "3711",
-        "4958",
-        "6669",
-        "7769",
-        "8046"
-      ],
-      "common_detail": [
-        {
-          "code": "2330",
-          "weight_a": 58.46,
-          "weight_b": 66.19,
-          "min_weight": 58.46
-        },
-        {
-          "code": "2454",
-          "weight_a": 6.17,
-          "weight_b": 7.01,
-          "min_weight": 6.17
-        },
-        {
-          "code": "2317",
-          "weight_a": 2.99,
-          "weight_b": 3.4,
-          "min_weight": 2.99
-        },
-        {
-          "code": "3711",
-          "weight_a": 2.02,
-          "weight_b": 2.29,
-          "min_weight": 2.02
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.25,
-          "weight_b": 1.42,
-          "min_weight": 1.25
-        },
-        {
-          "code": "2303",
-          "weight_a": 1.2,
-          "weight_b": 1.37,
-          "min_weight": 1.2
-        },
-        {
-          "code": "3037",
-          "weight_a": 1.05,
-          "weight_b": 1.2,
-          "min_weight": 1.05
-        },
-        {
-          "code": "3017",
-          "weight_a": 0.99,
-          "weight_b": 1.12,
-          "min_weight": 0.99
-        },
-        {
-          "code": "2382",
-          "weight_a": 0.74,
-          "weight_b": 0.84,
-          "min_weight": 0.74
-        },
-        {
-          "code": "3443",
-          "weight_a": 0.7,
-          "weight_b": 0.8,
-          "min_weight": 0.7
-        },
-        {
-          "code": "2327",
-          "weight_a": 0.66,
-          "weight_b": 0.75,
-          "min_weight": 0.66
-        },
-        {
-          "code": "2357",
-          "weight_a": 0.61,
-          "weight_b": 0.69,
-          "min_weight": 0.61
-        },
-        {
-          "code": "3231",
-          "weight_a": 0.53,
-          "weight_b": 0.6,
-          "min_weight": 0.53
-        },
-        {
-          "code": "6669",
-          "weight_a": 0.52,
-          "weight_b": 0.59,
-          "min_weight": 0.52
-        },
-        {
-          "code": "3008",
-          "weight_a": 0.51,
-          "weight_b": 0.57,
-          "min_weight": 0.51
-        }
-      ],
-      "only_a_sample": [
-        "1216",
-        "1303",
-        "202611NYF",
-        "202611TX",
-        "2059",
-        "2308",
-        "2345",
-        "2360"
-      ],
-      "only_b_sample": [
-        "202611WTEX6F",
-        "202611WVHFX6F",
-        "2313",
-        "2324",
-        "2337",
-        "2347",
-        "2353",
-        "2354"
-      ],
-      "weighted_min_overlap_pct": 82.23,
-      "coverage_a_pct": 100.01,
-      "coverage_b_pct": 100.0,
-      "within_top_overlap_pct": 82.23,
-      "holding_count_a": 52,
-      "holding_count_b": 74,
-      "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
-      "source_b": "https://www.cmoney.tw/etf/tw/0052/fundholding",
-      "method": "full_holdings_weighted_min",
-      "name_a": "元大台灣50",
-      "name_b": "富邦科技",
-      "same_index": false,
-      "index_name": null,
-      "index_evidence": null,
-      "universe_overlap": null,
-      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
-      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.62,
-      "premium_b": 0.24,
-      "premium_gap_a_minus_b": 0.38,
-      "price_a": 96.45,
-      "price_b": 55.2,
-      "nav_a": 95.86,
-      "nav_b": 55.07,
+      "premium_a": 0.49,
+      "premium_b": 0.39,
+      "premium_gap_a_minus_b": 0.1,
+      "price_a": 87.0,
+      "price_b": 195.55,
+      "nav_a": 86.58,
+      "nav_b": 194.8,
       "gap_interesting": false,
       "relative_hint": "—"
     },
@@ -434,98 +263,98 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 66.19,
-          "weight_b": 58.45,
-          "min_weight": 58.45
+          "weight_a": 68.08,
+          "weight_b": 60.11,
+          "min_weight": 60.11
         },
         {
           "code": "2454",
-          "weight_a": 7.01,
-          "weight_b": 6.16,
-          "min_weight": 6.16
+          "weight_a": 6.89,
+          "weight_b": 6.07,
+          "min_weight": 6.07
         },
         {
           "code": "2317",
-          "weight_a": 3.4,
-          "weight_b": 2.99,
-          "min_weight": 2.99
+          "weight_a": 3.58,
+          "weight_b": 3.16,
+          "min_weight": 3.16
         },
         {
           "code": "3711",
-          "weight_a": 2.29,
-          "weight_b": 2.02,
-          "min_weight": 2.02
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.42,
-          "weight_b": 1.24,
-          "min_weight": 1.24
+          "weight_a": 2.12,
+          "weight_b": 1.87,
+          "min_weight": 1.87
         },
         {
           "code": "2303",
-          "weight_a": 1.37,
-          "weight_b": 1.2,
-          "min_weight": 1.2
+          "weight_a": 1.31,
+          "weight_b": 1.15,
+          "min_weight": 1.15
         },
         {
-          "code": "3037",
-          "weight_a": 1.2,
-          "weight_b": 1.05,
-          "min_weight": 1.05
+          "code": "2383",
+          "weight_a": 1.14,
+          "weight_b": 1.01,
+          "min_weight": 1.01
         },
         {
           "code": "3017",
-          "weight_a": 1.12,
-          "weight_b": 0.99,
-          "min_weight": 0.99
+          "weight_a": 0.99,
+          "weight_b": 0.87,
+          "min_weight": 0.87
+        },
+        {
+          "code": "3037",
+          "weight_a": 0.99,
+          "weight_b": 0.87,
+          "min_weight": 0.87
         },
         {
           "code": "2382",
-          "weight_a": 0.84,
-          "weight_b": 0.74,
-          "min_weight": 0.74
-        },
-        {
-          "code": "3443",
-          "weight_a": 0.8,
-          "weight_b": 0.7,
-          "min_weight": 0.7
-        },
-        {
-          "code": "2327",
-          "weight_a": 0.75,
-          "weight_b": 0.66,
-          "min_weight": 0.66
+          "weight_a": 0.93,
+          "weight_b": 0.82,
+          "min_weight": 0.82
         },
         {
           "code": "2357",
-          "weight_a": 0.69,
-          "weight_b": 0.6,
-          "min_weight": 0.6
+          "weight_a": 0.71,
+          "weight_b": 0.63,
+          "min_weight": 0.63
+        },
+        {
+          "code": "2327",
+          "weight_a": 0.65,
+          "weight_b": 0.57,
+          "min_weight": 0.57
         },
         {
           "code": "3231",
-          "weight_a": 0.6,
-          "weight_b": 0.52,
-          "min_weight": 0.52
+          "weight_a": 0.62,
+          "weight_b": 0.55,
+          "min_weight": 0.55
         },
         {
-          "code": "3008",
+          "code": "3443",
+          "weight_a": 0.61,
+          "weight_b": 0.53,
+          "min_weight": 0.53
+        },
+        {
+          "code": "6669",
           "weight_a": 0.57,
           "weight_b": 0.51,
           "min_weight": 0.51
         },
         {
-          "code": "6669",
-          "weight_a": 0.59,
-          "weight_b": 0.51,
-          "min_weight": 0.51
+          "code": "2301",
+          "weight_a": 0.48,
+          "weight_b": 0.42,
+          "min_weight": 0.42
         }
       ],
       "only_a_sample": [
-        "202611WTEX6F",
-        "202611WVHFX6F",
+        "202612WTEZ6F",
+        "202612WVHFZ6F",
         "2313",
         "2324",
         "2337",
@@ -536,17 +365,17 @@
       "only_b_sample": [
         "1216",
         "1303",
-        "202611WTXX6F",
+        "202612WTXZ6F",
         "2059",
         "2308",
         "2345",
         "2360",
         "2412"
       ],
-      "weighted_min_overlap_pct": 82.16,
-      "coverage_a_pct": 100.0,
-      "coverage_b_pct": 99.96,
-      "within_top_overlap_pct": 82.1929,
+      "weighted_min_overlap_pct": 82.52,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 99.99,
+      "within_top_overlap_pct": 82.5283,
       "holding_count_a": 74,
       "holding_count_b": 51,
       "source_a": "https://www.cmoney.tw/etf/tw/0052/fundholding",
@@ -560,24 +389,195 @@
       "universe_overlap": null,
       "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.24,
-      "premium_b": 0.58,
-      "premium_gap_a_minus_b": -0.34,
-      "price_a": 55.2,
-      "price_b": 220.85,
-      "nav_a": 55.07,
-      "nav_b": 219.58,
+      "premium_a": 0.28,
+      "premium_b": 0.39,
+      "premium_gap_a_minus_b": -0.11,
+      "price_a": 50.15,
+      "price_b": 195.55,
+      "nav_a": 50.01,
+      "nav_b": 194.8,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "0050",
+      "b": "0052",
+      "common_count": 26,
+      "common_codes": [
+        "2301",
+        "2303",
+        "2317",
+        "2327",
+        "2330",
+        "2344",
+        "2357",
+        "2368",
+        "2382",
+        "2383",
+        "2395",
+        "2408",
+        "2449",
+        "2454",
+        "3008",
+        "3017",
+        "3037",
+        "3231",
+        "3443",
+        "3653",
+        "3665",
+        "3711",
+        "4958",
+        "6669",
+        "7769",
+        "8046"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 60.1,
+          "weight_b": 68.08,
+          "min_weight": 60.1
+        },
+        {
+          "code": "2454",
+          "weight_a": 6.06,
+          "weight_b": 6.89,
+          "min_weight": 6.06
+        },
+        {
+          "code": "2317",
+          "weight_a": 3.15,
+          "weight_b": 3.58,
+          "min_weight": 3.15
+        },
+        {
+          "code": "3711",
+          "weight_a": 1.86,
+          "weight_b": 2.12,
+          "min_weight": 1.86
+        },
+        {
+          "code": "2303",
+          "weight_a": 1.15,
+          "weight_b": 1.31,
+          "min_weight": 1.15
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.0,
+          "weight_b": 1.14,
+          "min_weight": 1.0
+        },
+        {
+          "code": "3017",
+          "weight_a": 0.87,
+          "weight_b": 0.99,
+          "min_weight": 0.87
+        },
+        {
+          "code": "3037",
+          "weight_a": 0.87,
+          "weight_b": 0.99,
+          "min_weight": 0.87
+        },
+        {
+          "code": "2382",
+          "weight_a": 0.82,
+          "weight_b": 0.93,
+          "min_weight": 0.82
+        },
+        {
+          "code": "2357",
+          "weight_a": 0.63,
+          "weight_b": 0.71,
+          "min_weight": 0.63
+        },
+        {
+          "code": "2327",
+          "weight_a": 0.57,
+          "weight_b": 0.65,
+          "min_weight": 0.57
+        },
+        {
+          "code": "3231",
+          "weight_a": 0.55,
+          "weight_b": 0.62,
+          "min_weight": 0.55
+        },
+        {
+          "code": "3443",
+          "weight_a": 0.53,
+          "weight_b": 0.61,
+          "min_weight": 0.53
+        },
+        {
+          "code": "6669",
+          "weight_a": 0.5,
+          "weight_b": 0.57,
+          "min_weight": 0.5
+        },
+        {
+          "code": "2301",
+          "weight_a": 0.42,
+          "weight_b": 0.48,
+          "min_weight": 0.42
+        }
+      ],
+      "only_a_sample": [
+        "1216",
+        "1303",
+        "202612NYF",
+        "202612TX",
+        "2059",
+        "2308",
+        "2345",
+        "2360"
+      ],
+      "only_b_sample": [
+        "202612WTEZ6F",
+        "202612WVHFZ6F",
+        "2313",
+        "2324",
+        "2337",
+        "2347",
+        "2353",
+        "2354"
+      ],
+      "weighted_min_overlap_pct": 82.45,
+      "coverage_a_pct": 99.99,
+      "coverage_b_pct": 100.05,
+      "within_top_overlap_pct": 82.4582,
+      "holding_count_a": 52,
+      "holding_count_b": 74,
+      "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/0052/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "元大台灣50",
+      "name_b": "富邦科技",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.49,
+      "premium_b": 0.28,
+      "premium_gap_a_minus_b": 0.21,
+      "price_a": 87.0,
+      "price_b": 50.15,
+      "nav_a": 86.58,
+      "nav_b": 50.01,
       "gap_interesting": false,
       "relative_hint": "—"
     },
     {
       "a": "0050",
       "b": "009816",
-      "common_count": 50,
+      "common_count": 48,
       "common_codes": [
         "1216",
         "1303",
-        "202611TX",
+        "202612TX",
         "2059",
         "2301",
         "2303",
@@ -615,9 +615,7 @@
         "3231",
         "3443",
         "3653",
-        "3665",
         "3711",
-        "4904",
         "4958",
         "5880",
         "6446",
@@ -629,109 +627,112 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 58.46,
-          "weight_b": 41.01,
-          "min_weight": 41.01
+          "weight_a": 60.1,
+          "weight_b": 42.5,
+          "min_weight": 42.5
         },
         {
           "code": "2454",
-          "weight_a": 6.17,
-          "weight_b": 5.84,
-          "min_weight": 5.84
+          "weight_a": 6.06,
+          "weight_b": 5.89,
+          "min_weight": 5.89
         },
         {
           "code": "2317",
-          "weight_a": 2.99,
-          "weight_b": 2.8,
-          "min_weight": 2.8
+          "weight_a": 3.15,
+          "weight_b": 3.03,
+          "min_weight": 3.03
         },
         {
           "code": "2308",
-          "weight_a": 2.43,
-          "weight_b": 2.46,
-          "min_weight": 2.43
+          "weight_a": 2.13,
+          "weight_b": 2.21,
+          "min_weight": 2.13
         },
         {
           "code": "3711",
-          "weight_a": 2.02,
-          "weight_b": 1.86,
-          "min_weight": 1.86
-        },
-        {
-          "code": "1303",
-          "weight_a": 1.52,
-          "weight_b": 1.59,
-          "min_weight": 1.52
+          "weight_a": 1.86,
+          "weight_b": 1.77,
+          "min_weight": 1.77
         },
         {
           "code": "2891",
-          "weight_a": 1.42,
-          "weight_b": 2.55,
-          "min_weight": 1.42
+          "weight_a": 1.48,
+          "weight_b": 4.18,
+          "min_weight": 1.48
         },
         {
           "code": "2881",
-          "weight_a": 1.37,
-          "weight_b": 2.71,
-          "min_weight": 1.37
+          "weight_a": 1.4,
+          "weight_b": 4.37,
+          "min_weight": 1.4
         },
         {
-          "code": "2383",
+          "code": "1303",
           "weight_a": 1.25,
-          "weight_b": 1.3,
+          "weight_b": 1.33,
           "min_weight": 1.25
         },
         {
-          "code": "2303",
-          "weight_a": 1.2,
-          "weight_b": 1.12,
-          "min_weight": 1.12
-        },
-        {
           "code": "2882",
-          "weight_a": 1.11,
-          "weight_b": 1.85,
-          "min_weight": 1.11
+          "weight_a": 1.14,
+          "weight_b": 2.99,
+          "min_weight": 1.14
         },
         {
-          "code": "3037",
-          "weight_a": 1.05,
-          "weight_b": 1.06,
-          "min_weight": 1.05
+          "code": "2303",
+          "weight_a": 1.15,
+          "weight_b": 1.09,
+          "min_weight": 1.09
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.0,
+          "weight_b": 1.04,
+          "min_weight": 1.0
         },
         {
           "code": "2887",
-          "weight_a": 0.97,
-          "weight_b": 2.1,
-          "min_weight": 0.97
+          "weight_a": 0.98,
+          "weight_b": 0.96,
+          "min_weight": 0.96
+        },
+        {
+          "code": "3037",
+          "weight_a": 0.87,
+          "weight_b": 0.87,
+          "min_weight": 0.87
         },
         {
           "code": "3017",
-          "weight_a": 0.99,
-          "weight_b": 0.94,
-          "min_weight": 0.94
+          "weight_a": 0.87,
+          "weight_b": 0.85,
+          "min_weight": 0.85
         },
         {
           "code": "2885",
-          "weight_a": 0.85,
-          "weight_b": 2.03,
-          "min_weight": 0.85
+          "weight_a": 0.84,
+          "weight_b": 0.91,
+          "min_weight": 0.84
         }
       ],
       "only_a_sample": [
-        "202611NYF",
-        "2449"
+        "202612NYF",
+        "2449",
+        "3665",
+        "4904"
       ],
       "only_b_sample": [
-        "202612TX",
-        "3481"
+        "1301",
+        "1326",
+        "3189"
       ],
-      "weighted_min_overlap_pct": 80.98,
-      "coverage_a_pct": 100.01,
-      "coverage_b_pct": 100.03,
-      "within_top_overlap_pct": 80.9719,
+      "weighted_min_overlap_pct": 80.92,
+      "coverage_a_pct": 99.99,
+      "coverage_b_pct": 99.99,
+      "within_top_overlap_pct": 80.9281,
       "holding_count_a": 52,
-      "holding_count_b": 52,
+      "holding_count_b": 51,
       "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
       "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
       "method": "full_holdings_weighted_min",
@@ -743,20 +744,20 @@
       "universe_overlap": null,
       "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.62,
-      "premium_b": 0.35,
-      "premium_gap_a_minus_b": 0.27,
-      "price_a": 96.45,
-      "price_b": 14.39,
-      "nav_a": 95.86,
-      "nav_b": 14.34,
+      "premium_a": 0.49,
+      "premium_b": 0.31,
+      "premium_gap_a_minus_b": 0.18,
+      "price_a": 87.0,
+      "price_b": 12.88,
+      "nav_a": 86.58,
+      "nav_b": 12.84,
       "gap_interesting": false,
       "relative_hint": "—"
     },
     {
       "a": "006208",
       "b": "009816",
-      "common_count": 49,
+      "common_count": 47,
       "common_codes": [
         "1216",
         "1303",
@@ -797,9 +798,7 @@
         "3231",
         "3443",
         "3653",
-        "3665",
         "3711",
-        "4904",
         "4958",
         "5880",
         "6446",
@@ -811,110 +810,113 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 58.45,
-          "weight_b": 41.01,
-          "min_weight": 41.01
+          "weight_a": 60.11,
+          "weight_b": 42.5,
+          "min_weight": 42.5
         },
         {
           "code": "2454",
-          "weight_a": 6.16,
-          "weight_b": 5.84,
-          "min_weight": 5.84
+          "weight_a": 6.07,
+          "weight_b": 5.89,
+          "min_weight": 5.89
         },
         {
           "code": "2317",
-          "weight_a": 2.99,
-          "weight_b": 2.8,
-          "min_weight": 2.8
+          "weight_a": 3.16,
+          "weight_b": 3.03,
+          "min_weight": 3.03
         },
         {
           "code": "2308",
-          "weight_a": 2.43,
-          "weight_b": 2.46,
-          "min_weight": 2.43
+          "weight_a": 2.14,
+          "weight_b": 2.21,
+          "min_weight": 2.14
         },
         {
           "code": "3711",
-          "weight_a": 2.02,
-          "weight_b": 1.86,
-          "min_weight": 1.86
-        },
-        {
-          "code": "1303",
-          "weight_a": 1.52,
-          "weight_b": 1.59,
-          "min_weight": 1.52
+          "weight_a": 1.87,
+          "weight_b": 1.77,
+          "min_weight": 1.77
         },
         {
           "code": "2891",
-          "weight_a": 1.41,
-          "weight_b": 2.55,
-          "min_weight": 1.41
+          "weight_a": 1.48,
+          "weight_b": 4.18,
+          "min_weight": 1.48
         },
         {
           "code": "2881",
-          "weight_a": 1.37,
-          "weight_b": 2.71,
-          "min_weight": 1.37
+          "weight_a": 1.4,
+          "weight_b": 4.37,
+          "min_weight": 1.4
         },
         {
-          "code": "2383",
-          "weight_a": 1.24,
-          "weight_b": 1.3,
-          "min_weight": 1.24
-        },
-        {
-          "code": "2303",
-          "weight_a": 1.2,
-          "weight_b": 1.12,
-          "min_weight": 1.12
+          "code": "1303",
+          "weight_a": 1.25,
+          "weight_b": 1.33,
+          "min_weight": 1.25
         },
         {
           "code": "2882",
-          "weight_a": 1.11,
-          "weight_b": 1.85,
-          "min_weight": 1.11
+          "weight_a": 1.14,
+          "weight_b": 2.99,
+          "min_weight": 1.14
         },
         {
-          "code": "3037",
-          "weight_a": 1.05,
-          "weight_b": 1.06,
-          "min_weight": 1.05
+          "code": "2303",
+          "weight_a": 1.15,
+          "weight_b": 1.09,
+          "min_weight": 1.09
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.01,
+          "weight_b": 1.04,
+          "min_weight": 1.01
         },
         {
           "code": "2887",
-          "weight_a": 0.97,
-          "weight_b": 2.1,
-          "min_weight": 0.97
+          "weight_a": 0.98,
+          "weight_b": 0.96,
+          "min_weight": 0.96
+        },
+        {
+          "code": "3037",
+          "weight_a": 0.87,
+          "weight_b": 0.87,
+          "min_weight": 0.87
         },
         {
           "code": "3017",
-          "weight_a": 0.99,
-          "weight_b": 0.94,
-          "min_weight": 0.94
+          "weight_a": 0.87,
+          "weight_b": 0.85,
+          "min_weight": 0.85
         },
         {
           "code": "2885",
-          "weight_a": 0.85,
-          "weight_b": 2.03,
-          "min_weight": 0.85
+          "weight_a": 0.84,
+          "weight_b": 0.91,
+          "min_weight": 0.84
         }
       ],
       "only_a_sample": [
-        "202611WTXX6F",
-        "2449"
+        "202612WTXZ6F",
+        "2449",
+        "3665",
+        "4904"
       ],
       "only_b_sample": [
-        "202611TX",
+        "1301",
+        "1326",
         "202612TX",
-        "3481"
+        "3189"
       ],
-      "weighted_min_overlap_pct": 80.8,
-      "coverage_a_pct": 99.96,
-      "coverage_b_pct": 100.03,
-      "within_top_overlap_pct": 80.8323,
+      "weighted_min_overlap_pct": 80.85,
+      "coverage_a_pct": 99.99,
+      "coverage_b_pct": 99.99,
+      "within_top_overlap_pct": 80.8581,
       "holding_count_a": 51,
-      "holding_count_b": 52,
+      "holding_count_b": 51,
       "source_a": "https://www.cmoney.tw/etf/tw/006208/fundholding",
       "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
       "method": "full_holdings_weighted_min",
@@ -926,20 +928,20 @@
       "universe_overlap": null,
       "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.58,
-      "premium_b": 0.35,
-      "premium_gap_a_minus_b": 0.23,
-      "price_a": 220.85,
-      "price_b": 14.39,
-      "nav_a": 219.58,
-      "nav_b": 14.34,
+      "premium_a": 0.39,
+      "premium_b": 0.31,
+      "premium_gap_a_minus_b": 0.08,
+      "price_a": 195.55,
+      "price_b": 12.88,
+      "nav_a": 194.8,
+      "nav_b": 12.84,
       "gap_interesting": false,
       "relative_hint": "—"
     },
     {
       "a": "00403A",
       "b": "00981A",
-      "common_count": 24,
+      "common_count": 23,
       "common_codes": [
         "2308",
         "2313",
@@ -959,7 +961,6 @@
         "3711",
         "5274",
         "6223",
-        "6274",
         "6515",
         "6669",
         "6805",
@@ -969,93 +970,93 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 15.68,
-          "weight_b": 16.38,
-          "min_weight": 15.68
+          "weight_a": 17.05,
+          "weight_b": 18.22,
+          "min_weight": 17.05
         },
         {
           "code": "2454",
-          "weight_a": 6.36,
-          "weight_b": 8.55,
-          "min_weight": 6.36
+          "weight_a": 6.71,
+          "weight_b": 9.27,
+          "min_weight": 6.71
         },
         {
           "code": "3017",
-          "weight_a": 6.27,
-          "weight_b": 7.69,
-          "min_weight": 6.27
+          "weight_a": 5.78,
+          "weight_b": 7.37,
+          "min_weight": 5.78
         },
         {
           "code": "3037",
-          "weight_a": 4.57,
-          "weight_b": 5.63,
-          "min_weight": 4.57
+          "weight_a": 3.97,
+          "weight_b": 5.0,
+          "min_weight": 3.97
         },
         {
           "code": "3653",
-          "weight_a": 4.45,
-          "weight_b": 4.96,
-          "min_weight": 4.45
+          "weight_a": 3.92,
+          "weight_b": 4.46,
+          "min_weight": 3.92
         },
         {
           "code": "2383",
-          "weight_a": 4.09,
-          "weight_b": 6.63,
-          "min_weight": 4.09
+          "weight_a": 3.46,
+          "weight_b": 5.38,
+          "min_weight": 3.46
         },
         {
           "code": "6223",
-          "weight_a": 3.51,
+          "weight_a": 3.4,
           "weight_b": 4.51,
-          "min_weight": 3.51
-        },
-        {
-          "code": "3443",
-          "weight_a": 5.43,
-          "weight_b": 3.18,
-          "min_weight": 3.18
+          "min_weight": 3.4
         },
         {
           "code": "2327",
-          "weight_a": 2.92,
-          "weight_b": 3.51,
-          "min_weight": 2.92
+          "weight_a": 2.68,
+          "weight_b": 3.29,
+          "min_weight": 2.68
         },
         {
-          "code": "8046",
-          "weight_a": 2.38,
-          "weight_b": 3.19,
-          "min_weight": 2.38
+          "code": "3443",
+          "weight_a": 4.33,
+          "weight_b": 2.68,
+          "min_weight": 2.68
         },
         {
           "code": "2308",
-          "weight_a": 2.18,
-          "weight_b": 3.42,
-          "min_weight": 2.18
+          "weight_a": 2.01,
+          "weight_b": 3.22,
+          "min_weight": 2.01
         },
         {
           "code": "3665",
-          "weight_a": 1.79,
-          "weight_b": 1.69,
-          "min_weight": 1.69
+          "weight_a": 1.95,
+          "weight_b": 1.98,
+          "min_weight": 1.95
+        },
+        {
+          "code": "8046",
+          "weight_a": 1.95,
+          "weight_b": 2.08,
+          "min_weight": 1.95
         },
         {
           "code": "2345",
+          "weight_a": 1.59,
+          "weight_b": 4.19,
+          "min_weight": 1.59
+        },
+        {
+          "code": "3711",
           "weight_a": 1.55,
-          "weight_b": 3.92,
+          "weight_b": 3.87,
           "min_weight": 1.55
         },
         {
           "code": "6669",
-          "weight_a": 2.53,
-          "weight_b": 1.4,
-          "min_weight": 1.4
-        },
-        {
-          "code": "3711",
-          "weight_a": 1.38,
-          "weight_b": 3.81,
-          "min_weight": 1.38
+          "weight_a": 2.6,
+          "weight_b": 1.48,
+          "min_weight": 1.48
         }
       ],
       "only_a_sample": [
@@ -1063,27 +1064,27 @@
         "1560",
         "1717",
         "2059",
-        "2301",
+        "2379",
         "2408",
         "2455",
-        "2481"
+        "2882"
       ],
       "only_b_sample": [
-        "1802",
         "2002",
         "202612TX",
         "2303",
         "2891",
         "3231",
         "3264",
-        "4979"
+        "4979",
+        "6187"
       ],
-      "weighted_min_overlap_pct": 66.47,
-      "coverage_a_pct": 85.05,
-      "coverage_b_pct": 96.16,
-      "within_top_overlap_pct": 78.154,
-      "holding_count_a": 43,
-      "holding_count_b": 37,
+      "weighted_min_overlap_pct": 63.82,
+      "coverage_a_pct": 80.26,
+      "coverage_b_pct": 93.15,
+      "within_top_overlap_pct": 79.5166,
+      "holding_count_a": 41,
+      "holding_count_b": 36,
       "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
       "source_b": "https://www.cmoney.tw/etf/tw/00981A/fundholding",
       "method": "full_holdings_weighted_min",
@@ -1095,13 +1096,13 @@
       "universe_overlap": null,
       "qualify_reason": "within_top>=70.0+weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": -0.48,
-      "premium_b": -0.57,
-      "premium_gap_a_minus_b": 0.09,
-      "price_a": 8.3,
-      "price_b": 22.5,
-      "nav_a": 8.34,
-      "nav_b": 22.63,
+      "premium_a": 0.83,
+      "premium_b": 1.57,
+      "premium_gap_a_minus_b": -0.74,
+      "price_a": 7.31,
+      "price_b": 20.04,
+      "nav_a": 7.25,
+      "nav_b": 19.73,
       "gap_interesting": false,
       "relative_hint": "—"
     },
@@ -1110,7 +1111,7 @@
       "b": "00881",
       "common_count": 22,
       "common_codes": [
-        "202611TX",
+        "202612TX",
         "2059",
         "2303",
         "2308",
@@ -1136,99 +1137,99 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 58.46,
-          "weight_b": 44.58,
-          "min_weight": 44.58
+          "weight_a": 60.1,
+          "weight_b": 46.79,
+          "min_weight": 46.79
         },
         {
           "code": "2454",
-          "weight_a": 6.17,
-          "weight_b": 10.41,
-          "min_weight": 6.17
+          "weight_a": 6.06,
+          "weight_b": 10.44,
+          "min_weight": 6.06
         },
         {
           "code": "2317",
-          "weight_a": 2.99,
-          "weight_b": 4.95,
-          "min_weight": 2.99
+          "weight_a": 3.15,
+          "weight_b": 5.32,
+          "min_weight": 3.15
         },
         {
           "code": "2308",
-          "weight_a": 2.43,
-          "weight_b": 4.3,
-          "min_weight": 2.43
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.25,
-          "weight_b": 2.56,
-          "min_weight": 1.25
+          "weight_a": 2.13,
+          "weight_b": 3.86,
+          "min_weight": 2.13
         },
         {
           "code": "2303",
-          "weight_a": 1.2,
-          "weight_b": 1.97,
-          "min_weight": 1.2
+          "weight_a": 1.15,
+          "weight_b": 1.92,
+          "min_weight": 1.15
         },
         {
-          "code": "3037",
-          "weight_a": 1.05,
-          "weight_b": 2.0,
-          "min_weight": 1.05
+          "code": "2383",
+          "weight_a": 1.0,
+          "weight_b": 2.1,
+          "min_weight": 1.0
         },
         {
           "code": "3017",
-          "weight_a": 0.99,
-          "weight_b": 2.64,
-          "min_weight": 0.99
+          "weight_a": 0.87,
+          "weight_b": 2.36,
+          "min_weight": 0.87
         },
         {
-          "code": "2345",
-          "weight_a": 0.77,
-          "weight_b": 2.2,
-          "min_weight": 0.77
+          "code": "3037",
+          "weight_a": 0.87,
+          "weight_b": 1.69,
+          "min_weight": 0.87
         },
         {
           "code": "2382",
-          "weight_a": 0.74,
-          "weight_b": 2.33,
-          "min_weight": 0.74
+          "weight_a": 0.82,
+          "weight_b": 2.62,
+          "min_weight": 0.82
+        },
+        {
+          "code": "2345",
+          "weight_a": 0.75,
+          "weight_b": 2.2,
+          "min_weight": 0.75
         },
         {
           "code": "3231",
-          "weight_a": 0.53,
-          "weight_b": 1.69,
-          "min_weight": 0.53
+          "weight_a": 0.55,
+          "weight_b": 1.79,
+          "min_weight": 0.55
         },
         {
           "code": "2360",
-          "weight_a": 0.52,
-          "weight_b": 1.58,
-          "min_weight": 0.52
+          "weight_a": 0.42,
+          "weight_b": 1.29,
+          "min_weight": 0.42
         },
         {
           "code": "3008",
-          "weight_a": 0.51,
-          "weight_b": 1.44,
-          "min_weight": 0.51
+          "weight_a": 0.42,
+          "weight_b": 1.23,
+          "min_weight": 0.42
         },
         {
           "code": "2059",
-          "weight_a": 0.44,
-          "weight_b": 1.6,
-          "min_weight": 0.44
+          "weight_a": 0.36,
+          "weight_b": 1.34,
+          "min_weight": 0.36
         },
         {
           "code": "2368",
-          "weight_a": 0.36,
-          "weight_b": 1.11,
-          "min_weight": 0.36
+          "weight_a": 0.3,
+          "weight_b": 0.94,
+          "min_weight": 0.3
         }
       ],
       "only_a_sample": [
         "1216",
         "1303",
-        "202611NYF",
+        "202612NYF",
         "2301",
         "2327",
         "2344",
@@ -1245,10 +1246,10 @@
         "6223",
         "6274"
       ],
-      "weighted_min_overlap_pct": 66.17,
-      "coverage_a_pct": 100.01,
-      "coverage_b_pct": 99.99,
-      "within_top_overlap_pct": 66.1766,
+      "weighted_min_overlap_pct": 67.19,
+      "coverage_a_pct": 99.99,
+      "coverage_b_pct": 100.02,
+      "within_top_overlap_pct": 67.1967,
       "holding_count_a": 52,
       "holding_count_b": 31,
       "source_a": "https://www.cmoney.tw/etf/tw/0050/fundholding",
@@ -1262,13 +1263,13 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.62,
-      "premium_b": -0.36,
-      "premium_gap_a_minus_b": 0.98,
-      "price_a": 96.45,
-      "price_b": 41.56,
-      "nav_a": 95.86,
-      "nav_b": 41.71,
+      "premium_a": 0.49,
+      "premium_b": 0.64,
+      "premium_gap_a_minus_b": -0.15,
+      "price_a": 87.0,
+      "price_b": 37.91,
+      "nav_a": 86.58,
+      "nav_b": 37.67,
       "gap_interesting": false,
       "relative_hint": "—"
     },
@@ -1302,99 +1303,99 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 58.45,
-          "weight_b": 44.58,
-          "min_weight": 44.58
+          "weight_a": 60.11,
+          "weight_b": 46.79,
+          "min_weight": 46.79
         },
         {
           "code": "2454",
-          "weight_a": 6.16,
-          "weight_b": 10.41,
-          "min_weight": 6.16
+          "weight_a": 6.07,
+          "weight_b": 10.44,
+          "min_weight": 6.07
         },
         {
           "code": "2317",
-          "weight_a": 2.99,
-          "weight_b": 4.95,
-          "min_weight": 2.99
+          "weight_a": 3.16,
+          "weight_b": 5.32,
+          "min_weight": 3.16
         },
         {
           "code": "2308",
-          "weight_a": 2.43,
-          "weight_b": 4.3,
-          "min_weight": 2.43
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.24,
-          "weight_b": 2.56,
-          "min_weight": 1.24
+          "weight_a": 2.14,
+          "weight_b": 3.86,
+          "min_weight": 2.14
         },
         {
           "code": "2303",
-          "weight_a": 1.2,
-          "weight_b": 1.97,
-          "min_weight": 1.2
+          "weight_a": 1.15,
+          "weight_b": 1.92,
+          "min_weight": 1.15
         },
         {
-          "code": "3037",
-          "weight_a": 1.05,
-          "weight_b": 2.0,
-          "min_weight": 1.05
+          "code": "2383",
+          "weight_a": 1.01,
+          "weight_b": 2.1,
+          "min_weight": 1.01
         },
         {
           "code": "3017",
-          "weight_a": 0.99,
-          "weight_b": 2.64,
-          "min_weight": 0.99
+          "weight_a": 0.87,
+          "weight_b": 2.36,
+          "min_weight": 0.87
         },
         {
-          "code": "2345",
-          "weight_a": 0.76,
-          "weight_b": 2.2,
-          "min_weight": 0.76
+          "code": "3037",
+          "weight_a": 0.87,
+          "weight_b": 1.69,
+          "min_weight": 0.87
         },
         {
           "code": "2382",
-          "weight_a": 0.74,
-          "weight_b": 2.33,
-          "min_weight": 0.74
+          "weight_a": 0.82,
+          "weight_b": 2.62,
+          "min_weight": 0.82
         },
         {
-          "code": "2360",
-          "weight_a": 0.52,
-          "weight_b": 1.58,
-          "min_weight": 0.52
+          "code": "2345",
+          "weight_a": 0.75,
+          "weight_b": 2.2,
+          "min_weight": 0.75
         },
         {
           "code": "3231",
-          "weight_a": 0.52,
-          "weight_b": 1.69,
-          "min_weight": 0.52
+          "weight_a": 0.55,
+          "weight_b": 1.79,
+          "min_weight": 0.55
+        },
+        {
+          "code": "2360",
+          "weight_a": 0.42,
+          "weight_b": 1.29,
+          "min_weight": 0.42
         },
         {
           "code": "3008",
-          "weight_a": 0.51,
-          "weight_b": 1.44,
-          "min_weight": 0.51
+          "weight_a": 0.42,
+          "weight_b": 1.23,
+          "min_weight": 0.42
         },
         {
           "code": "2059",
-          "weight_a": 0.44,
-          "weight_b": 1.6,
-          "min_weight": 0.44
+          "weight_a": 0.36,
+          "weight_b": 1.34,
+          "min_weight": 0.36
         },
         {
           "code": "2368",
-          "weight_a": 0.36,
-          "weight_b": 1.11,
-          "min_weight": 0.36
+          "weight_a": 0.3,
+          "weight_b": 0.94,
+          "min_weight": 0.3
         }
       ],
       "only_a_sample": [
         "1216",
         "1303",
-        "202611WTXX6F",
+        "202612WTXZ6F",
         "2301",
         "2327",
         "2344",
@@ -1402,7 +1403,7 @@
         "2395"
       ],
       "only_b_sample": [
-        "202611TX",
+        "202612TX",
         "2313",
         "2379",
         "3034",
@@ -1411,10 +1412,10 @@
         "3189",
         "6223"
       ],
-      "weighted_min_overlap_pct": 66.01,
-      "coverage_a_pct": 99.96,
-      "coverage_b_pct": 99.99,
-      "within_top_overlap_pct": 66.0364,
+      "weighted_min_overlap_pct": 67.12,
+      "coverage_a_pct": 99.99,
+      "coverage_b_pct": 100.02,
+      "within_top_overlap_pct": 67.1267,
       "holding_count_a": 51,
       "holding_count_b": 31,
       "source_a": "https://www.cmoney.tw/etf/tw/006208/fundholding",
@@ -1428,13 +1429,13 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.58,
-      "premium_b": -0.36,
-      "premium_gap_a_minus_b": 0.94,
-      "price_a": 220.85,
-      "price_b": 41.56,
-      "nav_a": 219.58,
-      "nav_b": 41.71,
+      "premium_a": 0.39,
+      "premium_b": 0.64,
+      "premium_gap_a_minus_b": -0.25,
+      "price_a": 195.55,
+      "price_b": 37.91,
+      "nav_a": 194.8,
+      "nav_b": 37.67,
       "gap_interesting": false,
       "relative_hint": "—"
     },
@@ -1468,98 +1469,98 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 66.19,
-          "weight_b": 44.58,
-          "min_weight": 44.58
+          "weight_a": 68.08,
+          "weight_b": 46.79,
+          "min_weight": 46.79
         },
         {
           "code": "2454",
-          "weight_a": 7.01,
-          "weight_b": 10.41,
-          "min_weight": 7.01
+          "weight_a": 6.89,
+          "weight_b": 10.44,
+          "min_weight": 6.89
         },
         {
           "code": "2317",
-          "weight_a": 3.4,
-          "weight_b": 4.95,
-          "min_weight": 3.4
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.42,
-          "weight_b": 2.56,
-          "min_weight": 1.42
+          "weight_a": 3.58,
+          "weight_b": 5.32,
+          "min_weight": 3.58
         },
         {
           "code": "2303",
-          "weight_a": 1.37,
-          "weight_b": 1.97,
-          "min_weight": 1.37
+          "weight_a": 1.31,
+          "weight_b": 1.92,
+          "min_weight": 1.31
         },
         {
-          "code": "3037",
-          "weight_a": 1.2,
-          "weight_b": 2.0,
-          "min_weight": 1.2
+          "code": "2383",
+          "weight_a": 1.14,
+          "weight_b": 2.1,
+          "min_weight": 1.14
         },
         {
           "code": "3017",
-          "weight_a": 1.12,
-          "weight_b": 2.64,
-          "min_weight": 1.12
+          "weight_a": 0.99,
+          "weight_b": 2.36,
+          "min_weight": 0.99
+        },
+        {
+          "code": "3037",
+          "weight_a": 0.99,
+          "weight_b": 1.69,
+          "min_weight": 0.99
         },
         {
           "code": "2382",
-          "weight_a": 0.84,
-          "weight_b": 2.33,
-          "min_weight": 0.84
+          "weight_a": 0.93,
+          "weight_b": 2.62,
+          "min_weight": 0.93
         },
         {
           "code": "3231",
-          "weight_a": 0.6,
-          "weight_b": 1.69,
-          "min_weight": 0.6
+          "weight_a": 0.62,
+          "weight_b": 1.79,
+          "min_weight": 0.62
         },
         {
           "code": "3008",
-          "weight_a": 0.57,
-          "weight_b": 1.44,
-          "min_weight": 0.57
+          "weight_a": 0.48,
+          "weight_b": 1.23,
+          "min_weight": 0.48
         },
         {
           "code": "2379",
-          "weight_a": 0.43,
-          "weight_b": 1.16,
-          "min_weight": 0.43
+          "weight_a": 0.46,
+          "weight_b": 1.26,
+          "min_weight": 0.46
         },
         {
           "code": "2368",
-          "weight_a": 0.41,
-          "weight_b": 1.11,
-          "min_weight": 0.41
+          "weight_a": 0.35,
+          "weight_b": 0.94,
+          "min_weight": 0.35
         },
         {
           "code": "4958",
-          "weight_a": 0.4,
-          "weight_b": 1.07,
-          "min_weight": 0.4
+          "weight_a": 0.34,
+          "weight_b": 0.93,
+          "min_weight": 0.34
         },
         {
           "code": "3034",
-          "weight_a": 0.31,
-          "weight_b": 0.89,
-          "min_weight": 0.31
+          "weight_a": 0.33,
+          "weight_b": 0.97,
+          "min_weight": 0.33
         },
         {
           "code": "3665",
-          "weight_a": 0.31,
-          "weight_b": 0.89,
-          "min_weight": 0.31
+          "weight_a": 0.32,
+          "weight_b": 0.94,
+          "min_weight": 0.32
         }
       ],
       "only_a_sample": [
-        "202611WTEX6F",
-        "202611WVHFX6F",
+        "202612WTEZ6F",
+        "202612WVHFZ6F",
         "2301",
         "2324",
         "2327",
@@ -1568,7 +1569,7 @@
         "2347"
       ],
       "only_b_sample": [
-        "202611TX",
+        "202612TX",
         "2059",
         "2308",
         "2345",
@@ -1577,10 +1578,10 @@
         "3081",
         "4904"
       ],
-      "weighted_min_overlap_pct": 65.53,
-      "coverage_a_pct": 100.0,
-      "coverage_b_pct": 99.99,
-      "within_top_overlap_pct": 65.5366,
+      "weighted_min_overlap_pct": 66.88,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 100.02,
+      "within_top_overlap_pct": 66.8666,
       "holding_count_a": 74,
       "holding_count_b": 31,
       "source_a": "https://www.cmoney.tw/etf/tw/0052/fundholding",
@@ -1594,20 +1595,20 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.24,
-      "premium_b": -0.36,
-      "premium_gap_a_minus_b": 0.6,
-      "price_a": 55.2,
-      "price_b": 41.56,
-      "nav_a": 55.07,
-      "nav_b": 41.71,
+      "premium_a": 0.28,
+      "premium_b": 0.64,
+      "premium_gap_a_minus_b": -0.36,
+      "price_a": 50.15,
+      "price_b": 37.91,
+      "nav_a": 50.01,
+      "nav_b": 37.67,
       "gap_interesting": false,
       "relative_hint": "—"
     },
     {
       "a": "0052",
       "b": "009816",
-      "common_count": 26,
+      "common_count": 25,
       "common_codes": [
         "2301",
         "2303",
@@ -1625,11 +1626,10 @@
         "3008",
         "3017",
         "3037",
+        "3189",
         "3231",
         "3443",
-        "3481",
         "3653",
-        "3665",
         "3711",
         "4958",
         "6669",
@@ -1639,98 +1639,98 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 66.19,
-          "weight_b": 41.01,
-          "min_weight": 41.01
+          "weight_a": 68.08,
+          "weight_b": 42.5,
+          "min_weight": 42.5
         },
         {
           "code": "2454",
-          "weight_a": 7.01,
-          "weight_b": 5.84,
-          "min_weight": 5.84
+          "weight_a": 6.89,
+          "weight_b": 5.89,
+          "min_weight": 5.89
         },
         {
           "code": "2317",
-          "weight_a": 3.4,
-          "weight_b": 2.8,
-          "min_weight": 2.8
+          "weight_a": 3.58,
+          "weight_b": 3.03,
+          "min_weight": 3.03
         },
         {
           "code": "3711",
-          "weight_a": 2.29,
-          "weight_b": 1.86,
-          "min_weight": 1.86
-        },
-        {
-          "code": "2383",
-          "weight_a": 1.42,
-          "weight_b": 1.3,
-          "min_weight": 1.3
+          "weight_a": 2.12,
+          "weight_b": 1.77,
+          "min_weight": 1.77
         },
         {
           "code": "2303",
-          "weight_a": 1.37,
-          "weight_b": 1.12,
-          "min_weight": 1.12
+          "weight_a": 1.31,
+          "weight_b": 1.09,
+          "min_weight": 1.09
+        },
+        {
+          "code": "2383",
+          "weight_a": 1.14,
+          "weight_b": 1.04,
+          "min_weight": 1.04
         },
         {
           "code": "3037",
-          "weight_a": 1.2,
-          "weight_b": 1.06,
-          "min_weight": 1.06
-        },
-        {
-          "code": "3017",
-          "weight_a": 1.12,
-          "weight_b": 0.94,
-          "min_weight": 0.94
-        },
-        {
-          "code": "2327",
-          "weight_a": 0.75,
-          "weight_b": 0.74,
-          "min_weight": 0.74
+          "weight_a": 0.99,
+          "weight_b": 0.87,
+          "min_weight": 0.87
         },
         {
           "code": "2382",
-          "weight_a": 0.84,
-          "weight_b": 0.71,
-          "min_weight": 0.71
+          "weight_a": 0.93,
+          "weight_b": 0.86,
+          "min_weight": 0.86
         },
         {
-          "code": "3443",
-          "weight_a": 0.8,
-          "weight_b": 0.68,
-          "min_weight": 0.68
+          "code": "3017",
+          "weight_a": 0.99,
+          "weight_b": 0.85,
+          "min_weight": 0.85
+        },
+        {
+          "code": "2327",
+          "weight_a": 0.65,
+          "weight_b": 0.64,
+          "min_weight": 0.64
         },
         {
           "code": "2357",
-          "weight_a": 0.69,
-          "weight_b": 0.58,
-          "min_weight": 0.58
+          "weight_a": 0.71,
+          "weight_b": 0.62,
+          "min_weight": 0.62
         },
         {
-          "code": "2408",
-          "weight_a": 0.56,
-          "weight_b": 0.77,
+          "code": "3231",
+          "weight_a": 0.62,
+          "weight_b": 0.56,
           "min_weight": 0.56
         },
         {
-          "code": "3653",
-          "weight_a": 0.54,
+          "code": "3443",
+          "weight_a": 0.61,
           "weight_b": 0.54,
           "min_weight": 0.54
         },
         {
           "code": "6669",
-          "weight_a": 0.59,
+          "weight_a": 0.57,
           "weight_b": 0.54,
           "min_weight": 0.54
+        },
+        {
+          "code": "2408",
+          "weight_a": 0.48,
+          "weight_b": 0.65,
+          "min_weight": 0.48
         }
       ],
       "only_a_sample": [
-        "202611WTEX6F",
-        "202611WVHFX6F",
+        "202612WTEZ6F",
+        "202612WVHFZ6F",
         "2313",
         "2324",
         "2337",
@@ -1740,20 +1740,20 @@
       ],
       "only_b_sample": [
         "1216",
+        "1301",
         "1303",
-        "202611TX",
+        "1326",
         "202612TX",
         "2059",
         "2308",
-        "2345",
-        "2360"
+        "2345"
       ],
-      "weighted_min_overlap_pct": 64.02,
-      "coverage_a_pct": 100.0,
-      "coverage_b_pct": 100.03,
-      "within_top_overlap_pct": 64.02,
+      "weighted_min_overlap_pct": 64.31,
+      "coverage_a_pct": 100.05,
+      "coverage_b_pct": 99.99,
+      "within_top_overlap_pct": 64.3164,
       "holding_count_a": 74,
-      "holding_count_b": 52,
+      "holding_count_b": 51,
       "source_a": "https://www.cmoney.tw/etf/tw/0052/fundholding",
       "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
       "method": "full_holdings_weighted_min",
@@ -1765,22 +1765,22 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.24,
-      "premium_b": 0.35,
-      "premium_gap_a_minus_b": -0.11,
-      "price_a": 55.2,
-      "price_b": 14.39,
-      "nav_a": 55.07,
-      "nav_b": 14.34,
+      "premium_a": 0.28,
+      "premium_b": 0.31,
+      "premium_gap_a_minus_b": -0.03,
+      "price_a": 50.15,
+      "price_b": 12.88,
+      "nav_a": 50.01,
+      "nav_b": 12.84,
       "gap_interesting": false,
       "relative_hint": "—"
     },
     {
       "a": "00881",
       "b": "009816",
-      "common_count": 21,
+      "common_count": 20,
       "common_codes": [
-        "202611TX",
+        "202612TX",
         "2059",
         "2303",
         "2308",
@@ -1796,66 +1796,71 @@
         "3017",
         "3037",
         "3045",
+        "3189",
         "3231",
-        "3665",
-        "4904",
         "4958",
         "8046"
       ],
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 44.58,
-          "weight_b": 41.01,
-          "min_weight": 41.01
+          "weight_a": 46.79,
+          "weight_b": 42.5,
+          "min_weight": 42.5
         },
         {
           "code": "2454",
-          "weight_a": 10.41,
-          "weight_b": 5.84,
-          "min_weight": 5.84
+          "weight_a": 10.44,
+          "weight_b": 5.89,
+          "min_weight": 5.89
         },
         {
           "code": "2317",
-          "weight_a": 4.95,
-          "weight_b": 2.8,
-          "min_weight": 2.8
+          "weight_a": 5.32,
+          "weight_b": 3.03,
+          "min_weight": 3.03
         },
         {
           "code": "2308",
-          "weight_a": 4.3,
-          "weight_b": 2.46,
-          "min_weight": 2.46
+          "weight_a": 3.86,
+          "weight_b": 2.21,
+          "min_weight": 2.21
         },
         {
-          "code": "202611TX",
-          "weight_a": 1.51,
-          "weight_b": 1.47,
-          "min_weight": 1.47
-        },
-        {
-          "code": "2383",
-          "weight_a": 2.56,
-          "weight_b": 1.3,
-          "min_weight": 1.3
+          "code": "202612TX",
+          "weight_a": 1.49,
+          "weight_b": 1.96,
+          "min_weight": 1.49
         },
         {
           "code": "2303",
-          "weight_a": 1.97,
-          "weight_b": 1.12,
-          "min_weight": 1.12
+          "weight_a": 1.92,
+          "weight_b": 1.09,
+          "min_weight": 1.09
+        },
+        {
+          "code": "2383",
+          "weight_a": 2.1,
+          "weight_b": 1.04,
+          "min_weight": 1.04
         },
         {
           "code": "3037",
-          "weight_a": 2.0,
-          "weight_b": 1.06,
-          "min_weight": 1.06
+          "weight_a": 1.69,
+          "weight_b": 0.87,
+          "min_weight": 0.87
+        },
+        {
+          "code": "2382",
+          "weight_a": 2.62,
+          "weight_b": 0.86,
+          "min_weight": 0.86
         },
         {
           "code": "3017",
-          "weight_a": 2.64,
-          "weight_b": 0.94,
-          "min_weight": 0.94
+          "weight_a": 2.36,
+          "weight_b": 0.85,
+          "min_weight": 0.85
         },
         {
           "code": "2345",
@@ -1864,34 +1869,28 @@
           "min_weight": 0.71
         },
         {
-          "code": "2382",
-          "weight_a": 2.33,
-          "weight_b": 0.71,
-          "min_weight": 0.71
-        },
-        {
-          "code": "2059",
-          "weight_a": 1.6,
-          "weight_b": 0.52,
-          "min_weight": 0.52
-        },
-        {
           "code": "3231",
-          "weight_a": 1.69,
-          "weight_b": 0.49,
-          "min_weight": 0.49
+          "weight_a": 1.79,
+          "weight_b": 0.56,
+          "min_weight": 0.56
         },
         {
           "code": "2360",
-          "weight_a": 1.58,
-          "weight_b": 0.48,
-          "min_weight": 0.48
+          "weight_a": 1.29,
+          "weight_b": 0.47,
+          "min_weight": 0.47
+        },
+        {
+          "code": "2059",
+          "weight_a": 1.34,
+          "weight_b": 0.42,
+          "min_weight": 0.42
         },
         {
           "code": "3008",
-          "weight_a": 1.44,
-          "weight_b": 0.45,
-          "min_weight": 0.45
+          "weight_a": 1.23,
+          "weight_b": 0.37,
+          "min_weight": 0.37
         }
       ],
       "only_a_sample": [
@@ -1901,25 +1900,25 @@
         "3034",
         "3044",
         "3081",
-        "3189",
-        "6223"
+        "3665",
+        "4904"
       ],
       "only_b_sample": [
         "1216",
+        "1301",
         "1303",
-        "202612TX",
+        "1326",
         "2301",
         "2327",
         "2344",
-        "2357",
-        "2395"
+        "2357"
       ],
-      "weighted_min_overlap_pct": 62.96,
-      "coverage_a_pct": 99.99,
-      "coverage_b_pct": 100.03,
-      "within_top_overlap_pct": 62.9663,
+      "weighted_min_overlap_pct": 63.64,
+      "coverage_a_pct": 100.02,
+      "coverage_b_pct": 99.99,
+      "within_top_overlap_pct": 63.6464,
       "holding_count_a": 31,
-      "holding_count_b": 52,
+      "holding_count_b": 51,
       "source_a": "https://www.cmoney.tw/etf/tw/00881/fundholding",
       "source_b": "https://www.cmoney.tw/etf/tw/009816/fundholding",
       "method": "full_holdings_weighted_min",
@@ -1931,152 +1930,13 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": -0.36,
-      "premium_b": 0.35,
-      "premium_gap_a_minus_b": -0.71,
-      "price_a": 41.56,
-      "price_b": 14.39,
-      "nav_a": 41.71,
-      "nav_b": 14.34,
-      "gap_interesting": false,
-      "relative_hint": "—"
-    },
-    {
-      "a": "00878",
-      "b": "00919",
-      "common_count": 12,
-      "common_codes": [
-        "202611TX",
-        "2357",
-        "2379",
-        "2382",
-        "2603",
-        "2618",
-        "2881",
-        "2882",
-        "2887",
-        "2891",
-        "3034",
-        "5871"
-      ],
-      "common_detail": [
-        {
-          "code": "2891",
-          "weight_a": 11.53,
-          "weight_b": 12.04,
-          "min_weight": 11.53
-        },
-        {
-          "code": "2382",
-          "weight_a": 7.8,
-          "weight_b": 8.8,
-          "min_weight": 7.8
-        },
-        {
-          "code": "2882",
-          "weight_a": 6.88,
-          "weight_b": 13.1,
-          "min_weight": 6.88
-        },
-        {
-          "code": "2357",
-          "weight_a": 5.45,
-          "weight_b": 5.55,
-          "min_weight": 5.45
-        },
-        {
-          "code": "2603",
-          "weight_a": 4.45,
-          "weight_b": 4.52,
-          "min_weight": 4.45
-        },
-        {
-          "code": "2887",
-          "weight_a": 3.91,
-          "weight_b": 8.43,
-          "min_weight": 3.91
-        },
-        {
-          "code": "2881",
-          "weight_a": 3.46,
-          "weight_b": 16.13,
-          "min_weight": 3.46
-        },
-        {
-          "code": "2379",
-          "weight_a": 3.26,
-          "weight_b": 2.98,
-          "min_weight": 2.98
-        },
-        {
-          "code": "3034",
-          "weight_a": 2.4,
-          "weight_b": 2.8,
-          "min_weight": 2.4
-        },
-        {
-          "code": "2618",
-          "weight_a": 2.01,
-          "weight_b": 1.99,
-          "min_weight": 1.99
-        },
-        {
-          "code": "5871",
-          "weight_a": 1.43,
-          "weight_b": 1.36,
-          "min_weight": 1.36
-        },
-        {
-          "code": "202611TX",
-          "weight_a": 3.43,
-          "weight_b": 0.25,
-          "min_weight": 0.25
-        }
-      ],
-      "only_a_sample": [
-        "1216",
-        "2301",
-        "2303",
-        "2356",
-        "2376",
-        "2412",
-        "2454",
-        "2880"
-      ],
-      "only_b_sample": [
-        "1210",
-        "1319",
-        "1402",
-        "1477",
-        "2105",
-        "2211",
-        "2347",
-        "2385"
-      ],
-      "weighted_min_overlap_pct": 52.46,
-      "coverage_a_pct": 100.0,
-      "coverage_b_pct": 100.01,
-      "within_top_overlap_pct": 52.46,
-      "holding_count_a": 30,
-      "holding_count_b": 41,
-      "source_a": "https://www.cmoney.tw/etf/tw/00878/fundholding",
-      "source_b": "https://www.cmoney.tw/etf/tw/00919/fundholding",
-      "method": "full_holdings_weighted_min",
-      "name_a": "國泰永續高股息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
-      "name_b": "群益台灣精選高息",
-      "same_index": false,
-      "index_name": null,
-      "index_evidence": null,
-      "universe_overlap": null,
-      "qualify_reason": "weighted_min>=40.0",
-      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.84,
-      "premium_b": 0.59,
-      "premium_gap_a_minus_b": 0.25,
-      "price_a": 32.43,
-      "price_b": 30.5,
-      "nav_a": 32.16,
-      "nav_b": 30.32,
+      "premium_a": 0.64,
+      "premium_b": 0.31,
+      "premium_gap_a_minus_b": 0.33,
+      "price_a": 37.91,
+      "price_b": 12.88,
+      "nav_a": 37.67,
+      "nav_b": 12.84,
       "gap_interesting": false,
       "relative_hint": "—"
     },
@@ -2086,7 +1946,7 @@
       "common_count": 23,
       "common_codes": [
         "1216",
-        "202611TX",
+        "202612TX",
         "2301",
         "2303",
         "2356",
@@ -2112,93 +1972,93 @@
       "common_detail": [
         {
           "code": "2891",
-          "weight_a": 4.52,
-          "weight_b": 11.53,
-          "min_weight": 4.52
+          "weight_a": 4.66,
+          "weight_b": 11.45,
+          "min_weight": 4.66
         },
         {
           "code": "2357",
-          "weight_a": 4.0,
-          "weight_b": 5.45,
-          "min_weight": 4.0
+          "weight_a": 4.08,
+          "weight_b": 5.42,
+          "min_weight": 4.08
         },
         {
           "code": "2880",
-          "weight_a": 4.82,
-          "weight_b": 3.62,
-          "min_weight": 3.62
+          "weight_a": 5.2,
+          "weight_b": 3.86,
+          "min_weight": 3.86
         },
         {
           "code": "2603",
-          "weight_a": 3.31,
-          "weight_b": 4.45,
-          "min_weight": 3.31
-        },
-        {
-          "code": "2382",
-          "weight_a": 3.07,
-          "weight_b": 7.8,
-          "min_weight": 3.07
+          "weight_a": 3.57,
+          "weight_b": 4.58,
+          "min_weight": 3.57
         },
         {
           "code": "2886",
-          "weight_a": 3.96,
-          "weight_b": 3.05,
-          "min_weight": 3.05
+          "weight_a": 4.42,
+          "weight_b": 3.48,
+          "min_weight": 3.48
+        },
+        {
+          "code": "2382",
+          "weight_a": 3.33,
+          "weight_b": 8.19,
+          "min_weight": 3.33
         },
         {
           "code": "2887",
-          "weight_a": 2.71,
-          "weight_b": 3.91,
-          "min_weight": 2.71
-        },
-        {
-          "code": "2885",
-          "weight_a": 2.76,
-          "weight_b": 2.67,
-          "min_weight": 2.67
-        },
-        {
-          "code": "3045",
-          "weight_a": 2.38,
-          "weight_b": 2.76,
-          "min_weight": 2.38
-        },
-        {
-          "code": "2379",
-          "weight_a": 2.37,
-          "weight_b": 3.26,
-          "min_weight": 2.37
-        },
-        {
-          "code": "4904",
-          "weight_a": 2.33,
-          "weight_b": 2.56,
-          "min_weight": 2.33
+          "weight_a": 2.69,
+          "weight_b": 3.77,
+          "min_weight": 2.69
         },
         {
           "code": "1216",
-          "weight_a": 2.59,
-          "weight_b": 2.32,
-          "min_weight": 2.32
+          "weight_a": 2.89,
+          "weight_b": 2.68,
+          "min_weight": 2.68
+        },
+        {
+          "code": "3045",
+          "weight_a": 2.67,
+          "weight_b": 3.13,
+          "min_weight": 2.67
+        },
+        {
+          "code": "4904",
+          "weight_a": 2.62,
+          "weight_b": 2.84,
+          "min_weight": 2.62
+        },
+        {
+          "code": "2885",
+          "weight_a": 2.68,
+          "weight_b": 2.56,
+          "min_weight": 2.56
+        },
+        {
+          "code": "2379",
+          "weight_a": 2.49,
+          "weight_b": 3.32,
+          "min_weight": 2.49
         },
         {
           "code": "3231",
-          "weight_a": 3.5,
-          "weight_b": 2.25,
-          "min_weight": 2.25
+          "weight_a": 3.59,
+          "weight_b": 2.24,
+          "min_weight": 2.24
         },
         {
           "code": "2301",
-          "weight_a": 2.12,
-          "weight_b": 2.33,
-          "min_weight": 2.12
+          "weight_a": 1.92,
+          "weight_b": 2.04,
+          "min_weight": 1.92
         },
         {
           "code": "3034",
-          "weight_a": 1.72,
-          "weight_b": 2.4,
-          "min_weight": 1.72
+          "weight_a": 1.8,
+          "weight_b": 2.45,
+          "min_weight": 1.8
         }
       ],
       "only_a_sample": [
@@ -2220,10 +2080,10 @@
         "5347",
         "5871"
       ],
-      "weighted_min_overlap_pct": 52.18,
-      "coverage_a_pct": 99.91,
-      "coverage_b_pct": 100.0,
-      "within_top_overlap_pct": 52.227,
+      "weighted_min_overlap_pct": 54.55,
+      "coverage_a_pct": 99.85,
+      "coverage_b_pct": 99.86,
+      "within_top_overlap_pct": 54.6319,
       "holding_count_a": 51,
       "holding_count_b": 30,
       "source_a": "https://www.cmoney.tw/etf/tw/0056/fundholding",
@@ -2237,185 +2097,161 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.4,
-      "premium_b": 0.84,
-      "premium_gap_a_minus_b": -0.44,
-      "price_a": 50.6,
-      "price_b": 32.43,
-      "nav_a": 50.4,
-      "nav_b": 32.16,
+      "premium_a": 0.84,
+      "premium_b": 0.29,
+      "premium_gap_a_minus_b": 0.55,
+      "price_a": 45.4,
+      "price_b": 28.05,
+      "nav_a": 45.02,
+      "nav_b": 27.97,
       "gap_interesting": false,
       "relative_hint": "—"
     },
     {
-      "a": "00403A",
-      "b": "00881",
-      "common_count": 19,
+      "a": "00878",
+      "b": "00919",
+      "common_count": 12,
       "common_codes": [
-        "2059",
-        "2308",
-        "2313",
-        "2317",
-        "2330",
-        "2345",
-        "2368",
-        "2383",
-        "2449",
-        "2454",
-        "3008",
-        "3017",
-        "3037",
-        "3044",
-        "3189",
-        "3665",
-        "6223",
-        "6274",
-        "8046"
+        "202612TX",
+        "2357",
+        "2379",
+        "2382",
+        "2603",
+        "2618",
+        "2881",
+        "2882",
+        "2887",
+        "2891",
+        "3034",
+        "5871"
       ],
       "common_detail": [
         {
-          "code": "2330",
-          "weight_a": 15.68,
-          "weight_b": 44.58,
-          "min_weight": 15.68
+          "code": "2891",
+          "weight_a": 11.45,
+          "weight_b": 11.87,
+          "min_weight": 11.45
         },
         {
-          "code": "2454",
-          "weight_a": 6.36,
-          "weight_b": 10.41,
-          "min_weight": 6.36
+          "code": "2382",
+          "weight_a": 8.19,
+          "weight_b": 9.42,
+          "min_weight": 8.19
         },
         {
-          "code": "3017",
-          "weight_a": 6.27,
-          "weight_b": 2.64,
-          "min_weight": 2.64
+          "code": "2882",
+          "weight_a": 6.59,
+          "weight_b": 12.71,
+          "min_weight": 6.59
         },
         {
-          "code": "2383",
-          "weight_a": 4.09,
-          "weight_b": 2.56,
-          "min_weight": 2.56
+          "code": "2357",
+          "weight_a": 5.42,
+          "weight_b": 5.44,
+          "min_weight": 5.42
         },
         {
-          "code": "2308",
-          "weight_a": 2.18,
-          "weight_b": 4.3,
-          "min_weight": 2.18
+          "code": "2603",
+          "weight_a": 4.58,
+          "weight_b": 4.66,
+          "min_weight": 4.58
         },
         {
-          "code": "3037",
-          "weight_a": 4.57,
-          "weight_b": 2.0,
-          "min_weight": 2.0
+          "code": "2887",
+          "weight_a": 3.77,
+          "weight_b": 8.06,
+          "min_weight": 3.77
         },
         {
-          "code": "2345",
-          "weight_a": 1.55,
-          "weight_b": 2.2,
-          "min_weight": 1.55
+          "code": "2881",
+          "weight_a": 3.4,
+          "weight_b": 15.6,
+          "min_weight": 3.4
         },
         {
-          "code": "3008",
-          "weight_a": 1.61,
-          "weight_b": 1.44,
-          "min_weight": 1.44
+          "code": "2379",
+          "weight_a": 3.32,
+          "weight_b": 3.0,
+          "min_weight": 3.0
         },
         {
-          "code": "6223",
-          "weight_a": 3.51,
-          "weight_b": 1.24,
-          "min_weight": 1.24
+          "code": "3034",
+          "weight_a": 2.45,
+          "weight_b": 2.81,
+          "min_weight": 2.45
         },
         {
-          "code": "3665",
-          "weight_a": 1.79,
-          "weight_b": 0.89,
-          "min_weight": 0.89
+          "code": "2618",
+          "weight_a": 2.21,
+          "weight_b": 2.13,
+          "min_weight": 2.13
         },
         {
-          "code": "2368",
-          "weight_a": 0.86,
-          "weight_b": 1.11,
-          "min_weight": 0.86
+          "code": "5871",
+          "weight_a": 1.46,
+          "weight_b": 1.4,
+          "min_weight": 1.4
         },
         {
-          "code": "8046",
-          "weight_a": 2.38,
-          "weight_b": 0.74,
-          "min_weight": 0.74
-        },
-        {
-          "code": "6274",
-          "weight_a": 0.71,
-          "weight_b": 0.84,
-          "min_weight": 0.71
-        },
-        {
-          "code": "3189",
-          "weight_a": 2.4,
-          "weight_b": 0.7,
-          "min_weight": 0.7
-        },
-        {
-          "code": "2449",
-          "weight_a": 0.69,
-          "weight_b": 0.79,
-          "min_weight": 0.69
+          "code": "202612TX",
+          "weight_a": 2.03,
+          "weight_b": 0.31,
+          "min_weight": 0.31
         }
       ],
       "only_a_sample": [
-        "1303",
-        "1560",
-        "1717",
+        "1216",
         "2301",
-        "2327",
-        "2408",
-        "2455",
-        "2481"
+        "2303",
+        "2356",
+        "2376",
+        "2412",
+        "2454",
+        "2880"
       ],
       "only_b_sample": [
-        "202611TX",
-        "2303",
-        "2360",
-        "2379",
-        "2382",
-        "3034",
-        "3045",
-        "3081"
+        "1210",
+        "1319",
+        "1402",
+        "1477",
+        "2105",
+        "2211",
+        "2347",
+        "2385"
       ],
-      "weighted_min_overlap_pct": 42.02,
-      "coverage_a_pct": 85.05,
-      "coverage_b_pct": 99.99,
-      "within_top_overlap_pct": 49.4062,
-      "holding_count_a": 43,
-      "holding_count_b": 31,
-      "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
-      "source_b": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "weighted_min_overlap_pct": 52.69,
+      "coverage_a_pct": 99.86,
+      "coverage_b_pct": 99.96,
+      "within_top_overlap_pct": 52.7639,
+      "holding_count_a": 30,
+      "holding_count_b": 41,
+      "source_a": "https://www.cmoney.tw/etf/tw/00878/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00919/fundholding",
       "method": "full_holdings_weighted_min",
-      "name_a": "主動統一升級50",
-      "name_b": "國泰台灣科技龍頭",
+      "name_a": "國泰永續高股息(基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "name_b": "群益台灣精選高息",
       "same_index": false,
       "index_name": null,
       "index_evidence": null,
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": -0.48,
-      "premium_b": -0.36,
-      "premium_gap_a_minus_b": -0.12,
-      "price_a": 8.3,
-      "price_b": 41.56,
-      "nav_a": 8.34,
-      "nav_b": 41.71,
+      "premium_a": 0.29,
+      "premium_b": 0.3,
+      "premium_gap_a_minus_b": -0.01,
+      "price_a": 28.05,
+      "price_b": 27.12,
+      "nav_a": 27.97,
+      "nav_b": 27.04,
       "gap_interesting": false,
       "relative_hint": "—"
     },
     {
       "a": "00881",
       "b": "00981A",
-      "common_count": 17,
+      "common_count": 18,
       "common_codes": [
+        "202612TX",
         "2303",
         "2308",
         "2313",
@@ -2437,121 +2273,121 @@
       "common_detail": [
         {
           "code": "2330",
-          "weight_a": 44.58,
-          "weight_b": 16.38,
-          "min_weight": 16.38
+          "weight_a": 46.79,
+          "weight_b": 18.22,
+          "min_weight": 18.22
         },
         {
           "code": "2454",
-          "weight_a": 10.41,
-          "weight_b": 8.55,
-          "min_weight": 8.55
+          "weight_a": 10.44,
+          "weight_b": 9.27,
+          "min_weight": 9.27
         },
         {
           "code": "2308",
-          "weight_a": 4.3,
-          "weight_b": 3.42,
-          "min_weight": 3.42
+          "weight_a": 3.86,
+          "weight_b": 3.22,
+          "min_weight": 3.22
         },
         {
           "code": "3017",
-          "weight_a": 2.64,
-          "weight_b": 7.69,
-          "min_weight": 2.64
-        },
-        {
-          "code": "2383",
-          "weight_a": 2.56,
-          "weight_b": 6.63,
-          "min_weight": 2.56
+          "weight_a": 2.36,
+          "weight_b": 7.37,
+          "min_weight": 2.36
         },
         {
           "code": "2345",
           "weight_a": 2.2,
-          "weight_b": 3.92,
+          "weight_b": 4.19,
           "min_weight": 2.2
         },
         {
-          "code": "3037",
-          "weight_a": 2.0,
-          "weight_b": 5.63,
-          "min_weight": 2.0
+          "code": "2383",
+          "weight_a": 2.1,
+          "weight_b": 5.38,
+          "min_weight": 2.1
         },
         {
           "code": "2303",
-          "weight_a": 1.97,
-          "weight_b": 2.53,
-          "min_weight": 1.97
+          "weight_a": 1.92,
+          "weight_b": 2.29,
+          "min_weight": 1.92
+        },
+        {
+          "code": "3037",
+          "weight_a": 1.69,
+          "weight_b": 5.0,
+          "min_weight": 1.69
+        },
+        {
+          "code": "202612TX",
+          "weight_a": 1.49,
+          "weight_b": 2.93,
+          "min_weight": 1.49
         },
         {
           "code": "6223",
-          "weight_a": 1.24,
+          "weight_a": 1.16,
           "weight_b": 4.51,
-          "min_weight": 1.24
+          "min_weight": 1.16
         },
         {
           "code": "2368",
-          "weight_a": 1.11,
-          "weight_b": 3.01,
-          "min_weight": 1.11
+          "weight_a": 0.94,
+          "weight_b": 2.7,
+          "min_weight": 0.94
         },
         {
           "code": "3665",
-          "weight_a": 0.89,
-          "weight_b": 1.69,
-          "min_weight": 0.89
-        },
-        {
-          "code": "6274",
-          "weight_a": 0.84,
-          "weight_b": 2.6,
-          "min_weight": 0.84
+          "weight_a": 0.94,
+          "weight_b": 1.98,
+          "min_weight": 0.94
         },
         {
           "code": "3231",
-          "weight_a": 1.69,
-          "weight_b": 0.74,
-          "min_weight": 0.74
+          "weight_a": 1.79,
+          "weight_b": 0.83,
+          "min_weight": 0.83
+        },
+        {
+          "code": "6274",
+          "weight_a": 0.67,
+          "weight_b": 2.16,
+          "min_weight": 0.67
         },
         {
           "code": "8046",
-          "weight_a": 0.74,
-          "weight_b": 3.19,
-          "min_weight": 0.74
-        },
-        {
-          "code": "2449",
-          "weight_a": 0.79,
-          "weight_b": 0.6,
-          "min_weight": 0.6
+          "weight_a": 0.59,
+          "weight_b": 2.08,
+          "min_weight": 0.59
         }
       ],
       "only_a_sample": [
-        "202611TX",
         "2059",
         "2360",
         "2379",
         "2382",
         "3008",
         "3034",
-        "3044"
+        "3044",
+        "3045"
       ],
       "only_b_sample": [
-        "1802",
         "2002",
-        "202612TX",
         "2327",
         "2891",
         "3264",
         "3443",
-        "3653"
+        "3653",
+        "3711",
+        "4979"
       ],
-      "weighted_min_overlap_pct": 46.33,
-      "coverage_a_pct": 99.99,
-      "coverage_b_pct": 96.16,
-      "within_top_overlap_pct": 48.1801,
+      "weighted_min_overlap_pct": 48.66,
+      "coverage_a_pct": 100.02,
+      "coverage_b_pct": 93.15,
+      "within_top_overlap_pct": 52.2383,
       "holding_count_a": 31,
-      "holding_count_b": 37,
+      "holding_count_b": 36,
       "source_a": "https://www.cmoney.tw/etf/tw/00881/fundholding",
       "source_b": "https://www.cmoney.tw/etf/tw/00981A/fundholding",
       "method": "full_holdings_weighted_min",
@@ -2563,13 +2399,177 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": -0.36,
-      "premium_b": -0.57,
-      "premium_gap_a_minus_b": 0.21,
-      "price_a": 41.56,
-      "price_b": 22.5,
-      "nav_a": 41.71,
-      "nav_b": 22.63,
+      "premium_a": 0.64,
+      "premium_b": 1.57,
+      "premium_gap_a_minus_b": -0.93,
+      "price_a": 37.91,
+      "price_b": 20.04,
+      "nav_a": 37.67,
+      "nav_b": 19.73,
+      "gap_interesting": false,
+      "relative_hint": "—"
+    },
+    {
+      "a": "00403A",
+      "b": "00881",
+      "common_count": 19,
+      "common_codes": [
+        "2059",
+        "2308",
+        "2313",
+        "2317",
+        "2330",
+        "2345",
+        "2368",
+        "2379",
+        "2383",
+        "2449",
+        "2454",
+        "3008",
+        "3017",
+        "3037",
+        "3044",
+        "3189",
+        "3665",
+        "6223",
+        "8046"
+      ],
+      "common_detail": [
+        {
+          "code": "2330",
+          "weight_a": 17.05,
+          "weight_b": 46.79,
+          "min_weight": 17.05
+        },
+        {
+          "code": "2454",
+          "weight_a": 6.71,
+          "weight_b": 10.44,
+          "min_weight": 6.71
+        },
+        {
+          "code": "3017",
+          "weight_a": 5.78,
+          "weight_b": 2.36,
+          "min_weight": 2.36
+        },
+        {
+          "code": "2383",
+          "weight_a": 3.46,
+          "weight_b": 2.1,
+          "min_weight": 2.1
+        },
+        {
+          "code": "2308",
+          "weight_a": 2.01,
+          "weight_b": 3.86,
+          "min_weight": 2.01
+        },
+        {
+          "code": "3037",
+          "weight_a": 3.97,
+          "weight_b": 1.69,
+          "min_weight": 1.69
+        },
+        {
+          "code": "2345",
+          "weight_a": 1.59,
+          "weight_b": 2.2,
+          "min_weight": 1.59
+        },
+        {
+          "code": "3008",
+          "weight_a": 1.41,
+          "weight_b": 1.23,
+          "min_weight": 1.23
+        },
+        {
+          "code": "6223",
+          "weight_a": 3.4,
+          "weight_b": 1.16,
+          "min_weight": 1.16
+        },
+        {
+          "code": "3665",
+          "weight_a": 1.95,
+          "weight_b": 0.94,
+          "min_weight": 0.94
+        },
+        {
+          "code": "2368",
+          "weight_a": 0.75,
+          "weight_b": 0.94,
+          "min_weight": 0.75
+        },
+        {
+          "code": "2317",
+          "weight_a": 0.69,
+          "weight_b": 5.32,
+          "min_weight": 0.69
+        },
+        {
+          "code": "2449",
+          "weight_a": 0.65,
+          "weight_b": 0.72,
+          "min_weight": 0.65
+        },
+        {
+          "code": "3189",
+          "weight_a": 2.15,
+          "weight_b": 0.6,
+          "min_weight": 0.6
+        },
+        {
+          "code": "8046",
+          "weight_a": 1.95,
+          "weight_b": 0.59,
+          "min_weight": 0.59
+        }
+      ],
+      "only_a_sample": [
+        "1303",
+        "1560",
+        "1717",
+        "2327",
+        "2408",
+        "2455",
+        "2882",
+        "2883"
+      ],
+      "only_b_sample": [
+        "202612TX",
+        "2303",
+        "2360",
+        "2382",
+        "3034",
+        "3045",
+        "3081",
+        "3231"
+      ],
+      "weighted_min_overlap_pct": 41.1,
+      "coverage_a_pct": 80.26,
+      "coverage_b_pct": 100.02,
+      "within_top_overlap_pct": 51.2086,
+      "holding_count_a": 41,
+      "holding_count_b": 31,
+      "source_a": "https://www.cmoney.tw/etf/tw/00403A/fundholding",
+      "source_b": "https://www.cmoney.tw/etf/tw/00881/fundholding",
+      "method": "full_holdings_weighted_min",
+      "name_a": "主動統一升級50",
+      "name_b": "國泰台灣科技龍頭",
+      "same_index": false,
+      "index_name": null,
+      "index_evidence": null,
+      "universe_overlap": null,
+      "qualify_reason": "weighted_min>=40.0",
+      "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
+      "premium_a": 0.83,
+      "premium_b": 0.64,
+      "premium_gap_a_minus_b": 0.19,
+      "price_a": 7.31,
+      "price_b": 37.91,
+      "nav_a": 7.25,
+      "nav_b": 37.67,
       "gap_interesting": false,
       "relative_hint": "—"
     },
@@ -2599,93 +2599,93 @@
       "common_detail": [
         {
           "code": "2891",
-          "weight_a": 4.52,
-          "weight_b": 6.64,
-          "min_weight": 4.52
-        },
-        {
-          "code": "2890",
-          "weight_a": 4.39,
-          "weight_b": 4.91,
-          "min_weight": 4.39
-        },
-        {
-          "code": "2357",
-          "weight_a": 4.0,
-          "weight_b": 6.73,
-          "min_weight": 4.0
+          "weight_a": 4.66,
+          "weight_b": 6.55,
+          "min_weight": 4.66
         },
         {
           "code": "2886",
-          "weight_a": 3.96,
-          "weight_b": 5.53,
-          "min_weight": 3.96
+          "weight_a": 4.42,
+          "weight_b": 5.89,
+          "min_weight": 4.42
+        },
+        {
+          "code": "2890",
+          "weight_a": 4.29,
+          "weight_b": 4.59,
+          "min_weight": 4.29
+        },
+        {
+          "code": "2357",
+          "weight_a": 4.08,
+          "weight_b": 6.58,
+          "min_weight": 4.08
         },
         {
           "code": "3231",
-          "weight_a": 3.5,
-          "weight_b": 4.61,
-          "min_weight": 3.5
+          "weight_a": 3.59,
+          "weight_b": 4.52,
+          "min_weight": 3.59
         },
         {
           "code": "2603",
-          "weight_a": 3.31,
-          "weight_b": 6.98,
-          "min_weight": 3.31
+          "weight_a": 3.57,
+          "weight_b": 7.2,
+          "min_weight": 3.57
         },
         {
           "code": "2382",
-          "weight_a": 3.07,
-          "weight_b": 3.95,
-          "min_weight": 3.07
+          "weight_a": 3.33,
+          "weight_b": 4.1,
+          "min_weight": 3.33
         },
         {
           "code": "2884",
-          "weight_a": 2.84,
-          "weight_b": 6.53,
-          "min_weight": 2.84
+          "weight_a": 2.78,
+          "weight_b": 6.14,
+          "min_weight": 2.78
         },
         {
           "code": "2887",
-          "weight_a": 2.71,
-          "weight_b": 7.83,
-          "min_weight": 2.71
+          "weight_a": 2.69,
+          "weight_b": 7.47,
+          "min_weight": 2.69
         },
         {
           "code": "2379",
-          "weight_a": 2.37,
-          "weight_b": 4.21,
-          "min_weight": 2.37
+          "weight_a": 2.49,
+          "weight_b": 4.23,
+          "min_weight": 2.49
         },
         {
           "code": "2618",
-          "weight_a": 1.53,
-          "weight_b": 5.03,
-          "min_weight": 1.53
+          "weight_a": 1.71,
+          "weight_b": 5.5,
+          "min_weight": 1.71
         },
         {
           "code": "2376",
-          "weight_a": 1.14,
-          "weight_b": 2.92,
-          "min_weight": 1.14
+          "weight_a": 1.19,
+          "weight_b": 2.91,
+          "min_weight": 1.19
         },
         {
           "code": "3702",
-          "weight_a": 0.83,
-          "weight_b": 2.58,
-          "min_weight": 0.83
-        },
-        {
-          "code": "2377",
-          "weight_a": 0.69,
-          "weight_b": 1.4,
-          "min_weight": 0.69
+          "weight_a": 0.89,
+          "weight_b": 2.63,
+          "min_weight": 0.89
         },
         {
           "code": "2474",
-          "weight_a": 0.64,
-          "weight_b": 1.33,
-          "min_weight": 0.64
+          "weight_a": 0.75,
+          "weight_b": 1.5,
+          "min_weight": 0.75
+        },
+        {
+          "code": "2027",
+          "weight_a": 0.71,
+          "weight_b": 2.35,
+          "min_weight": 0.71
         }
       ],
       "only_a_sample": [
@@ -2693,7 +2693,7 @@
         "1216",
         "1303",
         "1513",
-        "202611TX",
+        "202612TX",
         "2105",
         "2301",
         "2303"
@@ -2708,10 +2708,10 @@
         "3293",
         "3706"
       ],
-      "weighted_min_overlap_pct": 40.65,
-      "coverage_a_pct": 99.91,
-      "coverage_b_pct": 99.89,
-      "within_top_overlap_pct": 40.6948,
+      "weighted_min_overlap_pct": 42.41,
+      "coverage_a_pct": 99.85,
+      "coverage_b_pct": 99.8,
+      "within_top_overlap_pct": 42.495,
       "holding_count_a": 51,
       "holding_count_b": 30,
       "source_a": "https://www.cmoney.tw/etf/tw/0056/fundholding",
@@ -2725,13 +2725,13 @@
       "universe_overlap": null,
       "qualify_reason": "weighted_min>=40.0",
       "research_note": "Relative-value research only. High holdings overlap does NOT mean risk-free arbitrage (costs, residual, timing).",
-      "premium_a": 0.4,
-      "premium_b": 0.03,
-      "premium_gap_a_minus_b": 0.37,
-      "price_a": 50.6,
-      "price_b": 32.06,
-      "nav_a": 50.4,
-      "nav_b": 32.05,
+      "premium_a": 0.84,
+      "premium_b": 0.14,
+      "premium_gap_a_minus_b": 0.7,
+      "price_a": 45.4,
+      "price_b": 28.87,
+      "nav_a": 45.02,
+      "nav_b": 28.83,
       "gap_interesting": false,
       "relative_hint": "—"
     }

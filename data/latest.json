@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-26T17:15:33.268531+08:00",
+  "fetched_at": "2026-11-26T22:44:09.986950+08:00",
   "timezone": "Asia/Taipei",
   "session": {
-    "now": "2026-11-26T17:15:33.268531+08:00",
+    "now": "2026-11-26T22:44:09.986950+08:00",
     "timezone": "Asia/Taipei",
     "is_trading_day": true,
     "in_session": false,
@@ -29,9 +29,9 @@
   },
   "summary": {
     "total": 365,
-    "valid": 18,
+    "valid": 0,
     "anomaly": 2,
-    "stale": 345,
+    "stale": 363,
     "missing_or_invalid": 0,
     "premium_alert_candidates": 0,
     "discount_alert_candidates": 0
@@ -500,9 +500,11 @@
       "calculated_premium_discount_pct": -0.1932,
       "cross_check_diff_pp": 0.0032,
       "data_time_iso": "2026-11-26T17:09:52+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -524,9 +526,11 @@
       "calculated_premium_discount_pct": 0.3145,
       "cross_check_diff_pp": 0.0045,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -6580,9 +6584,11 @@
       "calculated_premium_discount_pct": 0.7143,
       "cross_check_diff_pp": 0.0043,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -6812,9 +6818,11 @@
       "calculated_premium_discount_pct": -0.3723,
       "cross_check_diff_pp": 0.0023,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -7226,9 +7234,11 @@
       "calculated_premium_discount_pct": 0.4787,
       "cross_check_diff_pp": 0.0013,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -7510,9 +7520,11 @@
       "calculated_premium_discount_pct": 1.3756,
       "cross_check_diff_pp": 0.0044,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -7534,9 +7546,11 @@
       "calculated_premium_discount_pct": 0.0,
       "cross_check_diff_pp": 0.0,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -7818,9 +7832,11 @@
       "calculated_premium_discount_pct": 0.3917,
       "cross_check_diff_pp": 0.0017,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -7972,9 +7988,11 @@
       "calculated_premium_discount_pct": 0.4072,
       "cross_check_diff_pp": 0.0028,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -7996,9 +8014,11 @@
       "calculated_premium_discount_pct": 0.1854,
       "cross_check_diff_pp": 0.0354,
       "data_time_iso": "2026-11-26T17:09:15+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -8306,9 +8326,11 @@
       "calculated_premium_discount_pct": 0.885,
       "cross_check_diff_pp": 0.005,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -8434,9 +8456,11 @@
       "calculated_premium_discount_pct": 0.5187,
       "cross_check_diff_pp": 0.0087,
       "data_time_iso": "2026-11-26T17:09:15+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -8692,9 +8716,11 @@
       "calculated_premium_discount_pct": 1.179,
       "cross_check_diff_pp": 0.001,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -8872,9 +8898,11 @@
       "calculated_premium_discount_pct": 0.5889,
       "cross_check_diff_pp": 0.0011,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -8922,9 +8950,11 @@
       "calculated_premium_discount_pct": -0.2997,
       "cross_check_diff_pp": 0.0303,
       "data_time_iso": "2026-11-26T17:09:15+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -9050,9 +9080,11 @@
       "calculated_premium_discount_pct": -0.2559,
       "cross_check_diff_pp": 0.0241,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -9282,9 +9314,11 @@
       "calculated_premium_discount_pct": -0.197,
       "cross_check_diff_pp": 0.003,
       "data_time_iso": "2026-11-26T17:09:15+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     },
@@ -9488,9 +9522,11 @@
       "calculated_premium_discount_pct": 0.3525,
       "cross_check_diff_pp": 0.0025,
       "data_time_iso": "2026-11-26T17:09:36+08:00",
-      "is_stale": false,
-      "status": "ok",
-      "issues": [],
+      "is_stale": true,
+      "status": "stale",
+      "issues": [
+        "資料超過 10 分鐘"
+      ],
       "alert_direction": null,
       "source_link": "https://mis.twse.com.tw/stock/various-areas/etf-price/indicator-disclosure-etf?lang=zhHant"
     }
